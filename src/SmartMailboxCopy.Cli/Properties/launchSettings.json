@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Help (no live run)": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    },
+    "copy-tree LIVE (small test, container ZZ-Migrated-Test)": {
+      "commandName": "Project",
+      "commandLineArgs": "copy-tree --target-container ZZ-Migrated-Test --max 500"
+    },
+    "copy-tree LIVE resume/verbose": {
+      "commandName": "Project",
+      "commandLineArgs": "copy-tree --target-container ZZ-Migrated-Test --max 500 --verbose"
+    },
+    "copy-tree LIVE fresh start": {
+      "commandName": "Project",
+      "commandLineArgs": "copy-tree --target-container ZZ-Migrated-Test --max 500 --fresh --allow-existing"
+    }
+  }
+}

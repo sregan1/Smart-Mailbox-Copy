@@ -1,0 +1,19 @@
+{
+  "sourceTenant": "<source tenant: the directory (tenant) ID GUID, or a domain such as contoso.com>",
+  "sourceClientId": "<client ID of this tool's app registration in the source tenant (interactive sign-in)>",
+  "sourceUpn": "<address of the account that signs in to the source mailbox>",
+
+  "targetTenant": "<target tenant: the directory (tenant) ID GUID, or a domain>",
+  "targetClientId": "<client ID of this tool's app registration in the target tenant (interactive sign-in)>",
+  "targetUpn": "<address of the account that signs in to the target mailbox>",
+
+  "seedTenant": "<only for the seeding tool: tenant of a THROWAWAY test account>",
+  "seedClientId": "<client ID of an app registration in that tenant with Mail.ReadWrite>",
+  "seedUpn": "<address of the throwaway test account; never a real mailbox>",
+  "protectedMailboxes": [ "<addresses of real mailboxes that must never be written to>" ],
+
+  "sourceAppClientId": "<only for --app-only, and only if it differs from sourceClientId: client ID of the app-only registration in the source tenant>",
+  "sourceClientSecret": "<only for --app-only: its client secret (the Value, not the secret ID)>",
+  "targetAppClientId": "<only for --app-only, and only if it differs from targetClientId: client ID of the app-only registration in the target tenant>",
+  "targetClientSecret": "<only for --app-only: its client secret (the Value, not the secret ID)>"
+}

@@ -1,0 +1,104 @@
+name: Release
+
+# Releases are cut by pushing a version tag (e.g. v1.0.0), never by pushing to main.
+# The tag must match <Version> in Directory.Build.props, or the run fails before building.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest   # the wizard is WPF (Windows only)
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version from Directory.Build.props and check it matches the tag
+        id: ver
+        shell: pwsh
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          [xml]$props = Get-Content Directory.Build.props
+          $version = $props.Project.PropertyGroup.Version
+          Write-Host "Directory.Build.props Version: $version; tag: $env:TAG"
+          if ($env:TAG -ne "v$version") {
+            Write-Error "Tag '$env:TAG' does not match Directory.Build.props <Version> '$version' (expected tag 'v$version'). Bump the version and CHANGELOG, commit, then re-tag."
+            exit 1
+          }
+          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Publish self-contained executables (wizard and command line)
+        shell: pwsh
+        run: |
+          dotnet publish src/SmartMailboxCopy.App/SmartMailboxCopy.App.csproj `
+            -c Release `
+            --self-contained true `
+            -r win-x64 `
+            -p:PublishSingleFile=true `
+            -p:IncludeNativeLibrariesForSelfExtract=true `
+            -o publish
+          dotnet publish src/SmartMailboxCopy.Cli/SmartMailboxCopy.Cli.csproj `
+            -c Release `
+            --self-contained true `
+            -r win-x64 `
+            -p:PublishSingleFile=true `
+            -p:IncludeNativeLibrariesForSelfExtract=true `
+            -o publish
+
+      - name: Extract changelog section
+        shell: pwsh
+        run: |
+          $version = "${{ steps.ver.outputs.version }}"
+          $lines   = Get-Content CHANGELOG.md
+          $capture = $false
+          $notes   = [System.Collections.Generic.List[string]]::new()
+          foreach ($line in $lines) {
+            if ($line -match "^## $([regex]::Escape($version))") { $capture = $true; continue }
+            if ($capture -and $line -match '^## ') { break }
+            if ($capture) { $notes.Add($line) }
+          }
+          # Trim leading/trailing blank lines
+          while ($notes.Count -gt 0 -and $notes[0] -eq '') { $notes.RemoveAt(0) }
+          while ($notes.Count -gt 0 -and $notes[$notes.Count - 1] -eq '') { $notes.RemoveAt($notes.Count - 1) }
+          if ($notes.Count -eq 0) {
+            $notes.Add("See [CHANGELOG](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for details.")
+          }
+          $notes | Out-File -FilePath release_notes.md -Encoding utf8
+
+      - name: Create GitHub release (if new)
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $version = "${{ steps.ver.outputs.version }}"
+          $tag     = "v$version"
+          $zip     = "SmartMailboxCopy-$tag.zip"
+          $exe     = "SmartMailboxCopy-$tag.exe"
+
+          # Never replace an existing release: deleting it resets its download counts.
+          # To republish, delete the release manually or bump the version.
+          gh release view $tag 2>$null | Out-Null
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "Release $tag already exists; skipping."
+            exit 0
+          }
+
+          # The zip holds the wizard and the command line; the loose exe is the wizard alone.
+          Get-ChildItem publish -Filter *.pdb | Remove-Item
+          Compress-Archive -Path publish\* -DestinationPath $zip
+          Copy-Item publish\SmartMailboxCopyApp.exe $exe
+
+          # The tag already exists (it triggered this run); --verify-tag stops gh from ever creating one.
+          gh release create $tag $zip $exe `
+            --verify-tag `
+            --title "Smart Mailbox Copy $tag" `
+            --latest `
+            --notes-file release_notes.md

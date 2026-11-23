@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SmartMailboxCopy.App/SmartMailboxCopy.App.csproj" />
+    <Project Path="src/SmartMailboxCopy.Cli/SmartMailboxCopy.Cli.csproj" />
+    <Project Path="src/SmartMailboxCopy.Core/SmartMailboxCopy.Core.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/SmartMailboxCopy.Seed/SmartMailboxCopy.Seed.csproj" />
+  </Folder>
+</Solution>

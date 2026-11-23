@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+.vs/
+*.user
+
+# Local configuration: holds addresses, tenant ids and client secrets. Never commit.
+smartmailboxcopy.config.json
+*.config.json
+!*.config.sample.json
+mailxt.config.json
+
+# Local release publish output (see RELEASING.md)
+publish/
+
+# Run output
+logs/
+reports/
+journals/
+*.log
+
+# Local notes for the AI assistant: kept on this machine, not published
+CLAUDE.md
+
+# Internal planning and review notes: kept on this machine, not published
+docs/MIGRATION-PLAN.md
+docs/UX-REVIEW.md
+
+# Test data, run artifacts and secrets that must never be committed
+seeds/
+test-runs/
+TestResults/
+*.ids
+test-map.csv
+.claude/
+.env
+
+# Throwaway feasibility test programs: kept on this machine, not published
+spike/
+
+# Maintainer working notes: kept on this machine, not published
+INTERNAL-NOTES.md

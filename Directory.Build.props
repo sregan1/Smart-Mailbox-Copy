@@ -1,0 +1,11 @@
+<Project>
+  <!-- One place for the release version and metadata; every project under this folder picks it up. -->
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Company>Vivity, Inc.</Company>
+    <Authors>Sean Regan</Authors>
+    <Product>Smart Mailbox Copy</Product>
+    <Copyright>Copyright (c) 2026 Vivity, Inc.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>

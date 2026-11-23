@@ -1,0 +1,364 @@
+<Window x:Class="SmartMailboxCopy.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SmartMailboxCopy.App"
+        Title="Smart Mailbox Copy" Width="1200" Height="820" MinWidth="1000" MinHeight="680"
+        WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Window.Resources>
+        <Style TargetType="TextBox"><Setter Property="Padding" Value="4"/></Style>
+        <Style TargetType="CheckBox"><Setter Property="Margin" Value="0,3"/></Style>
+        <Style TargetType="Button"><Setter Property="Padding" Value="12,5"/></Style>
+        <Style x:Key="Note" TargetType="TextBlock"><Setter Property="TextWrapping" Value="Wrap"/><Setter Property="Foreground" Value="#666"/><Setter Property="FontSize" Value="12"/></Style>
+        <Style x:Key="Heading" TargetType="TextBlock"><Setter Property="FontWeight" Value="SemiBold"/><Setter Property="Margin" Value="0,16,0,4"/></Style>
+        <Style x:Key="Card" TargetType="Border"><Setter Property="BorderBrush" Value="#C9D3DF"/><Setter Property="BorderThickness" Value="1"/><Setter Property="Padding" Value="14"/><Setter Property="Margin" Value="0,0,0,10"/></Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions><ColumnDefinition Width="230"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+
+        <!-- ================= step list ================= -->
+        <Border Background="#F1F4F8" BorderBrush="#D9DFE7" BorderThickness="0,0,1,0">
+            <DockPanel Margin="16">
+                <TextBlock DockPanel.Dock="Top" Text="Smart Mailbox Copy" FontSize="17" FontWeight="SemiBold"/>
+                <TextBlock DockPanel.Dock="Top" Text="Mailbox migration" Foreground="Gray" Margin="0,0,0,20"/>
+                <StackPanel DockPanel.Dock="Bottom">
+                    <Button Content="App registrations…" Click="ManageRegs_Click" Margin="0,0,0,6" HorizontalContentAlignment="Left"/>
+                    <Button Content="Past runs and reports" Click="OpenReports_Click" HorizontalContentAlignment="Left"/>
+                </StackPanel>
+                <ListBox x:Name="NavList" BorderThickness="0" Background="Transparent" SelectionChanged="Nav_Changed" Focusable="False"
+                         AutomationProperties.Name="Steps">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="Padding" Value="4,7"/><Setter Property="Focusable" Value="False"/>
+                            <Setter Property="Template">
+                                <Setter.Value><ControlTemplate TargetType="ListBoxItem"><ContentPresenter Margin="{TemplateBinding Padding}"/></ControlTemplate></Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Mark}" Width="24" FontWeight="SemiBold" Foreground="{Binding MarkBrush}"/>
+                                <TextBlock Text="{Binding Title}" FontWeight="{Binding Weight}" Foreground="{Binding TitleBrush}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </DockPanel>
+        </Border>
+
+        <!-- ================= step content ================= -->
+        <Grid Grid.Column="1" Margin="28,22,28,16">
+            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Margin="0,0,0,16">
+                <TextBlock x:Name="StepTitle" FontSize="22" FontWeight="SemiBold"/>
+                <TextBlock x:Name="StepDesc" Style="{StaticResource Note}" FontSize="13" Margin="0,4,0,0"/>
+            </StackPanel>
+
+            <Grid Grid.Row="1">
+                <!-- 0 Welcome -->
+                <ScrollViewer x:Name="Step0" VerticalScrollBarVisibility="Auto">
+                    <StackPanel MaxWidth="760" HorizontalAlignment="Left">
+                        <TextBlock TextWrapping="Wrap" FontSize="14" Text="This tool copies mail between Microsoft 365 tenants. You can move one mailbox, a chosen few, or everyone, and it checks every message against the original afterward."/>
+                        <TextBlock Style="{StaticResource Heading}" Text="What it will and will not do"/>
+                        <TextBlock TextWrapping="Wrap" Text="• The source tenant is only ever read. Nothing in it is changed or deleted.&#10;• The target only ever receives items (mail, and calendar events and contacts if you choose). The tool never deletes or changes anything already there.&#10;• A message copied twice is skipped, so a run can be repeated or resumed safely.&#10;• Every copied message is compared with its source, field by field, and the result is reported."/>
+                        <TextBlock Style="{StaticResource Heading}" Text="What you need before you start"/>
+                        <TextBlock TextWrapping="Wrap" Text="1. An app registration in each tenant (source and target), set up by a global administrator. The next steps show exactly which permissions to add.&#10;2. A client secret for each registration.&#10;3. The mailboxes you want to move must already exist in the target tenant (create the users and give them licenses first)."/>
+                        <TextBlock Style="{StaticResource Heading}" Text="How it works"/>
+                        <TextBlock TextWrapping="Wrap" Text="The tool uses the app registration, not a person's sign-in, so it can reach other people's mailboxes without their passwords. Because an app registration with these permissions can reach every mailbox in its tenant, keep its secret private and remove the registration when the migration is finished."/>
+                        <Border Style="{StaticResource Card}" Background="#EEF4FB" BorderBrush="#B7CDE6" Margin="0,18,0,0">
+                            <TextBlock TextWrapping="Wrap" Text="Select Next to connect the source tenant. You can come back to any finished step from the list on the left."/>
+                        </Border>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <!-- 1 Source, 2 Target -->
+                <local:ConnectionPanel x:Name="SourcePanel"/>
+                <local:ConnectionPanel x:Name="TargetPanel"/>
+
+                <!-- 3 Choose mailboxes -->
+                <Grid x:Name="Step3">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                    <TextBlock Style="{StaticResource Note}" Margin="0,0,0,8"
+                               Text="Show the kinds of mailbox you want, narrow by domain or text, then tick the ones to copy. Your ticks are kept while you change the filters. Unlicensed accounts are shared, room or equipment mailboxes; Microsoft does not say which."/>
+                    <StackPanel Grid.Row="1" Margin="0,0,0,8">
+                    <WrapPanel>
+                        <CheckBox x:Name="KindUsers" Content="Users" IsChecked="True" Margin="0,3,16,3" Click="Filter_Changed"/>
+                        <CheckBox x:Name="KindResources" Content="Shared, room, equipment (no license)" Margin="0,3,16,3" Click="Filter_Changed"/>
+                        <CheckBox x:Name="KindGuests" Content="Guests" Margin="0,3,16,3" Click="Filter_Changed"/>
+                        <CheckBox x:Name="EnabledOnly" Content="Enabled accounts only" Margin="0,3,16,3" Click="Filter_Changed"/>
+                    </WrapPanel>
+                    <WrapPanel Margin="0,6,0,0">
+                        <TextBlock Text="Domain" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                        <ComboBox x:Name="DomainFilter" Width="200" Margin="0,0,16,0" SelectionChanged="Filter_Changed" AutomationProperties.Name="Domain filter"/>
+                        <TextBlock Text="Search" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                        <TextBox x:Name="SearchBox" Width="240" TextChanged="Search_Changed" AutomationProperties.Name="Search mailboxes"/>
+                    </WrapPanel>
+                    </StackPanel>
+                    <DataGrid x:Name="MailboxGrid" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="Horizontal" SelectionMode="Extended" AutomationProperties.Name="Source mailboxes">
+                        <DataGrid.Columns>
+                            <DataGridCheckBoxColumn Header="Copy" Binding="{Binding Selected, UpdateSourceTrigger=PropertyChanged}" Width="60"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="True" Width="200"/>
+                            <DataGridTextColumn Header="Address" Binding="{Binding Upn}" IsReadOnly="True" Width="*"/>
+                            <DataGridTextColumn Header="Type" Binding="{Binding KindText}" IsReadOnly="True" Width="230"/>
+                            <DataGridTextColumn Header="Account" Binding="{Binding EnabledText}" IsReadOnly="True" Width="80"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,8,0,0">
+                        <Button Content="Tick all shown" Click="SelectShown_Click" Margin="0,0,8,0"/>
+                        <Button Content="Untick all shown" Click="UnselectShown_Click" Margin="0,0,8,0"/>
+                        <Button Content="Refresh list" Click="RefreshSource_Click" Margin="0,0,16,0"/>
+                        <TextBlock x:Name="SelectionText" VerticalAlignment="Center" FontWeight="SemiBold"/>
+                    </StackPanel>
+                </Grid>
+
+                <!-- 4 Match -->
+                <Grid x:Name="Step4">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                    <TextBlock Style="{StaticResource Note}" Margin="0,0,0,8"
+                               Text="Each source address needs a mailbox in the target tenant. They are matched by swapping the domain; type a different target address in any row where the names differ. Rows that say Ready will be copied; the others are left out."/>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,8">
+                        <TextBlock Text="Target domain" VerticalAlignment="Center" Margin="0,0,6,0"/>
+                        <ComboBox x:Name="TargetDomain" IsEditable="True" Width="240" Margin="0,0,8,0" AutomationProperties.Name="Target domain"/>
+                        <Button Content="Match all rows to this domain" Click="ApplyDomain_Click" Margin="0,0,16,0"/>
+                        <Button Content="Import map (CSV)…" Click="ImportMap_Click" Margin="0,0,8,0"/>
+                        <Button Content="Export map (CSV)…" Click="ExportMap_Click"/>
+                    </StackPanel>
+                    <DataGrid x:Name="MapGrid" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="Horizontal" AutomationProperties.Name="Mailbox map">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Source mailbox" Binding="{Binding Source}" IsReadOnly="True" Width="*"/>
+                            <DataGridTextColumn Header="Target mailbox (editable)" Binding="{Binding Target, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" IsReadOnly="True" Width="230"/>
+                        </DataGrid.Columns>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow"><Style.Triggers><DataTrigger Binding="{Binding Ready}" Value="False"><Setter Property="Background" Value="#FFF1E0"/></DataTrigger></Style.Triggers></Style>
+                        </DataGrid.RowStyle>
+                    </DataGrid>
+                    <TextBlock x:Name="MapSummary" Grid.Row="3" Margin="0,8,0,0" FontWeight="SemiBold"/>
+                </Grid>
+
+                <!-- 5 Options -->
+                <ScrollViewer x:Name="Step5" VerticalScrollBarVisibility="Auto">
+                    <StackPanel MaxWidth="780" HorizontalAlignment="Left">
+
+                        <Border Style="{StaticResource Card}" Background="#F7F9FB">
+                            <StackPanel>
+                                <CheckBox x:Name="PimOnly" FontWeight="SemiBold" Click="Mode_Changed" Content="Calendar events and contacts only (do not copy any mail)"/>
+                                <TextBlock Style="{StaticResource Note}" Margin="20,2,0,0" Text="A good first test, or a way to copy calendars separately. Events go into each target mailbox's default Calendar and contacts into its default Contacts. This adds items permanently: the tool cannot remove them afterward."/>
+                            </StackPanel>
+                        </Border>
+
+                        <StackPanel x:Name="MailSection">
+                            <TextBlock Style="{StaticResource Heading}" Text="Where should the mail go?" Margin="0,6,0,6"/>
+                            <Border Style="{StaticResource Card}">
+                                <StackPanel>
+                                    <RadioButton x:Name="ModeContainer" IsChecked="True" Checked="Mode_Changed" FontWeight="SemiBold" Content="Mail only, into one new folder in each target mailbox (recommended)"/>
+                                    <TextBlock Style="{StaticResource Note}" Margin="20,2,0,6" Text="All the mail, folder structure included, is copied into a single new folder. Safest, and easy to review or delete in Outlook before anyone starts using the mailbox. Calendar events and contacts cannot be placed in it, so they are not copied in this mode."/>
+                                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                                        <TextBlock Text="Folder name" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                                        <TextBox x:Name="ContainerName" Width="300" Text="Migrated mail" TextChanged="Option_Changed" AutomationProperties.Name="New folder name"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                            <Border Style="{StaticResource Card}">
+                                <StackPanel>
+                                    <RadioButton x:Name="ModeMerge" Checked="Mode_Changed" FontWeight="SemiBold" Content="Merged into the real folders, with calendar and contacts"/>
+                                    <TextBlock Style="{StaticResource Note}" Margin="20,2,0,6" Text="Mail lands where the person expects it (Inbox into Inbox, Sent Items into Sent Items) and the other folders are recreated beside them. This adds items permanently: the tool has no way to remove them afterward."/>
+                                    <CheckBox x:Name="IncludePim" IsChecked="True" Margin="20,3,0,3" Click="Option_Changed" IsEnabled="False" Content="Also copy calendar events and contacts (the default and any additional calendars and contact folders)"/>
+                                    <TextBlock Style="{StaticResource Note}" Margin="40,0,0,0" Text="Untick to copy mail only. Events, including recurring meetings, are counted but not yet compared field by field."/>
+                                </StackPanel>
+                            </Border>
+
+                            <Expander x:Name="FilterExpander" Margin="0,4,0,0" FontWeight="SemiBold" Header="Limit what is copied (optional): nothing is limited, everything is copied">
+                                <StackPanel Margin="0,8,0,0" TextBlock.FontWeight="Normal">
+                                    <TextBlock Style="{StaticResource Note}" Text="By default every folder and every message is copied. Use these only to copy less. They apply to every mailbox, never to calendar events and contacts, and left-out mail is never changed or deleted in the source."/>
+                                    <TextBlock Text="Leave out these folders" FontWeight="SemiBold" Margin="0,10,0,2"/>
+                                    <WrapPanel>
+                                        <CheckBox x:Name="FolderInbox" Content="Inbox" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderSent" Content="Sent Items" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderDrafts" Content="Drafts" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderDeleted" Content="Deleted Items" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderJunk" Content="Junk Email" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderArchive" Content="Archive" Margin="0,3,18,3" Click="Option_Changed"/>
+                                        <CheckBox x:Name="FolderUser" Content="Folders people created" Margin="0,3,18,3" Click="Option_Changed"/>
+                                    </WrapPanel>
+                                    <TextBlock Style="{StaticResource Note}" Text="A folder that is left out takes its subfolders with it."/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                                        <CheckBox x:Name="DateFilter" Content="Only mail created on or after" VerticalAlignment="Center" Click="Option_Changed"/>
+                                        <DatePicker x:Name="SinceDate" Margin="10,0,0,0" Width="150" IsEnabled="False" SelectedDateChanged="DateChanged" AutomationProperties.Name="Earliest date"/>
+                                    </StackPanel>
+                                    <TextBlock Style="{StaticResource Note}" Margin="20,0,0,0" Text="This is the day each message was created in the mailbox, which is normally the day it arrived. Check a sample after the first copy."/>
+                                    <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                                        <CheckBox x:Name="SizeFilter" Content="Skip messages larger than" VerticalAlignment="Center" Click="Option_Changed"/>
+                                        <TextBox x:Name="MaxMb" Text="25" Width="60" Margin="10,0,6,0" IsEnabled="False" TextChanged="Option_Changed" AutomationProperties.Name="Largest message in megabytes"/>
+                                        <TextBlock Text="MB" VerticalAlignment="Center"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Expander>
+                        </StackPanel>
+
+                        <TextBlock Style="{StaticResource Heading}" Text="Safety checks"/>
+                        <CheckBox x:Name="Dedupe" IsChecked="True" Content="Skip mail that is already in the target (so a re-run cannot create duplicates)"/>
+                        <CheckBox x:Name="Verify" IsChecked="True" Content="Compare every copied message with its source afterward (adds time, recommended)"/>
+                        <CheckBox x:Name="AllowNonEmpty" IsEnabled="False" Content="Allow target folders that already contain items (the copied items are added alongside them)"/>
+                        <TextBlock Style="{StaticResource Note}" Margin="20,0,0,0" Text="Merging refuses to start when a target folder, such as the Inbox or Calendar, already holds items, unless this is ticked."/>
+                        <Expander Header="Advanced" Margin="0,16,0,0">
+                            <StackPanel Margin="0,8,0,0">
+                                <CheckBox x:Name="Fresh" Content="Start over: ignore what earlier runs already copied (the duplicate check above still protects the target mail)"/>
+                                <TextBlock Style="{StaticResource Heading}" Text="Calendars and contact folders to leave out"/>
+                                <TextBlock Style="{StaticResource Note}" Text="One name per line, exactly as it appears in Outlook. Additional calendars and contact folders with these names are not copied; a contact folder takes its subfolders with it. Use it for calendars people subscribe to, such as a holiday calendar. The Birthdays calendar is never copied (Outlook builds it from contacts). The default Calendar and Contacts are not affected."/>
+                                <TextBox x:Name="LeaveOutCal" AcceptsReturn="True" Height="60" VerticalScrollBarVisibility="Auto" Margin="0,4,0,0" AutomationProperties.Name="Calendars and contact folders to leave out"/>
+                                <TextBlock Style="{StaticResource Heading}" Text="Mailboxes that must never be written to"/>
+                                <TextBlock Style="{StaticResource Note}" Text="One address per line. If one of these is chosen as a target, the copy for it is refused."/>
+                                <TextBox x:Name="Protected" AcceptsReturn="True" Height="70" VerticalScrollBarVisibility="Auto" Margin="0,4,0,0" AutomationProperties.Name="Protected mailboxes"/>
+                            </StackPanel>
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <!-- 6 Review -->
+                <ScrollViewer x:Name="Step6" VerticalScrollBarVisibility="Auto">
+                    <StackPanel MaxWidth="780" HorizontalAlignment="Left">
+                        <Border Style="{StaticResource Card}" Background="#F7F9FB"><TextBlock x:Name="PlanText" TextWrapping="Wrap" LineHeight="22"/></Border>
+                        <Border Style="{StaticResource Card}">
+                            <StackPanel>
+                                <TextBlock Text="Size and time estimate" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="EstimateText" TextWrapping="Wrap" Margin="0,4,0,0"/>
+                                <ProgressBar x:Name="EstimateBar" Height="8" Minimum="0" Maximum="1" Margin="0,8,0,0" Visibility="Collapsed"/>
+                                <Button x:Name="SkipEstimateButton" Content="Skip the estimate" Click="SkipEstimate_Click" HorizontalAlignment="Left" Margin="0,8,0,0" Visibility="Collapsed"/>
+                            </StackPanel>
+                        </Border>
+                        <Border x:Name="WarnCard" Style="{StaticResource Card}" Background="#FFF6E0" BorderBrush="#E0A800" Visibility="Collapsed">
+                            <TextBlock x:Name="WarnText" TextWrapping="Wrap"/>
+                        </Border>
+                        <CheckBox x:Name="Understand" Visibility="Collapsed" Margin="0,6,0,0" Click="Option_Changed" TextBlock.FontWeight="SemiBold"
+                                  Content="I understand that merging adds mail to the real folders and this tool cannot remove it."/>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <!-- 8 Results -->
+                <ScrollViewer x:Name="Step8" VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <Border x:Name="ResultBanner" Padding="16" Margin="0,0,0,12" BorderThickness="1">
+                            <StackPanel>
+                                <TextBlock x:Name="ResultTitle" FontSize="20" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="ResultSub" TextWrapping="Wrap" Margin="0,4,0,0" FontSize="13"/>
+                            </StackPanel>
+                        </Border>
+                        <ItemsControl x:Name="StatsList">
+                            <ItemsControl.ItemsPanel><ItemsPanelTemplate><WrapPanel/></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="#C9D3DF" BorderThickness="1" Padding="14,10" Margin="0,0,10,10" MinWidth="150">
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Value}" FontSize="22" FontWeight="SemiBold"/>
+                                            <TextBlock Text="{Binding Label}" Foreground="#666" FontSize="12"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <TextBlock Style="{StaticResource Heading}" Text="Mailbox by mailbox"/>
+                        <DataGrid x:Name="ResultGrid" MaxHeight="380" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="Horizontal" AutomationProperties.Name="Results by mailbox">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Source" Binding="{Binding Source}" Width="Auto"/>
+                                <DataGridTextColumn Header="Target" Binding="{Binding Target}" Width="Auto"/>
+                                <DataGridTextColumn Header="Result" Binding="{Binding Result}" Width="100"/>
+                                <DataGridTextColumn Header="Copied" Binding="{Binding Copied}" Width="70"/>
+                                <DataGridTextColumn Header="Already there" Binding="{Binding AlreadyThere}" Width="95"/>
+                                <DataGridTextColumn Header="Failed" Binding="{Binding Failed}" Width="60"/>
+                                <DataGridTextColumn Header="Verified identical" Binding="{Binding Verified}" Width="120"/>
+                                <DataGridTemplateColumn Header="Notes (select to copy)" Width="2*" ClipboardContentBinding="{Binding Notes}">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBox Text="{Binding Notes, Mode=OneWay}" IsReadOnly="True" TextWrapping="Wrap" BorderThickness="0" Background="Transparent" Padding="2" AutomationProperties.Name="Notes"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                            <DataGrid.RowStyle>
+                                <Style TargetType="DataGridRow"><Style.Triggers><DataTrigger Binding="{Binding HasProblem}" Value="True"><Setter Property="Background" Value="#FFE1E1"/></DataTrigger></Style.Triggers></Style>
+                            </DataGrid.RowStyle>
+                        </DataGrid>
+                        <TextBlock Style="{StaticResource Heading}" Text="What to do next"/>
+                        <TextBlock x:Name="NextSteps" TextWrapping="Wrap" LineHeight="22" MaxWidth="820" HorizontalAlignment="Left"/>
+                        <Button Content="Copy this summary" Click="CopySummary_Click" HorizontalAlignment="Left" Margin="0,14,0,8"/>
+                    </StackPanel>
+                </ScrollViewer>
+
+                <!-- 7 Copy -->
+                <Grid x:Name="Step7">
+                    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="2*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                    <StackPanel>
+                        <TextBlock x:Name="RunHeadline" FontSize="15" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                        <ProgressBar x:Name="MailboxBar" Height="18" Margin="0,8,0,2" Minimum="0" Maximum="1000" AutomationProperties.Name="Overall progress"/>
+                        <TextBlock x:Name="EtaText" FontWeight="SemiBold"/>
+                        <TextBlock x:Name="PhaseText" Style="{StaticResource Note}"/>
+                    </StackPanel>
+                    <TextBlock Grid.Row="1" Text="Mailboxes" Style="{StaticResource Heading}"/>
+                    <DataGrid x:Name="RunGrid" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="Horizontal" AutomationProperties.Name="Mailbox progress">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="#" Binding="{Binding Index}" Width="40"/>
+                            <DataGridTextColumn Header="Source" Binding="{Binding Source}" Width="Auto"/>
+                            <DataGridTextColumn Header="Target" Binding="{Binding Target}" Width="Auto"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding StateText}" Width="110"/>
+                            <DataGridTemplateColumn Header="Details (select to copy)" Width="2*" ClipboardContentBinding="{Binding Message}">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Message, Mode=OneWay}" IsReadOnly="True" TextWrapping="Wrap" BorderThickness="0" Background="Transparent" Padding="2" AutomationProperties.Name="Details"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow"><Style.Triggers><DataTrigger Binding="{Binding HasProblem}" Value="True"><Setter Property="Background" Value="#FFE1E1"/></DataTrigger></Style.Triggers></Style>
+                        </DataGrid.RowStyle>
+                    </DataGrid>
+                    <Expander x:Name="FolderExpander" Grid.Row="3" Header="Folder detail for the running mailbox" Margin="0,8,0,0">
+                        <StackPanel>
+                            <TextBlock x:Name="TotalsText" Margin="0,4,0,4"/>
+                            <DataGrid x:Name="FolderGrid" Height="170" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False" HeadersVisibility="Column" GridLinesVisibility="Horizontal">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Folder" Binding="{Binding Display}" Width="110"/>
+                                    <DataGridTextColumn Header="Kind" Binding="{Binding Kind}" Width="110"/>
+                                    <DataGridTextColumn Header="Items" Binding="{Binding Items}" Width="60"/>
+                                    <DataGridTextColumn Header="Copied" Binding="{Binding Imported}" Width="70"/>
+                                    <DataGridTextColumn Header="Already there" Binding="{Binding AlreadyDone}" Width="95"/>
+                                    <DataGridTextColumn Header="Failed" Binding="{Binding Failed}" Width="60"/>
+                                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                    </Expander>
+                    <Expander x:Name="LogExpander" Grid.Row="4" Header="Log" Margin="0,4,0,0">
+                        <DockPanel Height="170">
+                            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,4">
+                                <CheckBox x:Name="OnlyProblems" Content="Only warnings and errors" Margin="0,0,16,0" Click="LogFilter_Click"/>
+                                <TextBlock x:Name="CountsText" Foreground="Gray"/>
+                            </StackPanel>
+                            <ListBox x:Name="LogList" FontFamily="Consolas" FontSize="12" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListBox.ItemTemplate><DataTemplate><TextBlock Text="{Binding Text}" Foreground="{Binding Brush}" TextWrapping="Wrap"/></DataTemplate></ListBox.ItemTemplate>
+                            </ListBox>
+                        </DockPanel>
+                    </Expander>
+                </Grid>
+            </Grid>
+
+            <!-- footer -->
+            <Grid Grid.Row="2" Margin="0,14,0,0">
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                <TextBlock x:Name="NavHint" VerticalAlignment="Center" Style="{StaticResource Note}" Margin="0,0,16,0"/>
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button x:Name="OpenResultsButton" Content="Open results (CSV)" Click="OpenResults_Click" Visibility="Collapsed" Margin="0,0,8,0"/>
+                    <Button x:Name="OpenItemsButton" Content="Open item list (CSV)" Click="OpenItems_Click" Visibility="Collapsed" Margin="0,0,8,0"/>
+                    <Button x:Name="OpenLogButton" Content="Open log" Click="OpenLog_Click" Visibility="Collapsed" Margin="0,0,8,0"/>
+                    <Button x:Name="RunAgainButton" Content="Run again (resume)" Click="RunAgain_Click" Visibility="Collapsed" Margin="0,0,8,0"/>
+                    <Button x:Name="StopButton" Content="Stop" Click="Stop_Click" Visibility="Collapsed" Margin="0,0,8,0"/>
+                    <Button x:Name="BackButton" Content="Back" Click="Back_Click" Margin="0,0,8,0" MinWidth="80"/>
+                    <Button x:Name="NextButton" Content="Next" Click="Next_Click" IsDefault="True" FontWeight="SemiBold" MinWidth="110"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

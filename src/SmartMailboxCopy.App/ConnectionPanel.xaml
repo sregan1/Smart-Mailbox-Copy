@@ -1,0 +1,34 @@
+<UserControl x:Class="SmartMailboxCopy.App.ConnectionPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel MaxWidth="720" HorizontalAlignment="Left">
+            <TextBlock x:Name="IntroText" TextWrapping="Wrap"/>
+
+            <TextBlock Text="App registration" FontWeight="SemiBold" Margin="0,18,0,2"/>
+            <TextBlock Foreground="Gray" FontSize="12" TextWrapping="Wrap" Text="The saved Microsoft Entra app registration for this tenant. If it is not in the list yet, choose Manage and add it."/>
+            <DockPanel Margin="0,6,0,0">
+                <Button Content="Manage…" DockPanel.Dock="Right" Padding="12,4" Margin="8,0,0,0" Click="Manage_Click"/>
+                <ComboBox x:Name="Combo" DisplayMemberPath="DisplayName" SelectionChanged="Combo_Changed" Padding="6,4"
+                          AutomationProperties.Name="App registration"/>
+            </DockPanel>
+            <TextBlock x:Name="Detail" Foreground="Gray" FontSize="12" Margin="0,6,0,0" TextWrapping="Wrap"/>
+
+            <Border Background="#EEF4FB" BorderBrush="#B7CDE6" BorderThickness="1" Padding="12" Margin="0,18,0,0">
+                <StackPanel>
+                    <TextBlock Text="Permissions this app registration needs" FontWeight="SemiBold"/>
+                    <TextBlock Foreground="#444" FontSize="12" TextWrapping="Wrap" Margin="0,2,0,6" x:Name="PermissionsIntro"/>
+                    <TextBlock x:Name="PermissionsText" FontFamily="Consolas" FontSize="12" TextWrapping="Wrap"/>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Orientation="Horizontal" Margin="0,18,0,0">
+                <Button x:Name="TestButton" Content="Connect and list mailboxes" Padding="14,6" FontWeight="SemiBold" Click="Test_Click"/>
+                <TextBlock x:Name="ResultText" VerticalAlignment="Center" Margin="14,0,0,0" TextWrapping="Wrap" MaxWidth="460"/>
+            </StackPanel>
+            <TextBlock x:Name="CheckText" FontFamily="Consolas" FontSize="12" Margin="0,12,0,0" TextWrapping="Wrap"/>
+            <TextBlock Foreground="Gray" FontSize="11" Margin="0,10,0,0" TextWrapping="Wrap"
+                       Text="This signs in with the app registration, reads the list of mailboxes, and checks which application permissions the app has been granted. It changes nothing. A permission you added a moment ago can take a few minutes to show up: wait, then connect again."/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
