@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>アプリの登録</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>過去の実行とレポート</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>設定</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>最小化</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>最大化または元に戻す</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>閉じる</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>手順</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>保存</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>戻る</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>次へ</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>開始する</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>コピーを開始</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>結果を表示</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>新しい移行</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>結果を開く (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>アイテム一覧を開く (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>ログを開く</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>再実行 (再開)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>ようこそ</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>コピー元</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>コピー先</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>メールボックス</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>対応付け</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>オプション</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>確認</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>コピー</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>結果</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>ようこそ</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>コピー元テナント</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>コピー先テナント</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>メールボックスの選択</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>メールボックスの対応付け</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>オプション</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>確認</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>コピー</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>結果</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Microsoft 365 テナント間でメールを移動します。1 つのメールボックス、複数のメールボックス、または全員のメールボックスを対象にできます。</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>コピー元のテナントに接続します。読み取りのみ行われ、変更は一切加えられません。</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>コピー先のテナントに接続します。ここにメールが追加されます。既存のアイテムが変更または削除されることはありません。</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>コピーするメールボックスを選びます。フィルターで一覧を絞り込み、対象にチェックを入れます。</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>コピー元の各メールボックスをどのコピー先メールボックスに入れるかを指定します。</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>メールをコピー先に配置する方法と、実行する安全確認を選びます。</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>計画を確認します。まだ何もコピーされていません。</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>コピー中です。いつでも停止できます。完了したアイテムは記憶されるため、後で再開できます。</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>コピーした内容、確認した内容、次に行うことを表示します。</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>続行するには、コピー元テナントに接続してください。</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>続行するには、コピー先テナントに接続してください。</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>続行するには、メールボックスを 1 つ以上選択してください。</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>続行するには、1 行以上が「準備完了」になっている必要があります。</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>続行するには、フォルダー名を入力してください。</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>メールのフィルターを確認してください。フォルダーを 1 つ以上選択し、日付を指定し、0 より大きいサイズを入力します。</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>サイズと時間を見積もっています (読み取りのみ)。完了すると [コピーを開始] を選べます。または [見積もりをスキップ] を選択してください。</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>続行するには、上のチェック ボックスをオンにしてください。</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>このツールは Microsoft 365 テナント間でメールをコピーします。1 つのメールボックス、選択した複数のメールボックス、または全員のメールボックスを移動でき、コピー後にすべてのメッセージを元のメッセージと照合します。</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>できること・できないこと</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• コピー元テナントは読み取りのみです。変更も削除も行われません。
+• コピー先はアイテム (メール、選択した場合は予定表のイベントと連絡先) を受け取るだけです。既存のものを削除したり変更したりすることはありません。
+• 2 回コピーされたメッセージはスキップされるため、安全に再実行や再開ができます。
+• コピーしたすべてのメッセージはコピー元とフィールドごとに比較され、結果が報告されます。</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>開始前に必要なもの</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. 各テナント (コピー元とコピー先) のアプリの登録。グローバル管理者が設定します。追加するアクセス許可は次の手順で正確に示されます。
+2. 各登録のクライアント シークレット。
+3. 移動するメールボックスがコピー先テナントに既に存在していること (先にユーザーを作成し、ライセンスを割り当ててください)。</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>しくみ</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>このツールは個人のサインインではなく、アプリの登録を使用します。そのため、他のユーザーのパスワードなしでそのメールボックスにアクセスできます。これらのアクセス許可を持つアプリの登録はテナント内のすべてのメールボックスにアクセスできるため、シークレットは非公開にし、移動の完了後は登録を削除してください。</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>[次へ] を選択してコピー元テナントに接続します。完了した手順には、上部のステップ バーからいつでも戻れます。</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>コピー元は、メールが現在存在しているテナントです。Smart Mailbox Copy はアプリの登録でサインインし (ユーザーはサインインしません)、選択したメールボックスを読み取ります。</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>コピー先は、メールの移動先のテナントです。メールボックスはライセンス付きで既に存在している必要があります。このツールはメールを追加するだけです。</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Microsoft Entra 管理センターで、[アプリの登録] &gt; 対象のアプリ &gt; [API のアクセス許可] &gt; [アクセス許可の追加] &gt; [Microsoft Graph] &gt; [アプリケーションの許可] の順に選びます。続いて [管理者の同意を与えます] を選択します。</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>コピー元と同じ場所です。[API のアクセス許可] &gt; [アクセス許可の追加] &gt; [Microsoft Graph] &gt; [アプリケーションの許可] の順に選び、[管理者の同意を与えます] を選択します。</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>エクスポート。ポータルにエクスポート用のアクセス許可が表示される場合はそれを使用します</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>アプリの登録</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>このテナント用に保存した Microsoft Entra のアプリの登録です。一覧にない場合は、[管理] を選んで追加してください。</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>管理…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>このアプリの登録に必要なアクセス許可</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>接続してメールボックスを一覧表示</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>アプリの登録でサインインし、メールボックスの一覧を読み取り、アプリに付与されているアプリケーションのアクセス許可を確認します。何も変更しません。追加したばかりのアクセス許可は、表示されるまで数分かかることがあります。しばらく待ってから、もう一度接続してください。</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>テナント {0}  ·  アプリケーション {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>クライアント シークレット保存済み</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>クライアント シークレットが保存されていません。[管理] で追加してください</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>何も選択されていません。</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>接続中…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>接続しました。メールボックス アドレスを持つアカウント: {0}。</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>先にアプリの登録を選択してください。</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>この登録のクライアント シークレットはこの PC に保存されていません。[管理] を選んで追加してください。</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>クライアント シークレットが無効です。シークレットの値ではなく ID である、または別のアプリのシークレットである可能性があります。新しいシークレットを作成し、[管理] で更新してください。</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>クライアント シークレットの有効期限が切れています。新しいシークレットを作成し、[管理] で更新してください。</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>このテナントにそのアプリケーション (クライアント) ID が見つかりません。[管理] でテナント ID とクライアント ID を確認してください。</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>そのテナント ID が見つかりません。[管理] で確認してください。</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>アプリに User.Read.All アプリケーションのアクセス許可がないか、管理者の同意が付与されていません。</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>このアプリに付与されているアプリケーションのアクセス許可:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (インポート/エクスポートと読み取り)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>メールの読み取り</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>コピー先でのフォルダーの作成</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>メール アイテムのエクスポートとインポート</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>フォルダー ツリーの読み取り</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>メールボックスの一覧表示</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>追加の予定表をコピーする場合のみ</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>追加の連絡先フォルダーをコピーする場合のみ</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  不足: {1}に必要です</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  未付与 ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>不足しているアクセス許可をアプリケーションのアクセス許可として追加し、管理者の同意を与えてください。反映まで数分かかることがあります。</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>必要な種類のメールボックスを表示し、ドメインやテキストで絞り込んでから、コピーするものにチェックを入れます。フィルターを変更してもチェックは保持されます。ライセンスのないアカウントは共有、会議室、または機器のメールボックスですが、Microsoft はどれであるかを区別していません。</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>ユーザー</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>共有、会議室、機器 (ライセンスなし)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>ゲスト</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>有効なアカウントのみ</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>ドメイン</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>検索</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>すべてのドメイン</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>コピー</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>名前</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>アドレス</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>種類</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>アカウント</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>ユーザー</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>共有、会議室、または機器 (ライセンスなし)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>ゲスト</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>有効</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>無効</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>表示中をすべて選択</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>表示中をすべて選択解除</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>一覧を更新</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} 件選択 · {2} 件中 {1} 件を表示</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} 件はフィルターで非表示</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>ドメイン フィルター</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>メールボックスを検索</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>コピー元メールボックス</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>コピー元の各アドレスには、コピー先テナントのメールボックスが必要です。ドメインを置き換えて自動的に対応付けられます。名前が異なる行には、別のコピー先アドレスを入力してください。「準備完了」の行がコピーされ、それ以外は除外されます。</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>コピー先ドメイン</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>すべての行をこのドメインに対応付ける</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>対応表をインポート (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>対応表をエクスポート (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>コピー元メールボックス</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>コピー先メールボックス (編集可)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>状態</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>準備完了</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>コピー先アドレスを入力してください</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>メール アドレスではありません</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>別の行が同じコピー先を使用しています</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>コピー先テナントに見つかりません</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{1} 件中 {0} 件がコピー可能</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} 件は修正するまで除外されます</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV ファイル (*.csv)|*.csv|すべてのファイル|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>コピー元,コピー先の対応表をインポート</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV ファイル (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>対応表をエクスポート</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>ファイル内の {1} 行のうち {0} 行が、選択したメールボックスと一致しました。それ以外は無視されました。</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>対応表をインポートしました</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>対応表を読み取れませんでした</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>コピー先ドメイン</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>メールボックスの対応表</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>予定表のイベントと連絡先のみ (メールはコピーしない)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>最初のテストや、予定表を別途コピーしたい場合に適しています。イベントは各コピー先メールボックスの既定の予定表に、連絡先は既定の連絡先に入ります。アイテムは恒久的に追加され、このツールで後から削除することはできません。</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>メールの配置先</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>メールのみ、各コピー先メールボックスの新しい 1 つのフォルダーに (推奨)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>フォルダー構造を含むすべてのメールが、新しい 1 つのフォルダーにコピーされます。最も安全で、誰かがメールボックスを使い始める前に Outlook で簡単に確認したり削除したりできます。予定表のイベントと連絡先はこの中に配置できないため、このモードではコピーされません。</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>フォルダー名</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>移行したメール</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>実際のフォルダーに統合 (予定表と連絡先を含む)</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>メールは本来の場所に入ります (受信トレイは受信トレイへ、送信済みアイテムは送信済みアイテムへ)。その他のフォルダーはその隣に再作成されます。アイテムは恒久的に追加され、このツールで後から削除する方法はありません。</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>予定表のイベントと連絡先もコピーする (既定のものと、追加の予定表および連絡先フォルダー)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>メールのみをコピーするには、チェックを外します。定期的な会議を含むイベントは件数のみ確認され、フィールドごとの比較はまだ行われません。</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>コピー対象を制限する (省略可): 制限なし、すべてコピーします</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>コピー対象を制限する (省略可): 有効な制限: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>既定では、すべてのフォルダーとすべてのメッセージがコピーされます。コピーする量を減らしたい場合にのみ使用してください。制限はすべてのメールボックスに適用されますが、予定表のイベントと連絡先には適用されません。除外されたメールがコピー元で変更または削除されることはありません。</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>除外するフォルダー</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>除外したフォルダーは、そのサブフォルダーも一緒に除外されます。</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>受信トレイ</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>送信済みアイテム</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>下書き</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>削除済みアイテム</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>迷惑メール</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>アーカイブ</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>ユーザーが作成したフォルダー</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>この日付以降に作成されたメールのみ</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>メールボックス内で各メッセージが作成された日で、通常は届いた日です。最初のコピーの後にサンプルを確認してください。</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>これより大きいメッセージをスキップ</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>安全確認</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>コピー先に既にあるメールをスキップする (再実行しても重複が作成されません)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>コピー後にすべてのメッセージをコピー元と比較する (時間が追加されます。推奨)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>既にアイテムが入っているコピー先フォルダーを許可する (コピーしたアイテムは既存のアイテムと並んで追加されます)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>統合では、受信トレイや予定表などのコピー先フォルダーに既にアイテムがある場合、これをオンにしない限り開始されません。</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>詳細設定</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>最初からやり直す: 以前の実行でコピー済みの内容を無視する (上の重複確認により、コピー先のメールは引き続き保護されます)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>除外する予定表と連絡先フォルダー</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>1 行に 1 つ、Outlook に表示されるとおりの名前で入力します。これらの名前の追加の予定表と連絡先フォルダーはコピーされません。連絡先フォルダーはサブフォルダーも一緒に除外されます。祝日の予定表など、ユーザーが購読している予定表に使用してください。誕生日の予定表は (Outlook が連絡先から作成するため) 常にコピーされません。既定の予定表と連絡先には影響しません。</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>書き込みを禁止するメールボックス</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>1 行に 1 つのアドレスを入力します。これらのいずれかがコピー先として選ばれた場合、そのコピーは拒否されます。</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>新しいフォルダー名</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>最も古い日付</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>最大メッセージ サイズ (MB)</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>コピーするメールボックス: {0}、"{1}" から "{2}" へ。</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>予定表のイベントと連絡先のみを、各コピー先メールボックスの既定の予定表と連絡先にコピーします。メールはコピーしません。</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>メールは各コピー先メールボックスの実際のフォルダー (受信トレイ、送信済みアイテム、下書きなど) に入ります。その他のフォルダーはその隣に再作成されます。</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>メールのみを、各コピー先メールボックスの "{0}" という新しいフォルダーに、フォルダー構造を含めてコピーします。</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>名前で除外した予定表と連絡先フォルダー: {0}。</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>予定表のイベントと連絡先: 各コピー先メールボックスの既定の予定表と連絡先にコピーします。</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>予定表のイベントと連絡先: コピーしません。</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>コピー先に既にあるメールはスキップされます。</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>コピー先に既にあるメールは確認されません。</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>除外: {0}。</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>{0} 以降に作成されたメールのみ。</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>{0} MB より大きいメッセージはスキップされます。</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>コピー後に、すべてのメッセージをコピー元と比較します。</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>コピー後の比較は行いません。</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>メールボックスは 1 つずつ順番にコピーされます。コピー元は変更されません。</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>サイズと時間の見積もり</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>見積もりをスキップ</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>対応するコピー先メールボックスが見つからず除外されたメールボックス: {0}。[メールボックスの対応付け] に戻って修正してください。</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>ライセンスのない選択済みメールボックス (共有、会議室、機器): {0}。メール フォルダーはコピーされ、予定表のコピーがオンの場合は予定表もコピーされます。予約ポリシーなどのリソース設定はコピーされません。</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>予定表のイベントと連絡先が恒久的に追加されます。このツールで削除する方法はありません。</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>統合すると、実際のフォルダーにアイテムが恒久的に追加されます。このツールで削除する方法はありません。</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>統合すると実際のフォルダーにメールが追加され、このツールでは削除できないことを理解しました。</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>見積もりには、前の手順での接続が必要です。</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>メールボックスのサイズを読み取っています ({0})。読み取りのみで、何も変更されません…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>見積もりをスキップしました。コピーが始まると、進行状況バーに見積もりが表示されます。</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>見積もりを作成できませんでした: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>約 {0} 件のメッセージ ({1} MB)。メールボックス: {2}。</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>推定時間: {0}。</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>通常のメッセージで実施したテストでの測定速度に基づいています。非常に大きな添付ファイルがある場合は時間がかかります。メールボックスは 1 つずつ順番にコピーされます。停止した場合、次回の実行は中断した位置から再開されます。</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>読み取れなかったメールボックス: {0}。これらは見積もりに含まれておらず、コピーでもおそらく失敗します。最初の原因: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>1 分未満</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} 分</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} 時間 {1} 分</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>コピーを開始しますか?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>今すぐコピーを開始しますか? メールボックス: {0}。
+
+{1}
+
+コピー元は変更されません。いつでも停止できます。</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>メールは各コピー先メールボックスの実際のフォルダーに追加されます。このツールで削除することはできません。</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>メールは各コピー先メールボックスの新しいフォルダー "{0}" に追加されます。</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>開始できません</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>この PC にクライアント シークレットがありません。[アプリの登録] で追加してください。</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>先に次の問題を修正してください:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>メールボックスをコピー中: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>開始しています…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>完了しました。{0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>すべてのメッセージをコピー元と比較しました。</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>行を選択すると詳細が表示されます。または結果ファイルを開いてください。</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>エラーにより停止しました: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>所要時間: {0}。</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {2} 個中 {1} 個のメールボックスが完了 · {3} · ここまで {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>残り約 {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>推定 {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>時間を見積もっています…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>メールボックス {0}/{1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>メールボックス {0}: {2} 件中 {1} 件のアイテムを処理 — コピー済み {3}、既にあり {4}、失敗 {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>現在のアイテムの後に停止します… 完了したアイテムは記憶されます。</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>メールボックス</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>実行中のメールボックスのフォルダーの詳細</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>ログ</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>警告とエラーのみ</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>エラー {0} 件、警告 {1} 件</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>コピー実行中</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>コピーを実行中です。今閉じると停止します (完了したアイテムは記憶されるため、後で再開できます)。
+
+それでも閉じますか?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>全体の進行状況</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>メールボックスの進行状況</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>問題なくコピー: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>要確認: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>失敗: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>未実行: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>サインインしてアカウントを確認</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>コピー元 (読み取り専用): フォルダー ツリーをたどってアイテムを一覧表示</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>コピー先: メールを入れるフォルダーを特定</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>ツリーを再作成してアイテムをコピー (コピー元からエクスポートし、コピー先にインポート)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>照合: フォルダーごとにアイテム数を比較</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>検証: コピーしたすべてのメッセージをコピー元とフィールドごとに比較</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>待機中</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>コピー中…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>完了</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>要確認</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>失敗</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>未実行</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>コピー済み</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>コピー中</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} 件失敗</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>件数が異なります</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>ユーザー フォルダー</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>コピー元</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>コピー先</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>状態</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>詳細 (選択してコピー)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>フォルダー</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>種類</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>アイテム</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>コピー済み</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>既にあり</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>失敗</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>結果</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>一致を確認</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>メモ (選択してコピー)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>メモ</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>詳細</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>コピーが停止しました</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>コピーが完了しました</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>コピーしたメールボックス: {0}。</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>コピーしたメールボックス: {0}。確認した {1} 件のメッセージはすべてコピー元と一致しました。</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>コピーが完了前に停止しました</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>完了したメールボックス: {0}。未開始: {1}。続行するには再実行してください。完了したアイテムが再度コピーされることはありません。</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>完了しましたが、確認が必要なアイテムがあります</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>問題なくコピーされたメールボックス: {1} 個中 {0} 個。{2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>メールボックス別</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>次に行うこと</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>この概要をコピー</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>メールボックス別の結果</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>コピーしたメールボックス</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>コピーしたメッセージ</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>コピー先に既にあり</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>失敗したアイテム</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>一致を確認</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>所要時間</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{1} 中 {0}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>なし</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>未確認</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>結果ファイルまたはログを開いて原因を確認し、原因 (アクセス許可の不足や、まだ存在しないコピー先メールボックスなど) を修正してから、[再実行] を選択してください。完了したアイテムは記憶されるため、再度コピーされることはありません。</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>いくつかのコピー先メールボックスを Outlook で開き、受信トレイ、送信済みアイテム、独自のフォルダーを確認してください。添付ファイル付きのメッセージも抜き取りで確認してください。</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>いくつかのコピー先メールボックスを Outlook で開き、フォルダー "{0}" を探してください。添付ファイル付きのメッセージも抜き取りで確認してください。ユーザーはメールをそこから移動することも、そのまま残すこともできます。</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>連絡先と予定表は件数のみ確認され、フィールドごとの比較はまだ行われていません。いくつかのコピー先メールボックスで連絡先と予定表を開いて確認してください。特に定期的な会議を確認してください。</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>この実行の後に届いたメールを取り込むには、同じ設定で [再実行] を選択します。新しいメールのみがコピーされます。</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>移行が完全に終了したら、クライアント シークレットを削除し、Microsoft Entra のアプリの登録を削除してください。これらはテナント内のすべてのメールボックスにアクセスできるためです。</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>コピーしたメールボックス: {1} 個中 {0} 個、コピーしたメッセージ: {2}、コピー先に既にあり: {3}、失敗したアイテム: {4}、所要時間: {5}。</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>コピーしたメールボックス: {1} 個中 {0} 個、コピーしたメッセージ: {2}、コピー先に既にあり: {3}、失敗したアイテム: {4}、一致を確認: {6} 件中 {5} 件、所要時間: {7}。</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>アプリの登録</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>アプリの登録は、このツールがテナント内の Microsoft 365 と通信するために使用する ID です。テナントごとに Microsoft Entra 管理センターで 1 回作成し、わかりやすい名前でここに保存してから、[コピー元] と [コピー先] の手順で選択します。ここに入力した内容はどこにも送信されず、お使いの Windows ユーザーのみに保存されます。</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>追加</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>削除</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>名前</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>区別しやすい名前を付けてください。例: "Contoso (コピー元)"。</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ディレクトリ (テナント) ID</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID です。Entra 管理センターの、登録の [概要] ページにあります。</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>アプリケーション (クライアント) ID</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID です。こちらも [概要] ページにあります。</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>クライアント シークレット</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>[証明書とシークレット] にあるシークレットの値 (ID ではありません) です。これにより、アプリはサインインなしでメールボックスをコピーできます。お使いの Windows ユーザー用に暗号化され、別の PC では読み取れません。入力中のみ表示されます。置き換えるには新しいものを入力してください。</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>シークレットは保存済みです。</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>クリア</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>作成方法: Microsoft Entra 管理センター &gt; [アプリの登録] &gt; [新規登録] (シングル テナント)。[API のアクセス許可] を開き、[コピー元] と [コピー先] の手順に示されているアプリケーションのアクセス許可を追加してから、[管理者の同意を与えます] を選択します。[証明書とシークレット] を開いて [新しいクライアント シークレット] を作成し、その値をすぐにコピーします (表示されるのは 1 回のみです)。[概要] ページから、ディレクトリ (テナント) ID とアプリケーション (クライアント) ID をこのフォームにコピーします。</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>新規登録</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(名前なし)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>登録の削除</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>"{0}" をこの一覧から削除しますか?
+
+ここで忘れるだけです。Microsoft Entra のアプリの登録には影響しません。</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>一覧を確認してください</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>すべての登録に名前を付けてください。</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": テナント ID とクライアント ID はどちらも GUID である必要があります (例: 00000000-0000-0000-0000-000000000000)。</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>保存に失敗しました</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>保存できませんでした: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>設定</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>言語</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Windows と同じ</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>新しい言語は、次回 Smart Mailbox Copy を起動したときに有効になります。</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>テーマ</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Windows と同じ</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>ライト</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>ダーク</value></data>
+</root>

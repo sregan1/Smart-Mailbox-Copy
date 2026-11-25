@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Registrace aplikací</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Předchozí běhy a sestavy</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Nastavení</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimalizovat</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximalizovat nebo obnovit</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Zavřít</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Kroky</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Zrušit</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Uložit</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Zpět</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Další</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Začínáme</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Spustit kopírování</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Zobrazit výsledky</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Nová migrace</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Zastavit</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Otevřít výsledky (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Otevřít seznam položek (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Otevřít protokol</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Spustit znovu (pokračovat)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Úvod</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Zdroj</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Cíl</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Schránky</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Shoda</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Možnosti</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Kontrola</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopie</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Výsledky</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Vítejte</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Zdrojový tenant</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Cílový tenant</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Výběr schránek</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Přiřazení schránek</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Možnosti</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Kontrola</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopírování</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Výsledky</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Přesuňte poštu mezi tenanty Microsoft 365: jednu schránku, několik, nebo všechny.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Připojte se k tenantovi, ze kterého kopírujete. Pouze se z něj čte; nic se v něm nemění.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Připojte se k tenantovi, do kterého kopírujete. Pošta se sem přidává; nic, co tu již je, se nemění ani nemaže.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Vyberte schránky ke zkopírování. Seznam zúžíte filtry a pak zaškrtněte ty, které chcete.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Určete, do které cílové schránky patří každá zdrojová schránka.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Zvolte, jak se pošta v cíli uloží a které kontroly bezpečnosti se provedou.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Zkontrolujte plán. Zatím nebylo nic zkopírováno.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Probíhá kopírování. Můžete kdykoli zastavit; dokončené položky se zapamatují, takže můžete později pokračovat.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Co bylo zkopírováno, co bylo zkontrolováno a co dělat dál.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Chcete-li pokračovat, připojte se ke zdrojovému tenantovi.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Chcete-li pokračovat, připojte se k cílovému tenantovi.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Chcete-li pokračovat, zaškrtněte alespoň jednu schránku.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Chcete-li pokračovat, alespoň jeden řádek musí mít stav Připraveno.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Chcete-li pokračovat, zadejte název složky.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Zkontrolujte filtry pošty: zaškrtněte alespoň jednu složku, vyberte datum a zadejte velikost větší než 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Odhaduje se velikost a čas (pouze čtení). Spuštění bude možné po dokončení, nebo zvolte Přeskočit odhad.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Chcete-li pokračovat, zaškrtněte políčko výše.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Tento nástroj kopíruje poštu mezi tenanty Microsoft 365. Můžete přesunout jednu schránku, vybrané schránky nebo všechny a po dokončení nástroj porovná každou zprávu s originálem.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Co nástroj udělá a co neudělá</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Ze zdrojového tenanta se pouze čte. Nic se v něm nemění ani nemaže.
+• Cíl pouze přijímá položky (poštu a podle výběru také události kalendáře a kontakty). Nástroj nikdy nemaže ani nemění nic, co tam již je.
+• Zpráva zkopírovaná dvakrát se přeskočí, takže běh lze bezpečně opakovat nebo obnovit.
+• Každá zkopírovaná zpráva se porovná se zdrojem pole po poli a výsledek se uvede ve zprávě.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Co potřebujete před zahájením</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Registraci aplikace v každém tenantovi (zdrojovém i cílovém), kterou vytvoří globální správce. Další kroky přesně ukazují, která oprávnění přidat.
+2. Tajný klíč klienta pro každou registraci.
+3. Schránky, které chcete přesunout, již musí v cílovém tenantovi existovat (nejprve vytvořte uživatele a přiřaďte jim licence).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Jak to funguje</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Nástroj používá registraci aplikace, nikoli přihlášení osoby, takže se dostane do schránek jiných lidí bez jejich hesel. Protože registrace aplikace s těmito oprávněními má přístup ke každé schránce v tenantovi, uchovejte její tajný klíč v soukromí a po dokončení migrace registraci odeberte.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Výběrem možnosti Další se připojíte ke zdrojovému tenantovi. K dokončenému kroku se můžete vrátit z panelu kroků nahoře.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Zdroj je tenant, ve kterém pošta aktuálně je. Smart Mailbox Copy se přihlašuje pomocí registrace aplikace (nepřihlašuje se žádná osoba) a čte schránky, které vyberete.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Cíl je tenant, do kterého se pošta přesouvá. Schránky tam již musí existovat, s licencemi. Nástroj pouze přidává poštu.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>V centru pro správu Microsoft Entra: Registrace aplikací &gt; vaše aplikace &gt; Oprávnění rozhraní API &gt; Přidat oprávnění &gt; Microsoft Graph &gt; Oprávnění aplikace. Potom vyberte Udělit souhlas správce.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Stejné místo jako u zdroje: Oprávnění rozhraní API &gt; Přidat oprávnění &gt; Microsoft Graph &gt; Oprávnění aplikace, potom Udělit souhlas správce.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>export; použijte oprávnění k exportu, pokud je portál nabízí</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Registrace aplikace</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Uložená registrace aplikace Microsoft Entra pro tento tenant. Pokud ještě není v seznamu, zvolte Spravovat a přidejte ji.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Spravovat…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Oprávnění, která tato registrace aplikace potřebuje</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Připojit a vypsat schránky</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Tím se přihlásíte pomocí registrace aplikace, načte se seznam schránek a zkontroluje se, která oprávnění aplikace byla aplikaci udělena. Nic se nemění. Oprávnění přidané před chvílí se může zobrazit až za několik minut: počkejte a připojte se znovu.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  aplikace {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>tajný klíč klienta uložen</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NENÍ uložen žádný tajný klíč klienta: přidejte jej v části Spravovat</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nic není vybráno.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Připojování…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Připojeno. Nalezené účty s adresou schránky: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Nejprve vyberte registraci aplikace.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Tato registrace nemá v tomto počítači uložený tajný klíč klienta. Zvolte Spravovat a přidejte jej.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Tajný klíč klienta není platný. Může jít o ID tajného klíče místo jeho hodnoty, nebo o tajný klíč jiné aplikace. Vytvořte nový tajný klíč a aktualizujte jej v části Spravovat.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Platnost tajného klíče klienta vypršela. Vytvořte nový a aktualizujte jej v části Spravovat.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>ID aplikace (klienta) nebylo v tomto tenantovi nalezeno. Zkontrolujte ID tenanta a klienta v části Spravovat.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>ID tenanta nebylo nalezeno. Zkontrolujte jej v části Spravovat.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Aplikaci chybí oprávnění aplikace User.Read.All nebo nebyl udělen souhlas správce.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Oprávnění aplikace udělená této aplikaci:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/export a čtení)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>čtení pošty</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>vytváření složek v cíli</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>export a import položek pošty</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>čtení stromu složek</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>výpis schránek</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>pouze pro kopírování dalších kalendářů</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>pouze pro kopírování dalších složek kontaktů</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  CHYBÍ: potřebné pro {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  neuděleno ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Přidejte chybějící oprávnění jako Oprávnění aplikace a udělte souhlas správce. Zobrazení může trvat několik minut.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Zobrazte druhy schránek, které chcete, zúžte výběr podle domény nebo textu a zaškrtněte schránky ke zkopírování. Vaše zaškrtnutí se při změně filtrů zachovají. Účty bez licence jsou sdílené schránky a schránky místností nebo vybavení; Microsoft je nerozlišuje.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Uživatelé</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Sdílené, místnosti, vybavení (bez licence)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Hosté</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Pouze povolené účty</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Doména</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Hledat</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Všechny domény</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopírovat</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Název</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adresa</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Typ</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Účet</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Uživatel</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Sdílená, místnost nebo vybavení (bez licence)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Host</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Povolen</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Zakázán</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Zaškrtnout všechny zobrazené</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Zrušit zaškrtnutí všech zobrazených</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Aktualizovat seznam</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>Vybráno: {0} · zobrazeno {1} z {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · vybráno {0}, ale skryto filtry</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filtr domény</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Hledat schránky</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Zdrojové schránky</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Každá zdrojová adresa potřebuje schránku v cílovém tenantovi. Přiřazují se výměnou domény; v libovolném řádku, kde se názvy liší, zadejte jinou cílovou adresu. Řádky se stavem Připraveno se zkopírují; ostatní se vynechají.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Cílová doména</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Přiřadit všechny řádky k této doméně</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importovat mapování (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Exportovat mapování (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Zdrojová schránka</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Cílová schránka (upravitelná)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Stav</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Připraveno</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Zadejte cílovou adresu</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Není e-mailová adresa</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Jiný řádek používá tento cíl</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>V cílovém tenantovi nenalezeno</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>Připraveno ke zkopírování: {0} z {1}</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} se vynechá, dokud nebude opraveno</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Soubory CSV (*.csv)|*.csv|Všechny soubory|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importovat mapování zdroj,cíl</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Soubory CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Exportovat mapování</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>Řádků v souboru odpovídajících vybrané schránce: {0} z {1}. Ostatní byly ignorovány.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Mapování importováno</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Mapování se nepodařilo načíst</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Cílová doména</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Mapování schránek</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Pouze události kalendáře a kontakty (nekopírovat žádnou poštu)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Dobrý první test, nebo způsob, jak kopírovat kalendáře zvlášť. Události se uloží do výchozího kalendáře každé cílové schránky a kontakty do jejích výchozích kontaktů. Položky se přidávají trvale: nástroj je poté nemůže odebrat.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Kam se má pošta uložit?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Pouze pošta, do jedné nové složky v každé cílové schránce (doporučeno)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Veškerá pošta včetně struktury složek se zkopíruje do jedné nové složky. Nejbezpečnější a v Outlooku snadno zkontrolovatelné nebo smazatelné dříve, než schránku někdo začne používat. Události kalendáře a kontakty do ní nelze umístit, proto se v tomto režimu nekopírují.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Název složky</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrovaná pošta</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Sloučeno do skutečných složek, včetně kalendáře a kontaktů</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Pošta skončí tam, kde ji člověk očekává (Doručená pošta do Doručené pošty, Odeslaná pošta do Odeslané pošty) a ostatní složky se vytvoří vedle nich. Položky se přidávají trvale: nástroj je poté nemůže odebrat.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Kopírovat také události kalendáře a kontakty (výchozí i další kalendáře a složky kontaktů)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Zrušením zaškrtnutí se zkopíruje pouze pošta. Události včetně opakovaných schůzek se započítají, ale zatím se neporovnávají pole po poli.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Omezit, co se kopíruje (volitelné): nic není omezeno, kopíruje se vše</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Omezit, co se kopíruje (volitelné): zapnutá omezení: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Ve výchozím nastavení se kopíruje každá složka a každá zpráva. Použijte je jen k tomu, abyste zkopírovali méně. Platí pro každou schránku, nikdy pro události kalendáře a kontakty, a vynechaná pošta se ve zdroji nikdy nemění ani nemaže.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Vynechat tyto složky</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Vynechaná složka s sebou bere i své podsložky.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Doručená pošta</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Odeslaná pošta</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Koncepty</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Odstraněná pošta</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Nevyžádaná pošta</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archiv</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Složky vytvořené uživateli</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Pouze pošta vytvořená dne nebo po</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Jde o den, kdy byla každá zpráva ve schránce vytvořena, což je obvykle den jejího doručení. Po prvním kopírování zkontrolujte vzorek.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Přeskočit zprávy větší než</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Kontroly bezpečnosti</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Přeskočit poštu, která již v cíli je (aby opakovaný běh nevytvořil duplicity)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Po dokončení porovnat každou zkopírovanou zprávu se zdrojem (prodlužuje dobu, doporučeno)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Povolit cílové složky, které již obsahují položky (zkopírované položky se přidají k nim)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Sloučení se odmítne spustit, pokud cílová složka, například Doručená pošta nebo Kalendář, již obsahuje položky, pokud není toto políčko zaškrtnuto.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Upřesnit</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Začít znovu: ignorovat, co již zkopírovaly dřívější běhy (výše uvedená kontrola duplicit stále chrání cílovou poštu)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kalendáře a složky kontaktů k vynechání</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Jeden název na řádek, přesně tak, jak se zobrazuje v Outlooku. Další kalendáře a složky kontaktů s těmito názvy se nekopírují; složka kontaktů s sebou bere své podsložky. Použijte to pro kalendáře, které lidé odebírají, například kalendář svátků. Kalendář Narozeniny se nikdy nekopíruje (Outlook jej vytváří z kontaktů). Výchozí Kalendář a Kontakty nejsou dotčeny.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Schránky, do kterých se nikdy nesmí zapisovat</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Jedna adresa na řádek. Pokud je některá z nich vybrána jako cíl, kopírování pro ni se odmítne.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Název nové složky</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Nejstarší datum</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Největší zpráva v megabajtech</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Schránek ke zkopírování: {0}, z „{1}“ do „{2}“.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Kopírují se pouze události kalendáře a kontakty, do výchozího kalendáře a kontaktů každé cílové schránky. Žádná pošta se nekopíruje.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Pošta se ukládá do skutečných složek každé cílové schránky (Doručená pošta, Odeslaná pošta, Koncepty…); ostatní složky se vytvoří vedle nich.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Pouze pošta se ukládá do nové složky s názvem „{0}“ v každé cílové schránce, včetně struktury složek.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Kalendáře a složky kontaktů vynechané podle názvu: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Události kalendáře a kontakty: kopírují se do výchozího kalendáře a kontaktů každé cílové schránky.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Události kalendáře a kontakty: nekopírují se.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Pošta, která již v cíli je, se přeskočí.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Pošta, která již v cíli je, se NEKONTROLUJE.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Vynecháno: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Pouze pošta vytvořená dne {0} nebo později.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Zprávy větší než {0} MB se přeskočí.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Každá zkopírovaná zpráva se poté porovná se zdrojem.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Žádné porovnání poté.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Schránky se kopírují jedna po druhé. Nic ve zdroji se nemění.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Odhad velikosti a času</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Přeskočit odhad</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Schránky vynechané, protože nebyla nalezena odpovídající cílová schránka: {0}. Vraťte se do kroku Přiřazení schránek a opravte je.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Vybrané schránky bez licence (sdílené, místnosti nebo vybavení): {0}. Jejich složky pošty se kopírují, stejně jako jejich kalendář, pokud je kopírování kalendáře zapnuto. Nastavení prostředků, například pravidla rezervací, se nekopíruje.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Tím se trvale přidají události kalendáře a kontakty. Tento nástroj je nemůže odebrat.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Sloučení trvale přidává položky do skutečných složek. Tento nástroj je nemůže odebrat.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Rozumím, že sloučení přidává poštu do skutečných složek a tento nástroj ji nemůže odebrat.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Odhad potřebuje připojení z předchozích kroků.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Zjišťuje se velikost schránek ({0}); pouze čtení, nic se nemění…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Odhad přeskočen. Ukazatel průběhu odhad zobrazí, jakmile kopírování poběží.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Odhad se nepodařilo vytvořit: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Přibližně {0} zpráv ({1} MB). Schránky: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Odhadovaný čas: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Vychází z rychlostí naměřených v našich testech s běžnými zprávami; velmi velké přílohy trvají déle. Schránky se kopírují jedna po druhé. Pokud zastavíte, další běh pokračuje tam, kde skončil.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Schránky, které se nepodařilo přečíst: {0}. Nejsou v odhadu a pravděpodobně selžou i při kopírování. První důvod: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>méně než minuta</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Spustit kopírování?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Spustit kopírování nyní? Schránky: {0}.
+
+{1}
+
+Nic ve zdroji se nemění. Můžete kdykoli zastavit.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Pošta se přidá do skutečných složek každé cílové schránky. Tento nástroj ji nemůže odebrat.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Pošta se přidá do nové složky „{0}“ v každé cílové schránce.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Nelze spustit</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>V tomto počítači chybí tajný klíč klienta. Přidejte jej v části Registrace aplikací.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Nejprve opravte:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Kopírování schránek: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Spouští se…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Dokončeno. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Každá zpráva byla porovnána se zdrojem.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Vyberte řádek pro podrobnosti, nebo otevřete soubor s výsledky.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Zastaveno chybou: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Trvalo {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · dokončeno schránek: {1} z {2} · {3} · zatím {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>zbývá přibližně {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>odhad {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>odhaduje se čas…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Schránka {0} z {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Schránka {0}: zpracováno položek {1} z {2} — zkopírováno {3}, již existuje {4}, selhalo {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Zastavení po aktuální položce… dokončené položky se zapamatují.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Schránky</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Podrobnosti složek pro právě zpracovávanou schránku</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Protokol</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Pouze upozornění a chyby</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>Chyb: {0}, upozornění: {1}</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Probíhá kopírování</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Kopírování právě probíhá. Zavřením se zastaví (dokončené položky se zapamatují, takže můžete pokračovat).
+
+Přesto zavřít?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Celkový průběh</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Průběh schránek</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Zkopírováno bez problémů: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Vyžaduje kontrolu: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Selhalo: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Nespuštěno: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Přihlášení a ověření účtů</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Zdroj (pouze čtení): procházení stromu složek a výpis položek</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Cíl: vyhledání složek, do kterých pošta patří</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Obnovení stromu a kopírování položek (export ze zdroje, import do cíle)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Odsouhlasení: porovnání počtu položek v každé složce</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Ověření: porovnání každé zkopírované zprávy se zdrojem, pole po poli</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Čeká</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopíruje se…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Hotovo</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Vyžaduje kontrolu</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Selhalo</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Nespuštěno</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Zkopírováno</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopíruje se</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>Selhalo: {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Počty se liší</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>složka uživatele</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Zdroj</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Cíl</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Stav</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Podrobnosti (výběrem zkopírujete)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Složka</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Druh</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Položky</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Zkopírováno</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Již existuje</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Selhalo</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Výsledek</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Ověřeno shodné</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Poznámky (výběrem zkopírujete)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Poznámky</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Podrobnosti</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopírování bylo zastaveno</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopírování dokončeno</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Zkopírované schránky: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Zkopírované schránky: {0}. Každá z {1} zkontrolovaných zpráv byla shodná se zdrojem.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopírování bylo zastaveno před dokončením</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Dokončené schránky: {0}. Nezahájené: {1}. Spusťte znovu a pokračujte: dokončené položky se nekopírují dvakrát.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Dokončeno, s položkami, které vyžadují kontrolu</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Schránky zkopírované bez problémů: {0} z {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Po jednotlivých schránkách</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Co dělat dál</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Kopírovat toto shrnutí</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Výsledky podle schránek</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Zkopírované schránky</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Zkopírované zprávy</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Již v cíli</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Selhalé položky</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Ověřeno shodné</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Uplynulý čas</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} z {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>žádné</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>nekontrolováno</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Otevřete soubor s výsledky nebo protokol, zjistěte důvod, opravte příčinu (například chybějící oprávnění nebo cílovou schránku, která zatím neexistuje) a zvolte Spustit znovu. Dokončené položky se zapamatují, takže se nic nekopíruje dvakrát.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Otevřete v Outlooku několik cílových schránek a zkontrolujte Doručenou poštu, Odeslanou poštu a vlastní složky. Namátkou zkontrolujte zprávy s přílohami.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Otevřete v Outlooku několik cílových schránek a vyhledejte složku „{0}“. Namátkou zkontrolujte zprávy s přílohami. Lidé z ní mohou poštu přesunout, nebo ji tam nechat.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontakty a kalendář se započítají, ale zatím se neporovnávají pole po poli. Otevřete Kontakty a Kalendář v několika cílových schránkách a zkontrolujte je, zejména opakované schůzky.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Chcete-li zachytit poštu, která dorazila po tomto běhu, zvolte Spustit znovu se stejným nastavením. Zkopíruje se pouze nová pošta.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Po úplném dokončení migrace odstraňte tajné klíče klienta a odeberte registrace aplikací v Microsoft Entra, protože mají přístup ke každé schránce v tenantovi.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Zkopírované schránky: {0} z {1}; zkopírované zprávy: {2}; již v cíli: {3}; selhalé položky: {4}; čas: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Zkopírované schránky: {0} z {1}; zkopírované zprávy: {2}; již v cíli: {3}; selhalé položky: {4}; ověřeno shodné: {5} z {6}; čas: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Registrace aplikací</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Registrace aplikace je identita, kterou tento nástroj používá ke komunikaci s Microsoft 365 v tenantovi. Vytvoříte ji jednou pro každý tenant v centru pro správu Microsoft Entra, uložíte ji zde pod názvem, který poznáte, a vyberete ji v krocích Zdroj a Cíl. Nic se odsud nikam neodesílá; ukládá se pouze pro vašeho uživatele Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Přidat</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Odebrat</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Název</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Cokoli, co vám pomůže je rozlišit, například „Contoso (zdroj)“.</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID adresáře (tenanta)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. Na stránce Přehled registrace v centru pro správu Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID aplikace (klienta)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. Také na stránce Přehled.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Tajný klíč klienta</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Hodnota tajného klíče (ne jeho ID) z části Certifikáty a tajné klíče. Umožňuje aplikaci kopírovat schránky bez přihlášení kohokoli. Je zašifrován pro vašeho uživatele Windows a nelze jej přečíst na jiném počítači. Zobrazuje se pouze při psaní; chcete-li jej nahradit, zadejte nový.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Tajný klíč je uložen.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Vymazat</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Vytvoření: centrum pro správu Microsoft Entra &gt; Registrace aplikací &gt; Nová registrace (jeden tenant). Otevřete Oprávnění rozhraní API a přidejte Oprávnění aplikace zobrazená v krocích Zdroj a Cíl, potom Udělit souhlas správce. Otevřete Certifikáty a tajné klíče, vytvořte Nový tajný klíč klienta a ihned zkopírujte jeho Hodnotu (zobrazí se pouze jednou). ID adresáře (tenanta) a ID aplikace (klienta) zkopírujte ze stránky Přehled do tohoto formuláře.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Nová registrace</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(bez názvu)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Odebrat registraci</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Odebrat „{0}“ z tohoto seznamu?
+
+Tím se zde pouze zapomene. Registrace aplikace v Microsoft Entra zůstane nedotčena.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Zkontrolujte seznam</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Pojmenujte každou registraci.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>„{0}“: ID tenanta i ID klienta musí být GUID (například 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Uložení se nezdařilo</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Nelze uložit: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Nastavení</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Jazyk</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Stejný jako ve Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Nový jazyk se projeví při příštím spuštění aplikace Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Motiv</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Stejný jako ve Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Světlý</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Tmavý</value></data>
+</root>

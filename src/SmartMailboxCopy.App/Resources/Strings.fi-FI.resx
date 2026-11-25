@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Sovellusrekisteröinnit</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Aiemmat ajot ja raportit</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Asetukset</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Pienennä</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Suurenna tai palauta</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Sulje</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Vaiheet</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Peruuta</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Tallenna</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Takaisin</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Seuraava</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Aloita</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Aloita kopiointi</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Näytä tulokset</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Uusi siirto</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Pysäytä</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Avaa tulokset (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Avaa kohdeluettelo (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Avaa loki</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Aja uudelleen (jatka)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Alku</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Lähde</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Kohde</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postilaatikot</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Vastaavuus</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Valinnat</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Tarkistus</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopiointi</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Tulokset</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Tervetuloa</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Lähdevuokraaja</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Kohdevuokraaja</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Valitse postilaatikot</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Yhdistä postilaatikot</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Valinnat</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Tarkistus</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopiointi</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Tulokset</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Siirrä sähköpostia Microsoft 365 -vuokraajien välillä: yksi postilaatikko, useita tai kaikki.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Yhdistä vuokraajaan, josta kopioit. Sitä vain luetaan; mitään siinä ei muuteta.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Yhdistä vuokraajaan, johon kopioit. Tänne lisätään sähköpostia; mitään jo olemassa olevaa ei muuteta tai poisteta.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Valitse kopioitavat postilaatikot. Rajaa luetteloa suodattimilla ja valitse sitten haluamasi postilaatikot.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Kerro työkalulle, mihin kohdepostilaatikkoon kukin lähdepostilaatikko siirretään.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Valitse, miten sähköposti tallentuu kohteeseen ja mitkä turvatarkistukset ajetaan.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Tarkista suunnitelma. Mitään ei ole vielä kopioitu.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Kopioidaan. Voit pysäyttää milloin tahansa; valmiit kohteet muistetaan, joten voit jatkaa myöhemmin.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Mitä kopioitiin, mitä tarkistettiin ja mitä tehdä seuraavaksi.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Yhdistä lähdevuokraajaan jatkaaksesi.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Yhdistä kohdevuokraajaan jatkaaksesi.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Valitse vähintään yksi postilaatikko jatkaaksesi.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Vähintään yhden rivin tilan on oltava Valmis, jotta voit jatkaa.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Anna kansion nimi jatkaaksesi.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Tarkista sähköpostisuodattimet: valitse vähintään yksi kansio, valitse päivämäärä ja anna koko, joka on suurempi kuin 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Arvioidaan kokoa ja aikaa (vain luku). Aloitus on mahdollinen, kun arvio on valmis, tai valitse Ohita arvio.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Valitse yllä oleva valintaruutu jatkaaksesi.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Tämä työkalu kopioi sähköpostia Microsoft 365 -vuokraajien välillä. Voit siirtää yhden postilaatikon, muutaman valitun tai kaikki, ja jokainen viesti tarkistetaan lopuksi alkuperäistä vasten.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Mitä työkalu tekee ja mitä ei</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Lähdevuokraajaa vain luetaan. Mitään siinä ei muuteta tai poisteta.
+• Kohde vain vastaanottaa kohteita (sähköpostia sekä halutessasi kalenteritapahtumia ja yhteystietoja). Työkalu ei koskaan poista tai muuta mitään, mikä siellä jo on.
+• Kahdesti kopioitu viesti ohitetaan, joten ajon voi turvallisesti toistaa tai jatkaa.
+• Jokainen kopioitu viesti verrataan lähteeseensä kenttä kentältä, ja tulos raportoidaan.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Mitä tarvitset ennen aloittamista</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Sovellusrekisteröinti kumpaankin vuokraajaan (lähde ja kohde), jonka on määrittänyt yleinen järjestelmänvalvoja. Seuraavissa vaiheissa näytetään tarkasti, mitkä käyttöoikeudet lisätään.
+2. Asiakassalaisuus jokaiselle rekisteröinnille.
+3. Siirrettävien postilaatikkojen on oltava jo olemassa kohdevuokraajassa (luo käyttäjät ja anna heille lisenssit ensin).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Miten se toimii</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Työkalu käyttää sovellusrekisteröintiä eikä henkilön kirjautumista, joten se pääsee muiden postilaatikkoihin ilman heidän salasanojaan. Koska näillä käyttöoikeuksilla varustettu sovellusrekisteröinti pääsee vuokraajansa jokaiseen postilaatikkoon, pidä sen salaisuus yksityisenä ja poista rekisteröinti, kun siirto on valmis.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Valitse Seuraava yhdistääksesi lähdevuokraajaan. Voit palata mihin tahansa valmiiseen vaiheeseen yläreunan vaihepalkista.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Lähde on vuokraaja, jossa sähköposti on nyt. Smart Mailbox Copy kirjautuu sovellusrekisteröinnillä (kukaan ei kirjaudu henkilökohtaisesti) ja lukee valitsemasi postilaatikot.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Kohde on vuokraaja, johon sähköposti siirretään. Postilaatikoiden on oltava siellä jo olemassa lisensseineen. Työkalu vain lisää sähköpostia.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Microsoft Entra -hallintakeskuksessa: Sovellusrekisteröinnit &gt; sovelluksesi &gt; API-käyttöoikeudet &gt; Lisää käyttöoikeus &gt; Microsoft Graph &gt; Sovellusoikeudet. Valitse sen jälkeen Myönnä järjestelmänvalvojan suostumus.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Sama paikka kuin lähteessä: API-käyttöoikeudet &gt; Lisää käyttöoikeus &gt; Microsoft Graph &gt; Sovellusoikeudet, sitten Myönnä järjestelmänvalvojan suostumus.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>vienti; käytä vientioikeutta, jos portaali näyttää sellaisen</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Sovellusrekisteröinti</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Tämän vuokraajan tallennettu Microsoft Entra -sovellusrekisteröinti. Jos sitä ei vielä ole luettelossa, valitse Hallitse ja lisää se.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Hallitse…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Käyttöoikeudet, joita tämä sovellusrekisteröinti tarvitsee</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Yhdistä ja luettele postilaatikot</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Tämä kirjautuu sovellusrekisteröinnillä, lukee postilaatikkoluettelon ja tarkistaa, mitkä sovellusoikeudet sovellukselle on myönnetty. Mitään ei muuteta. Hetki sitten lisätyn käyttöoikeuden näkyminen voi kestää muutaman minuutin: odota ja yhdistä sitten uudelleen.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Vuokraaja {0}  ·  sovellus {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>asiakassalaisuus tallennettu</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>EI tallennettua asiakassalaisuutta: lisää se kohdassa Hallitse</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Mitään ei ole valittu.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Yhdistetään…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Yhdistetty. Löydetyt tilit, joilla on postilaatikko-osoite: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Valitse ensin sovellusrekisteröinti.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Tälle rekisteröinnille ei ole tallennettu asiakassalaisuutta tälle tietokoneelle. Valitse Hallitse ja lisää se.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Asiakassalaisuus ei kelpaa. Se voi olla salaisuuden tunnus arvon sijaan tai toisen sovelluksen salaisuus. Luo uusi salaisuus ja päivitä se kohdassa Hallitse.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Asiakassalaisuus on vanhentunut. Luo uusi ja päivitä se kohdassa Hallitse.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Sovellustunnusta (asiakastunnusta) ei löytynyt tästä vuokraajasta. Tarkista vuokraajan tunnus ja asiakastunnus kohdassa Hallitse.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Vuokraajan tunnusta ei löytynyt. Tarkista se kohdassa Hallitse.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Sovellukselta puuttuu sovellusoikeus User.Read.All tai järjestelmänvalvojan suostumusta ei ole myönnetty.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Tälle sovellukselle myönnetyt sovellusoikeudet:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (tuonti/vienti ja luku)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>lukea sähköpostia</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>luoda kansioita kohteeseen</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>viedä ja tuoda sähköpostikohteita</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>lukea kansiorakenteen</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>luetteloida postilaatikot</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>vain lisäkalenterien kopiointiin</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>vain lisäyhteystietokansioiden kopiointiin</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  PUUTTUU: tarvitaan, jotta voidaan {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  ei myönnetty ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Lisää puuttuvat käyttöoikeudet sovellusoikeuksina ja myönnä järjestelmänvalvojan suostumus. Niiden näkyminen voi kestää muutaman minuutin.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Näytä haluamasi postilaatikkotyypit, rajaa verkkotunnuksen tai tekstin mukaan ja valitse sitten kopioitavat postilaatikot. Valintasi säilyvät, kun muutat suodattimia. Lisenssittömät tilit ovat jaettuja postilaatikoita, huone- tai laitepostilaatikoita; Microsoft ei kerro, mitä niistä.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Käyttäjät</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Jaettu, huone, laite (ei lisenssiä)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Vieraat</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Vain käytössä olevat tilit</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Verkkotunnus</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Haku</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Kaikki verkkotunnukset</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopioi</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nimi</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Osoite</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Tyyppi</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Tili</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Käyttäjä</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Jaettu, huone tai laite (ei lisenssiä)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Vieras</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Käytössä</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Ei käytössä</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Valitse kaikki näytetyt</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Poista kaikkien näytettyjen valinta</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Päivitä luettelo</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} valittu · {1} näytetty, kaikkiaan {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} valittu, mutta suodattimet piilottavat ne</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Verkkotunnussuodatin</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Hae postilaatikoita</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Lähdepostilaatikot</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Jokaiselle lähdeosoitteelle tarvitaan postilaatikko kohdevuokraajassa. Ne yhdistetään vaihtamalla verkkotunnus; kirjoita eri kohdeosoite jokaiselle riville, jolla nimet eroavat. Rivit, joiden tila on Valmis, kopioidaan; muut jätetään pois.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Kohdeverkkotunnus</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Yhdistä kaikki rivit tähän verkkotunnukseen</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Tuo vastaavuustaulukko (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Vie vastaavuustaulukko (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Lähdepostilaatikko</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Kohdepostilaatikko (muokattavissa)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Tila</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Valmis</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Anna kohdeosoite</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Ei ole sähköpostiosoite</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Toinen rivi käyttää tätä kohdetta</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Ei löytynyt kohdevuokraajasta</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0}/{1} valmiina kopioitavaksi</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} jätetään pois, kunnes ne on korjattu</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-tiedostot (*.csv)|*.csv|Kaikki tiedostot|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Tuo lähde,kohde-vastaavuustaulukko</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-tiedostot (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Vie vastaavuustaulukko</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0}/{1} tiedoston riviä vastasi valitsemaasi postilaatikkoa. Muut ohitettiin.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Vastaavuustaulukko tuotu</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Vastaavuustaulukkoa ei voitu lukea</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Kohdeverkkotunnus</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postilaatikoiden vastaavuus</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Vain kalenteritapahtumat ja yhteystiedot (älä kopioi sähköpostia)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Hyvä ensimmäinen testi tai tapa kopioida kalenterit erikseen. Tapahtumat siirtyvät kunkin kohdepostilaatikon oletuskalenteriin ja yhteystiedot sen oletusyhteystietoihin. Tämä lisää kohteita pysyvästi: työkalu ei voi poistaa niitä jälkikäteen.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Minne sähköposti siirretään?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Vain sähköposti, yhteen uuteen kansioon kussakin kohdepostilaatikossa (suositus)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Kaikki sähköposti kansiorakenteineen kopioidaan yhteen uuteen kansioon. Turvallisin vaihtoehto, ja sen voi helposti tarkistaa tai poistaa Outlookissa, ennen kuin kukaan alkaa käyttää postilaatikkoa. Kalenteritapahtumia ja yhteystietoja ei voi sijoittaa siihen, joten niitä ei kopioida tässä tilassa.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Kansion nimi</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Siirretty sähköposti</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Yhdistettynä oikeisiin kansioihin, kalenteri ja yhteystiedot mukaan lukien</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Sähköposti päätyy sinne, mistä henkilö sen odottaa (Saapuneet-kansioon Saapuneet, Lähetetyt-kansioon Lähetetyt), ja muut kansiot luodaan niiden viereen. Tämä lisää kohteita pysyvästi: työkalu ei voi poistaa niitä jälkikäteen.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Kopioi myös kalenteritapahtumat ja yhteystiedot (oletuskansiot sekä mahdolliset lisäkalenterit ja yhteystietokansiot)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Poista valinta kopioidaksesi vain sähköpostin. Tapahtumat, myös toistuvat kokoukset, lasketaan, mutta niitä ei vielä verrata kenttä kentältä.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Rajaa kopioitavaa (valinnainen): mitään ei ole rajattu, kaikki kopioidaan</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Rajaa kopioitavaa (valinnainen): käytössä olevat rajaukset: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Oletuksena jokainen kansio ja jokainen viesti kopioidaan. Käytä näitä vain kopioidaksesi vähemmän. Ne koskevat jokaista postilaatikkoa, eivät koskaan kalenteritapahtumia ja yhteystietoja, eikä pois jätettyä sähköpostia koskaan muuteta tai poisteta lähteessä.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Jätä nämä kansiot pois</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Pois jätetty kansio vie alikansionsa mukanaan.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Saapuneet</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Lähetetyt</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Luonnokset</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Poistetut</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Roskaposti</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arkisto</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Käyttäjien luomat kansiot</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Vain sähköposti, joka on luotu tänä päivänä tai sen jälkeen</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Tämä on päivä, jona kukin viesti luotiin postilaatikkoon, tavallisesti sen saapumispäivä. Tarkista otos ensimmäisen kopioinnin jälkeen.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Ohita viestit, jotka ovat suurempia kuin</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>Mt</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Turvatarkistukset</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Ohita sähköposti, joka on jo kohteessa (jotta uusi ajo ei luo kaksoiskappaleita)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Vertaa jokaista kopioitua viestiä lopuksi sen lähteeseen (kestää kauemmin, suositus)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Salli kohdekansiot, joissa on jo kohteita (kopioidut kohteet lisätään niiden viereen)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Yhdistäminen ei käynnisty, jos kohdekansiossa, kuten Saapuneet tai Kalenteri, on jo kohteita, ellei tätä ole valittu.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Lisäasetukset</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Aloita alusta: ohita se, mitä aiemmat ajot ovat jo kopioineet (yllä oleva kaksoiskappaleiden tarkistus suojaa silti kohteen sähköpostia)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Pois jätettävät kalenterit ja yhteystietokansiot</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Yksi nimi riviä kohti, täsmälleen sellaisena kuin se näkyy Outlookissa. Näitä nimiä käyttäviä lisäkalentereita ja yhteystietokansioita ei kopioida; yhteystietokansio vie alikansionsa mukanaan. Käytä tätä ihmisten tilaamille kalentereille, kuten juhlapyhäkalenterille. Syntymäpäivät-kalenteria ei koskaan kopioida (Outlook muodostaa sen yhteystiedoista). Oletuskalenteriin ja oletusyhteystietoihin tämä ei vaikuta.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postilaatikot, joihin ei saa koskaan kirjoittaa</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Yksi osoite riviä kohti. Jos jokin näistä valitaan kohteeksi, sen kopiointi estetään.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Uuden kansion nimi</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Aikaisin päivämäärä</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Suurin viesti megatavuina</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Kopioitavat postilaatikot: {0}, vuokraajasta "{1}" vuokraajaan "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Vain kalenteritapahtumat ja yhteystiedot kopioidaan kunkin kohdepostilaatikon oletuskalenteriin ja oletusyhteystietoihin. Sähköpostia ei kopioida.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Sähköposti siirtyy kunkin kohdepostilaatikon oikeisiin kansioihin (Saapuneet, Lähetetyt, Luonnokset…); muut kansiot luodaan niiden viereen.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Vain sähköposti siirtyy uuteen kansioon nimeltä "{0}" kussakin kohdepostilaatikossa kansiorakenteineen.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Nimen perusteella pois jätetyt kalenterit ja yhteystietokansiot: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Kalenteritapahtumat ja yhteystiedot: kopioidaan kunkin kohdepostilaatikon oletuskalenteriin ja oletusyhteystietoihin.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Kalenteritapahtumat ja yhteystiedot: ei kopioida.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Sähköposti, joka on jo kohteessa, ohitetaan.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Kohteessa jo olevaa sähköpostia EI tarkisteta.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Pois jätetty: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Vain sähköposti, joka on luotu {0} tai sen jälkeen.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Yli {0} Mt:n viestit ohitetaan.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Jokainen kopioitu viesti verrataan lopuksi lähteeseensä.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Ei vertailua lopuksi.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Postilaatikot kopioidaan yksi kerrallaan. Lähteessä ei muuteta mitään.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Koon ja ajan arvio</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Ohita arvio</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Pois jätetyt postilaatikot, koska vastaavaa kohdepostilaatikkoa ei löytynyt: {0}. Palaa kohtaan Yhdistä postilaatikot korjataksesi ne.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Valitut postilaatikot ilman lisenssiä (jaettu, huone tai laite): {0}. Niiden sähköpostikansiot kopioidaan, samoin kalenteri, kun kalenterien kopiointi on käytössä. Resurssiasetuksia, kuten varauskäytäntöjä, ei kopioida.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Tämä lisää kalenteritapahtumat ja yhteystiedot pysyvästi. Tämä työkalu ei voi poistaa niitä.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Yhdistäminen lisää kohteita oikeisiin kansioihin pysyvästi. Tämä työkalu ei voi poistaa niitä.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Ymmärrän, että yhdistäminen lisää sähköpostia oikeisiin kansioihin eikä tämä työkalu voi poistaa sitä.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Arvio edellyttää aiempien vaiheiden yhteyksiä.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Luetaan postilaatikoiden kokoa ({0}); vain luku, mitään ei muuteta…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Arvio ohitettu. Edistymispalkki näyttää silti arvion, kun kopiointi on käynnissä.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Arviota ei voitu tehdä: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Noin {0} viestiä ({1} Mt). Postilaatikot: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Arvioitu aika: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Perustuu testeissämme tavallisilla viesteillä mitattuihin nopeuksiin; erittäin suuret liitteet kestävät kauemmin. Postilaatikot kopioidaan yksi kerrallaan. Jos pysäytät, seuraava ajo jatkaa siitä, mihin jäätiin.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Postilaatikot, joita ei voitu lukea: {0}. Ne eivät sisälly arvioon, ja ne epäonnistuvat todennäköisesti myös kopioinnissa. Ensimmäinen syy: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>alle minuutti</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Aloitetaanko kopiointi?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Aloitetaanko kopiointi nyt? Postilaatikot: {0}.
+
+{1}
+
+Lähteessä ei muuteta mitään. Voit pysäyttää milloin tahansa.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Sähköposti lisätään kunkin kohdepostilaatikon oikeisiin kansioihin. Tämä työkalu ei voi poistaa sitä.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Sähköposti lisätään uuteen kansioon "{0}" kussakin kohdepostilaatikossa.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Aloitus ei onnistu</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Asiakassalaisuus puuttuu tältä tietokoneelta. Lisää se kohdassa Sovellusrekisteröinnit.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Korjaa nämä ensin:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Kopioidaan postilaatikoita: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Aloitetaan…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Valmis. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Jokainen viesti verrattiin lähteeseensä.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Valitse rivi nähdäksesi tiedot tai avaa tulostiedosto.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Virhe pysäytti ajon: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Kesto: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1}/{2} postilaatikkoa valmiina · {3} · {4} toistaiseksi</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>noin {0} jäljellä</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>arvio {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>arvioidaan aikaa…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Postilaatikko {0}/{1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Postilaatikko {0}: {1}/{2} kohdetta käsitelty — {3} kopioitu, {4} jo olemassa, {5} epäonnistui</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Pysäytetään nykyisen kohteen jälkeen… valmiit kohteet muistetaan.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postilaatikot</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Käynnissä olevan postilaatikon kansiotiedot</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Loki</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Vain varoitukset ja virheet</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} virhettä, {1} varoitusta</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopiointi käynnissä</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Kopiointi on käynnissä. Sulkeminen nyt pysäyttää sen (valmiit kohteet muistetaan, joten voit jatkaa).
+
+Suljetaanko silti?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Kokonaisedistyminen</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postilaatikoiden edistyminen</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Kopioitu ongelmitta: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Vaativat tarkistuksen: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Epäonnistui: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Ei ajettu: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Kirjaudu sisään ja tarkista tilit</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Lähde (vain luku): käy läpi kansiorakenne ja luettele kohteet</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Kohde: etsi kansiot, joihin sähköposti siirretään</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Luo rakenne uudelleen ja kopioi kohteet (vienti lähteestä, tuonti kohteeseen)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Täsmäytys: vertaa kohteiden määriä kansioittain</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Vahvistus: vertaa jokaista kopioitua viestiä lähteeseensä kenttä kentältä</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Odottaa</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopioidaan…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Valmis</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Vaatii tarkistuksen</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Epäonnistui</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Ei ajettu</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Kopioitu</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopioidaan</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} epäonnistui</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Määrät eroavat</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>käyttäjän kansio</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Lähde</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Kohde</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Tila</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Tiedot (kopioi valitsemalla)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Kansio</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Laji</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Kohteet</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Kopioitu</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Jo olemassa</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Epäonnistui</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Tulos</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Vahvistettu identtiseksi</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Huomautukset (kopioi valitsemalla)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Huomautukset</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Tiedot</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopiointi pysäytettiin</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopiointi valmis</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Kopioidut postilaatikot: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Kopioidut postilaatikot: {0}. Jokainen tarkistetuista {1} viestistä oli identtinen lähteensä kanssa.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopiointi pysäytettiin ennen valmistumista</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Valmiit postilaatikot: {0}. Aloittamatta: {1}. Jatka ajamalla uudelleen: valmiita kohteita ei kopioida kahdesti.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Valmis, mutta joitakin kohteita on tarkistettava</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Ongelmitta kopioidut postilaatikot: {0}/{1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postilaatikoittain</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Mitä tehdä seuraavaksi</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Kopioi tämä yhteenveto</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Tulokset postilaatikoittain</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Kopioidut postilaatikot</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Kopioidut viestit</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Jo kohteessa</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Epäonnistuneet kohteet</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Vahvistettu identtiseksi</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Kulunut aika</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0}/{1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>ei yhtään</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>ei tarkistettu</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Avaa tulostiedosto tai loki nähdäksesi syyn, korjaa syy (esimerkiksi puuttuva käyttöoikeus tai kohdepostilaatikko, jota ei vielä ole) ja valitse Aja uudelleen. Valmiit kohteet muistetaan, joten mitään ei kopioida kahdesti.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Avaa muutama kohdepostilaatikko Outlookissa ja tarkista Saapuneet, Lähetetyt ja omat kansiosi. Tarkista otoksena liitteitä sisältäviä viestejä.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Avaa muutama kohdepostilaatikko Outlookissa ja etsi kansio "{0}". Tarkista otoksena liitteitä sisältäviä viestejä. Käyttäjät voivat siirtää sähköpostin pois siitä tai jättää sen sinne.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Yhteystiedot ja kalenteri lasketaan, mutta niitä ei vielä verrata kenttä kentältä. Avaa yhteystiedot ja kalenteri muutamassa kohdepostilaatikossa ja tarkista ne, erityisesti toistuvat kokoukset.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Hakeaksesi tämän ajon jälkeen saapuneen sähköpostin valitse Aja uudelleen samoilla asetuksilla. Vain uusi sähköposti kopioidaan.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Kun siirto on kokonaan valmis, poista asiakassalaisuudet ja sovellusrekisteröinnit Microsoft Entrassa, koska ne pääsevät vuokraajan jokaiseen postilaatikkoon.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Kopioidut postilaatikot: {0}/{1}; kopioidut viestit: {2}; jo kohteessa: {3}; epäonnistuneet kohteet: {4}; aika: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Kopioidut postilaatikot: {0}/{1}; kopioidut viestit: {2}; jo kohteessa: {3}; epäonnistuneet kohteet: {4}; vahvistettu identtiseksi: {5}/{6}; aika: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Sovellusrekisteröinnit</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Sovellusrekisteröinti on identiteetti, jonka avulla tämä työkalu keskustelee Microsoft 365:n kanssa vuokraajassa. Luot sen kerran vuokraajaa kohti Microsoft Entra -hallintakeskuksessa, tallennat sen tähän tunnistettavalla nimellä ja valitset sen Lähde- ja Kohde-vaiheessa. Mitään täältä ei lähetetä minnekään; tiedot tallennetaan vain Windows-käyttäjällesi.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Lisää</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Poista</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nimi</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Mikä tahansa, minkä avulla erotat ne toisistaan, esimerkiksi "Contoso (lähde)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Hakemiston (vuokraajan) tunnus</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. Rekisteröinnin Yleiskatsaus-sivulla Entra-hallintakeskuksessa.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Sovelluksen (asiakkaan) tunnus</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. Myös Yleiskatsaus-sivulla.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Asiakassalaisuus</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Salaisuuden arvo (ei sen tunnus) kohdasta Varmenteet ja salaisuudet. Sen avulla sovellus voi kopioida postilaatikoita ilman, että kukaan kirjautuu sisään. Se salataan Windows-käyttäjällesi, eikä sitä voi lukea toisella tietokoneella. Se näkyy vain kirjoitettaessa; korvaa se kirjoittamalla uusi.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Salaisuus on tallennettu.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Tyhjennä</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Luo rekisteröinti näin: Microsoft Entra -hallintakeskus &gt; Sovellusrekisteröinnit &gt; Uusi rekisteröinti (yksi vuokraaja). Avaa API-käyttöoikeudet, lisää Lähde- ja Kohde-vaiheessa näytetyt sovellusoikeudet ja myönnä sitten järjestelmänvalvojan suostumus. Avaa Varmenteet ja salaisuudet, luo Uusi asiakassalaisuus ja kopioi sen arvo heti (se näytetään vain kerran). Kopioi hakemiston (vuokraajan) tunnus ja sovelluksen (asiakkaan) tunnus Yleiskatsaus-sivulta tähän lomakkeeseen.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Uusi rekisteröinti</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(nimetön)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Poista rekisteröinti</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Poistetaanko "{0}" tästä luettelosta?
+
+Tämä vain unohtaa sen täällä. Microsoft Entrassa olevaan sovellusrekisteröintiin ei kosketa.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Tarkista luettelo</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Anna jokaiselle rekisteröinnille nimi.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": vuokraajan tunnuksen ja asiakastunnuksen on molempien oltava GUID-tunnuksia (esimerkiksi 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Tallennus epäonnistui</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Tallennus ei onnistunut: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Asetukset</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Kieli</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Sama kuin Windowsissa</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Uusi kieli tulee voimaan, kun seuraavan kerran käynnistät Smart Mailbox Copyn.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Teema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Sama kuin Windowsissa</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Vaalea</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Tumma</value></data>
+</root>

@@ -32,7 +32,8 @@ $shots = @(
     @('7', '',         '10-copy-progress'),
     @('8', '',         '11-results-needs-a-look'),
     @('8', 'clean',    '12-results-complete'),
-    @('registrations', '', '13-app-registrations')
+    @('registrations', '', '13-app-registrations'),
+    @('settings', '', '14-settings')
 )
 
 foreach ($s in $shots) {

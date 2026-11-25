@@ -11,6 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Resources\Strings*.resx" Generator="" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SmartMailboxCopy.Core\SmartMailboxCopy.Core.csproj" />
   </ItemGroup>
 

@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using SmartMailboxCopy.App.Localization;
 
 namespace SmartMailboxCopy.App;
 
@@ -22,7 +23,7 @@ public sealed class AppRegistration : INotifyPropertyChanged
     public string ProtectedClientSecret { get; set; } = "";
 
     [JsonIgnore] public bool HasClientSecret => ProtectedClientSecret.Length > 0;
-    [JsonIgnore] public string DisplayName => string.IsNullOrWhiteSpace(Name) ? "(unnamed)" : Name;
+    [JsonIgnore] public string DisplayName => string.IsNullOrWhiteSpace(Name) ? Loc.T("Reg_Unnamed") : Name;
 
     public void SetClientSecret(string? secret)
     {
@@ -55,6 +56,10 @@ public sealed class AppRegistrationStore
     public string LastContainer { get; set; } = "";
     /// <summary>Additional calendars and contact folders to leave out by name (for example a subscribed holiday calendar).</summary>
     public List<string> LeaveOutCalendars { get; set; } = new();
+    /// <summary>Display language as a culture code such as de-DE; empty follows the Windows display language. Applied at startup.</summary>
+    public string Language { get; set; } = "";
+    /// <summary>System, Light or Dark.</summary>
+    public string Theme { get; set; } = "System";
 
     public static AppRegistrationStore Load()
     {

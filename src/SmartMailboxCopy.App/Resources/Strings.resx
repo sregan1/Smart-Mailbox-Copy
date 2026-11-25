@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>App registrations</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Past runs and reports</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimize</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximize or restore</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Steps</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Back</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Get started</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Start copying</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>View results</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>New migration</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Open results (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Open item list (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Open log</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Run again (resume)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Welcome</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Source</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Target</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Mailboxes</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Match</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Options</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Review</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Copy</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Results</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Welcome</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Source tenant</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Target tenant</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Choose mailboxes</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Match mailboxes</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Options</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Review</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Copy</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Results</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Move mail between Microsoft 365 tenants: one mailbox, several, or everyone.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Connect to the tenant you are copying FROM. It is only ever read; nothing in it is changed.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Connect to the tenant you are copying TO. Mail is added here; nothing already there is changed or deleted.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Pick the mailboxes to copy. Use the filters to narrow the list, then tick the ones you want.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Tell the tool which target mailbox each source mailbox goes into.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Choose how the mail lands in the target and which safety checks to run.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Check the plan. Nothing has been copied yet.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Copying now. You can stop at any time; finished items are remembered, so you can resume later.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>What was copied, what was checked, and what to do next.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Connect to the source tenant to continue.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Connect to the target tenant to continue.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Tick at least one mailbox to continue.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>At least one row must say Ready to continue.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Enter a folder name to continue.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Check the mail filters: tick at least one folder, pick a date, and enter a size greater than 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Estimating the size and time (read only). Start is available when it finishes, or choose Skip the estimate.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Tick the box above to continue.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>This tool copies mail between Microsoft 365 tenants. You can move one mailbox, a chosen few, or everyone, and it checks every message against the original afterward.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>What it will and will not do</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• The source tenant is only ever read. Nothing in it is changed or deleted.
+• The target only ever receives items (mail, and calendar events and contacts if you choose). The tool never deletes or changes anything already there.
+• A message copied twice is skipped, so a run can be repeated or resumed safely.
+• Every copied message is compared with its source, field by field, and the result is reported.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>What you need before you start</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. An app registration in each tenant (source and target), set up by a global administrator. The next steps show exactly which permissions to add.
+2. A client secret for each registration.
+3. The mailboxes you want to move must already exist in the target tenant (create the users and give them licenses first).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>How it works</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>The tool uses the app registration, not a person's sign-in, so it can reach other people's mailboxes without their passwords. Because an app registration with these permissions can reach every mailbox in its tenant, keep its secret private and remove the registration when the migration is finished.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Select Next to connect the source tenant. You can come back to any finished step from the step bar at the top.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>The source is the tenant the mail currently lives in. Smart Mailbox Copy signs in with an app registration (no person signs in) and reads the mailboxes you choose.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>The target is the tenant the mail is moving to. The mailboxes must already exist there, with licenses. The tool only adds mail.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>In the Microsoft Entra admin center: App registrations &gt; your app &gt; API permissions &gt; Add a permission &gt; Microsoft Graph &gt; Application permissions. Then select Grant admin consent.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Same place as for the source: API permissions &gt; Add a permission &gt; Microsoft Graph &gt; Application permissions, then Grant admin consent.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>export; use the export permission if the portal lists one</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>App registration</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>The saved Microsoft Entra app registration for this tenant. If it is not in the list yet, choose Manage and add it.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Manage…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Permissions this app registration needs</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Connect and list mailboxes</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>This signs in with the app registration, reads the list of mailboxes, and checks which application permissions the app has been granted. It changes nothing. A permission you added a moment ago can take a few minutes to show up: wait, then connect again.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  application {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>client secret saved</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NO client secret saved: add one under Manage</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nothing selected.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Connecting…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Connected. Accounts with a mailbox address found: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Choose an app registration first.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>This registration has no client secret saved on this PC. Choose Manage and add it.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>The client secret is not valid. It may be the secret's ID instead of its Value, or a different app's secret. Create a new secret and update it under Manage.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>The client secret has expired. Create a new one and update it under Manage.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>That application (client) ID was not found in this tenant. Check the tenant and client IDs under Manage.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>That tenant ID was not found. Check it under Manage.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>The app is missing the User.Read.All application permission, or admin consent has not been granted.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Application permissions granted to this app:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/export and read)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>read mail</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>create folders in the target</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>export and import mail items</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>read the folder tree</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>list mailboxes</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>only to copy additional calendars</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>only to copy additional contact folders</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  MISSING: needed to {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  not granted ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Add the missing permissions as Application permissions and grant admin consent. They can take a few minutes to appear.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Show the kinds of mailbox you want, narrow by domain or text, then tick the ones to copy. Your ticks are kept while you change the filters. Unlicensed accounts are shared, room or equipment mailboxes; Microsoft does not say which.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Users</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Shared, room, equipment (no license)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Guests</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Enabled accounts only</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domain</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Search</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>All domains</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Copy</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Name</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Address</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Type</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Account</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>User</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Shared, room or equipment (no license)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Guest</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Tick all shown</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Untick all shown</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Refresh list</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} selected · {1} shown of {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} selected but hidden by the filters</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Domain filter</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Search mailboxes</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Source mailboxes</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Each source address needs a mailbox in the target tenant. They are matched by swapping the domain; type a different target address in any row where the names differ. Rows that say Ready will be copied; the others are left out.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Target domain</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Match all rows to this domain</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Import map (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Export map (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Source mailbox</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Target mailbox (editable)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Ready</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Enter a target address</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Not an email address</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Another row uses this target</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Not found in the target tenant</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} of {1} ready to copy</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} will be left out until fixed</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV files (*.csv)|*.csv|All files|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Import a source,target map</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV files (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Export the map</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} of {1} rows in the file matched a mailbox you selected. The others were ignored.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Map imported</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Could not read the map</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Target domain</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Mailbox map</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Calendar events and contacts only (do not copy any mail)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>A good first test, or a way to copy calendars separately. Events go into each target mailbox's default Calendar and contacts into its default Contacts. This adds items permanently: the tool cannot remove them afterward.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Where should the mail go?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Mail only, into one new folder in each target mailbox (recommended)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>All the mail, folder structure included, is copied into a single new folder. Safest, and easy to review or delete in Outlook before anyone starts using the mailbox. Calendar events and contacts cannot be placed in it, so they are not copied in this mode.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Folder name</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrated mail</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Merged into the real folders, with calendar and contacts</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Mail lands where the person expects it (Inbox into Inbox, Sent Items into Sent Items) and the other folders are recreated beside them. This adds items permanently: the tool has no way to remove them afterward.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Also copy calendar events and contacts (the default and any additional calendars and contact folders)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Untick to copy mail only. Events, including recurring meetings, are counted but not yet compared field by field.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Limit what is copied (optional): nothing is limited, everything is copied</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Limit what is copied (optional): limits turned on: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>By default every folder and every message is copied. Use these only to copy less. They apply to every mailbox, never to calendar events and contacts, and left-out mail is never changed or deleted in the source.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Leave out these folders</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>A folder that is left out takes its subfolders with it.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Inbox</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Sent Items</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Drafts</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Deleted Items</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Junk Email</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archive</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Folders people created</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Only mail created on or after</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>This is the day each message was created in the mailbox, which is normally the day it arrived. Check a sample after the first copy.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Skip messages larger than</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Safety checks</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Skip mail that is already in the target (so a re-run cannot create duplicates)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Compare every copied message with its source afterward (adds time, recommended)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Allow target folders that already contain items (the copied items are added alongside them)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Merging refuses to start when a target folder, such as the Inbox or Calendar, already holds items, unless this is ticked.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Advanced</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Start over: ignore what earlier runs already copied (the duplicate check above still protects the target mail)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Calendars and contact folders to leave out</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>One name per line, exactly as it appears in Outlook. Additional calendars and contact folders with these names are not copied; a contact folder takes its subfolders with it. Use it for calendars people subscribe to, such as a holiday calendar. The Birthdays calendar is never copied (Outlook builds it from contacts). The default Calendar and Contacts are not affected.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Mailboxes that must never be written to</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>One address per line. If one of these is chosen as a target, the copy for it is refused.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>New folder name</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Earliest date</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Largest message in megabytes</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Mailboxes to copy: {0}, from "{1}" to "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Only calendar events and contacts are copied, into each target mailbox's default Calendar and Contacts. No mail is copied.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Mail goes into each target mailbox's real folders (Inbox, Sent Items, Drafts…); other folders are recreated beside them.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Mail only goes into a new folder named "{0}" in each target mailbox, folder structure included.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Calendars and contact folders left out by name: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Calendar events and contacts: copied into each target mailbox's default Calendar and Contacts.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Calendar events and contacts: not copied.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Mail already in the target is skipped.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Mail already in the target is NOT checked for.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Left out: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Only mail created on or after {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Messages larger than {0} MB are skipped.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Every copied message is compared with its source afterward.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>No comparison afterward.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Mailboxes are copied one after another. Nothing in the source is changed.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Size and time estimate</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Skip the estimate</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Mailboxes left out because no matching target mailbox was found: {0}. Go back to Match mailboxes to fix them.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Selected mailboxes with no license (shared, room or equipment): {0}. Their mail folders are copied, and so is their calendar when calendar copying is on. Resource settings such as booking policies are not.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>This adds calendar events and contacts permanently. This tool has no way to remove them.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Merging adds items to the real folders permanently. This tool has no way to remove them.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>I understand that merging adds mail to the real folders and this tool cannot remove it.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>An estimate needs the connections from the earlier steps.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Reading the size of the mailboxes ({0}); read only, nothing is changed…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Estimate skipped. The progress bar will still show an estimate once the copy is under way.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>The estimate could not be made: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>About {0} messages ({1} MB). Mailboxes: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Estimated time: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Based on speeds measured in our tests with ordinary messages; very large attachments take longer. Mailboxes are copied one after another. If you stop, the next run resumes where it left off.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Mailboxes that could not be read: {0}. They are not in the estimate and will probably fail in the copy too. First reason: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>under a minute</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Start the copy?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Start the copy now? Mailboxes: {0}.
+
+{1}
+
+Nothing in the source is changed. You can stop at any time.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Mail will be added to the real folders of each target mailbox. It cannot be removed by this tool.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Mail will be added in a new folder "{0}" in each target mailbox.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Cannot start</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>A client secret is missing on this PC. Add it under App registrations.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Fix these first:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Copying mailboxes: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Starting…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Finished. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Every message was compared with its source.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Select a row for details, or open the results file.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Stopped by an error: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Took {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} of {2} mailboxes finished · {3} · {4} so far</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>about {0} left</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>estimated {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>estimating the time…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Mailbox {0} of {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Mailbox {0}: {1} of {2} items processed — {3} copied, {4} already there, {5} failed</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Stopping after the current item… finished items are remembered.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Mailboxes</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Folder detail for the running mailbox</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Log</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Only warnings and errors</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} errors, {1} warnings</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Copy in progress</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>A copy is running. Closing now stops it (finished items are remembered, so you can resume).
+
+Close anyway?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Overall progress</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Mailbox progress</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Copied cleanly: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Need a look: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Failed: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Not run: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Sign in and verify the accounts</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Source (read-only): walk the folder tree and list items</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Target: locate the folders the mail goes into</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Recreate the tree and copy items (export from source, import into target)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Reconcile: compare item counts per folder</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verify: compare every copied message with its source, field by field</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Waiting</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Copying…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Done</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Needs a look</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Failed</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Not run</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Copied</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Copying</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} failed</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Counts differ</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>user folder</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Source</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Target</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Details (select to copy)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Folder</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Kind</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Items</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Copied</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Already there</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Failed</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Result</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Verified identical</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Notes (select to copy)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Notes</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Details</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>The copy stopped</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Copy complete</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Mailboxes copied: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Mailboxes copied: {0}. Every one of the {1} messages checked was identical to its source.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Copy stopped before it finished</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Mailboxes finished: {0}. Not started: {1}. Run again to continue: finished items are not copied twice.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Finished, with items that need a look</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Mailboxes copied cleanly: {0} of {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Mailbox by mailbox</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>What to do next</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Copy this summary</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Results by mailbox</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Mailboxes copied</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Messages copied</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Already in target</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Failed items</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Verified identical</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Time taken</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} of {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>none</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>not checked</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Open the results file or the log to see why, fix the cause (for example a missing permission or a target mailbox that does not exist yet), and choose Run again. Finished items are remembered, so nothing is copied twice.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Open a few target mailboxes in Outlook and check the Inbox, Sent Items and your own folders. Spot-check messages with attachments.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Open a few target mailboxes in Outlook and look for the folder "{0}". Spot-check messages with attachments. People can move mail out of it, or leave it there.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Contacts and calendar are counted but not yet compared field by field. Open the Contacts and Calendar in a few target mailboxes and check them, recurring meetings especially.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>To pick up mail that arrived after this run, choose Run again with the same settings. Only new mail is copied.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>When the migration is completely finished, delete the client secrets and remove the app registrations in Microsoft Entra, since they can reach every mailbox in the tenant.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Mailboxes copied: {0} of {1}; messages copied: {2}; already in target: {3}; failed items: {4}; time: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Mailboxes copied: {0} of {1}; messages copied: {2}; already in target: {3}; failed items: {4}; verified identical: {5} of {6}; time: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>App registrations</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>An app registration is the identity this tool uses to talk to Microsoft 365 in a tenant. You create it once per tenant in the Microsoft Entra admin center, then save it here under a name you recognize and pick it on the Source and Target steps. Nothing here is sent anywhere; it is stored for your Windows user only.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Add</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Remove</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Name</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Anything that helps you tell them apart, for example "Contoso (source)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Directory (tenant) ID</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>A GUID. On the registration's Overview page in the Entra admin center.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Application (client) ID</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>A GUID. Also on the Overview page.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Client secret</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>The secret's Value (not its ID), from Certificates &amp; secrets. It lets the app copy mailboxes without anyone signing in. It is encrypted for your Windows user and cannot be read on another PC. It is shown only as it is typed; type a new one to replace it.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>A secret is saved.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Clear</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>To create one: Microsoft Entra admin center &gt; App registrations &gt; New registration (single tenant). Open API permissions and add the Application permissions shown on the Source and Target steps, then Grant admin consent. Open Certificates &amp; secrets, create a New client secret, and copy its Value straight away (it is shown only once). Copy the Directory (tenant) ID and Application (client) ID from the Overview page into this form.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>New registration</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(unnamed)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Remove registration</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Remove "{0}" from this list?
+
+This only forgets it here. The app registration in Microsoft Entra is not touched.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Check the list</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Give every registration a name.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": the tenant ID and the client ID must both be GUIDs (for example 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Save failed</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Could not save: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Settings</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Language</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Same as Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>A new language takes effect the next time you start Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Theme</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Same as Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Light</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Dark</value></data>
+</root>

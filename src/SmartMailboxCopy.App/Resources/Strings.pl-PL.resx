@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Rejestracje aplikacji</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Poprzednie uruchomienia i raporty</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Ustawienia</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimalizuj</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maksymalizuj lub przywróć</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Zamknij</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Kroki</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Anuluj</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Zapisz</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Wstecz</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Dalej</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Rozpocznij</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Rozpocznij kopiowanie</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Wyświetl wyniki</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Nowa migracja</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Zatrzymaj</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Otwórz wyniki (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Otwórz listę elementów (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Otwórz dziennik</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Uruchom ponownie (wznów)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Start</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Źródło</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Cel</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Skrzynki</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Dopasuj</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opcje</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Przegląd</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopia</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Wyniki</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Witamy</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Dzierżawa źródłowa</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Dzierżawa docelowa</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Wybierz skrzynki</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Dopasuj skrzynki</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opcje</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Przegląd</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopiowanie</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Wyniki</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Przenoś pocztę między dzierżawami Microsoft 365: jedną skrzynkę, kilka lub wszystkie.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Połącz się z dzierżawą, z której kopiujesz. Jest ona tylko odczytywana; nic w niej nie jest zmieniane.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Połącz się z dzierżawą, do której kopiujesz. Poczta jest tu dodawana; nic, co już tam jest, nie jest zmieniane ani usuwane.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Wybierz skrzynki do skopiowania. Zawęź listę filtrami, a następnie zaznacz te, które chcesz skopiować.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Wskaż, do której skrzynki docelowej trafia każda skrzynka źródłowa.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Wybierz, jak poczta ma trafić do celu i które kontrole bezpieczeństwa wykonać.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Sprawdź plan. Nic nie zostało jeszcze skopiowane.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Trwa kopiowanie. Możesz je w każdej chwili zatrzymać; ukończone elementy są zapamiętywane, więc możesz wznowić później.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Co zostało skopiowane, co sprawdzone i co zrobić dalej.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Aby kontynuować, połącz się z dzierżawą źródłową.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Aby kontynuować, połącz się z dzierżawą docelową.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Aby kontynuować, zaznacz co najmniej jedną skrzynkę.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Aby kontynuować, co najmniej jeden wiersz musi mieć stan Gotowe.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Aby kontynuować, wprowadź nazwę folderu.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Sprawdź filtry poczty: zaznacz co najmniej jeden folder, wybierz datę i wprowadź rozmiar większy niż 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Szacowanie rozmiaru i czasu (tylko odczyt). Rozpoczęcie będzie możliwe po zakończeniu lub wybierz Pomiń szacowanie.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Aby kontynuować, zaznacz powyższe pole wyboru.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>To narzędzie kopiuje pocztę między dzierżawami Microsoft 365. Możesz przenieść jedną skrzynkę, wybrane lub wszystkie, a po zakończeniu narzędzie porówna każdą wiadomość z oryginałem.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Co narzędzie zrobi, a czego nie zrobi</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Dzierżawa źródłowa jest tylko odczytywana. Nic w niej nie jest zmieniane ani usuwane.
+• Cel tylko odbiera elementy (pocztę oraz, jeśli wybierzesz, wydarzenia kalendarza i kontakty). Narzędzie nigdy nie usuwa ani nie zmienia niczego, co już tam jest.
+• Wiadomość skopiowana dwa razy jest pomijana, więc uruchomienie można bezpiecznie powtórzyć lub wznowić.
+• Każda skopiowana wiadomość jest porównywana ze źródłem, pole po polu, a wynik jest raportowany.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Czego potrzebujesz przed rozpoczęciem</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Rejestracji aplikacji w każdej dzierżawie (źródłowej i docelowej), skonfigurowanej przez administratora globalnego. Kolejne kroki dokładnie pokazują, które uprawnienia dodać.
+2. Wpisu tajnego klienta dla każdej rejestracji.
+3. Skrzynki, które chcesz przenieść, muszą już istnieć w dzierżawie docelowej (najpierw utwórz użytkowników i przypisz im licencje).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Jak to działa</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Narzędzie używa rejestracji aplikacji, a nie logowania osoby, więc może uzyskać dostęp do skrzynek innych osób bez ich haseł. Ponieważ rejestracja aplikacji z tymi uprawnieniami ma dostęp do każdej skrzynki w dzierżawie, zachowaj jej wpis tajny w poufności i usuń rejestrację po zakończeniu migracji.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Wybierz Dalej, aby połączyć się z dzierżawą źródłową. Do dowolnego ukończonego kroku możesz wrócić z paska kroków u góry.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Źródło to dzierżawa, w której poczta znajduje się obecnie. Smart Mailbox Copy loguje się za pomocą rejestracji aplikacji (nie loguje się żadna osoba) i odczytuje wybrane skrzynki.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Cel to dzierżawa, do której przenoszona jest poczta. Skrzynki muszą już tam istnieć, z licencjami. Narzędzie tylko dodaje pocztę.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>W centrum administracyjnym Microsoft Entra: Rejestracje aplikacji &gt; Twoja aplikacja &gt; Uprawnienia interfejsu API &gt; Dodaj uprawnienie &gt; Microsoft Graph &gt; Uprawnienia aplikacji. Następnie wybierz Udziel zgody administratora.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>To samo miejsce co w przypadku źródła: Uprawnienia interfejsu API &gt; Dodaj uprawnienie &gt; Microsoft Graph &gt; Uprawnienia aplikacji, a następnie Udziel zgody administratora.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>eksport; użyj uprawnienia eksportu, jeśli portal je wyświetla</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Rejestracja aplikacji</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Zapisana rejestracja aplikacji Microsoft Entra dla tej dzierżawy. Jeśli nie ma jej jeszcze na liście, wybierz Zarządzaj i dodaj ją.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Zarządzaj…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Uprawnienia, których potrzebuje ta rejestracja aplikacji</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Połącz i wyświetl skrzynki</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Spowoduje to zalogowanie za pomocą rejestracji aplikacji, odczytanie listy skrzynek i sprawdzenie, które uprawnienia aplikacji zostały jej przyznane. Nic nie jest zmieniane. Uprawnienie dodane przed chwilą może pojawić się dopiero po kilku minutach: poczekaj, a następnie połącz się ponownie.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Dzierżawa {0}  ·  aplikacja {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>wpis tajny klienta zapisany</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>BRAK zapisanego wpisu tajnego klienta: dodaj go w obszarze Zarządzaj</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nic nie wybrano.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Łączenie…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Połączono. Znalezione konta z adresem skrzynki: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Najpierw wybierz rejestrację aplikacji.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Ta rejestracja nie ma zapisanego na tym komputerze wpisu tajnego klienta. Wybierz Zarządzaj i dodaj go.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Wpis tajny klienta jest nieprawidłowy. Może to być identyfikator wpisu tajnego zamiast jego wartości albo wpis tajny innej aplikacji. Utwórz nowy wpis tajny i zaktualizuj go w obszarze Zarządzaj.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Wpis tajny klienta wygasł. Utwórz nowy i zaktualizuj go w obszarze Zarządzaj.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Nie znaleziono tego identyfikatora aplikacji (klienta) w tej dzierżawie. Sprawdź identyfikatory dzierżawy i klienta w obszarze Zarządzaj.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Nie znaleziono tego identyfikatora dzierżawy. Sprawdź go w obszarze Zarządzaj.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Aplikacji brakuje uprawnienia aplikacji User.Read.All lub nie udzielono zgody administratora.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Uprawnienia aplikacji przyznane tej aplikacji:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/eksport i odczyt)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>odczytywania poczty</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>tworzenia folderów w skrzynce docelowej</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>eksportowania i importowania elementów poczty</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>odczytywania drzewa folderów</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>wyświetlania listy skrzynek</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>tylko do kopiowania dodatkowych kalendarzy</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>tylko do kopiowania dodatkowych folderów kontaktów</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  BRAK: wymagane do {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  nie przyznano ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Dodaj brakujące uprawnienia jako Uprawnienia aplikacji i udziel zgody administratora. Ich wyświetlenie może potrwać kilka minut.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Pokaż rodzaje skrzynek, które chcesz, zawęź według domeny lub tekstu, a następnie zaznacz te do skopiowania. Zaznaczenia są zachowywane podczas zmiany filtrów. Konta bez licencji to skrzynki udostępnione, pokoi lub urządzeń; Microsoft nie rozróżnia ich rodzaju.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Użytkownicy</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Udostępnione, pokoje, urządzenia (bez licencji)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Goście</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Tylko włączone konta</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domena</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Szukaj</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Wszystkie domeny</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopiuj</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nazwa</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adres</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Typ</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Konto</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Użytkownik</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Udostępniona, pokój lub urządzenie (bez licencji)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Gość</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Włączone</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Wyłączone</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Zaznacz wszystkie wyświetlone</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Odznacz wszystkie wyświetlone</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Odśwież listę</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>Zaznaczono: {0} · wyświetlono {1} z {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · zaznaczono {0}, ale ukryto filtrami</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filtr domeny</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Wyszukaj skrzynki</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Skrzynki źródłowe</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Każdy adres źródłowy wymaga skrzynki w dzierżawie docelowej. Są dopasowywane przez zamianę domeny; w dowolnym wierszu, w którym nazwy się różnią, wpisz inny adres docelowy. Wiersze ze stanem Gotowe zostaną skopiowane; pozostałe zostaną pominięte.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Domena docelowa</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Dopasuj wszystkie wiersze do tej domeny</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importuj mapowanie (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Eksportuj mapowanie (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Skrzynka źródłowa</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Skrzynka docelowa (edytowalna)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Stan</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Gotowe</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Wprowadź adres docelowy</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>To nie jest adres e-mail</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Inny wiersz używa tego celu</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Nie znaleziono w dzierżawie docelowej</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>Gotowe do skopiowania: {0} z {1}</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} zostanie pominięte do czasu poprawienia</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Pliki CSV (*.csv)|*.csv|Wszystkie pliki|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importuj mapowanie źródło,cel</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Pliki CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Eksportuj mapowanie</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>Wierszy w pliku dopasowanych do wybranej skrzynki: {0} z {1}. Pozostałe zostały zignorowane.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Zaimportowano mapowanie</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Nie można odczytać mapowania</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Domena docelowa</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Mapowanie skrzynek</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Tylko wydarzenia kalendarza i kontakty (nie kopiuj poczty)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Dobry pierwszy test lub sposób na osobne skopiowanie kalendarzy. Wydarzenia trafiają do domyślnego kalendarza każdej skrzynki docelowej, a kontakty do jej domyślnych kontaktów. Elementy są dodawane na stałe: narzędzie nie może ich później usunąć.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Gdzie ma trafić poczta?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Tylko poczta, do jednego nowego folderu w każdej skrzynce docelowej (zalecane)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Cała poczta, wraz ze strukturą folderów, jest kopiowana do jednego nowego folderu. Najbezpieczniejsze i łatwe do przejrzenia lub usunięcia w programie Outlook, zanim ktokolwiek zacznie używać skrzynki. Wydarzeń kalendarza i kontaktów nie można w nim umieścić, więc w tym trybie nie są kopiowane.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Nazwa folderu</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Zmigrowana poczta</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Scalone z rzeczywistymi folderami, wraz z kalendarzem i kontaktami</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Poczta trafia tam, gdzie użytkownik się jej spodziewa (Skrzynka odbiorcza do Skrzynki odbiorczej, Elementy wysłane do Elementów wysłanych), a pozostałe foldery są tworzone obok nich. Elementy są dodawane na stałe: narzędzie nie ma możliwości ich późniejszego usunięcia.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Kopiuj także wydarzenia kalendarza i kontakty (domyślne oraz wszelkie dodatkowe kalendarze i foldery kontaktów)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Odznacz, aby skopiować tylko pocztę. Wydarzenia, w tym spotkania cykliczne, są liczone, ale nie są jeszcze porównywane pole po polu.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Ogranicz, co jest kopiowane (opcjonalnie): nic nie jest ograniczone, kopiowane jest wszystko</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Ogranicz, co jest kopiowane (opcjonalnie): włączone ograniczenia: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Domyślnie kopiowany jest każdy folder i każda wiadomość. Użyj tych ustawień tylko po to, by skopiować mniej. Dotyczą każdej skrzynki, nigdy wydarzeń kalendarza ani kontaktów, a pominięta poczta nigdy nie jest zmieniana ani usuwana w źródle.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Pomiń te foldery</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Pominięty folder pociąga za sobą swoje podfoldery.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Skrzynka odbiorcza</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Elementy wysłane</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Wersje robocze</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Elementy usunięte</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Wiadomości-śmieci</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archiwum</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Foldery utworzone przez użytkowników</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Tylko poczta utworzona w dniu lub po dniu</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Jest to dzień utworzenia każdej wiadomości w skrzynce, zwykle dzień jej odebrania. Po pierwszym kopiowaniu sprawdź próbkę.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Pomiń wiadomości większe niż</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Kontrole bezpieczeństwa</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Pomiń pocztę, która już jest w celu (aby ponowne uruchomienie nie tworzyło duplikatów)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Po zakończeniu porównaj każdą skopiowaną wiadomość ze źródłem (wydłuża czas, zalecane)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Zezwalaj na foldery docelowe, które już zawierają elementy (skopiowane elementy są dodawane obok nich)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Scalanie odmawia uruchomienia, gdy folder docelowy, taki jak Skrzynka odbiorcza lub Kalendarz, już zawiera elementy, chyba że to pole jest zaznaczone.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Zaawansowane</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Zacznij od nowa: ignoruj to, co skopiowały wcześniejsze uruchomienia (powyższe sprawdzanie duplikatów nadal chroni pocztę docelową)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kalendarze i foldery kontaktów do pominięcia</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Jedna nazwa w wierszu, dokładnie tak, jak wyświetla się w programie Outlook. Dodatkowe kalendarze i foldery kontaktów o tych nazwach nie są kopiowane; folder kontaktów pociąga za sobą swoje podfoldery. Użyj tego dla kalendarzy subskrybowanych przez użytkowników, takich jak kalendarz świąt. Kalendarz Urodziny nigdy nie jest kopiowany (Outlook tworzy go na podstawie kontaktów). Domyślny Kalendarz i Kontakty nie są objęte.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Skrzynki, do których nigdy nie wolno zapisywać</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Jeden adres w wierszu. Jeśli któryś z nich zostanie wybrany jako cel, kopiowanie do niego zostanie odrzucone.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nazwa nowego folderu</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Najwcześniejsza data</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Największa wiadomość w megabajtach</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Skrzynki do skopiowania: {0}, z „{1}” do „{2}”.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Kopiowane są tylko wydarzenia kalendarza i kontakty, do domyślnego kalendarza i kontaktów każdej skrzynki docelowej. Poczta nie jest kopiowana.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Poczta trafia do rzeczywistych folderów każdej skrzynki docelowej (Skrzynka odbiorcza, Elementy wysłane, Wersje robocze…); pozostałe foldery są tworzone obok nich.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Tylko poczta trafia do nowego folderu o nazwie „{0}” w każdej skrzynce docelowej, wraz ze strukturą folderów.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Kalendarze i foldery kontaktów pominięte według nazwy: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Wydarzenia kalendarza i kontakty: kopiowane do domyślnego kalendarza i kontaktów każdej skrzynki docelowej.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Wydarzenia kalendarza i kontakty: nie są kopiowane.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Poczta, która już jest w celu, jest pomijana.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Poczta, która już jest w celu, NIE jest sprawdzana.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Pominięto: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Tylko poczta utworzona w dniu {0} lub później.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Wiadomości większe niż {0} MB są pomijane.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Każda skopiowana wiadomość jest potem porównywana ze źródłem.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Brak porównania po skopiowaniu.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Skrzynki są kopiowane jedna po drugiej. Nic w źródle nie jest zmieniane.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Szacowany rozmiar i czas</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Pomiń szacowanie</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Skrzynki pominięte, ponieważ nie znaleziono pasującej skrzynki docelowej: {0}. Wróć do kroku Dopasuj skrzynki, aby je naprawić.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Wybrane skrzynki bez licencji (udostępnione, pokoje lub urządzenia): {0}. Ich foldery poczty są kopiowane, podobnie jak ich kalendarz, gdy kopiowanie kalendarza jest włączone. Ustawienia zasobu, takie jak zasady rezerwacji, nie są kopiowane.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Spowoduje to trwałe dodanie wydarzeń kalendarza i kontaktów. To narzędzie nie ma możliwości ich usunięcia.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Scalanie trwale dodaje elementy do rzeczywistych folderów. To narzędzie nie ma możliwości ich usunięcia.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Rozumiem, że scalanie dodaje pocztę do rzeczywistych folderów, a to narzędzie nie może jej usunąć.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Szacowanie wymaga połączeń z wcześniejszych kroków.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Odczytywanie rozmiaru skrzynek ({0}); tylko odczyt, nic nie jest zmieniane…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Pominięto szacowanie. Pasek postępu nadal pokaże szacunek po rozpoczęciu kopiowania.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Nie można wykonać szacowania: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Około {0} wiadomości ({1} MB). Skrzynki: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Szacowany czas: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Na podstawie szybkości zmierzonych w naszych testach ze zwykłymi wiadomościami; bardzo duże załączniki trwają dłużej. Skrzynki są kopiowane jedna po drugiej. Jeśli zatrzymasz, następne uruchomienie wznowi od miejsca, w którym przerwano.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Skrzynki, których nie udało się odczytać: {0}. Nie są uwzględnione w szacunku i prawdopodobnie również podczas kopiowania zakończą się niepowodzeniem. Pierwsza przyczyna: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>mniej niż minuta</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} godz. {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Rozpocząć kopiowanie?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Rozpocząć kopiowanie teraz? Skrzynki: {0}.
+
+{1}
+
+Nic w źródle nie jest zmieniane. Możesz zatrzymać w dowolnej chwili.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Poczta zostanie dodana do rzeczywistych folderów każdej skrzynki docelowej. To narzędzie nie może jej usunąć.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Poczta zostanie dodana w nowym folderze „{0}” w każdej skrzynce docelowej.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Nie można rozpocząć</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Na tym komputerze brakuje wpisu tajnego klienta. Dodaj go w obszarze Rejestracje aplikacji.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Najpierw napraw:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Kopiowanie skrzynek: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Uruchamianie…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Zakończono. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Każda wiadomość została porównana ze źródłem.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Wybierz wiersz, aby wyświetlić szczegóły, lub otwórz plik wyników.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Zatrzymano z powodu błędu: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Trwało {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · ukończono skrzynek: {1} z {2} · {3} · dotąd {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>pozostało około {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>szacunkowo {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>szacowanie czasu…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Skrzynka {0} z {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Skrzynka {0}: przetworzono elementów {1} z {2} — skopiowano {3}, już istnieje {4}, niepowodzeń {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Zatrzymywanie po bieżącym elemencie… ukończone elementy są zapamiętywane.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Skrzynki</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Szczegóły folderów dla aktualnie kopiowanej skrzynki</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Dziennik</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Tylko ostrzeżenia i błędy</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>Błędy: {0}, ostrzeżenia: {1}</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopiowanie w toku</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Trwa kopiowanie. Zamknięcie teraz je zatrzyma (ukończone elementy są zapamiętywane, więc możesz wznowić).
+
+Zamknąć mimo to?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Postęp ogólny</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postęp skrzynek</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Skopiowano bez problemów: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Wymaga przeglądu: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Niepowodzenie: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Nie uruchomiono: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Zaloguj się i zweryfikuj konta</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Źródło (tylko odczyt): przejrzyj drzewo folderów i wyświetl listę elementów</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Cel: znajdź foldery, do których trafia poczta</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Odtwórz drzewo i skopiuj elementy (eksport ze źródła, import do celu)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Uzgodnienie: porównaj liczbę elementów w każdym folderze</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Weryfikacja: porównaj każdą skopiowaną wiadomość ze źródłem, pole po polu</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Oczekuje</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopiowanie…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Gotowe</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Wymaga przeglądu</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Niepowodzenie</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Nie uruchomiono</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Skopiowano</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopiowanie</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>Niepowodzeń: {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Liczby się różnią</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>folder użytkownika</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Źródło</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Cel</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Stan</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Szczegóły (zaznacz, aby skopiować)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Folder</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Rodzaj</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elementy</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Skopiowano</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Już istnieją</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Niepowodzenie</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Wynik</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Zweryfikowano jako identyczne</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Uwagi (zaznacz, aby skopiować)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Uwagi</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Szczegóły</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopiowanie zatrzymano</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopiowanie zakończone</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Skopiowane skrzynki: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Skopiowane skrzynki: {0}. Każda z {1} sprawdzonych wiadomości była identyczna ze źródłem.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopiowanie zatrzymano przed zakończeniem</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Ukończone skrzynki: {0}. Nierozpoczęte: {1}. Uruchom ponownie, aby kontynuować: ukończone elementy nie są kopiowane dwa razy.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Zakończono, z elementami wymagającymi przeglądu</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Skrzynki skopiowane bez problemów: {0} z {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Skrzynka po skrzynce</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Co zrobić dalej</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Kopiuj to podsumowanie</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Wyniki według skrzynek</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Skopiowane skrzynki</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Skopiowane wiadomości</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Już w celu</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Elementy z niepowodzeniem</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Zweryfikowano jako identyczne</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Upłynęło</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} z {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>brak</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>nie sprawdzono</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Otwórz plik wyników lub dziennik, aby zobaczyć przyczynę, usuń ją (na przykład brakujące uprawnienie lub skrzynkę docelową, która jeszcze nie istnieje) i wybierz Uruchom ponownie. Ukończone elementy są zapamiętywane, więc nic nie jest kopiowane dwa razy.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Otwórz kilka skrzynek docelowych w programie Outlook i sprawdź Skrzynkę odbiorczą, Elementy wysłane i własne foldery. Wyrywkowo sprawdź wiadomości z załącznikami.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Otwórz kilka skrzynek docelowych w programie Outlook i poszukaj folderu „{0}”. Wyrywkowo sprawdź wiadomości z załącznikami. Użytkownicy mogą przenieść z niego pocztę lub ją tam zostawić.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontakty i kalendarz są liczone, ale nie są jeszcze porównywane pole po polu. Otwórz Kontakty i Kalendarz w kilku skrzynkach docelowych i sprawdź je, zwłaszcza spotkania cykliczne.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Aby pobrać pocztę, która nadeszła po tym uruchomieniu, wybierz Uruchom ponownie z tymi samymi ustawieniami. Kopiowana jest tylko nowa poczta.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Gdy migracja zostanie całkowicie zakończona, usuń wpisy tajne klienta i rejestracje aplikacji w Microsoft Entra, ponieważ mają one dostęp do każdej skrzynki w dzierżawie.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Skopiowane skrzynki: {0} z {1}; skopiowane wiadomości: {2}; już w celu: {3}; elementy z niepowodzeniem: {4}; czas: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Skopiowane skrzynki: {0} z {1}; skopiowane wiadomości: {2}; już w celu: {3}; elementy z niepowodzeniem: {4}; zweryfikowano jako identyczne: {5} z {6}; czas: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Rejestracje aplikacji</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Rejestracja aplikacji to tożsamość, której to narzędzie używa do komunikacji z Microsoft 365 w dzierżawie. Tworzysz ją raz dla każdej dzierżawy w centrum administracyjnym Microsoft Entra, zapisujesz tutaj pod rozpoznawalną nazwą i wybierasz w krokach Źródło i Cel. Nic stąd nie jest nigdzie wysyłane; dane są przechowywane tylko dla Twojego użytkownika systemu Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Dodaj</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Usuń</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nazwa</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Dowolna nazwa, która pomoże je rozróżnić, na przykład „Contoso (źródło)”.</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Identyfikator katalogu (dzierżawy)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Identyfikator GUID. Na stronie Przegląd rejestracji w centrum administracyjnym Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Identyfikator aplikacji (klienta)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Identyfikator GUID. Również na stronie Przegląd.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Wpis tajny klienta</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Wartość wpisu tajnego (nie jego identyfikator) z obszaru Certyfikaty i wpisy tajne. Pozwala aplikacji kopiować skrzynki bez logowania się kogokolwiek. Jest zaszyfrowany dla Twojego użytkownika systemu Windows i nie można go odczytać na innym komputerze. Jest wyświetlany tylko podczas wpisywania; wpisz nowy, aby go zastąpić.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Wpis tajny jest zapisany.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Wyczyść</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Aby utworzyć rejestrację: centrum administracyjne Microsoft Entra &gt; Rejestracje aplikacji &gt; Nowa rejestracja (jedna dzierżawa). Otwórz Uprawnienia interfejsu API i dodaj Uprawnienia aplikacji pokazane w krokach Źródło i Cel, a następnie Udziel zgody administratora. Otwórz Certyfikaty i wpisy tajne, utwórz Nowy wpis tajny klienta i od razu skopiuj jego Wartość (jest wyświetlana tylko raz). Skopiuj Identyfikator katalogu (dzierżawy) i Identyfikator aplikacji (klienta) ze strony Przegląd do tego formularza.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Nowa rejestracja</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(bez nazwy)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Usuń rejestrację</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Usunąć „{0}” z tej listy?
+
+Spowoduje to tylko zapomnienie jej tutaj. Rejestracja aplikacji w Microsoft Entra nie zostanie naruszona.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Sprawdź listę</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Nadaj nazwę każdej rejestracji.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>„{0}”: identyfikator dzierżawy i identyfikator klienta muszą być identyfikatorami GUID (na przykład 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Zapis nie powiódł się</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Nie można zapisać: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Ustawienia</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Język</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Taki sam jak w systemie Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Nowy język zacznie obowiązywać przy następnym uruchomieniu programu Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Motyw</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Taki sam jak w systemie Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Jasny</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Ciemny</value></data>
+</root>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Alkalmazásregisztrációk</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Korábbi futtatások és jelentések</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Beállítások</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Kis méret</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Teljes méret vagy visszaállítás</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Bezárás</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Lépések</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Mégse</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Mentés</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Vissza</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Tovább</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Első lépések</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Másolás indítása</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Eredmények</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Új migrálás</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Leállítás</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Eredmények megnyitása (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Elemlista megnyitása (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Napló megnyitása</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Futtatás újra (folytatás)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Üdvözlet</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Forrás</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Cél</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postaládák</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Párosítás</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Beállítások</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Áttekintés</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Másolás</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Eredmény</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Üdvözöljük</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Forrásbérlő</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Célbérlő</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Postaládák kiválasztása</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Postaládák párosítása</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Beállítások</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Áttekintés</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Másolás</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Eredmények</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Levelek áthelyezése Microsoft 365-bérlők között: egy postaláda, több, vagy mindenki.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Csatlakozzon ahhoz a bérlőhöz, AMELYBŐL másol. A rendszer csak olvassa; semmi nem módosul benne.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Csatlakozzon ahhoz a bérlőhöz, AMELYBE másol. A levelek ide kerülnek; a már meglévő tartalom nem módosul és nem törlődik.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Válassza ki a másolandó postaládákat. A szűrőkkel szűkítse a listát, majd jelölje be a kívántakat.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Adja meg, hogy az egyes forrás-postaládák melyik célpostaládába kerüljenek.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Válassza ki, hogyan kerüljenek a levelek a célba, és mely biztonsági ellenőrzések fussanak.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Ellenőrizze a tervet. Még semmi nem lett átmásolva.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Másolás folyamatban. Bármikor leállíthatja; a befejezett elemeket a rendszer megjegyzi, így később folytathatja.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Mi lett átmásolva, mi lett ellenőrizve, és mi a következő teendő.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>A folytatáshoz csatlakozzon a forrásbérlőhöz.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>A folytatáshoz csatlakozzon a célbérlőhöz.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>A folytatáshoz jelöljön be legalább egy postaládát.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>A folytatáshoz legalább egy sorban a „Kész” állapotnak kell szerepelnie.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>A folytatáshoz adjon meg egy mappanevet.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Ellenőrizze a levélszűrőket: jelöljön be legalább egy mappát, válasszon dátumot, és adjon meg 0-nál nagyobb méretet.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>A méret és az idő becslése folyamatban (csak olvasás). Az indítás a befejezés után érhető el, vagy válassza a Becslés kihagyása lehetőséget.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>A folytatáshoz jelölje be a fenti jelölőnégyzetet.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Ez az eszköz leveleket másol Microsoft 365-bérlők között. Áthelyezhet egy postaládát, néhány kiválasztottat vagy mindenkit, és utána minden üzenetet összehasonlít az eredetivel.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Mit tesz és mit nem tesz</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• A forrásbérlőt csak olvassa. Semmi nem módosul vagy törlődik benne.
+• A cél csak elemeket kap (leveleket, valamint, ha úgy dönt, naptáresemények és névjegyek). Az eszköz soha nem töröl és nem módosít semmit, ami már ott van.
+• A kétszer másolt üzenetet kihagyja, így a futtatás biztonságosan megismételhető vagy folytatható.
+• Minden átmásolt üzenetet mezőről mezőre összehasonlít a forrásával, és jelenti az eredményt.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Mire van szükség az indulás előtt</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Egy alkalmazásregisztráció mindkét bérlőben (forrás és cél), amelyet globális rendszergazda állít be. A következő lépések pontosan megmutatják, mely engedélyeket kell hozzáadni.
+2. Egy ügyfélkulcs (titkos kód) mindegyik regisztrációhoz.
+3. Az áthelyezendő postaládáknak már létezniük kell a célbérlőben (előbb hozza létre a felhasználókat, és rendeljen hozzájuk licencet).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Hogyan működik</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Az eszköz az alkalmazásregisztrációt használja, nem egy személy bejelentkezését, így mások postaládáit is el tudja érni a jelszavuk nélkül. Mivel az ilyen engedélyekkel rendelkező alkalmazásregisztráció a bérlő minden postaládáját elérheti, tartsa titokban a titkos kódját, és a migrálás végeztével távolítsa el a regisztrációt.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>A forrásbérlőhöz való csatlakozáshoz válassza a Tovább gombot. A felső lépéssávról bármelyik befejezett lépéshez visszatérhet.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>A forrás az a bérlő, ahol a levelek jelenleg vannak. A Smart Mailbox Copy alkalmazásregisztrációval jelentkezik be (senki nem jelentkezik be személyesen), és a kiválasztott postaládákat olvassa.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>A cél az a bérlő, ahová a levelek költöznek. A postaládáknak már léteznie kell ott, licenccel. Az eszköz csak leveleket ad hozzá.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>A Microsoft Entra felügyeleti központban: Alkalmazásregisztrációk &gt; az Ön alkalmazása &gt; API-engedélyek &gt; Engedély hozzáadása &gt; Microsoft Graph &gt; Alkalmazásengedélyek. Ezután válassza a Rendszergazdai jóváhagyás megadása lehetőséget.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Ugyanott, mint a forrásnál: API-engedélyek &gt; Engedély hozzáadása &gt; Microsoft Graph &gt; Alkalmazásengedélyek, majd Rendszergazdai jóváhagyás megadása.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>exportálás; használja az exportálási engedélyt, ha a portál felsorol ilyet</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Alkalmazásregisztráció</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Az ehhez a bérlőhöz mentett Microsoft Entra-alkalmazásregisztráció. Ha még nincs a listában, válassza a Kezelés lehetőséget, és adja hozzá.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Kezelés…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Az alkalmazásregisztrációhoz szükséges engedélyek</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Csatlakozás és postaládák listázása</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Ez bejelentkezik az alkalmazásregisztrációval, beolvassa a postaládák listáját, és ellenőrzi, hogy az alkalmazás mely alkalmazásengedélyeket kapta meg. Semmit nem módosít. Az imént hozzáadott engedély megjelenése eltarthat néhány percig: várjon, majd csatlakozzon újra.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Bérlő {0}  ·  alkalmazás {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>ügyfélkulcs (titkos kód) mentve</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NINCS mentett ügyfélkulcs (titkos kód): adjon hozzá egyet a Kezelés alatt</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nincs kijelölve semmi.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Csatlakozás…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Csatlakozva. Postaláda-címmel rendelkező fiókok: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Először válasszon egy alkalmazásregisztrációt.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Ehhez a regisztrációhoz nincs ügyfélkulcs (titkos kód) mentve ezen a számítógépen. Válassza a Kezelés lehetőséget, és adja hozzá.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Az ügyfélkulcs (titkos kód) érvénytelen. Lehet, hogy a titkos kód azonosítója szerepel az értéke helyett, vagy egy másik alkalmazás titkos kódja. Hozzon létre egy újat, és frissítse a Kezelés alatt.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Az ügyfélkulcs (titkos kód) lejárt. Hozzon létre egy újat, és frissítse a Kezelés alatt.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Ez az alkalmazás (ügyfél) azonosítója nem található ebben a bérlőben. Ellenőrizze a bérlő- és az ügyfél-azonosítót a Kezelés alatt.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Ez a bérlőazonosító nem található. Ellenőrizze a Kezelés alatt.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Az alkalmazásból hiányzik a User.Read.All alkalmazásengedély, vagy nem lett megadva a rendszergazdai jóváhagyás.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Az alkalmazásnak megadott alkalmazásengedélyek:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (importálás/exportálás és olvasás)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>levelek olvasásához</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>mappák létrehozásához a célban</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>levélelemek exportálásához és importálásához</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>a mappafa olvasásához</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>postaládák listázásához</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>csak további naptárak másolásához</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>csak további névjegymappák másolásához</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  HIÁNYZIK: szükséges {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  nincs megadva ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Adja hozzá a hiányzó engedélyeket alkalmazásengedélyként, és adja meg a rendszergazdai jóváhagyást. Megjelenésük eltarthat néhány percig.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Jelenítse meg a kívánt típusú postaládákat, szűkítse tartomány vagy szöveg szerint, majd jelölje be a másolandókat. A bejelölések megmaradnak a szűrők módosítása közben. A licenc nélküli fiókok megosztott, tárgyalói vagy eszköz-postaládák; a Microsoft nem közli, melyik melyik.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Felhasználók</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Megosztott, tárgyaló, eszköz (licenc nélkül)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Vendégek</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Csak engedélyezett fiókok</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Tartomány</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Keresés</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Minden tartomány</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Másolás</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Név</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Cím</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Típus</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Fiók</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Felhasználó</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Megosztott, tárgyaló vagy eszköz (licenc nélkül)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Vendég</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Engedélyezve</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Letiltva</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Összes megjelenített bejelölése</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Összes megjelenített bejelölésének törlése</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Lista frissítése</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} kiválasztva · {1} megjelenítve {2} közül</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} kiválasztva, de a szűrők elrejtik</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Tartományszűrő</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Postaládák keresése</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Forrás-postaládák</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Minden forráscímhez szükség van egy postaládára a célbérlőben. A párosítás a tartomány cseréjével történik; ahol a nevek eltérnek, adjon meg más célcímet az adott sorban. A „Kész” állapotú sorok másolódnak; a többi kimarad.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Céltartomány</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Minden sor párosítása ehhez a tartományhoz</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Leképezés importálása (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Leképezés exportálása (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Forrás-postaláda</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Célpostaláda (szerkeszthető)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Állapot</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Kész</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Adjon meg egy célcímet</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Nem e-mail-cím</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Egy másik sor is ezt a célt használja</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Nem található a célbérlőben</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} / {1} kész a másolásra</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} kimarad a javításig</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-fájlok (*.csv)|*.csv|Minden fájl|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Forrás,cél leképezés importálása</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-fájlok (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Leképezés exportálása</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>A fájl {1} sorából {0} egyezett a kiválasztott postaládákkal. A többit figyelmen kívül hagytuk.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Leképezés importálva</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>A leképezés nem olvasható</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Céltartomány</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postaláda-leképezés</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Csak naptáresemények és névjegyek (levelek nélkül)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Jó első teszt, vagy a naptárak külön másolásának módja. Az események az egyes célpostaládák alapértelmezett naptárába, a névjegyek az alapértelmezett Névjegyek mappába kerülnek. Ez véglegesen ad hozzá elemeket: az eszköz később nem tudja eltávolítani őket.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Hová kerüljenek a levelek?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Csak levelek, az egyes célpostaládákban egy új mappába (ajánlott)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Az összes levél, a mappaszerkezettel együtt, egyetlen új mappába kerül. Ez a legbiztonságosabb, és az Outlookban könnyen áttekinthető vagy törölhető, mielőtt bárki használni kezdené a postaládát. A naptáresemények és a névjegyek nem helyezhetők bele, ezért ebben a módban nem másolódnak.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Mappa neve</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrált levelek</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Egyesítés a valódi mappákba, naptárral és névjegyekkel</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>A levelek oda kerülnek, ahol a felhasználó várja (Beérkezett üzenetek a Beérkezett üzenetek közé, Elküldött elemek az Elküldött elemek közé), a többi mappa pedig mellettük jön létre újra. Ez véglegesen ad hozzá elemeket: az eszköz később nem tudja eltávolítani őket.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Naptáresemények és névjegyek másolása is (az alapértelmezett és a további naptárak és névjegymappák)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Törölje a jelölést, ha csak leveleket szeretne másolni. Az eseményeket, a visszatérő értekezleteket is beleértve, megszámolja, de még nem hasonlítja össze mezőről mezőre.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>A másolt tartalom korlátozása (nem kötelező): nincs korlátozás, minden másolódik</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>A másolt tartalom korlátozása (nem kötelező): bekapcsolt korlátozások: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Alapértelmezés szerint minden mappa és minden üzenet másolódik. Ezeket csak akkor használja, ha kevesebbet szeretne másolni. Minden postaládára érvényesek, a naptáreseményekre és a névjegyekre soha, a kihagyott leveleket pedig a forrásban soha nem módosítja és nem törli.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Ezek a mappák maradjanak ki</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>A kihagyott mappa az almappáit is magával viszi.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Beérkezett üzenetek</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Elküldött elemek</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Piszkozatok</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Törölt elemek</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Levélszemét</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archívum</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Felhasználók által létrehozott mappák</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Csak az ekkor vagy ezután létrehozott levelek</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Ez az a nap, amikor az üzenet a postaládában létrejött, ami általában az érkezésének napja. Az első másolás után ellenőrizzen egy mintát.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Ennél nagyobb üzenetek kihagyása</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Biztonsági ellenőrzések</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>A célban már meglévő levelek kihagyása (így az újrafuttatás nem hoz létre duplikátumokat)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Minden átmásolt üzenet utólagos összehasonlítása a forrásával (több időt vesz igénybe, ajánlott)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Elemeket már tartalmazó célmappák engedélyezése (az átmásolt elemek a meglévők mellé kerülnek)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Az egyesítés nem indul el, ha egy célmappa, például a Beérkezett üzenetek vagy a Naptár már tartalmaz elemeket, kivéve, ha ez be van jelölve.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Speciális</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Újrakezdés: a korábbi futtatások által már átmásoltak figyelmen kívül hagyása (a fenti duplikátum-ellenőrzés továbbra is védi a cél leveleit)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kihagyandó naptárak és névjegymappák</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Soronként egy név, pontosan úgy, ahogy az Outlookban megjelenik. Az ilyen nevű további naptárak és névjegymappák nem másolódnak; a névjegymappa az almappáit is magával viszi. Hasznos a felhasználók által feliratkozott naptárakhoz, például az ünnepnapok naptárához. A Születésnapok naptár soha nem másolódik (az Outlook a névjegyekből építi fel). Az alapértelmezett Naptár és Névjegyek nem érintettek.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postaládák, amelyekbe soha nem szabad írni</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Soronként egy cím. Ha ezek egyikét választják célnak, a hozzá tartozó másolás megtagadásra kerül.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Új mappa neve</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Legkorábbi dátum</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Legnagyobb üzenet megabájtban</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Másolandó postaládák: {0}, innen: „{1}”, ide: „{2}”.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Csak naptáresemények és névjegyek másolódnak, az egyes célpostaládák alapértelmezett Naptárába és Névjegyek mappájába. Levelek nem másolódnak.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>A levelek az egyes célpostaládák valódi mappáiba kerülnek (Beérkezett üzenetek, Elküldött elemek, Piszkozatok…); a többi mappa mellettük jön létre újra.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>A levelek (csak azok) az egyes célpostaládákban egy „{0}” nevű új mappába kerülnek, a mappaszerkezettel együtt.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Név szerint kihagyott naptárak és névjegymappák: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Naptáresemények és névjegyek: az egyes célpostaládák alapértelmezett Naptárába és Névjegyek mappájába másolódnak.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Naptáresemények és névjegyek: nem másolódnak.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>A célban már meglévő leveleket kihagyja.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>A célban már meglévő leveleket NEM ellenőrzi.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Kihagyva: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Csak a {0} napján vagy azután létrehozott levelek.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>A(z) {0} MB-nál nagyobb üzeneteket kihagyja.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Minden átmásolt üzenetet utólag összehasonlít a forrásával.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Utólagos összehasonlítás nincs.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>A postaládák egymás után másolódnak. A forrásban semmi nem módosul.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Méret- és időbecslés</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Becslés kihagyása</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Kimaradó postaládák, mert nem található megfelelő célpostaláda: {0}. A javításhoz lépjen vissza a Postaládák párosítása lépéshez.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Kiválasztott licenc nélküli postaládák (megosztott, tárgyaló vagy eszköz): {0}. A levelezőmappáik másolódnak, és a naptáruk is, ha a naptármásolás be van kapcsolva. Az erőforrás-beállítások, például a foglalási szabályzatok nem.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Ez véglegesen ad hozzá naptáreseményeket és névjegyeket. Az eszköz nem tudja eltávolítani őket.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Az egyesítés véglegesen ad hozzá elemeket a valódi mappákhoz. Az eszköz nem tudja eltávolítani őket.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Tudomásul veszem, hogy az egyesítés leveleket ad hozzá a valódi mappákhoz, és az eszköz nem tudja eltávolítani őket.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>A becsléshez a korábbi lépésekben létrehozott kapcsolatokra van szükség.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>A postaládák méretének beolvasása ({0}); csak olvasás, semmi nem módosul…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>A becslés kimaradt. Az előrehaladási sáv a másolás megkezdése után is mutat becslést.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>A becslést nem sikerült elkészíteni: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Körülbelül {0} üzenet ({1} MB). Postaládák: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Becsült idő: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>A tesztjeinkben, hétköznapi üzenetekkel mért sebességeken alapul; a nagyon nagy mellékletek tovább tartanak. A postaládák egymás után másolódnak. Ha leállítja, a következő futtatás ott folytatja, ahol abbahagyta.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Nem olvasható postaládák: {0}. Nem szerepelnek a becslésben, és a másolásnál valószínűleg szintén hibát okoznak. Az első ok: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>kevesebb mint egy perc</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} perc</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} óra {1} perc</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Elindítja a másolást?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Elindítja most a másolást? Postaládák: {0}.
+
+{1}
+
+A forrásban semmi nem módosul. Bármikor leállíthatja.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>A levelek az egyes célpostaládák valódi mappáiba kerülnek. Az eszköz nem tudja eltávolítani őket.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>A levelek az egyes célpostaládákban egy új „{0}” mappába kerülnek.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Nem indítható el</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Ezen a számítógépen hiányzik egy ügyfélkulcs (titkos kód). Adja hozzá az Alkalmazásregisztrációk alatt.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Először ezeket javítsa:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Postaládák másolása: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Indítás…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Befejeződött. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Minden üzenet összehasonlításra került a forrásával.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Válasszon ki egy sort a részletekhez, vagy nyissa meg az eredményfájlt.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Hiba miatt leállt: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Időtartam: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} / {2} postaláda kész · {3} · eddig {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>körülbelül {0} van hátra</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>becsült idő: {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>idő becslése…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>{0}. postaláda / {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>{0}. postaláda: {1} / {2} elem feldolgozva — {3} másolva, {4} már megvolt, {5} sikertelen</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Leállás az aktuális elem után… a befejezett elemeket a rendszer megjegyzi.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postaládák</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>A futó postaláda mappáinak részletei</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Napló</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Csak figyelmeztetések és hibák</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} hiba, {1} figyelmeztetés</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Másolás folyamatban</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Másolás fut. Ha most bezárja, leáll (a befejezett elemeket a rendszer megjegyzi, így folytathatja).
+
+Mégis bezárja?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Teljes előrehaladás</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postaládák előrehaladása</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Hibátlanul átmásolva: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Átnézést igényel: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Sikertelen: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Nem futott: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Bejelentkezés és a fiókok ellenőrzése</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Forrás (csak olvasás): a mappafa bejárása és az elemek listázása</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Cél: a levelek célmappáinak megkeresése</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>A fa újralétrehozása és az elemek másolása (exportálás a forrásból, importálás a célba)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Egyeztetés: mappánkénti elemszámok összehasonlítása</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Ellenőrzés: minden átmásolt üzenet összehasonlítása a forrásával, mezőről mezőre</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Várakozik</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Másolás…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Kész</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Átnézést igényel</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Sikertelen</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Nem futott</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Átmásolva</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Másolás</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} sikertelen</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>A darabszámok eltérnek</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>felhasználói mappa</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Forrás</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Cél</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Állapot</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Részletek (kijelöléssel másolható)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Mappa</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Fajta</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elemek</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Másolva</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Már megvolt</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Sikertelen</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Eredmény</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Azonosnak igazolva</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Megjegyzések (kijelöléssel másolható)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Megjegyzések</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Részletek</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>A másolás leállt</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>A másolás befejeződött</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Átmásolt postaládák: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Átmásolt postaládák: {0}. A {1} ellenőrzött üzenet mindegyike megegyezett a forrásával.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>A másolás a befejezés előtt leállt</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Befejezett postaládák: {0}. Nem indult el: {1}. A folytatáshoz futtassa újra: a befejezett elemeket nem másolja kétszer.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Befejeződött, de néhány elem átnézést igényel</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Hibátlanul átmásolt postaládák: {0} / {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postaládánként</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Mi a következő teendő</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Összegzés másolása</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Eredmények postaládánként</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Átmásolt postaládák</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Átmásolt üzenetek</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Már a célban volt</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Sikertelen elemek</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Azonosnak igazolva</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Eltelt idő</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} / {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>nincs</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>nincs ellenőrizve</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Nyissa meg az eredményfájlt vagy a naplót az ok megtekintéséhez, hárítsa el a hibát (például hiányzó engedély vagy még nem létező célpostaláda), majd válassza a Futtatás újra lehetőséget. A befejezett elemeket a rendszer megjegyzi, így semmit nem másol kétszer.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Nyisson meg néhány célpostaládát az Outlookban, és ellenőrizze a Beérkezett üzeneteket, az Elküldött elemeket és a saját mappáit. Ellenőrizzen mellékletet tartalmazó üzeneteket is.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Nyisson meg néhány célpostaládát az Outlookban, és keresse a(z) „{0}” mappát. Ellenőrizzen mellékletet tartalmazó üzeneteket is. A felhasználók kiválogathatják belőle a leveleket, vagy benne is hagyhatják őket.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>A névjegyeket és a naptárat megszámolja, de még nem hasonlítja össze mezőről mezőre. Nyissa meg néhány célpostaláda Névjegyek és Naptár mappáját, és ellenőrizze őket, különösen a visszatérő értekezleteket.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>A futtatás után érkezett levelek átviteléhez válassza a Futtatás újra lehetőséget ugyanazokkal a beállításokkal. Csak az új levelek másolódnak.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Amikor a migrálás teljesen befejeződött, törölje az ügyfélkulcsokat (titkos kódokat), és távolítsa el az alkalmazásregisztrációkat a Microsoft Entrában, mert a bérlő minden postaládáját elérhetik.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Átmásolt postaládák: {0} / {1}; átmásolt üzenetek: {2}; már a célban volt: {3}; sikertelen elemek: {4}; idő: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Átmásolt postaládák: {0} / {1}; átmásolt üzenetek: {2}; már a célban volt: {3}; sikertelen elemek: {4}; azonosnak igazolva: {5} / {6}; idő: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Alkalmazásregisztrációk</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Az alkalmazásregisztráció az az identitás, amellyel az eszköz egy bérlőben kommunikál a Microsoft 365-tel. Bérlőnként egyszer hozza létre a Microsoft Entra felügyeleti központban, majd mentse ide egy felismerhető néven, és válassza ki a Forrás és a Cél lépésben. Innen semmi nem kerül elküldésre; csak az Ön Windows-felhasználójához van tárolva.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Hozzáadás</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Eltávolítás</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Név</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Bármi, ami segít megkülönböztetni őket, például „Contoso (forrás)”.</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Címtár (bérlő) azonosítója</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Egy GUID. A regisztráció Áttekintés oldalán található az Entra felügyeleti központban.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Alkalmazás (ügyfél) azonosítója</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Egy GUID. Szintén az Áttekintés oldalon található.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Ügyfélkulcs (titkos kód)</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>A titkos kód értéke (nem az azonosítója) a Tanúsítványok és titkos kódok oldalról. Ennek segítségével az alkalmazás bejelentkezés nélkül tud postaládákat másolni. Az Ön Windows-felhasználójához titkosítva van tárolva, és másik számítógépen nem olvasható. Csak gépelés közben látható; új megadásával lecserélheti.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Egy titkos kód mentve van.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Törlés</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Létrehozás: Microsoft Entra felügyeleti központ &gt; Alkalmazásregisztrációk &gt; Új regisztráció (egyetlen bérlő). Nyissa meg az API-engedélyeket, adja hozzá a Forrás és a Cél lépésben látható alkalmazásengedélyeket, majd adja meg a rendszergazdai jóváhagyást. Nyissa meg a Tanúsítványok és titkos kódok oldalt, hozzon létre egy Új ügyfélkulcsot (titkos kódot), és azonnal másolja ki az értékét (csak egyszer jelenik meg). Másolja be a Címtár (bérlő) azonosítóját és az Alkalmazás (ügyfél) azonosítóját az Áttekintés oldalról ebbe az űrlapba.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Új regisztráció</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(névtelen)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Regisztráció eltávolítása</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Eltávolítja a(z) „{0}” elemet ebből a listából?
+
+Ezzel csak itt felejti el. A Microsoft Entrában lévő alkalmazásregisztrációhoz nem nyúl.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>A lista ellenőrzése</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Adjon nevet minden regisztrációnak.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>„{0}”: a bérlőazonosítónak és az ügyfél-azonosítónak is GUID-nak kell lennie (például 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>A mentés sikertelen</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Nem sikerült menteni: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Beállítások</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Nyelv</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Megegyezik a Windows nyelvével</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Az új nyelv a Smart Mailbox Copy következő indításakor lép érvénybe.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Téma</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Megegyezik a Windows beállításával</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Világos</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Sötét</value></data>
+</root>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Регистрации приложений</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Прошлые запуски и отчеты</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Параметры</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Свернуть</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Развернуть или восстановить</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Закрыть</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Шаги</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Назад</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Далее</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Начать</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Начать копирование</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Просмотр результатов</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Новая миграция</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Остановить</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Открыть результаты (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Открыть список элементов (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Открыть журнал</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Запустить снова (продолжить)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Начало</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Источник</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Назначение</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Ящики</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Сопоставление</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Параметры</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Проверка</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Копирование</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Результаты</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Добро пожаловать</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Исходный клиент</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Целевой клиент</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Выбор почтовых ящиков</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Сопоставление почтовых ящиков</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Параметры</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Проверка</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Копирование</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Результаты</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Перенос почты между клиентами Microsoft 365: один почтовый ящик, несколько или все.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Подключитесь к клиенту, ИЗ которого выполняется копирование. Он только читается; в нем ничего не изменяется.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Подключитесь к клиенту, В который выполняется копирование. Здесь добавляется почта; ничто из уже имеющегося не изменяется и не удаляется.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Выберите почтовые ящики для копирования. Сузьте список с помощью фильтров, затем отметьте нужные.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Укажите, в какой целевой почтовый ящик попадает каждый исходный.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Выберите, как почта попадет в целевой клиент и какие проверки безопасности выполнять.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Проверьте план. Пока ничего не скопировано.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Идет копирование. Вы можете остановить его в любой момент; завершенные элементы запоминаются, поэтому позже можно продолжить.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Что скопировано, что проверено и что делать дальше.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Чтобы продолжить, подключитесь к исходному клиенту.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Чтобы продолжить, подключитесь к целевому клиенту.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Чтобы продолжить, отметьте хотя бы один почтовый ящик.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Чтобы продолжить, хотя бы одна строка должна иметь статус "Готово".</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Чтобы продолжить, введите имя папки.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Проверьте фильтры почты: отметьте хотя бы одну папку, выберите дату и введите размер больше 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Оценка размера и времени (только чтение). Кнопка запуска станет доступна после ее завершения, либо выберите "Пропустить оценку".</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Чтобы продолжить, установите флажок выше.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Это средство копирует почту между клиентами Microsoft 365. Можно перенести один почтовый ящик, несколько выбранных или все, после чего каждое сообщение сверяется с оригиналом.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Что оно будет и не будет делать</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Исходный клиент только читается. Ничто в нем не изменяется и не удаляется.
+• Целевой клиент только получает элементы (почту и, по вашему выбору, события календаря и контакты). Средство никогда не удаляет и не изменяет то, что там уже есть.
+• Сообщение, скопированное дважды, пропускается, поэтому запуск можно безопасно повторить или продолжить.
+• Каждое скопированное сообщение сравнивается с источником по полям, а результат сообщается.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Что нужно до начала работы</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Регистрация приложения в каждом клиенте (исходном и целевом), настроенная глобальным администратором. На следующих шагах показано, какие именно разрешения нужно добавить.
+2. Клиентский секрет для каждой регистрации.
+3. Переносимые почтовые ящики должны уже существовать в целевом клиенте (сначала создайте пользователей и назначьте им лицензии).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Как это работает</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Средство использует регистрацию приложения, а не вход пользователя, поэтому может получать доступ к чужим почтовым ящикам без их паролей. Поскольку регистрация приложения с такими разрешениями имеет доступ ко всем почтовым ящикам своего клиента, храните ее секрет в тайне и удалите регистрацию после завершения миграции.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Нажмите "Далее", чтобы подключить исходный клиент. К любому завершенному шагу можно вернуться с помощью панели шагов вверху.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Источник — это клиент, в котором почта находится сейчас. Smart Mailbox Copy входит с помощью регистрации приложения (никто не вводит учетные данные) и читает выбранные вами почтовые ящики.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Назначение — это клиент, в который переносится почта. Почтовые ящики должны уже существовать там и иметь лицензии. Средство только добавляет почту.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>В центре администрирования Microsoft Entra: Регистрация приложений &gt; ваше приложение &gt; Разрешения API &gt; Добавить разрешение &gt; Microsoft Graph &gt; Разрешения приложения. Затем выберите "Предоставить согласие администратора".</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>То же место, что и для источника: Разрешения API &gt; Добавить разрешение &gt; Microsoft Graph &gt; Разрешения приложения, затем "Предоставить согласие администратора".</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>экспорт; используйте разрешение на экспорт, если оно есть в портале</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Регистрация приложения</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Сохраненная регистрация приложения Microsoft Entra для этого клиента. Если ее еще нет в списке, выберите "Управление" и добавьте ее.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Управление…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Разрешения, необходимые этой регистрации приложения</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Подключиться и показать почтовые ящики</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Выполняется вход с помощью регистрации приложения, чтение списка почтовых ящиков и проверка того, какие разрешения приложения предоставлены. Ничего не изменяется. Только что добавленное разрешение может появиться через несколько минут: подождите и подключитесь снова.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Клиент {0}  ·  приложение {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>клиентский секрет сохранен</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>клиентский секрет НЕ сохранен: добавьте его в разделе "Управление"</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Ничего не выбрано.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Подключение…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Подключено. Найдено учетных записей с адресом почтового ящика: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Сначала выберите регистрацию приложения.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Для этой регистрации на данном компьютере не сохранен клиентский секрет. Выберите "Управление" и добавьте его.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Клиентский секрет недействителен. Возможно, указан идентификатор секрета вместо его значения либо секрет другого приложения. Создайте новый секрет и обновите его в разделе "Управление".</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Срок действия клиентского секрета истек. Создайте новый и обновите его в разделе "Управление".</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Идентификатор приложения (клиента) не найден в этом клиенте. Проверьте идентификаторы клиента (tenant) и приложения в разделе "Управление".</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Идентификатор клиента (tenant) не найден. Проверьте его в разделе "Управление".</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>У приложения нет разрешения приложения User.Read.All либо не предоставлено согласие администратора.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Разрешения приложения, предоставленные этому приложению:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (импорт/экспорт и чтение)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>чтения почты</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>создания папок в целевом клиенте</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>экспорта и импорта элементов почты</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>чтения дерева папок</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>получения списка почтовых ящиков</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>только для копирования дополнительных календарей</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>только для копирования дополнительных папок контактов</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  ОТСУТСТВУЕТ: необходимо для {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  не предоставлено ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Добавьте недостающие разрешения как разрешения приложения и предоставьте согласие администратора. Их появление может занять несколько минут.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Выберите нужные типы почтовых ящиков, сузьте список по домену или тексту, затем отметьте ящики для копирования. Ваши отметки сохраняются при изменении фильтров. Учетные записи без лицензии — это общие почтовые ящики, а также ящики переговорных или оборудования; Microsoft не указывает, какой именно.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Пользователи</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Общие, переговорные, оборудование (без лицензии)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Гости</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Только включенные учетные записи</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Домен</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Поиск</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Все домены</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Копировать</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Имя</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Адрес</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Тип</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Учетная запись</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Пользователь</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Общий, переговорной или оборудования (без лицензии)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Гость</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Включена</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Отключена</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Отметить все показанные</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Снять все показанные</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Обновить список</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>Выбрано: {0} · показано {1} из {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · выбрано, но скрыто фильтрами: {0}</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Фильтр по домену</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Поиск почтовых ящиков</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Исходные почтовые ящики</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Для каждого исходного адреса нужен почтовый ящик в целевом клиенте. Сопоставление выполняется заменой домена; в любой строке, где имена различаются, введите другой целевой адрес. Строки со статусом "Готово" будут скопированы, остальные пропущены.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Целевой домен</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Сопоставить все строки с этим доменом</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Импорт сопоставления (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Экспорт сопоставления (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Исходный почтовый ящик</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Целевой почтовый ящик (можно изменить)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Состояние</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Готово</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Введите целевой адрес</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Не адрес электронной почты</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Этот целевой ящик используется в другой строке</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Не найден в целевом клиенте</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>Готово к копированию: {0} из {1}</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} будут пропущены, пока не исправлены</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Файлы CSV (*.csv)|*.csv|Все файлы|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Импорт сопоставления источник,назначение</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Файлы CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Экспорт сопоставления</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>Строк файла, совпавших с выбранным вами почтовым ящиком: {0} из {1}. Остальные проигнорированы.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Сопоставление импортировано</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Не удалось прочитать сопоставление</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Целевой домен</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Сопоставление почтовых ящиков</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Только события календаря и контакты (почту не копировать)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Хороший первый тест или способ скопировать календари отдельно. События попадают в календарь по умолчанию каждого целевого почтового ящика, а контакты — в его контакты по умолчанию. Элементы добавляются безвозвратно: средство не может удалить их потом.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Куда помещать почту?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Только почта, в одну новую папку в каждом целевом почтовом ящике (рекомендуется)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Вся почта вместе со структурой папок копируется в одну новую папку. Это самый безопасный вариант, и ее легко проверить или удалить в Outlook, пока никто не начал пользоваться ящиком. События календаря и контакты в нее поместить нельзя, поэтому в этом режиме они не копируются.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Имя папки</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Перенесенная почта</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Слияние с настоящими папками, вместе с календарем и контактами</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Почта попадает туда, где ее ожидает пользователь (Входящие во Входящие, Отправленные в Отправленные), а остальные папки создаются рядом. Элементы добавляются безвозвратно: у средства нет способа удалить их потом.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Также копировать события календаря и контакты (по умолчанию и любые дополнительные календари и папки контактов)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Снимите флажок, чтобы копировать только почту. События, включая повторяющиеся встречи, подсчитываются, но пока не сравниваются по полям.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Ограничить копируемое (необязательно): ограничений нет, копируется все</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Ограничить копируемое (необязательно): включенные ограничения: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>По умолчанию копируются все папки и все сообщения. Используйте это, только чтобы скопировать меньше. Ограничения действуют для каждого почтового ящика, но не для событий календаря и контактов, а пропущенная почта в источнике никогда не изменяется и не удаляется.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Пропустить эти папки</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Пропущенная папка пропускается вместе с вложенными папками.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Входящие</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Отправленные</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Черновики</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Удаленные</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Нежелательная почта</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Архив</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Папки, созданные пользователями</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Только почта, созданная не раньше</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Это день создания каждого сообщения в почтовом ящике, обычно день его поступления. Проверьте несколько образцов после первого копирования.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Пропускать сообщения размером более</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>МБ</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Проверки безопасности</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Пропускать почту, которая уже есть в целевом ящике (чтобы повторный запуск не создавал дубликаты)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>После копирования сравнивать каждое сообщение с источником (занимает больше времени, рекомендуется)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Разрешить целевые папки, в которых уже есть элементы (скопированные элементы добавляются к ним)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Слияние не запускается, если в целевой папке, например во Входящих или в Календаре, уже есть элементы, пока этот флажок не установлен.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Дополнительно</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Начать заново: игнорировать то, что уже скопировали предыдущие запуски (проверка дубликатов выше по-прежнему защищает почту в целевом ящике)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Календари и папки контактов, которые нужно пропустить</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Одно имя на строку, точно так, как оно отображается в Outlook. Дополнительные календари и папки контактов с этими именами не копируются; папка контактов пропускается вместе с вложенными папками. Используйте это для календарей, на которые оформлена подписка, например календаря праздников. Календарь "Дни рождения" не копируется никогда (Outlook создает его из контактов). Календарь и контакты по умолчанию не затрагиваются.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Почтовые ящики, в которые запрещена запись</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Один адрес на строку. Если один из них выбран как целевой, копирование в него отклоняется.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Имя новой папки</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Самая ранняя дата</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Наибольшее сообщение в мегабайтах</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Почтовых ящиков для копирования: {0}, из "{1}" в "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Копируются только события календаря и контакты, в календарь и контакты по умолчанию каждого целевого почтового ящика. Почта не копируется.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Почта попадает в настоящие папки каждого целевого почтового ящика (Входящие, Отправленные, Черновики…); остальные папки создаются рядом.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Только почта попадает в новую папку "{0}" в каждом целевом почтовом ящике вместе со структурой папок.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Календари и папки контактов, пропущенные по имени: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>События календаря и контакты: копируются в календарь и контакты по умолчанию каждого целевого почтового ящика.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>События календаря и контакты: не копируются.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Почта, которая уже есть в целевом ящике, пропускается.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Наличие почты в целевом ящике НЕ проверяется.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Пропущено: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Только почта, созданная не раньше {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Сообщения размером более {0} МБ пропускаются.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>После копирования каждое сообщение сравнивается с источником.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Последующее сравнение не выполняется.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Почтовые ящики копируются один за другим. Ничто в источнике не изменяется.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Оценка размера и времени</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Пропустить оценку</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Почтовых ящиков пропущено из-за отсутствия подходящего целевого ящика: {0}. Вернитесь к сопоставлению почтовых ящиков, чтобы исправить это.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Выбрано почтовых ящиков без лицензии (общие, переговорные или оборудования): {0}. Их папки почты копируются, как и календарь, если копирование календаря включено. Параметры ресурса, например политики бронирования, не копируются.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Это безвозвратно добавляет события календаря и контакты. У этого средства нет способа удалить их.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Слияние безвозвратно добавляет элементы в настоящие папки. У этого средства нет способа удалить их.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Я понимаю, что слияние добавляет почту в настоящие папки и это средство не может ее удалить.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Для оценки нужны подключения, выполненные на предыдущих шагах.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Чтение размера почтовых ящиков ({0}); только чтение, ничего не изменяется…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Оценка пропущена. Индикатор хода выполнения все равно покажет оценку после начала копирования.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Не удалось выполнить оценку: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Около {0} сообщений ({1} МБ). Почтовых ящиков: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Ориентировочное время: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Основано на скоростях, измеренных в наших тестах с обычными сообщениями; очень большие вложения занимают больше времени. Почтовые ящики копируются один за другим. Если вы остановите копирование, следующий запуск продолжится с того же места.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Почтовых ящиков, которые не удалось прочитать: {0}. Они не включены в оценку и, вероятно, тоже завершатся ошибкой при копировании. Первая причина: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>меньше минуты</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} мин</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} ч {1} мин</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Начать копирование?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Начать копирование сейчас? Почтовых ящиков: {0}.
+
+{1}
+
+Ничто в источнике не изменяется. Вы можете остановить копирование в любой момент.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Почта будет добавлена в настоящие папки каждого целевого почтового ящика. Это средство не может ее удалить.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Почта будет добавлена в новую папку "{0}" в каждом целевом почтовом ящике.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Не удается начать</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>На этом компьютере отсутствует клиентский секрет. Добавьте его в разделе "Регистрации приложений".</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Сначала исправьте следующее:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Копирование почтовых ящиков: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Запуск…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Завершено. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Каждое сообщение сравнено с источником.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Выберите строку, чтобы увидеть сведения, или откройте файл результатов.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Остановлено из-за ошибки: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Заняло {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · завершено почтовых ящиков: {1} из {2} · {3} · прошло {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>осталось примерно {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>ориентировочно {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>оценка времени…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Почтовый ящик {0} из {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Почтовый ящик {0}: обработано элементов {1} из {2} — скопировано {3}, уже были {4}, с ошибкой {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Остановка после текущего элемента… завершенные элементы запоминаются.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Почтовые ящики</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Сведения о папках для текущего почтового ящика</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Журнал</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Только предупреждения и ошибки</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>Ошибок: {0}, предупреждений: {1}</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Идет копирование</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Выполняется копирование. Если закрыть окно сейчас, оно будет остановлено (завершенные элементы запоминаются, поэтому можно продолжить).
+
+Все равно закрыть?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Общий ход выполнения</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Ход выполнения по почтовым ящикам</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Скопировано без проблем: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Требуют внимания: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>С ошибкой: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Не запускались: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Вход и проверка учетных записей</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Источник (только чтение): обход дерева папок и составление списка элементов</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Целевой клиент: поиск папок, в которые попадает почта</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Воссоздание дерева и копирование элементов (экспорт из источника, импорт в целевой клиент)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Сверка: сравнение количества элементов в каждой папке</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Проверка: сравнение каждого скопированного сообщения с источником по полям</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Ожидание</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Копирование…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Готово</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Требует внимания</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Ошибка</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Не запускалось</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Скопировано</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Копирование</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>С ошибкой: {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Количество не совпадает</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>папка пользователя</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Источник</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Назначение</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Состояние</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Сведения (выберите, чтобы скопировать)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Папка</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Вид</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Элементы</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Скопировано</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Уже были</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>С ошибкой</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Результат</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Идентичны по проверке</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Заметки (выберите, чтобы скопировать)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Заметки</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Сведения</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Копирование остановлено</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Копирование завершено</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Скопировано почтовых ящиков: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Скопировано почтовых ящиков: {0}. Все проверенные сообщения ({1}) идентичны источнику.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Копирование остановлено до завершения</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Завершено почтовых ящиков: {0}. Не начато: {1}. Запустите снова, чтобы продолжить: завершенные элементы не копируются повторно.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Завершено, но есть элементы, требующие внимания</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Скопировано без проблем почтовых ящиков: {0} из {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>По почтовым ящикам</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Что делать дальше</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Копировать эту сводку</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Результаты по почтовым ящикам</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Скопировано почтовых ящиков</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Скопировано сообщений</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Уже в целевом ящике</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Элементов с ошибкой</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Идентичны по проверке</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Затраченное время</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} из {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>нет</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>не проверялось</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Откройте файл результатов или журнал, чтобы узнать причину, устраните ее (например, отсутствующее разрешение или целевой почтовый ящик, которого еще нет) и выберите "Запустить снова". Завершенные элементы запоминаются, поэтому ничего не копируется дважды.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Откройте несколько целевых почтовых ящиков в Outlook и проверьте Входящие, Отправленные и ваши собственные папки. Выборочно проверьте сообщения с вложениями.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Откройте несколько целевых почтовых ящиков в Outlook и найдите папку "{0}". Выборочно проверьте сообщения с вложениями. Пользователи могут переместить почту из нее или оставить как есть.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Контакты и календарь подсчитываются, но пока не сравниваются по полям. Откройте контакты и календарь в нескольких целевых почтовых ящиках и проверьте их, особенно повторяющиеся встречи.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Чтобы перенести почту, поступившую после этого запуска, выберите "Запустить снова" с теми же параметрами. Копируется только новая почта.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Когда миграция полностью завершена, удалите клиентские секреты и регистрации приложений в Microsoft Entra, так как они имеют доступ ко всем почтовым ящикам клиента.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Скопировано почтовых ящиков: {0} из {1}; скопировано сообщений: {2}; уже в целевом ящике: {3}; элементов с ошибкой: {4}; время: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Скопировано почтовых ящиков: {0} из {1}; скопировано сообщений: {2}; уже в целевом ящике: {3}; элементов с ошибкой: {4}; идентичны по проверке: {5} из {6}; время: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Регистрации приложений</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Регистрация приложения — это удостоверение, с помощью которого это средство обращается к Microsoft 365 в клиенте. Вы создаете ее один раз для каждого клиента в центре администрирования Microsoft Entra, затем сохраняете здесь под понятным вам именем и выбираете на шагах "Источник" и "Назначение". Ничто из этого никуда не отправляется; данные хранятся только для вашего пользователя Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Добавить</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Удалить</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Имя</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Любое имя, помогающее их различать, например "Contoso (источник)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Идентификатор каталога (клиента)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. На странице "Обзор" регистрации в центре администрирования Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Идентификатор приложения (клиента)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. Также на странице "Обзор".</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Клиентский секрет</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Значение секрета (не его идентификатор) из раздела "Сертификаты и секреты". Оно позволяет приложению копировать почтовые ящики без входа пользователя. Оно шифруется для вашего пользователя Windows и не читается на другом компьютере. Отображается только при вводе; чтобы заменить, введите новое.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Секрет сохранен.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Очистить</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Чтобы создать регистрацию: центр администрирования Microsoft Entra &gt; Регистрация приложений &gt; Новая регистрация (один клиент). Откройте "Разрешения API", добавьте разрешения приложения, указанные на шагах "Источник" и "Назначение", затем выберите "Предоставить согласие администратора". Откройте "Сертификаты и секреты", создайте новый клиентский секрет и сразу скопируйте его значение (оно показывается только один раз). Скопируйте идентификатор каталога (клиента) и идентификатор приложения (клиента) со страницы "Обзор" в эту форму.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Новая регистрация</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(без имени)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Удаление регистрации</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Удалить "{0}" из этого списка?
+
+Это лишь удаляет ее отсюда. Регистрация приложения в Microsoft Entra не затрагивается.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Проверьте список</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Укажите имя для каждой регистрации.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": идентификатор клиента (tenant) и идентификатор приложения должны быть GUID (например, 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Не удалось сохранить</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Не удалось сохранить: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Параметры</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Язык</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Как в Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Новый язык вступит в силу при следующем запуске Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Как в Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Светлая</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Темная</value></data>
+</root>

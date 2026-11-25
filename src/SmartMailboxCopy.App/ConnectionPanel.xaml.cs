@@ -1,6 +1,6 @@
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
+using SmartMailboxCopy.App.Localization;
 
 namespace SmartMailboxCopy.App;
 
@@ -33,13 +33,13 @@ public partial class ConnectionPanel : UserControl
     public void SetResult(string text, bool? ok)
     {
         ResultText.Text = text;
-        ResultText.Foreground = ok == true ? Brushes.DarkGreen : ok == false ? Brushes.Firebrick : Brushes.Gray;
+        ResultText.Foreground = ThemeManager.Brush(ok == true ? "SuccessBrush" : ok == false ? "DangerBrush" : "TextTertiaryBrush");
     }
 
     public void SetChecks(string text, bool allRequiredOk)
     {
         CheckText.Text = text;
-        CheckText.Foreground = allRequiredOk ? Brushes.DarkGreen : Brushes.Firebrick;
+        CheckText.Foreground = ThemeManager.Brush(allRequiredOk ? "SuccessBrush" : "DangerBrush");
     }
 
     public void SetBusy(bool busy) { TestButton.IsEnabled = !busy; Combo.IsEnabled = !busy; }
@@ -47,8 +47,8 @@ public partial class ConnectionPanel : UserControl
     private void ShowDetail()
     {
         Detail.Text = Selected is { } r
-            ? $"Tenant {r.TenantId}  ·  application {r.ClientId}  ·  " + (r.HasClientSecret ? "client secret saved" : "NO client secret saved: add one under Manage")
-            : "Nothing selected.";
+            ? Loc.T("Conn_Detail", r.TenantId, r.ClientId, Loc.T(r.HasClientSecret ? "Conn_SecretSaved" : "Conn_SecretMissing"))
+            : Loc.T("Conn_NothingSelected");
     }
 
     private void Combo_Changed(object s, SelectionChangedEventArgs e)

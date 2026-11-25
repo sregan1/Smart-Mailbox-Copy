@@ -56,7 +56,10 @@ internal static class ScreenshotWriter
         var w = (int)Math.Ceiling(el.ActualWidth * dpi.DpiScaleX); var h = (int)Math.Ceiling(el.ActualHeight * dpi.DpiScaleY);
         var rtb = new RenderTargetBitmap(w, h, dpi.PixelsPerInchX, dpi.PixelsPerInchY, PixelFormats.Pbgra32);
         rtb.Render(el);
-        var enc = new PngBitmapEncoder(); enc.Frames.Add(BitmapFrame.Create(rtb));
+        BitmapSource shot = rtb;
+        if (el.FlowDirection == FlowDirection.RightToLeft)   // RenderTargetBitmap mirrors right-to-left content: flip it back
+            shot = new TransformedBitmap(rtb, new ScaleTransform(-1, 1));
+        var enc = new PngBitmapEncoder(); enc.Frames.Add(BitmapFrame.Create(shot));
         Directory.CreateDirectory(System.IO.Path.GetDirectoryName(System.IO.Path.GetFullPath(path))!);
         using var fs = File.Create(path); enc.Save(fs);
     }

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Registros de aplicaciones</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Ejecuciones e informes anteriores</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Configuración</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimizar</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximizar o restaurar</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Cerrar</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Pasos</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Guardar</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Atrás</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Siguiente</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Comenzar</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Iniciar copia</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Ver resultados</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Nueva migración</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Detener</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Abrir resultados (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Abrir lista de elementos (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Abrir registro</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Ejecutar de nuevo (reanudar)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Inicio</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Origen</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Destino</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Buzones</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Emparejar</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opciones</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Revisar</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Resultados</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Bienvenido</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Inquilino de origen</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Inquilino de destino</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Elegir buzones</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Emparejar buzones</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opciones</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Revisar</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Resultados</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Mueve correo entre inquilinos de Microsoft 365: un buzón, varios o todos.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Conéctate al inquilino DESDE el que vas a copiar. Solo se lee; no se cambia nada en él.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Conéctate al inquilino AL que vas a copiar. Aquí se agrega correo; lo que ya existe no se cambia ni se elimina.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Elige los buzones que quieres copiar. Usa los filtros para acotar la lista y después selecciona los que quieras.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Indica a la herramienta en qué buzón de destino va cada buzón de origen.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Elige cómo llega el correo al destino y qué comprobaciones de seguridad se ejecutan.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Revisa el plan. Todavía no se ha copiado nada.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Copiando. Puedes detenerte en cualquier momento; los elementos terminados se recuerdan, así que puedes reanudar más tarde.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Qué se copió, qué se comprobó y qué hacer a continuación.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Conéctate al inquilino de origen para continuar.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Conéctate al inquilino de destino para continuar.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Selecciona al menos un buzón para continuar.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Al menos una fila debe indicar Listo para continuar.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Escribe un nombre de carpeta para continuar.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Revisa los filtros de correo: selecciona al menos una carpeta, elige una fecha y escribe un tamaño mayor que 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Estimando el tamaño y el tiempo (solo lectura). Iniciar estará disponible al terminar, o elige Omitir la estimación.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Activa la casilla de arriba para continuar.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Esta herramienta copia correo entre inquilinos de Microsoft 365. Puedes mover un buzón, algunos elegidos o todos, y después comprueba cada mensaje con el original.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Qué hará y qué no hará</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• El inquilino de origen solo se lee. No se cambia ni se elimina nada en él.
+• El destino solo recibe elementos (correo y, si lo eliges, eventos de calendario y contactos). La herramienta nunca elimina ni cambia nada de lo que ya hay.
+• Un mensaje copiado dos veces se omite, así que una ejecución se puede repetir o reanudar sin riesgo.
+• Cada mensaje copiado se compara con su origen, campo por campo, y se informa del resultado.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Qué necesitas antes de empezar</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Un registro de aplicaciones en cada inquilino (origen y destino), configurado por un administrador global. Los pasos siguientes indican exactamente qué permisos agregar.
+2. Un secreto de cliente para cada registro.
+3. Los buzones que quieres mover ya deben existir en el inquilino de destino (crea antes los usuarios y asígnales licencias).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Cómo funciona</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>La herramienta usa el registro de aplicaciones, no el inicio de sesión de una persona, por lo que puede acceder a los buzones de otras personas sin sus contraseñas. Como un registro de aplicaciones con estos permisos puede acceder a todos los buzones de su inquilino, mantén su secreto en privado y elimina el registro cuando termine la migración.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Selecciona Siguiente para conectar el inquilino de origen. Puedes volver a cualquier paso terminado desde la barra de pasos de la parte superior.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>El origen es el inquilino en el que está ahora el correo. Smart Mailbox Copy inicia sesión con un registro de aplicaciones (ninguna persona inicia sesión) y lee los buzones que elijas.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>El destino es el inquilino al que se mueve el correo. Los buzones ya deben existir allí, con licencias. La herramienta solo agrega correo.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>En el centro de administración de Microsoft Entra: Registros de aplicaciones &gt; tu aplicación &gt; Permisos de API &gt; Agregar un permiso &gt; Microsoft Graph &gt; Permisos de la aplicación. Después selecciona Conceder consentimiento de administrador.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>El mismo lugar que para el origen: Permisos de API &gt; Agregar un permiso &gt; Microsoft Graph &gt; Permisos de la aplicación y, después, Conceder consentimiento de administrador.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>exportar; usa el permiso de exportación si el portal muestra uno</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Registro de aplicaciones</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>El registro de aplicaciones de Microsoft Entra guardado para este inquilino. Si todavía no está en la lista, elige Administrar y agrégalo.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Administrar…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Permisos que necesita este registro de aplicaciones</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Conectar y enumerar buzones</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Esto inicia sesión con el registro de aplicaciones, lee la lista de buzones y comprueba qué permisos de aplicación se han concedido a la aplicación. No cambia nada. Un permiso que agregaste hace un momento puede tardar unos minutos en aparecer: espera y vuelve a conectar.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Inquilino {0}  ·  aplicación {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>secreto de cliente guardado</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NO hay ningún secreto de cliente guardado: agrégalo en Administrar</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>No hay nada seleccionado.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Conectando…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Conectado. Cuentas con dirección de buzón encontradas: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Primero elige un registro de aplicaciones.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Este registro no tiene ningún secreto de cliente guardado en este equipo. Elige Administrar y agrégalo.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>El secreto de cliente no es válido. Puede que sea el identificador del secreto en lugar de su valor, o el secreto de otra aplicación. Crea un secreto nuevo y actualízalo en Administrar.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>El secreto de cliente ha expirado. Crea uno nuevo y actualízalo en Administrar.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>No se encontró ese identificador de aplicación (cliente) en este inquilino. Comprueba los identificadores de inquilino y de cliente en Administrar.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>No se encontró ese identificador de inquilino. Compruébalo en Administrar.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>A la aplicación le falta el permiso de aplicación User.Read.All, o no se ha concedido el consentimiento de administrador.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Permisos de aplicación concedidos a esta aplicación:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (importar/exportar y leer)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>leer correo</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>crear carpetas en el destino</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>exportar e importar elementos de correo</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>leer el árbol de carpetas</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>enumerar buzones</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>solo para copiar calendarios adicionales</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>solo para copiar carpetas de contactos adicionales</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  FALTA: necesario para {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  no concedido ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Agrega los permisos que faltan como permisos de aplicación y concede el consentimiento de administrador. Pueden tardar unos minutos en aparecer.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Muestra los tipos de buzón que quieras, acota por dominio o texto y después selecciona los que se van a copiar. Las selecciones se conservan mientras cambias los filtros. Las cuentas sin licencia son buzones compartidos, de sala o de equipo; Microsoft no indica cuál es cuál.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Usuarios</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Compartidos, de sala, de equipo (sin licencia)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Invitados</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Solo cuentas habilitadas</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Dominio</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Buscar</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Todos los dominios</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nombre</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Dirección</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Tipo</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Cuenta</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Usuario</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Compartido, de sala o de equipo (sin licencia)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Invitado</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Habilitada</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Deshabilitada</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Seleccionar todos los mostrados</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Quitar selección de todos los mostrados</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Actualizar lista</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} seleccionados · {1} mostrados de {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} seleccionados pero ocultos por los filtros</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filtro de dominio</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Buscar buzones</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Buzones de origen</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Cada dirección de origen necesita un buzón en el inquilino de destino. Se emparejan cambiando el dominio; escribe otra dirección de destino en cualquier fila en la que los nombres sean distintos. Las filas que indican Listo se copiarán; las demás se omiten.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Dominio de destino</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Aplicar este dominio a todas las filas</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importar asignación (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Exportar asignación (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Buzón de origen</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Buzón de destino (editable)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Estado</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Listo</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Escribe una dirección de destino</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>No es una dirección de correo</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Otra fila usa este destino</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>No se encontró en el inquilino de destino</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} de {1} listos para copiar</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} se omitirán hasta que se corrijan</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Archivos CSV (*.csv)|*.csv|Todos los archivos|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importar una asignación origen,destino</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Archivos CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Exportar la asignación</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} de {1} filas del archivo coincidieron con un buzón que seleccionaste. Las demás se ignoraron.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Asignación importada</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>No se pudo leer la asignación</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Dominio de destino</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Asignación de buzones</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Solo eventos de calendario y contactos (no copiar correo)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Una buena primera prueba, o una forma de copiar calendarios por separado. Los eventos van al Calendario predeterminado de cada buzón de destino y los contactos a su carpeta Contactos predeterminada. Esto agrega elementos de forma permanente: la herramienta no puede quitarlos después.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>¿Adónde debe ir el correo?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Solo correo, en una carpeta nueva de cada buzón de destino (recomendado)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Todo el correo, con la estructura de carpetas incluida, se copia en una única carpeta nueva. Es lo más seguro y fácil de revisar o eliminar en Outlook antes de que nadie empiece a usar el buzón. Los eventos de calendario y los contactos no se pueden colocar en ella, por lo que no se copian en este modo.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Nombre de la carpeta</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Correo migrado</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Combinado en las carpetas reales, con calendario y contactos</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>El correo llega donde la persona lo espera (Bandeja de entrada en Bandeja de entrada, Elementos enviados en Elementos enviados) y las demás carpetas se recrean junto a ellas. Esto agrega elementos de forma permanente: la herramienta no tiene forma de quitarlos después.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Copiar también eventos de calendario y contactos (el predeterminado y cualquier calendario y carpeta de contactos adicional)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Quita la selección para copiar solo correo. Los eventos, incluidas las reuniones periódicas, se cuentan pero todavía no se comparan campo por campo.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Limitar lo que se copia (opcional): no hay límites, se copia todo</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Limitar lo que se copia (opcional): límites activados: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>De forma predeterminada se copian todas las carpetas y todos los mensajes. Usa esto solo para copiar menos. Se aplica a todos los buzones, nunca a los eventos de calendario ni a los contactos, y el correo omitido nunca se cambia ni se elimina en el origen.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Omitir estas carpetas</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Una carpeta omitida se lleva consigo sus subcarpetas.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Bandeja de entrada</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Elementos enviados</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Borradores</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Elementos eliminados</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Correo no deseado</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archivo</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Carpetas creadas por los usuarios</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Solo correo creado a partir del</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Es el día en que se creó cada mensaje en el buzón, que normalmente es el día en que llegó. Comprueba una muestra después de la primera copia.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Omitir mensajes de más de</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Comprobaciones de seguridad</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Omitir el correo que ya está en el destino (para que una nueva ejecución no cree duplicados)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Comparar cada mensaje copiado con su origen después (añade tiempo, recomendado)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Permitir carpetas de destino que ya contienen elementos (los elementos copiados se agregan junto a ellos)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>La combinación se niega a iniciarse cuando una carpeta de destino, como la Bandeja de entrada o el Calendario, ya contiene elementos, a menos que esto esté activado.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Avanzado</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Empezar de nuevo: ignorar lo que ya copiaron ejecuciones anteriores (la comprobación de duplicados anterior sigue protegiendo el correo de destino)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Calendarios y carpetas de contactos que se omiten</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Un nombre por línea, exactamente como aparece en Outlook. Los calendarios y las carpetas de contactos adicionales con estos nombres no se copian; una carpeta de contactos se lleva consigo sus subcarpetas. Úsalo para calendarios a los que las personas se suscriben, como un calendario de días festivos. El calendario de cumpleaños nunca se copia (Outlook lo genera a partir de los contactos). El Calendario y los Contactos predeterminados no se ven afectados.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Buzones en los que nunca se debe escribir</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Una dirección por línea. Si se elige una de estas como destino, se rechaza la copia para ella.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nombre de la carpeta nueva</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Fecha más antigua</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Mensaje más grande en megabytes</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Buzones que se copiarán: {0}, de "{1}" a "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Solo se copian eventos de calendario y contactos, en el Calendario y los Contactos predeterminados de cada buzón de destino. No se copia correo.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>El correo va a las carpetas reales de cada buzón de destino (Bandeja de entrada, Elementos enviados, Borradores…); las demás carpetas se recrean junto a ellas.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Solo correo: va a una carpeta nueva llamada "{0}" en cada buzón de destino, con la estructura de carpetas incluida.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Calendarios y carpetas de contactos omitidos por nombre: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Eventos de calendario y contactos: se copian en el Calendario y los Contactos predeterminados de cada buzón de destino.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Eventos de calendario y contactos: no se copian.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Se omite el correo que ya está en el destino.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>NO se comprueba si el correo ya está en el destino.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Omitido: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Solo correo creado a partir del {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Se omiten los mensajes de más de {0} MB.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Cada mensaje copiado se compara después con su origen.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Sin comparación posterior.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Los buzones se copian uno tras otro. No se cambia nada en el origen.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Estimación de tamaño y tiempo</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Omitir la estimación</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Buzones omitidos porque no se encontró un buzón de destino correspondiente: {0}. Vuelve a Emparejar buzones para corregirlos.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Buzones seleccionados sin licencia (compartidos, de sala o de equipo): {0}. Se copian sus carpetas de correo y también su calendario cuando la copia de calendarios está activada. La configuración del recurso, como las directivas de reserva, no se copia.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Esto agrega eventos de calendario y contactos de forma permanente. Esta herramienta no tiene forma de quitarlos.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>La combinación agrega elementos a las carpetas reales de forma permanente. Esta herramienta no tiene forma de quitarlos.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Entiendo que la combinación agrega correo a las carpetas reales y que esta herramienta no puede quitarlo.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Una estimación necesita las conexiones de los pasos anteriores.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Leyendo el tamaño de los buzones ({0}); solo lectura, no se cambia nada…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Estimación omitida. La barra de progreso seguirá mostrando una estimación cuando la copia esté en curso.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>No se pudo realizar la estimación: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Unos {0} mensajes ({1} MB). Buzones: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Tiempo estimado: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Basado en velocidades medidas en nuestras pruebas con mensajes normales; los datos adjuntos muy grandes tardan más. Los buzones se copian uno tras otro. Si te detienes, la siguiente ejecución se reanuda donde se quedó.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Buzones que no se pudieron leer: {0}. No están en la estimación y probablemente también fallarán en la copia. Primer motivo: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>menos de un minuto</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>¿Iniciar la copia?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>¿Iniciar la copia ahora? Buzones: {0}.
+
+{1}
+
+No se cambia nada en el origen. Puedes detenerte en cualquier momento.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>El correo se agregará a las carpetas reales de cada buzón de destino. Esta herramienta no puede quitarlo.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>El correo se agregará en una carpeta nueva "{0}" en cada buzón de destino.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>No se puede iniciar</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Falta un secreto de cliente en este equipo. Agrégalo en Registros de aplicaciones.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Corrige primero lo siguiente:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Copiando buzones: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Iniciando…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Terminado. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Cada mensaje se comparó con su origen.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Selecciona una fila para ver los detalles, o abre el archivo de resultados.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Detenido por un error: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Duración: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} de {2} buzones terminados · {3} · {4} hasta ahora</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>quedan unos {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>estimado {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>estimando el tiempo…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Buzón {0} de {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Buzón {0}: {1} de {2} elementos procesados — {3} copiados, {4} ya existentes, {5} con error</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Deteniendo tras el elemento actual… los elementos terminados se recuerdan.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Buzones</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Detalle de carpetas del buzón en curso</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Registro</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Solo advertencias y errores</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} errores, {1} advertencias</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Copia en curso</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Hay una copia en curso. Si cierras ahora, se detiene (los elementos terminados se recuerdan, así que puedes reanudar).
+
+¿Cerrar de todos modos?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Progreso general</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Progreso de los buzones</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Copiados correctamente: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Requieren revisión: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Con error: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>No ejecutados: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Iniciar sesión y verificar las cuentas</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Origen (solo lectura): recorrer el árbol de carpetas y enumerar los elementos</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Destino: localizar las carpetas a las que va el correo</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Recrear el árbol y copiar elementos (exportar del origen, importar en el destino)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Conciliar: comparar el número de elementos por carpeta</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verificar: comparar cada mensaje copiado con su origen, campo por campo</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>En espera</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Copiando…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Listo</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Requiere revisión</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Con error</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>No ejecutado</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Copiado</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Copiando</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} con error</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Los recuentos difieren</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>carpeta de usuario</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>N.º</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Origen</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Destino</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Estado</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Detalles (seleccionar para copiar)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Carpeta</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Tipo</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elementos</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Copiados</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Ya existentes</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Con error</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Resultado</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Verificados idénticos</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Notas (seleccionar para copiar)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Notas</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Detalles</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>La copia se detuvo</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Copia completada</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Buzones copiados: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Buzones copiados: {0}. Los {1} mensajes comprobados eran idénticos a su origen.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>La copia se detuvo antes de terminar</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Buzones terminados: {0}. Sin iniciar: {1}. Ejecuta de nuevo para continuar: los elementos terminados no se copian dos veces.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Terminado, con elementos que requieren revisión</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Buzones copiados correctamente: {0} de {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Buzón por buzón</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Qué hacer a continuación</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Copiar este resumen</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Resultados por buzón</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Buzones copiados</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Mensajes copiados</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Ya en el destino</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Elementos con error</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Verificados idénticos</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Tiempo empleado</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} de {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>ninguno</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>sin comprobar</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Abre el archivo de resultados o el registro para ver el motivo, corrige la causa (por ejemplo, un permiso que falta o un buzón de destino que todavía no existe) y elige Ejecutar de nuevo. Los elementos terminados se recuerdan, así que no se copia nada dos veces.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Abre algunos buzones de destino en Outlook y comprueba la Bandeja de entrada, los Elementos enviados y tus propias carpetas. Revisa por muestreo mensajes con datos adjuntos.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Abre algunos buzones de destino en Outlook y busca la carpeta "{0}". Revisa por muestreo mensajes con datos adjuntos. Las personas pueden mover el correo fuera de ella, o dejarlo allí.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Los contactos y el calendario se cuentan pero todavía no se comparan campo por campo. Abre los Contactos y el Calendario de algunos buzones de destino y compruébalos, sobre todo las reuniones periódicas.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Para recoger el correo que llegó después de esta ejecución, elige Ejecutar de nuevo con la misma configuración. Solo se copia el correo nuevo.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Cuando la migración haya terminado por completo, elimina los secretos de cliente y los registros de aplicaciones en Microsoft Entra, ya que pueden acceder a todos los buzones del inquilino.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Buzones copiados: {0} de {1}; mensajes copiados: {2}; ya en el destino: {3}; elementos con error: {4}; tiempo: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Buzones copiados: {0} de {1}; mensajes copiados: {2}; ya en el destino: {3}; elementos con error: {4}; verificados idénticos: {5} de {6}; tiempo: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Registros de aplicaciones</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Un registro de aplicaciones es la identidad que usa esta herramienta para comunicarse con Microsoft 365 en un inquilino. Lo creas una vez por inquilino en el centro de administración de Microsoft Entra, lo guardas aquí con un nombre que reconozcas y lo eliges en los pasos Origen y Destino. Nada de esto se envía a ningún sitio; se almacena solo para tu usuario de Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Agregar</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Quitar</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nombre</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Cualquier cosa que te ayude a distinguirlos, por ejemplo "Contoso (origen)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Id. de directorio (inquilino)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Un GUID. Está en la página Información general del registro en el centro de administración de Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Id. de aplicación (cliente)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Un GUID. También está en la página Información general.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Secreto de cliente</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>El valor del secreto (no su identificador), de Certificados y secretos. Permite a la aplicación copiar buzones sin que nadie inicie sesión. Se cifra para tu usuario de Windows y no se puede leer en otro equipo. Solo se muestra mientras se escribe; escribe uno nuevo para reemplazarlo.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Hay un secreto guardado.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Borrar</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Para crear uno: centro de administración de Microsoft Entra &gt; Registros de aplicaciones &gt; Nuevo registro (inquilino único). Abre Permisos de API y agrega los permisos de aplicación que se muestran en los pasos Origen y Destino; después, Conceder consentimiento de administrador. Abre Certificados y secretos, crea un Nuevo secreto de cliente y copia su valor de inmediato (solo se muestra una vez). Copia el Id. de directorio (inquilino) y el Id. de aplicación (cliente) de la página Información general en este formulario.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Nuevo registro</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(sin nombre)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Quitar registro</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>¿Quitar "{0}" de esta lista?
+
+Esto solo lo olvida aquí. El registro de aplicaciones de Microsoft Entra no se toca.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Revisa la lista</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Asigna un nombre a cada registro.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": el identificador de inquilino y el de cliente deben ser GUID (por ejemplo, 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Error al guardar</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>No se pudo guardar: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Configuración</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Idioma</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Igual que Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Un idioma nuevo se aplica la próxima vez que inicies Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Igual que Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Claro</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Oscuro</value></data>
+</root>

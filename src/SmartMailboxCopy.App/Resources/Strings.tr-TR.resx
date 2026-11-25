@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Uygulama kayıtları</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Önceki çalıştırmalar ve raporlar</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Simge durumuna küçült</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Ekranı kapla veya geri yükle</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Kapat</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Adımlar</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>İptal</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Kaydet</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Geri</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>İleri</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Başla</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Kopyalamayı başlat</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Sonuçları görüntüle</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Yeni geçiş</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Durdur</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Sonuçları aç (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Öğe listesini aç (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Günlüğü aç</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Yeniden çalıştır (devam et)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Hoş geldiniz</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Kaynak</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Hedef</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Posta kutuları</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Eşleştir</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Seçenekler</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Gözden geçir</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopyala</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Sonuçlar</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Hoş geldiniz</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Kaynak kiracı</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Hedef kiracı</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Posta kutularını seçin</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Posta kutularını eşleştirin</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Seçenekler</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Gözden geçir</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopyala</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Sonuçlar</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Microsoft 365 kiracıları arasında posta taşıyın: tek bir posta kutusu, birkaçı veya herkes.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Kopyalamanın YAPILDIĞI kaynak kiracıya bağlanın. Yalnızca okunur; üzerinde hiçbir şey değiştirilmez.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Kopyalamanın YAPILACAĞI hedef kiracıya bağlanın. Posta buraya eklenir; zaten orada olan hiçbir şey değiştirilmez veya silinmez.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Kopyalanacak posta kutularını seçin. Listeyi daraltmak için filtreleri kullanın, ardından istediklerinizi işaretleyin.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Her kaynak posta kutusunun hangi hedef posta kutusuna gideceğini belirtin.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Postanın hedefe nasıl yerleşeceğini ve hangi güvenlik denetimlerinin çalıştırılacağını seçin.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Planı denetleyin. Henüz hiçbir şey kopyalanmadı.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Şimdi kopyalanıyor. İstediğiniz zaman durdurabilirsiniz; tamamlanan öğeler hatırlanır, böylece daha sonra devam edebilirsiniz.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Nelerin kopyalandığı, nelerin denetlendiği ve sonra ne yapılacağı.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Devam etmek için kaynak kiracıya bağlanın.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Devam etmek için hedef kiracıya bağlanın.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Devam etmek için en az bir posta kutusunu işaretleyin.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Devam etmek için en az bir satırın durumu Hazır olmalıdır.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Devam etmek için bir klasör adı girin.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Posta filtrelerini denetleyin: en az bir klasör işaretleyin, bir tarih seçin ve 0'dan büyük bir boyut girin.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Boyut ve süre tahmin ediliyor (salt okunur). Tahmin bittiğinde Başlat kullanılabilir olur; ya da Tahmini atla'yı seçin.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Devam etmek için yukarıdaki kutuyu işaretleyin.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Bu araç Microsoft 365 kiracıları arasında posta kopyalar. Tek bir posta kutusunu, seçtiğiniz birkaçını veya herkesi taşıyabilirsiniz; ardından her iletiyi aslıyla karşılaştırarak denetler.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Neler yapacağı ve neler yapmayacağı</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Kaynak kiracı yalnızca okunur. İçinde hiçbir şey değiştirilmez veya silinmez.
+• Hedef yalnızca öğe alır (posta ve, seçerseniz, takvim etkinlikleri ile kişiler). Araç, zaten orada olan hiçbir şeyi silmez veya değiştirmez.
+• İki kez kopyalanan ileti atlanır; bu nedenle bir çalıştırma güvenle tekrarlanabilir veya sürdürülebilir.
+• Kopyalanan her ileti kaynağıyla alan alan karşılaştırılır ve sonuç raporlanır.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Başlamadan önce neye ihtiyacınız var</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Her kiracıda (kaynak ve hedef) bir genel yönetici tarafından ayarlanmış bir uygulama kaydı. Sonraki adımlar hangi izinlerin ekleneceğini tam olarak gösterir.
+2. Her kayıt için bir istemci gizli anahtarı.
+3. Taşımak istediğiniz posta kutuları hedef kiracıda zaten mevcut olmalıdır (önce kullanıcıları oluşturun ve lisans atayın).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Nasıl çalışır</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Araç, bir kişinin oturum açmasını değil uygulama kaydını kullanır; bu sayede başkalarının posta kutularına parolaları olmadan erişebilir. Bu izinlere sahip bir uygulama kaydı kiracısındaki her posta kutusuna erişebildiğinden, gizli anahtarını gizli tutun ve geçiş bittiğinde kaydı kaldırın.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Kaynak kiracıya bağlanmak için İleri'yi seçin. Tamamlanan herhangi bir adıma üstteki adım çubuğundan geri dönebilirsiniz.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Kaynak, postanın şu anda bulunduğu kiracıdır. Smart Mailbox Copy bir uygulama kaydıyla oturum açar (hiçbir kişi oturum açmaz) ve seçtiğiniz posta kutularını okur.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Hedef, postanın taşındığı kiracıdır. Posta kutuları orada lisanslarıyla birlikte zaten mevcut olmalıdır. Araç yalnızca posta ekler.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Microsoft Entra yönetim merkezinde: Uygulama kayıtları &gt; uygulamanız &gt; API izinleri &gt; İzin ekle &gt; Microsoft Graph &gt; Uygulama izinleri. Ardından Yönetici onayı ver'i seçin.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Kaynakla aynı yer: API izinleri &gt; İzin ekle &gt; Microsoft Graph &gt; Uygulama izinleri, ardından Yönetici onayı ver.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>dışarı aktarma; portal listeliyorsa dışarı aktarma iznini kullanın</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Uygulama kaydı</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Bu kiracı için kayıtlı Microsoft Entra uygulama kaydı. Henüz listede yoksa Yönet'i seçip ekleyin.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Yönet…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Bu uygulama kaydının ihtiyaç duyduğu izinler</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Bağlan ve posta kutularını listele</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Bu işlem uygulama kaydıyla oturum açar, posta kutularının listesini okur ve uygulamaya hangi uygulama izinlerinin verildiğini denetler. Hiçbir şeyi değiştirmez. Az önce eklediğiniz bir iznin görünmesi birkaç dakika sürebilir: bekleyin, ardından yeniden bağlanın.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Kiracı {0}  ·  uygulama {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>istemci gizli anahtarı kaydedildi</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>Kayıtlı istemci gizli anahtarı YOK: Yönet altından ekleyin</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Hiçbir şey seçilmedi.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Bağlanılıyor…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Bağlandı. Posta kutusu adresi olan bulunan hesaplar: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Önce bir uygulama kaydı seçin.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Bu kayıt için bu bilgisayarda istemci gizli anahtarı kayıtlı değil. Yönet'i seçip ekleyin.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>İstemci gizli anahtarı geçerli değil. Gizli anahtarın Değeri yerine Kimliği veya başka bir uygulamanın gizli anahtarı olabilir. Yeni bir gizli anahtar oluşturun ve Yönet altında güncelleyin.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>İstemci gizli anahtarının süresi dolmuş. Yeni bir tane oluşturun ve Yönet altında güncelleyin.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Bu uygulama (istemci) kimliği bu kiracıda bulunamadı. Yönet altında kiracı ve istemci kimliklerini denetleyin.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Bu kiracı kimliği bulunamadı. Yönet altında denetleyin.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Uygulamada User.Read.All uygulama izni yok veya yönetici onayı verilmemiş.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Bu uygulamaya verilen uygulama izinleri:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (içeri/dışarı aktarma ve okuma)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>postayı okumak</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>hedefte klasör oluşturmak</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>posta öğelerini dışarı ve içeri aktarmak</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>klasör ağacını okumak</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>posta kutularını listelemek</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>yalnızca ek takvimleri kopyalamak</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>yalnızca ek kişi klasörlerini kopyalamak</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  EKSİK: şunun için gerekli: {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  verilmedi ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Eksik izinleri Uygulama izinleri olarak ekleyin ve yönetici onayı verin. Görünmeleri birkaç dakika sürebilir.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>İstediğiniz posta kutusu türlerini gösterin, etki alanına veya metne göre daraltın, ardından kopyalanacakları işaretleyin. Filtreleri değiştirirken işaretlemeleriniz korunur. Lisanssız hesaplar paylaşılan, oda veya ekipman posta kutularıdır; Microsoft hangisinin hangisi olduğunu belirtmez.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Kullanıcılar</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Paylaşılan, oda, ekipman (lisanssız)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Konuklar</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Yalnızca etkin hesaplar</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Etki alanı</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Ara</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Tüm etki alanları</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopyala</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Ad</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adres</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Tür</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Hesap</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Kullanıcı</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Paylaşılan, oda veya ekipman (lisanssız)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Konuk</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Etkin</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Devre dışı</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Gösterilenlerin tümünü işaretle</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Gösterilenlerin işaretini kaldır</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Listeyi yenile</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} seçili · {2} içinden {1} gösteriliyor</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} seçili ancak filtrelerce gizlendi</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Etki alanı filtresi</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Posta kutularında ara</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Kaynak posta kutuları</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Her kaynak adresin hedef kiracıda bir posta kutusuna ihtiyacı vardır. Etki alanı değiştirilerek eşleştirilir; adların farklı olduğu satırlarda farklı bir hedef adres yazın. Durumu Hazır olan satırlar kopyalanır; diğerleri dışarıda bırakılır.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Hedef etki alanı</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Tüm satırları bu etki alanıyla eşleştir</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Eşlemeyi içeri aktar (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Eşlemeyi dışarı aktar (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Kaynak posta kutusu</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Hedef posta kutusu (düzenlenebilir)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Durum</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Hazır</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Bir hedef adres girin</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>E-posta adresi değil</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Başka bir satır bu hedefi kullanıyor</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Hedef kiracıda bulunamadı</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{1} içinden {0} kopyalamaya hazır</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} düzeltilene kadar dışarıda bırakılacak</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV dosyaları (*.csv)|*.csv|Tüm dosyalar|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Kaynak,hedef eşlemesini içeri aktar</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV dosyaları (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Eşlemeyi dışarı aktar</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>Dosyadaki {1} satırdan {0} tanesi seçtiğiniz bir posta kutusuyla eşleşti. Diğerleri yoksayıldı.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Eşleme içeri aktarıldı</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Eşleme okunamadı</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Hedef etki alanı</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Posta kutusu eşlemesi</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Yalnızca takvim etkinlikleri ve kişiler (hiç posta kopyalama)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>İyi bir ilk deneme veya takvimleri ayrı kopyalamanın bir yolu. Etkinlikler her hedef posta kutusunun varsayılan Takvim'ine, kişiler ise varsayılan Kişiler'ine gider. Bu, öğeleri kalıcı olarak ekler: araç sonradan bunları kaldıramaz.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Posta nereye gitsin?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Yalnızca posta, her hedef posta kutusunda tek bir yeni klasöre (önerilir)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Klasör yapısı dahil tüm posta tek bir yeni klasöre kopyalanır. En güvenli yoldur ve kimse posta kutusunu kullanmaya başlamadan önce Outlook'ta incelemesi veya silmesi kolaydır. Takvim etkinlikleri ve kişiler bu klasöre konamaz, bu nedenle bu modda kopyalanmaz.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Klasör adı</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Taşınan posta</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Gerçek klasörlerle birleştirilir, takvim ve kişiler dahil</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Posta kişinin beklediği yere gider (Gelen Kutusu Gelen Kutusu'na, Gönderilmiş Öğeler Gönderilmiş Öğeler'e) ve diğer klasörler yanlarında yeniden oluşturulur. Bu, öğeleri kalıcı olarak ekler: aracın sonradan bunları kaldırmanın bir yolu yoktur.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Takvim etkinliklerini ve kişileri de kopyala (varsayılan ve tüm ek takvimler ile kişi klasörleri)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Yalnızca postayı kopyalamak için işareti kaldırın. Yinelenen toplantılar dahil etkinlikler sayılır ancak henüz alan alan karşılaştırılmaz.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Kopyalananı sınırla (isteğe bağlı): sınır yok, her şey kopyalanır</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Kopyalananı sınırla (isteğe bağlı): açık sınırlar: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Varsayılan olarak her klasör ve her ileti kopyalanır. Bunları yalnızca daha azını kopyalamak için kullanın. Her posta kutusu için geçerlidir, takvim etkinlikleri ve kişiler için asla geçerli değildir; dışarıda bırakılan posta kaynakta asla değiştirilmez veya silinmez.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Bu klasörleri dışarıda bırak</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Dışarıda bırakılan klasör alt klasörlerini de birlikte götürür.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Gelen Kutusu</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Gönderilmiş Öğeler</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Taslaklar</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Silinmiş Öğeler</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Önemsiz E-posta</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arşiv</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Kullanıcıların oluşturduğu klasörler</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Yalnızca şu tarihte veya sonrasında oluşturulan posta</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Bu, her iletinin posta kutusunda oluşturulduğu gündür; normalde ulaştığı gündür. İlk kopyalamadan sonra bir örneği denetleyin.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Şundan büyük iletileri atla</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Güvenlik denetimleri</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Hedefte zaten bulunan postayı atla (böylece yeniden çalıştırma yinelenenler oluşturmaz)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Kopyalanan her iletiyi sonradan kaynağıyla karşılaştır (süreyi uzatır, önerilir)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Zaten öğe içeren hedef klasörlere izin ver (kopyalanan öğeler onların yanına eklenir)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Bu işaretlenmedikçe, Gelen Kutusu veya Takvim gibi bir hedef klasör zaten öğe içeriyorsa birleştirme başlamayı reddeder.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Gelişmiş</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Baştan başla: önceki çalıştırmaların zaten kopyaladıklarını yoksay (yukarıdaki yinelenen denetimi hedef postayı yine de korur)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Dışarıda bırakılacak takvimler ve kişi klasörleri</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Her satıra bir ad, Outlook'ta göründüğü şekilde tam olarak. Bu adlara sahip ek takvimler ve kişi klasörleri kopyalanmaz; bir kişi klasörü alt klasörlerini de birlikte götürür. İnsanların abone olduğu takvimler için, örneğin bir tatil takvimi için kullanın. Doğum günleri takvimi asla kopyalanmaz (Outlook onu kişilerden oluşturur). Varsayılan Takvim ve Kişiler etkilenmez.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Asla yazılmaması gereken posta kutuları</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Her satıra bir adres. Bunlardan biri hedef olarak seçilirse, onun için kopyalama reddedilir.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Yeni klasör adı</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>En erken tarih</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Megabayt cinsinden en büyük ileti</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Kopyalanacak posta kutuları: {0}, "{1}" kaynağından "{2}" hedefine.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Yalnızca takvim etkinlikleri ve kişiler, her hedef posta kutusunun varsayılan Takvim ve Kişiler'ine kopyalanır. Hiç posta kopyalanmaz.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Posta her hedef posta kutusunun gerçek klasörlerine gider (Gelen Kutusu, Gönderilmiş Öğeler, Taslaklar…); diğer klasörler yanlarında yeniden oluşturulur.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Yalnızca posta, klasör yapısı dahil her hedef posta kutusunda "{0}" adlı yeni bir klasöre gider.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Ada göre dışarıda bırakılan takvimler ve kişi klasörleri: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Takvim etkinlikleri ve kişiler: her hedef posta kutusunun varsayılan Takvim ve Kişiler'ine kopyalanır.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Takvim etkinlikleri ve kişiler: kopyalanmaz.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Hedefte zaten bulunan posta atlanır.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Hedefte zaten bulunan posta için DENETİM YAPILMAZ.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Dışarıda bırakılan: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Yalnızca {0} tarihinde veya sonrasında oluşturulan posta.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>{0} MB'den büyük iletiler atlanır.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Kopyalanan her ileti sonradan kaynağıyla karşılaştırılır.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Sonradan karşılaştırma yapılmaz.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Posta kutuları birbiri ardına kopyalanır. Kaynakta hiçbir şey değiştirilmez.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Boyut ve süre tahmini</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Tahmini atla</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Eşleşen hedef posta kutusu bulunamadığı için dışarıda bırakılan posta kutuları: {0}. Düzeltmek için Posta kutularını eşleştirin adımına dönün.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Lisanssız seçili posta kutuları (paylaşılan, oda veya ekipman): {0}. Posta klasörleri kopyalanır; takvim kopyalama açıksa takvimleri de kopyalanır. Rezervasyon ilkeleri gibi kaynak ayarları kopyalanmaz.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Bu, takvim etkinliklerini ve kişileri kalıcı olarak ekler. Bu aracın bunları kaldırmanın bir yolu yoktur.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Birleştirme, gerçek klasörlere öğeleri kalıcı olarak ekler. Bu aracın bunları kaldırmanın bir yolu yoktur.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Birleştirmenin gerçek klasörlere posta eklediğini ve bu aracın bunu kaldıramayacağını anlıyorum.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Tahmin için önceki adımlardaki bağlantılar gerekir.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Posta kutularının boyutu okunuyor ({0}); salt okunur, hiçbir şey değiştirilmez…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Tahmin atlandı. Kopyalama başladıktan sonra ilerleme çubuğu yine de bir tahmin gösterecektir.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Tahmin yapılamadı: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Yaklaşık {0} ileti ({1} MB). Posta kutuları: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Tahmini süre: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Sıradan iletilerle yaptığımız testlerde ölçülen hızlara dayanır; çok büyük ekler daha uzun sürer. Posta kutuları birbiri ardına kopyalanır. Durdurursanız sonraki çalıştırma kaldığı yerden devam eder.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Okunamayan posta kutuları: {0}. Tahmine dahil değiller ve kopyalamada da büyük olasılıkla başarısız olacaklar. İlk neden: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>bir dakikadan az</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} dk</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} sa {1} dk</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Kopyalama başlatılsın mı?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Kopyalama şimdi başlatılsın mı? Posta kutuları: {0}.
+
+{1}
+
+Kaynakta hiçbir şey değiştirilmez. İstediğiniz zaman durdurabilirsiniz.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Posta, her hedef posta kutusunun gerçek klasörlerine eklenecek. Bu araç onu kaldıramaz.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Posta, her hedef posta kutusunda "{0}" adlı yeni bir klasöre eklenecek.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Başlatılamıyor</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Bu bilgisayarda bir istemci gizli anahtarı eksik. Uygulama kayıtları altından ekleyin.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Önce şunları düzeltin:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Posta kutuları kopyalanıyor: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Başlatılıyor…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Tamamlandı. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Her ileti kaynağıyla karşılaştırıldı.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Ayrıntılar için bir satır seçin veya sonuç dosyasını açın.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Bir hata nedeniyle durduruldu: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Süre: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {2} posta kutusundan {1} tamamlandı · {3} · şu ana kadar {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>yaklaşık {0} kaldı</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>tahmini {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>süre tahmin ediliyor…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Posta kutusu {0} / {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Posta kutusu {0}: {2} öğeden {1} tanesi işlendi — {3} kopyalandı, {4} zaten vardı, {5} başarısız</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Geçerli öğeden sonra durduruluyor… tamamlanan öğeler hatırlanır.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Posta kutuları</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Çalışan posta kutusunun klasör ayrıntıları</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Günlük</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Yalnızca uyarılar ve hatalar</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} hata, {1} uyarı</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopyalama sürüyor</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Bir kopyalama çalışıyor. Şimdi kapatırsanız durdurulur (tamamlanan öğeler hatırlanır, böylece devam edebilirsiniz).
+
+Yine de kapatılsın mı?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Genel ilerleme</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Posta kutusu ilerlemesi</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Sorunsuz kopyalanan: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>İncelenmesi gereken: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Başarısız: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Çalıştırılmadı: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Oturum aç ve hesapları doğrula</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Kaynak (salt okunur): klasör ağacını dolaş ve öğeleri listele</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Hedef: postanın gideceği klasörleri bul</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Ağacı yeniden oluştur ve öğeleri kopyala (kaynaktan dışarı aktar, hedefe içeri aktar)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Mutabakat: klasör başına öğe sayılarını karşılaştır</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Doğrula: kopyalanan her iletiyi kaynağıyla alan alan karşılaştır</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Bekliyor</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopyalanıyor…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Bitti</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>İncelenmeli</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Başarısız</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Çalıştırılmadı</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Kopyalandı</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopyalanıyor</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} başarısız</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Sayılar farklı</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>kullanıcı klasörü</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Kaynak</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Hedef</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Durum</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Ayrıntılar (kopyalamak için seçin)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Klasör</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Tür</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Öğeler</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Kopyalanan</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Zaten vardı</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Başarısız</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Sonuç</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Aynı olduğu doğrulanan</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Notlar (kopyalamak için seçin)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Notlar</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Ayrıntılar</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopyalama durdu</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopyalama tamamlandı</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Kopyalanan posta kutuları: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Kopyalanan posta kutuları: {0}. Denetlenen {1} iletinin tamamı kaynağıyla aynıydı.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopyalama bitmeden durdu</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Tamamlanan posta kutuları: {0}. Başlamayan: {1}. Devam etmek için yeniden çalıştırın: tamamlanan öğeler iki kez kopyalanmaz.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Tamamlandı, ancak incelenmesi gereken öğeler var</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Sorunsuz kopyalanan posta kutuları: {1} içinden {0}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Posta kutusu bazında</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Sonra ne yapmalı</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Bu özeti kopyala</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Posta kutusu bazında sonuçlar</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Kopyalanan posta kutuları</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Kopyalanan iletiler</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Hedefte zaten var</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Başarısız öğeler</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Aynı olduğu doğrulanan</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Geçen süre</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{1} içinden {0}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>yok</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>denetlenmedi</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Nedenini görmek için sonuç dosyasını veya günlüğü açın, nedeni düzeltin (örneğin eksik bir izin veya henüz var olmayan bir hedef posta kutusu) ve Yeniden çalıştır'ı seçin. Tamamlanan öğeler hatırlanır, bu nedenle hiçbir şey iki kez kopyalanmaz.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Outlook'ta birkaç hedef posta kutusunu açın ve Gelen Kutusu'nu, Gönderilmiş Öğeler'i ve kendi klasörlerinizi denetleyin. Eki olan iletilerden örnek alıp denetleyin.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Outlook'ta birkaç hedef posta kutusunu açın ve "{0}" klasörüne bakın. Eki olan iletilerden örnek alıp denetleyin. Kullanıcılar postayı bu klasörden taşıyabilir veya orada bırakabilir.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kişiler ve takvim sayılır ancak henüz alan alan karşılaştırılmaz. Birkaç hedef posta kutusunda Kişiler'i ve Takvim'i açıp özellikle yinelenen toplantıları denetleyin.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Bu çalıştırmadan sonra gelen postayı almak için aynı ayarlarla Yeniden çalıştır'ı seçin. Yalnızca yeni posta kopyalanır.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Geçiş tamamen bittiğinde, kiracıdaki her posta kutusuna erişebildikleri için istemci gizli anahtarlarını silin ve Microsoft Entra'daki uygulama kayıtlarını kaldırın.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Kopyalanan posta kutuları: {1} içinden {0}; kopyalanan iletiler: {2}; hedefte zaten var: {3}; başarısız öğeler: {4}; süre: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Kopyalanan posta kutuları: {1} içinden {0}; kopyalanan iletiler: {2}; hedefte zaten var: {3}; başarısız öğeler: {4}; aynı olduğu doğrulanan: {6} içinden {5}; süre: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Uygulama kayıtları</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Uygulama kaydı, bu aracın bir kiracıdaki Microsoft 365 ile iletişim kurmak için kullandığı kimliktir. Her kiracı için Microsoft Entra yönetim merkezinde bir kez oluşturur, burada tanıyacağınız bir adla kaydeder ve Kaynak ile Hedef adımlarında seçersiniz. Burada hiçbir şey herhangi bir yere gönderilmez; yalnızca Windows kullanıcınız için saklanır.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Ekle</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Kaldır</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Ad</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Birbirinden ayırmanıza yardımcı olacak herhangi bir ad, örneğin "Contoso (kaynak)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Dizin (kiracı) kimliği</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Bir GUID. Entra yönetim merkezinde kaydın Genel Bakış sayfasında.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Uygulama (istemci) kimliği</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Bir GUID. Yine Genel Bakış sayfasında.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>İstemci gizli anahtarı</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Sertifikalar ve gizli diziler bölümünden gizli anahtarın Değeri (Kimliği değil). Uygulamanın kimse oturum açmadan posta kutularını kopyalamasını sağlar. Windows kullanıcınız için şifrelenir ve başka bir bilgisayarda okunamaz. Yalnızca yazılırken gösterilir; değiştirmek için yenisini yazın.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Bir gizli anahtar kayıtlı.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Temizle</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Oluşturmak için: Microsoft Entra yönetim merkezi &gt; Uygulama kayıtları &gt; Yeni kayıt (tek kiracı). API izinleri'ni açın, Kaynak ve Hedef adımlarında gösterilen Uygulama izinleri'ni ekleyin, ardından Yönetici onayı ver'i seçin. Sertifikalar ve gizli diziler'i açın, Yeni istemci gizli anahtarı oluşturun ve Değerini hemen kopyalayın (yalnızca bir kez gösterilir). Genel Bakış sayfasındaki Dizin (kiracı) kimliği ile Uygulama (istemci) kimliğini bu forma kopyalayın.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Yeni kayıt</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(adsız)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Kaydı kaldır</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>"{0}" bu listeden kaldırılsın mı?
+
+Bu yalnızca burada unutulmasını sağlar. Microsoft Entra'daki uygulama kaydına dokunulmaz.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Listeyi denetleyin</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Her kayda bir ad verin.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": kiracı kimliği ve istemci kimliği ikisi de GUID olmalıdır (örneğin 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Kaydedilemedi</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Kaydedilemedi: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Dil</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Windows ile aynı</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Yeni dil, Smart Mailbox Copy'yi bir sonraki başlatışınızda geçerli olur.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Windows ile aynı</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Açık</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Koyu</value></data>
+</root>

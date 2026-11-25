@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Реєстрації застосунків</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Попередні запуски та звіти</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Згорнути</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Розгорнути або відновити</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Закрити</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Кроки</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Скасувати</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Зберегти</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Назад</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Далі</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Почати</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Почати копіювання</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Переглянути результати</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Нова міграція</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Зупинити</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Відкрити результати (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Відкрити список елементів (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Відкрити журнал</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Запустити знову (продовжити)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Вітання</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Джерело</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Ціль</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Скриньки</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Зіставлення</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Параметри</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Перегляд</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Копія</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Результати</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Вітаємо</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Вихідний клієнт</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Цільовий клієнт</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Вибір поштових скриньок</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Зіставлення поштових скриньок</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Параметри</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Перегляд</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Копіювання</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Результати</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Переносьте пошту між клієнтами Microsoft 365: одну скриньку, кілька або всі.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Підключіться до клієнта, З ЯКОГО копіюєте. Він лише читається; нічого в ньому не змінюється.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Підключіться до клієнта, В ЯКИЙ копіюєте. Пошту тут додають; нічого з наявного не змінюється й не видаляється.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Виберіть поштові скриньки для копіювання. Звузьте список фільтрами, а потім позначте потрібні.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Укажіть, до якої цільової скриньки потрапляє кожна вихідна скринька.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Виберіть, як пошта потрапить у ціль і які перевірки безпеки виконати.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Перевірте план. Поки що нічого не скопійовано.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Триває копіювання. Можна зупинити в будь-який момент; завершені елементи запам’ятовуються, тож пізніше можна продовжити.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Що скопійовано, що перевірено і що робити далі.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Щоб продовжити, підключіться до вихідного клієнта.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Щоб продовжити, підключіться до цільового клієнта.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Щоб продовжити, позначте принаймні одну поштову скриньку.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Щоб продовжити, принаймні один рядок має мати стан Готово.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Щоб продовжити, введіть назву папки.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Перевірте фільтри пошти: позначте принаймні одну папку, виберіть дату й введіть розмір, більший за 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Оцінювання розміру й часу (лише читання). Почати можна буде після завершення, або виберіть Пропустити оцінювання.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Щоб продовжити, установіть прапорець вище.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Цей засіб копіює пошту між клієнтами Microsoft 365. Можна перенести одну скриньку, кілька вибраних або всі, а після цього засіб порівняє кожен лист з оригіналом.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Що він робитиме, а чого ні</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Вихідний клієнт лише читається. Нічого в ньому не змінюється й не видаляється.
+• Ціль лише отримує елементи (пошту, а також події календаря й контакти, якщо ви їх виберете). Засіб ніколи не видаляє й не змінює нічого з наявного.
+• Лист, скопійований удруге, пропускається, тож запуск можна безпечно повторити або продовжити.
+• Кожен скопійований лист порівнюється з джерелом поле за полем, а результат фіксується у звіті.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Що потрібно перед початком</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Реєстрація застосунку в кожному клієнті (вихідному й цільовому), яку налаштовує глобальний адміністратор. Наступні кроки точно показують, які дозволи додати.
+2. Секрет клієнта для кожної реєстрації.
+3. Скриньки, які потрібно перенести, уже мають існувати в цільовому клієнті (спершу створіть користувачів і призначте їм ліцензії).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Як це працює</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Засіб використовує реєстрацію застосунку, а не вхід користувача, тому може отримати доступ до скриньок інших людей без їхніх паролів. Оскільки реєстрація застосунку з такими дозволами має доступ до кожної скриньки в клієнті, тримайте її секрет у таємниці та видаліть реєстрацію після завершення міграції.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Виберіть Далі, щоб підключити вихідного клієнта. До будь-якого завершеного кроку можна повернутися за допомогою панелі кроків угорі.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Джерело — це клієнт, у якому зараз розташована пошта. Smart Mailbox Copy входить за допомогою реєстрації застосунку (жоден користувач не входить) і читає вибрані скриньки.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Ціль — це клієнт, до якого переноситься пошта. Скриньки мають уже існувати там, з ліцензіями. Засіб лише додає пошту.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>У центрі адміністрування Microsoft Entra: Реєстрації застосунків &gt; ваш застосунок &gt; Дозволи API &gt; Додати дозвіл &gt; Microsoft Graph &gt; Дозволи програми. Потім виберіть Надати згоду адміністратора.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Те саме місце, що й для джерела: Дозволи API &gt; Додати дозвіл &gt; Microsoft Graph &gt; Дозволи програми, потім Надати згоду адміністратора.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>експорт; використайте дозвіл на експорт, якщо портал його показує</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Реєстрація застосунку</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Збережена реєстрація застосунку Microsoft Entra для цього клієнта. Якщо її ще немає в списку, виберіть Керувати й додайте її.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Керувати…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Дозволи, потрібні цій реєстрації застосунку</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Підключитися й показати скриньки</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Це виконує вхід за допомогою реєстрації застосунку, читає список скриньок і перевіряє, які дозволи програми надано застосунку. Нічого не змінюється. Дозвіл, доданий щойно, може з’явитися лише за кілька хвилин: зачекайте й підключіться знову.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Клієнт {0}  ·  застосунок {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>секрет клієнта збережено</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>Секрет клієнта НЕ збережено: додайте його в розділі Керувати</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Нічого не вибрано.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Підключення…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Підключено. Знайдено облікових записів з адресою скриньки: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Спершу виберіть реєстрацію застосунку.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Для цієї реєстрації на цьому ПК не збережено секрет клієнта. Виберіть Керувати й додайте його.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Секрет клієнта недійсний. Можливо, це ідентифікатор секрету замість його значення або секрет іншого застосунку. Створіть новий секрет і оновіть його в розділі Керувати.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Термін дії секрету клієнта минув. Створіть новий і оновіть його в розділі Керувати.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Цей ідентифікатор застосунку (клієнта) не знайдено в цьому клієнті. Перевірте ідентифікатори клієнта-організації та застосунку в розділі Керувати.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Цей ідентифікатор клієнта-організації не знайдено. Перевірте його в розділі Керувати.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Застосунку бракує дозволу програми User.Read.All або не надано згоду адміністратора.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Дозволи програми, надані цьому застосунку:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (імпорт/експорт і читання)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>читання пошти</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>створення папок у цілі</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>експорт та імпорт елементів пошти</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>читання дерева папок</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>показу списку скриньок</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>лише для копіювання додаткових календарів</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>лише для копіювання додаткових папок контактів</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  ВІДСУТНІЙ: потрібен для {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  не надано ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Додайте відсутні дозволи як Дозволи програми й надайте згоду адміністратора. Вони можуть з’явитися лише за кілька хвилин.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Покажіть потрібні типи скриньок, звузьте за доменом або текстом, а потім позначте скриньки для копіювання. Ваші позначки зберігаються під час зміни фільтрів. Облікові записи без ліцензії — це спільні скриньки, скриньки кімнат або обладнання; Microsoft не вказує, які саме.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Користувачі</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Спільні, кімнати, обладнання (без ліцензії)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Гості</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Лише ввімкнені облікові записи</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Домен</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Пошук</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Усі домени</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Копіювати</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Ім’я</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Адреса</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Тип</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Обліковий запис</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Користувач</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Спільна, кімната або обладнання (без ліцензії)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Гість</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Ввімкнено</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Вимкнено</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Позначити всі показані</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Зняти позначки з усіх показаних</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Оновити список</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>Вибрано: {0} · показано {1} із {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · вибрано {0}, але приховано фільтрами</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Фільтр домену</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Пошук скриньок</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Вихідні скриньки</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Кожна вихідна адреса потребує скриньки в цільовому клієнті. Їх зіставляють заміною домену; у будь-якому рядку, де імена відрізняються, введіть іншу цільову адресу. Рядки зі станом Готово буде скопійовано; решту буде пропущено.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Цільовий домен</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Зіставити всі рядки з цим доменом</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Імпортувати зіставлення (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Експортувати зіставлення (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Вихідна скринька</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Цільова скринька (можна змінити)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Стан</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Готово</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Введіть цільову адресу</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Це не адреса електронної пошти</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Цю ціль використовує інший рядок</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Не знайдено в цільовому клієнті</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>Готово до копіювання: {0} із {1}</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} буде пропущено, доки не виправлено</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Файли CSV (*.csv)|*.csv|Усі файли|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Імпорт зіставлення джерело,ціль</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Файли CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Експорт зіставлення</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>Рядків у файлі, що відповідають вибраній скриньці: {0} із {1}. Решту проігноровано.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Зіставлення імпортовано</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Не вдалося прочитати зіставлення</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Цільовий домен</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Зіставлення скриньок</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Лише події календаря й контакти (пошту не копіювати)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Хороший перший тест або спосіб скопіювати календарі окремо. Події потрапляють до типового календаря кожної цільової скриньки, а контакти — до її типових контактів. Елементи додаються назавжди: засіб не може потім їх видалити.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Куди помістити пошту?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Лише пошта, в одну нову папку в кожній цільовій скриньці (рекомендовано)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Уся пошта разом зі структурою папок копіюється в одну нову папку. Найбезпечніший варіант, який легко переглянути або видалити в Outlook, перш ніж хтось почне користуватися скринькою. Події календаря й контакти в неї помістити не можна, тому в цьому режимі їх не копіюють.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Назва папки</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Мігрована пошта</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Об’єднано зі справжніми папками, разом із календарем і контактами</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Пошта потрапляє туди, де її очікує користувач (Вхідні до Вхідних, Надіслані до Надісланих), а решту папок створюють поруч. Елементи додаються назавжди: засіб не має способу видалити їх потім.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Також копіювати події календаря й контакти (типові та будь-які додаткові календарі й папки контактів)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Зніміть позначку, щоб копіювати лише пошту. Події, зокрема повторювані наради, підраховуються, але ще не порівнюються поле за полем.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Обмежити, що копіюється (необов’язково): нічого не обмежено, копіюється все</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Обмежити, що копіюється (необов’язково): увімкнені обмеження: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Типово копіюється кожна папка й кожен лист. Використовуйте це лише для того, щоб скопіювати менше. Обмеження діють для кожної скриньки, але ніколи для подій календаря й контактів, а пропущена пошта в джерелі ніколи не змінюється й не видаляється.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Пропустити ці папки</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Пропущена папка забирає з собою свої вкладені папки.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Вхідні</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Надіслані</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Чернетки</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Видалені</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Небажана пошта</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Архів</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Папки, створені користувачами</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Лише пошта, створена в день або після дня</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Це день, коли кожен лист було створено в скриньці, зазвичай день його надходження. Після першого копіювання перевірте вибірку.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Пропускати листи, більші за</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>МБ</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Перевірки безпеки</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Пропускати пошту, яка вже є в цілі (щоб повторний запуск не створював дублікатів)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Після завершення порівняти кожен скопійований лист із джерелом (потребує додаткового часу, рекомендовано)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Дозволити цільові папки, що вже містять елементи (скопійовані елементи додаються поруч із ними)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Об’єднання відмовляється починатися, якщо цільова папка, наприклад Вхідні або Календар, уже містить елементи, доки цей прапорець не встановлено.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Додатково</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Почати спочатку: ігнорувати те, що вже скопіювали попередні запуски (наведена вище перевірка дублікатів усе одно захищає цільову пошту)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Календарі та папки контактів, які слід пропустити</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Одна назва в рядку, точно так, як вона відображається в Outlook. Додаткові календарі та папки контактів із цими назвами не копіюються; папка контактів забирає з собою свої вкладені папки. Використовуйте для календарів, на які люди підписуються, наприклад календаря свят. Календар Дні народження ніколи не копіюється (Outlook створює його з контактів). Типові Календар і Контакти це не стосується.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Скриньки, до яких ніколи не можна записувати</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Одна адреса в рядку. Якщо одну з них вибрано як ціль, копіювання для неї буде відхилено.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Назва нової папки</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Найраніша дата</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Найбільший лист у мегабайтах</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Скриньок до копіювання: {0}, з «{1}» до «{2}».</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Копіюються лише події календаря й контакти, до типового календаря й контактів кожної цільової скриньки. Пошта не копіюється.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Пошта потрапляє до справжніх папок кожної цільової скриньки (Вхідні, Надіслані, Чернетки…); решту папок створюють поруч.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Лише пошта потрапляє до нової папки з назвою «{0}» у кожній цільовій скриньці, разом зі структурою папок.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Календарі та папки контактів, пропущені за назвою: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Події календаря й контакти: копіюються до типового календаря й контактів кожної цільової скриньки.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Події календаря й контакти: не копіюються.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Пошта, яка вже є в цілі, пропускається.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Наявність пошти в цілі НЕ перевіряється.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Пропущено: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Лише пошта, створена {0} або пізніше.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Листи, більші за {0} МБ, пропускаються.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Кожен скопійований лист після цього порівнюється з джерелом.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Порівняння після копіювання не виконується.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Скриньки копіюються одна за одною. Нічого в джерелі не змінюється.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Оцінка розміру й часу</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Пропустити оцінювання</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Скриньки, пропущені, бо не знайдено відповідної цільової скриньки: {0}. Поверніться до кроку Зіставлення поштових скриньок, щоб виправити.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Вибрані скриньки без ліцензії (спільні, кімнат або обладнання): {0}. Їхні папки пошти копіюються, як і їхній календар, якщо копіювання календаря ввімкнено. Налаштування ресурсу, як-от політики бронювання, не копіюються.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Це назавжди додає події календаря й контакти. Цей засіб не має способу видалити їх.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Об’єднання назавжди додає елементи до справжніх папок. Цей засіб не має способу видалити їх.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Я розумію, що об’єднання додає пошту до справжніх папок, а цей засіб не може її видалити.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Для оцінювання потрібні підключення з попередніх кроків.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Читання розміру скриньок ({0}); лише читання, нічого не змінюється…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Оцінювання пропущено. Індикатор виконання все одно покаже оцінку, щойно копіювання розпочнеться.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Не вдалося виконати оцінювання: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Приблизно {0} листів ({1} МБ). Скриньки: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Орієнтовний час: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Ґрунтується на швидкостях, виміряних у наших тестах зі звичайними листами; дуже великі вкладення потребують більше часу. Скриньки копіюються одна за одною. Якщо зупинити, наступний запуск продовжить із місця зупинки.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Скриньки, які не вдалося прочитати: {0}. Їх не враховано в оцінці, і вони, ймовірно, також завершаться помилкою під час копіювання. Перша причина: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>менше хвилини</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} хв</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} год {1} хв</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Почати копіювання?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Почати копіювання зараз? Скриньок: {0}.
+
+{1}
+
+Нічого в джерелі не змінюється. Можна зупинити в будь-який момент.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Пошту буде додано до справжніх папок кожної цільової скриньки. Цей засіб не може її видалити.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Пошту буде додано до нової папки «{0}» у кожній цільовій скриньці.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Неможливо почати</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>На цьому ПК відсутній секрет клієнта. Додайте його в розділі Реєстрації застосунків.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Спершу виправте:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Копіювання скриньок: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Запуск…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Завершено. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Кожен лист порівняно з джерелом.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Виберіть рядок, щоб побачити подробиці, або відкрийте файл результатів.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Зупинено через помилку: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Тривало {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · завершено скриньок: {1} із {2} · {3} · досі {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>залишилося приблизно {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>орієнтовно {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>оцінювання часу…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Скринька {0} із {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Скринька {0}: оброблено елементів {1} із {2} — скопійовано {3}, уже існує {4}, помилок {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Зупинка після поточного елемента… завершені елементи запам’ятовуються.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Скриньки</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Подробиці папок для поточної скриньки</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Журнал</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Лише попередження та помилки</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>Помилок: {0}, попереджень: {1}</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Копіювання триває</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Триває копіювання. Якщо закрити зараз, його буде зупинено (завершені елементи запам’ятовуються, тож можна продовжити).
+
+Все одно закрити?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Загальний хід виконання</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Хід виконання по скриньках</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Скопійовано без проблем: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Потребує перегляду: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Помилка: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Не запускалося: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Вхід і перевірка облікових записів</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Джерело (лише читання): обхід дерева папок і складання списку елементів</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Ціль: пошук папок, до яких потрапляє пошта</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Відтворення дерева й копіювання елементів (експорт із джерела, імпорт у ціль)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Звіряння: порівняння кількості елементів у кожній папці</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Перевірка: порівняння кожного скопійованого листа з джерелом, поле за полем</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Очікує</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Копіювання…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Готово</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Потребує перегляду</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Помилка</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Не запускалося</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Скопійовано</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Копіювання</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>Помилок: {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Кількості відрізняються</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>папка користувача</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Джерело</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Ціль</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Стан</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Подробиці (виберіть, щоб скопіювати)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Папка</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Вид</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Елементи</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Скопійовано</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Уже існують</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Помилка</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Результат</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Перевірено, ідентичні</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Примітки (виберіть, щоб скопіювати)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Примітки</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Подробиці</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Копіювання зупинено</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Копіювання завершено</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Скопійовано скриньок: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Скопійовано скриньок: {0}. Кожен із {1} перевірених листів був ідентичний джерелу.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Копіювання зупинено до завершення</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Завершено скриньок: {0}. Не розпочато: {1}. Запустіть знову, щоб продовжити: завершені елементи не копіюються вдруге.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Завершено, але є елементи, що потребують перегляду</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Скриньок скопійовано без проблем: {0} із {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>По скриньках</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Що робити далі</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Копіювати цей підсумок</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Результати по скриньках</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Скопійовано скриньок</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Скопійовано листів</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Уже в цілі</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Елементи з помилками</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Перевірено, ідентичні</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Витрачено часу</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} із {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>немає</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>не перевірено</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Відкрийте файл результатів або журнал, щоб побачити причину, усуньте її (наприклад, відсутній дозвіл або цільову скриньку, якої ще не існує) і виберіть Запустити знову. Завершені елементи запам’ятовуються, тож нічого не копіюється вдруге.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Відкрийте кілька цільових скриньок в Outlook і перевірте Вхідні, Надіслані та власні папки. Вибірково перевірте листи з вкладеннями.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Відкрийте кілька цільових скриньок в Outlook і знайдіть папку «{0}». Вибірково перевірте листи з вкладеннями. Користувачі можуть перемістити пошту з неї або залишити її там.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Контакти й календар підраховуються, але ще не порівнюються поле за полем. Відкрийте Контакти й Календар у кількох цільових скриньках і перевірте їх, особливо повторювані наради.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Щоб отримати пошту, що надійшла після цього запуску, виберіть Запустити знову з тими самими налаштуваннями. Копіюється лише нова пошта.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Коли міграцію буде повністю завершено, видаліть секрети клієнта й реєстрації застосунків у Microsoft Entra, оскільки вони мають доступ до кожної скриньки в клієнті.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Скопійовано скриньок: {0} із {1}; скопійовано листів: {2}; уже в цілі: {3}; елементів з помилками: {4}; час: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Скопійовано скриньок: {0} із {1}; скопійовано листів: {2}; уже в цілі: {3}; елементів з помилками: {4}; перевірено, ідентичні: {5} із {6}; час: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Реєстрації застосунків</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Реєстрація застосунку — це ідентичність, яку цей засіб використовує для зв’язку з Microsoft 365 у клієнті. Ви створюєте її один раз для кожного клієнта в центрі адміністрування Microsoft Entra, зберігаєте тут під зрозумілою назвою та вибираєте на кроках Джерело й Ціль. Звідси нічого нікуди не надсилається; дані зберігаються лише для вашого користувача Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Додати</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Вилучити</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Назва</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Будь-що, що допоможе їх розрізняти, наприклад «Contoso (джерело)».</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Ідентифікатор каталогу (клієнта)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. На сторінці Огляд реєстрації в центрі адміністрування Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Ідентифікатор застосунку (клієнта)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. Також на сторінці Огляд.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Секрет клієнта</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Значення секрету (не його ідентифікатор) з розділу Сертифікати й секрети. Дає змогу застосунку копіювати скриньки без входу будь-кого. Його зашифровано для вашого користувача Windows, і прочитати його на іншому ПК неможливо. Він відображається лише під час введення; введіть новий, щоб замінити його.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Секрет збережено.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Очистити</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Щоб створити: центр адміністрування Microsoft Entra &gt; Реєстрації застосунків &gt; Нова реєстрація (один клієнт). Відкрийте Дозволи API і додайте Дозволи програми, показані на кроках Джерело й Ціль, потім Надати згоду адміністратора. Відкрийте Сертифікати й секрети, створіть Новий секрет клієнта й одразу скопіюйте його Значення (воно відображається лише раз). Скопіюйте Ідентифікатор каталогу (клієнта) та Ідентифікатор застосунку (клієнта) зі сторінки Огляд у цю форму.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Нова реєстрація</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(без назви)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Вилучення реєстрації</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Вилучити «{0}» з цього списку?
+
+Це лише забуває її тут. Реєстрація застосунку в Microsoft Entra не зачіпається.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Перевірте список</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Дайте кожній реєстрації назву.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>«{0}»: ідентифікатор клієнта-організації й ідентифікатор застосунку мають бути GUID (наприклад, 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Не вдалося зберегти</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Не вдалося зберегти: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Мова</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Як у Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Нова мова набуде чинності під час наступного запуску Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Тема</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Як у Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Світла</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Темна</value></data>
+</root>

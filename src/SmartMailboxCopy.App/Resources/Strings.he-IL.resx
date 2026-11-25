@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>רישומי אפליקציות</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>הרצות קודמות ודוחות</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>הגדרות</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>מזער</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>הגדל או שחזר</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>סגור</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>שלבים</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>ביטול</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>שמור</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>הקודם</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>הבא</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>בואו נתחיל</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>התחל העתקה</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>הצג תוצאות</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>הגירה חדשה</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>עצור</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>פתח תוצאות (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>פתח רשימת פריטים (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>פתח יומן</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>הרץ שוב (המשך)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>ברוכים</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>מקור</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>יעד</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>תיבות</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>התאמה</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>אפשרויות</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>סקירה</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>העתקה</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>תוצאות</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>ברוכים הבאים</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>דייר מקור</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>דייר יעד</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>בחירת תיבות דואר</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>התאמת תיבות דואר</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>אפשרויות</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>סקירה</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>העתקה</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>תוצאות</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>העבירו דואר בין דיירי Microsoft 365: תיבת דואר אחת, כמה תיבות או כולן.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>התחברו לדייר שממנו אתם מעתיקים. הוא נקרא בלבד ושום דבר בו אינו משתנה.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>התחברו לדייר שאליו אתם מעתיקים. דואר מתווסף כאן, ושום דבר שכבר קיים בו אינו משתנה או נמחק.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>בחרו את תיבות הדואר להעתקה. השתמשו במסננים כדי לצמצם את הרשימה, ואז סמנו את התיבות הרצויות.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>ציינו לכלי לאיזו תיבת דואר ביעד מועבר הדואר של כל תיבת דואר במקור.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>בחרו כיצד הדואר יגיע ליעד ואילו בדיקות בטיחות להפעיל.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>בדקו את התוכנית. עדיין לא הועתק דבר.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>מעתיק כעת. אפשר לעצור בכל עת; פריטים שהסתיימו נזכרים, כך שאפשר להמשיך מאוחר יותר.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>מה הועתק, מה נבדק ומה לעשות הלאה.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>התחברו לדייר המקור כדי להמשיך.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>התחברו לדייר היעד כדי להמשיך.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>סמנו לפחות תיבת דואר אחת כדי להמשיך.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>לפחות שורה אחת צריכה להציג מוכן כדי להמשיך.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>הזינו שם תיקיה כדי להמשיך.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>בדקו את מסנני הדואר: סמנו לפחות תיקיה אחת, בחרו תאריך והזינו גודל הגדול מ-0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>מעריך גודל וזמן (קריאה בלבד). הלחצן התחל יהיה זמין בסיום, או בחרו דלג על ההערכה.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>סמנו את התיבה שלמעלה כדי להמשיך.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>הכלי הזה מעתיק דואר בין דיירי Microsoft 365. אפשר להעביר תיבת דואר אחת, כמה תיבות נבחרות או את כולן, והכלי בודק כל הודעה מול המקור לאחר מכן.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>מה הכלי יעשה ומה לא</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• דייר המקור נקרא בלבד. שום דבר בו אינו משתנה או נמחק.
+• היעד מקבל פריטים בלבד (דואר, ואירועי לוח שנה ואנשי קשר אם בחרתם). הכלי לעולם אינו מוחק או משנה דבר שכבר קיים בו.
+• הודעה שהועתקה פעמיים מדולגת, ולכן אפשר לחזור על הרצה או להמשיך אותה בבטחה.
+• כל הודעה שהועתקה מושווית למקור שלה, שדה אחר שדה, והתוצאה מדווחת.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>מה צריך לפני שמתחילים</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. רישום אפליקציה בכל דייר (מקור ויעד), שמוגדר על ידי מנהל גלובלי. השלבים הבאים מציגים בדיוק אילו הרשאות להוסיף.
+2. סוד לקוח לכל רישום.
+3. תיבות הדואר שרוצים להעביר חייבות כבר להתקיים בדייר היעד (צרו קודם את המשתמשים ותנו להם רישיונות).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>איך זה עובד</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>הכלי משתמש ברישום האפליקציה, ולא בכניסה של אדם, ולכן הוא יכול להגיע לתיבות הדואר של אחרים בלי הסיסמאות שלהם. מכיוון שרישום אפליקציה עם הרשאות אלה יכול להגיע לכל תיבת דואר בדייר שלו, שמרו על הסוד שלו פרטי והסירו את הרישום בסיום ההגירה.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>בחרו הבא כדי להתחבר לדייר המקור. אפשר לחזור לכל שלב שהסתיים מסרגל השלבים שבראש המסך.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>המקור הוא הדייר שבו הדואר נמצא כרגע. Smart Mailbox Copy נכנס באמצעות רישום אפליקציה (אף אדם אינו נכנס) וקורא את תיבות הדואר שבחרתם.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>היעד הוא הדייר שאליו הדואר עובר. תיבות הדואר חייבות כבר להתקיים בו, עם רישיונות. הכלי רק מוסיף דואר.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>במרכז הניהול של Microsoft Entra: רישומי אפליקציות &gt; האפליקציה שלכם &gt; הרשאות API &gt; הוספת הרשאה &gt; Microsoft Graph &gt; הרשאות אפליקציה. לאחר מכן בחרו מתן הסכמת מנהל.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>אותו מקום כמו במקור: הרשאות API &gt; הוספת הרשאה &gt; Microsoft Graph &gt; הרשאות אפליקציה, ואז מתן הסכמת מנהל.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>ייצוא; השתמשו בהרשאת הייצוא אם הפורטל מציג אחת</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>רישום אפליקציה</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>רישום האפליקציה של Microsoft Entra שנשמר עבור דייר זה. אם הוא עדיין לא ברשימה, בחרו ניהול והוסיפו אותו.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>ניהול…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>ההרשאות שרישום אפליקציה זה צריך</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>התחבר והצג תיבות דואר</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>פעולה זו נכנסת באמצעות רישום האפליקציה, קוראת את רשימת תיבות הדואר ובודקת אילו הרשאות אפליקציה ניתנו לאפליקציה. היא אינה משנה דבר. הרשאה שהוספתם לפני רגע עשויה להופיע רק לאחר כמה דקות: המתינו ואז התחברו שוב.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>דייר {0}  ·  אפליקציה {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>סוד לקוח נשמר</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>לא נשמר סוד לקוח: הוסיפו אחד תחת ניהול</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>לא נבחר דבר.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>מתחבר…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>מחובר. חשבונות עם כתובת תיבת דואר שנמצאו: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>בחרו קודם רישום אפליקציה.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>לרישום זה לא נשמר סוד לקוח במחשב זה. בחרו ניהול והוסיפו אותו.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>סוד הלקוח אינו חוקי. ייתכן שזהו המזהה של הסוד במקום הערך שלו, או סוד של אפליקציה אחרת. צרו סוד חדש ועדכנו אותו תחת ניהול.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>תוקף סוד הלקוח פג. צרו סוד חדש ועדכנו אותו תחת ניהול.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>מזהה האפליקציה (הלקוח) הזה לא נמצא בדייר זה. בדקו את מזהה הדייר ואת מזהה הלקוח תחת ניהול.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>מזהה הדייר הזה לא נמצא. בדקו אותו תחת ניהול.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>לאפליקציה חסרה הרשאת האפליקציה User.Read.All, או שלא ניתנה הסכמת מנהל.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>הרשאות אפליקציה שניתנו לאפליקציה זו:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (ייבוא/ייצוא וקריאה)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>קריאת דואר</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>יצירת תיקיות ביעד</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>ייצוא וייבוא של פריטי דואר</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>קריאת עץ התיקיות</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>הצגת רשימת תיבות דואר</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>רק להעתקת לוחות שנה נוספים</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>רק להעתקת תיקיות אנשי קשר נוספות</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  חסר: נדרש כדי {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  לא ניתן ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>הוסיפו את ההרשאות החסרות כהרשאות אפליקציה ותנו הסכמת מנהל. ייתכן שיחלפו כמה דקות עד שיופיעו.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>הציגו את סוגי תיבות הדואר הרצויים, צמצמו לפי דומיין או טקסט, ואז סמנו את התיבות להעתקה. הסימונים נשמרים בזמן שאתם משנים את המסננים. חשבונות ללא רישיון הם תיבות דואר משותפות, של חדרים או של ציוד; Microsoft אינה מציינת איזה מהם.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>משתמשים</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>משותפת, חדר, ציוד (ללא רישיון)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>אורחים</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>חשבונות מופעלים בלבד</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>דומיין</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>חיפוש</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>כל הדומיינים</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>העתקה</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>שם</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>כתובת</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>סוג</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>חשבון</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>משתמש</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>משותפת, חדר או ציוד (ללא רישיון)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>אורח</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>מופעל</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>מושבת</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>סמן את כל המוצגים</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>בטל סימון של כל המוצגים</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>רענן רשימה</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} נבחרו · מוצגים {1} מתוך {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} נבחרו אך מוסתרים על ידי המסננים</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>מסנן דומיין</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>חיפוש בתיבות דואר</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>תיבות דואר מקור</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>כל כתובת מקור צריכה תיבת דואר בדייר היעד. ההתאמה נעשית על ידי החלפת הדומיין; הקלידו כתובת יעד שונה בכל שורה שבה השמות שונים. שורות שמוצג בהן מוכן יועתקו; האחרות ידולגו.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>דומיין יעד</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>התאם את כל השורות לדומיין זה</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>ייבוא מיפוי (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>ייצוא מיפוי (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>תיבת דואר מקור</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>תיבת דואר יעד (ניתן לעריכה)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>מצב</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>מוכן</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>הזינו כתובת יעד</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>אינה כתובת דואר אלקטרוני</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>שורה אחרת משתמשת ביעד זה</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>לא נמצאה בדייר היעד</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} מתוך {1} מוכנות להעתקה</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} ידולגו עד שיתוקנו</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>קובצי CSV (*.csv)|*.csv|כל הקבצים|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>ייבוא מיפוי מקור,יעד</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>קובצי CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>ייצוא המיפוי</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} מתוך {1} שורות בקובץ התאימו לתיבת דואר שבחרתם. האחרות התעלמו.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>המיפוי יובא</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>לא ניתן היה לקרוא את המיפוי</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>דומיין יעד</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>מיפוי תיבות דואר</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>אירועי לוח שנה ואנשי קשר בלבד (לא להעתיק דואר)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>בדיקה ראשונה טובה, או דרך להעתיק לוחות שנה בנפרד. אירועים נכנסים ללוח השנה ברירת המחדל של כל תיבת דואר יעד ואנשי קשר לתיקיית אנשי הקשר ברירת המחדל שלה. פעולה זו מוסיפה פריטים באופן קבוע: הכלי אינו יכול להסיר אותם לאחר מכן.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>לאן הדואר צריך להגיע?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>דואר בלבד, לתיקיה חדשה אחת בכל תיבת דואר יעד (מומלץ)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>כל הדואר, כולל מבנה התיקיות, מועתק לתיקיה חדשה אחת. זו האפשרות הבטוחה ביותר, וקל לסקור או למחוק אותה ב-Outlook לפני שמישהו מתחיל להשתמש בתיבת הדואר. אירועי לוח שנה ואנשי קשר אינם יכולים להימצא בה, ולכן הם אינם מועתקים במצב זה.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>שם תיקיה</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>דואר שהועבר</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>מיזוג לתיקיות האמיתיות, עם לוח שנה ואנשי קשר</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>הדואר מגיע למקום שהאדם מצפה לו (דואר נכנס לדואר נכנס, פריטים שנשלחו לפריטים שנשלחו) והתיקיות האחרות נוצרות לצדן. פעולה זו מוסיפה פריטים באופן קבוע: אין לכלי דרך להסיר אותם לאחר מכן.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>להעתיק גם אירועי לוח שנה ואנשי קשר (ברירת המחדל וכל לוחות השנה ותיקיות אנשי הקשר הנוספים)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>בטלו את הסימון כדי להעתיק דואר בלבד. אירועים, כולל פגישות חוזרות, נספרים אך עדיין לא מושווים שדה אחר שדה.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>הגבלת מה שמועתק (אופציונלי): אין הגבלות, הכול מועתק</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>הגבלת מה שמועתק (אופציונלי): הגבלות פעילות: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>כברירת מחדל מועתקות כל תיקיה וכל הודעה. השתמשו באפשרויות אלה רק כדי להעתיק פחות. הן חלות על כל תיבות הדואר, לעולם לא על אירועי לוח שנה ואנשי קשר, ודואר שדולג לעולם אינו משתנה או נמחק במקור.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>דלג על התיקיות האלה</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>תיקיה שמדלגים עליה מדלגת גם על תתי-התיקיות שלה.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>דואר נכנס</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>פריטים שנשלחו</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>טיוטות</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>פריטים שנמחקו</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>דואר זבל</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>ארכיון</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>תיקיות שאנשים יצרו</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>רק דואר שנוצר בתאריך זה או לאחריו</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>זהו היום שבו כל הודעה נוצרה בתיבת הדואר, שהוא בדרך כלל היום שבו היא התקבלה. בדקו דגימה לאחר ההעתקה הראשונה.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>דלג על הודעות גדולות מ-</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>בדיקות בטיחות</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>דלג על דואר שכבר נמצא ביעד (כך שהרצה חוזרת לא תיצור כפילויות)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>השווה כל הודעה שהועתקה למקור שלה לאחר מכן (מוסיף זמן, מומלץ)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>אפשר תיקיות יעד שכבר מכילות פריטים (הפריטים שהועתקו מתווספים לצדם)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>מיזוג מסרב להתחיל כאשר תיקיית יעד, כמו דואר נכנס או לוח שנה, כבר מכילה פריטים, אלא אם אפשרות זו מסומנת.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>מתקדם</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>התחל מחדש: התעלם ממה שהרצות קודמות כבר העתיקו (בדיקת הכפילויות שלמעלה עדיין מגנה על דואר היעד)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>לוחות שנה ותיקיות אנשי קשר שידולגו</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>שם אחד בכל שורה, בדיוק כפי שהוא מופיע ב-Outlook. לוחות שנה נוספים ותיקיות אנשי קשר בשמות אלה אינם מועתקים; תיקיית אנשי קשר מדלגת גם על תתי-התיקיות שלה. השתמשו בכך עבור לוחות שנה שאנשים מנויים עליהם, כמו לוח חגים. לוח השנה של ימי הולדת לעולם אינו מועתק (Outlook בונה אותו מאנשי הקשר). לוח השנה ברירת המחדל ואנשי הקשר ברירת המחדל אינם מושפעים.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>תיבות דואר שאסור לכתוב אליהן לעולם</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>כתובת אחת בכל שורה. אם אחת מהן נבחרת כיעד, ההעתקה אליה נדחית.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>שם תיקיה חדשה</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>התאריך המוקדם ביותר</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>ההודעה הגדולה ביותר במגה-בייט</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>תיבות דואר להעתקה: {0}, מ-"{1}" אל "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>מועתקים אירועי לוח שנה ואנשי קשר בלבד, ללוח השנה ולאנשי הקשר ברירת המחדל של כל תיבת דואר יעד. לא מועתק דואר.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>הדואר נכנס לתיקיות האמיתיות של כל תיבת דואר יעד (דואר נכנס, פריטים שנשלחו, טיוטות…); תיקיות אחרות נוצרות לצדן.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>הדואר בלבד נכנס לתיקיה חדשה בשם "{0}" בכל תיבת דואר יעד, כולל מבנה התיקיות.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>לוחות שנה ותיקיות אנשי קשר שדולגו לפי שם: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>אירועי לוח שנה ואנשי קשר: מועתקים ללוח השנה ולאנשי הקשר ברירת המחדל של כל תיבת דואר יעד.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>אירועי לוח שנה ואנשי קשר: לא מועתקים.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>דואר שכבר נמצא ביעד מדולג.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>לא נבדק אם דואר כבר נמצא ביעד.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>דולגו: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>רק דואר שנוצר ב-{0} או לאחר מכן.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>הודעות גדולות מ-{0} MB מדולגות.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>כל הודעה שהועתקה מושווית למקור שלה לאחר מכן.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>אין השוואה לאחר מכן.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>תיבות הדואר מועתקות זו אחר זו. שום דבר במקור אינו משתנה.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>הערכת גודל וזמן</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>דלג על ההערכה</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>תיבות דואר שדולגו כי לא נמצאה תיבת דואר יעד תואמת: {0}. חזרו אל התאמת תיבות דואר כדי לתקן אותן.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>תיבות דואר שנבחרו ללא רישיון (משותפות, חדרים או ציוד): {0}. תיקיות הדואר שלהן מועתקות, וכך גם לוח השנה שלהן כאשר העתקת לוח שנה מופעלת. הגדרות משאב כגון מדיניות הזמנה אינן מועתקות.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>פעולה זו מוסיפה אירועי לוח שנה ואנשי קשר באופן קבוע. אין לכלי זה דרך להסיר אותם.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>מיזוג מוסיף פריטים לתיקיות האמיתיות באופן קבוע. אין לכלי זה דרך להסיר אותם.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>אני מבין/ה שמיזוג מוסיף דואר לתיקיות האמיתיות ושכלי זה אינו יכול להסיר אותו.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>הערכה דורשת את החיבורים מהשלבים הקודמים.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>קורא את גודל תיבות הדואר ({0}); קריאה בלבד, שום דבר אינו משתנה…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>ההערכה דולגה. סרגל ההתקדמות עדיין יציג הערכה לאחר שההעתקה תתחיל.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>לא ניתן היה לבצע את ההערכה: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>כ-{0} הודעות ({1} MB). תיבות דואר: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>זמן משוער: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>מבוסס על מהירויות שנמדדו בבדיקות שלנו עם הודעות רגילות; קבצים מצורפים גדולים מאוד לוקחים יותר זמן. תיבות הדואר מועתקות זו אחר זו. אם תעצרו, ההרצה הבאה תמשיך מהמקום שבו נעצרה.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>תיבות דואר שלא ניתן היה לקרוא: {0}. הן אינן כלולות בהערכה וכנראה ייכשלו גם בהעתקה. הסיבה הראשונה: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>פחות מדקה</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} דק'</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} שע' {1} דק'</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>להתחיל את ההעתקה?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>להתחיל את ההעתקה עכשיו? תיבות דואר: {0}.
+
+{1}
+
+שום דבר במקור אינו משתנה. אפשר לעצור בכל עת.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>הדואר יתווסף לתיקיות האמיתיות של כל תיבת דואר יעד. הכלי אינו יכול להסיר אותו.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>הדואר יתווסף בתיקיה חדשה "{0}" בכל תיבת דואר יעד.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>לא ניתן להתחיל</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>סוד לקוח חסר במחשב זה. הוסיפו אותו תחת רישומי אפליקציות.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>תקנו קודם את אלה:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>מעתיק תיבות דואר: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>מתחיל…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>הסתיים. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>כל הודעה הושוותה למקור שלה.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>בחרו שורה לפרטים, או פתחו את קובץ התוצאות.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>נעצר עקב שגיאה: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>ארך {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} מתוך {2} תיבות דואר הסתיימו · {3} · {4} עד כה</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>נותרו כ-{0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>משוער {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>מעריך את הזמן…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>תיבת דואר {0} מתוך {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>תיבת דואר {0}: {1} מתוך {2} פריטים עובדו — {3} הועתקו, {4} כבר קיימים, {5} נכשלו</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>עוצר לאחר הפריט הנוכחי… פריטים שהסתיימו נזכרים.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>תיבות דואר</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>פרטי תיקיות עבור תיבת הדואר הפעילה</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>יומן</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>אזהרות ושגיאות בלבד</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} שגיאות, {1} אזהרות</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>העתקה מתבצעת</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>העתקה פועלת. סגירה כעת תעצור אותה (פריטים שהסתיימו נזכרים, כך שאפשר להמשיך).
+
+לסגור בכל זאת?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>התקדמות כוללת</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>התקדמות תיבות דואר</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>הועתקו ללא בעיות: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>דורשים בדיקה: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>נכשלו: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>לא הורצו: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>כניסה ואימות החשבונות</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>מקור (קריאה בלבד): סריקת עץ התיקיות והצגת רשימת הפריטים</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>יעד: איתור התיקיות שהדואר נכנס אליהן</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>יצירה מחדש של העץ והעתקת פריטים (ייצוא מהמקור, ייבוא ליעד)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>התאמה: השוואת מספרי הפריטים בכל תיקיה</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>אימות: השוואת כל הודעה שהועתקה למקור שלה, שדה אחר שדה</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>ממתין</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>מעתיק…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>הסתיים</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>דורש בדיקה</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>נכשל</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>לא הורץ</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>הועתק</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>מעתיק</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} נכשלו</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>המספרים שונים</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>תיקיית משתמש</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>מקור</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>יעד</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>מצב</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>פרטים (בחרו כדי להעתיק)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>תיקיה</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>סוג</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>פריטים</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>הועתקו</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>כבר קיימים</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>נכשלו</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>תוצאה</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>זהים (אומת)</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>הערות (בחרו כדי להעתיק)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>הערות</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>פרטים</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>ההעתקה נעצרה</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>ההעתקה הושלמה</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>תיבות דואר שהועתקו: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>תיבות דואר שהועתקו: {0}. כל אחת מ-{1} ההודעות שנבדקו הייתה זהה למקור שלה.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>ההעתקה נעצרה לפני שהסתיימה</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>תיבות דואר שהסתיימו: {0}. שלא התחילו: {1}. הריצו שוב כדי להמשיך: פריטים שהסתיימו אינם מועתקים פעמיים.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>הסתיים, עם פריטים שדורשים בדיקה</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>תיבות דואר שהועתקו ללא בעיות: {0} מתוך {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>תיבת דואר אחר תיבת דואר</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>מה לעשות הלאה</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>העתק סיכום זה</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>תוצאות לפי תיבת דואר</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>תיבות דואר שהועתקו</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>הודעות שהועתקו</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>כבר ביעד</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>פריטים שנכשלו</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>זהים (אומת)</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>הזמן שחלף</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} מתוך {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>אין</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>לא נבדק</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>פתחו את קובץ התוצאות או את היומן כדי לראות מדוע, תקנו את הסיבה (לדוגמה הרשאה חסרה או תיבת דואר יעד שעדיין אינה קיימת), ובחרו הרץ שוב. פריטים שהסתיימו נזכרים, ולכן דבר אינו מועתק פעמיים.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>פתחו כמה תיבות דואר יעד ב-Outlook ובדקו את הדואר הנכנס, הפריטים שנשלחו והתיקיות שלכם. בדקו דגימה של הודעות עם קבצים מצורפים.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>פתחו כמה תיבות דואר יעד ב-Outlook וחפשו את התיקיה "{0}". בדקו דגימה של הודעות עם קבצים מצורפים. אנשים יכולים להעביר דואר ממנה, או להשאיר אותו בה.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>אנשי קשר ולוח שנה נספרים אך עדיין לא מושווים שדה אחר שדה. פתחו את אנשי הקשר ולוח השנה בכמה תיבות דואר יעד ובדקו אותם, במיוחד פגישות חוזרות.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>כדי לקלוט דואר שהגיע לאחר הרצה זו, בחרו הרץ שוב עם אותן הגדרות. רק דואר חדש מועתק.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>כשההגירה הסתיימה לגמרי, מחקו את סודות הלקוח והסירו את רישומי האפליקציות ב-Microsoft Entra, מכיוון שהם יכולים להגיע לכל תיבת דואר בדייר.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>תיבות דואר שהועתקו: {0} מתוך {1}; הודעות שהועתקו: {2}; כבר ביעד: {3}; פריטים שנכשלו: {4}; זמן: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>תיבות דואר שהועתקו: {0} מתוך {1}; הודעות שהועתקו: {2}; כבר ביעד: {3}; פריטים שנכשלו: {4}; זהים (אומת): {5} מתוך {6}; זמן: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>רישומי אפליקציות</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>רישום אפליקציה הוא הזהות שבה הכלי משתמש כדי לתקשר עם Microsoft 365 בדייר. יוצרים אותו פעם אחת לכל דייר במרכז הניהול של Microsoft Entra, ואז שומרים אותו כאן בשם שאתם מזהים ובוחרים אותו בשלבי המקור והיעד. שום דבר מכאן אינו נשלח לשום מקום; הוא מאוחסן עבור משתמש Windows שלכם בלבד.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>הוסף</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>הסר</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>שם</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>כל שם שעוזר לכם להבדיל ביניהם, לדוגמה "Contoso (מקור)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>מזהה ספריה (דייר)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. בדף הסקירה הכללית של הרישום במרכז הניהול של Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>מזהה אפליקציה (לקוח)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. נמצא גם בדף הסקירה הכללית.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>סוד לקוח</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>הערך של הסוד (לא המזהה שלו), מתוך אישורים וסודות. הוא מאפשר לאפליקציה להעתיק תיבות דואר בלי שמישהו ייכנס. הוא מוצפן עבור משתמש Windows שלכם ואי אפשר לקרוא אותו במחשב אחר. הוא מוצג רק בזמן ההקלדה; הקלידו סוד חדש כדי להחליף אותו.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>סוד נשמר.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>נקה</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>כדי ליצור אחד: מרכז הניהול של Microsoft Entra &gt; רישומי אפליקציות &gt; רישום חדש (דייר יחיד). פתחו הרשאות API והוסיפו את הרשאות האפליקציה המוצגות בשלבי המקור והיעד, ואז תנו הסכמת מנהל. פתחו אישורים וסודות, צרו סוד לקוח חדש והעתיקו את הערך שלו מיד (הוא מוצג פעם אחת בלבד). העתיקו את מזהה הספריה (דייר) ואת מזהה האפליקציה (לקוח) מדף הסקירה הכללית לטופס זה.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>רישום חדש</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(ללא שם)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>הסרת רישום</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>להסיר את "{0}" מהרשימה?
+
+הפעולה רק גורמת לכלי לשכוח אותו כאן. רישום האפליקציה ב-Microsoft Entra אינו נפגע.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>בדקו את הרשימה</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>תנו שם לכל רישום.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": מזהה הדייר ומזהה הלקוח חייבים להיות שניהם GUID (לדוגמה 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>השמירה נכשלה</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>לא ניתן לשמור: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>הגדרות</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>שפה</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>כמו ב-Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>שפה חדשה נכנסת לתוקף בפעם הבאה שתפעילו את Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>ערכת נושא</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>כמו ב-Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>בהיר</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>כהה</value></data>
+</root>

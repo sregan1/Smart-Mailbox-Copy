@@ -7,6 +7,7 @@ using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
+using SmartMailboxCopy.App.Localization;
 
 namespace SmartMailboxCopy.App;
 
@@ -15,28 +16,14 @@ public partial class MainWindow : Window
     private const int MaxLogLines = 5000;
     private static readonly string AppData = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "SmartMailboxCopy");
 
-    // ---- what each step says ----
-    private static readonly (string Title, string Desc)[] Steps =
-    {
-        ("Welcome", "Move mail between Microsoft 365 tenants: one mailbox, several, or everyone."),
-        ("Source tenant", "Connect to the tenant you are copying FROM. It is only ever read; nothing in it is changed."),
-        ("Target tenant", "Connect to the tenant you are copying TO. Mail is added here; nothing already there is changed or deleted."),
-        ("Choose mailboxes", "Pick the mailboxes to copy. Use the filters to narrow the list, then tick the ones you want."),
-        ("Match mailboxes", "Tell the tool which target mailbox each source mailbox goes into."),
-        ("Options", "Choose how the mail lands in the target and which safety checks to run."),
-        ("Review", "Check the plan. Nothing has been copied yet."),
-        ("Copy", "Copying now. You can stop at any time; finished items are remembered, so you can resume later."),
-        ("Results", "What was copied, what was checked, and what to do next."),
-    };
+    private const int StepCount = 9;
+    private static string TitleOf(int step) => Loc.T($"Step{step}_Title");
+    private static string DescOf(int step) => Loc.T($"Step{step}_Desc");
 
-    private const string SourcePermsIntro = "In the Microsoft Entra admin center: App registrations > your app > API permissions > Add a permission > Microsoft Graph > Application permissions. Then select Grant admin consent.";
-    private const string SourcePerms = "Mail.Read\nMailboxItem.ImportExport.All  (export; use the export permission if the portal lists one)\nMailboxItem.Read.All\nMailboxFolder.Read.All\nUser.Read.All";
-    private const string TargetPermsIntro = "Same place as for the source: API permissions > Add a permission > Microsoft Graph > Application permissions, then Grant admin consent.";
-    private const string TargetPerms = "Mail.ReadWrite\nMailboxItem.ImportExport.All\nMailboxItem.Read.All\nMailboxFolder.Read.All\nUser.Read.All\nCalendars.ReadWrite  (only to copy additional calendars)\nContacts.ReadWrite  (only to copy additional contact folders)";
-
-    internal const string RegSetupHelp =
-        "To create one: Microsoft Entra admin center > App registrations > New registration (single tenant). Open API permissions and add the Application permissions shown on the Source and Target steps, then Grant admin consent. " +
-        "Open Certificates & secrets, create a New client secret, and copy its Value straight away (it is shown only once). Copy the Directory (tenant) ID and Application (client) ID from the Overview page into this form.";
+    // The permission names are Microsoft's and stay as they are; only the notes beside them are translated.
+    private static string SourcePerms => "Mail.Read\nMailboxItem.ImportExport.All  (" + Loc.T("Conn_PermNoteExport") + ")\nMailboxItem.Read.All\nMailboxFolder.Read.All\nUser.Read.All";
+    private static string TargetPerms => "Mail.ReadWrite\nMailboxItem.ImportExport.All\nMailboxItem.Read.All\nMailboxFolder.Read.All\nUser.Read.All\n"
+        + "Calendars.ReadWrite  (" + Loc.T("Chk_WhyCalendars") + ")\nContacts.ReadWrite  (" + Loc.T("Chk_WhyContacts") + ")";
 
     private AppRegistrationStore _regs = null!;
     private readonly ObservableCollection<NavItem> _nav = new();
@@ -52,7 +39,7 @@ public partial class MainWindow : Window
     private HashSet<string> _targetAddrs = new(StringComparer.OrdinalIgnoreCase);
     private List<DirectoryMailbox> _targetBoxes = new();
     private int _step, _warnings, _errors;
-    private bool _ready, _navSync, _running, _finished, _sourceOk, _targetOk, _mapStale = true;
+    private bool _ready, _running, _finished, _sourceOk, _targetOk, _mapStale = true;
     private CancellationTokenSource? _cts;
     private RunLog? _runLog;
     private string? _resultsPath;
@@ -82,8 +69,8 @@ public partial class MainWindow : Window
         _demo = demo != null;
         _regs = _demo ? DemoData.Store() : AppRegistrationStore.Load();   // demo mode never reads or writes the real settings
         _panels = new FrameworkElement[] { Step0, SourcePanel, TargetPanel, Step3, Step4, Step5, Step6, Step7, Step8 };
-        for (var i = 0; i < Steps.Length; i++) _nav.Add(new NavItem { Title = Steps[i].Title, Number = i + 1 });
-        NavList.ItemsSource = _nav;
+        for (var i = 0; i < StepCount; i++) _nav.Add(new NavItem { Label = Loc.T($"Step{i}_Label"), Number = i + 1, IsLast = i == StepCount - 1 });
+        StepBar.ItemsSource = _nav;
 
         _boxView = CollectionViewSource.GetDefaultView(_boxes);
         _boxView.Filter = PassesFilter;
@@ -95,8 +82,8 @@ public partial class MainWindow : Window
         _logView.Filter = o => o is LogLine l && l.Level >= LogLevel.Info && (OnlyProblems.IsChecked != true || l.Level >= LogLevel.Warn);
         LogList.ItemsSource = _logView;
 
-        SourcePanel.Setup("The source is the tenant the mail currently lives in. Smart Mailbox Copy signs in with an app registration (no person signs in) and reads the mailboxes you choose.", SourcePermsIntro, SourcePerms);
-        TargetPanel.Setup("The target is the tenant the mail is moving to. The mailboxes must already exist there, with licenses. The tool only adds mail.", TargetPermsIntro, TargetPerms);
+        SourcePanel.Setup(Loc.T("Conn_SourceIntro"), Loc.T("Conn_SourcePermsIntro"), SourcePerms);
+        TargetPanel.Setup(Loc.T("Conn_TargetIntro"), Loc.T("Conn_TargetPermsIntro"), TargetPerms);
         SourcePanel.ManageRequested += ManageRegs; TargetPanel.ManageRequested += ManageRegs;
         SourcePanel.TestRequested += async () => await ConnectAsync(SourcePanel, SessionRole.Source);
         TargetPanel.TestRequested += async () => await ConnectAsync(TargetPanel, SessionRole.Target);
@@ -107,7 +94,7 @@ public partial class MainWindow : Window
         RefreshRegistrations(null, null);
         Protected.Text = string.Join(Environment.NewLine, _regs.ProtectedMailboxes);
         LeaveOutCal.Text = string.Join(Environment.NewLine, _regs.LeaveOutCalendars);
-        if (_regs.LastContainer != "") ContainerName.Text = _regs.LastContainer;
+        ContainerName.Text = _regs.LastContainer != "" ? _regs.LastContainer : Loc.T("Opt_DefaultFolderName");
         _ready = true;
         GoTo(0);
         if (demo != null) ApplyDemo(demo);
@@ -120,7 +107,7 @@ public partial class MainWindow : Window
     private void ManageRegs()
     {
         var keepS = SourcePanel.Selected; var keepT = TargetPanel.Selected;
-        if (new RegistrationsDialog(_regs, RegSetupHelp) { Owner = this }.ShowDialog() != true) _regs = AppRegistrationStore.Load();   // cancelled: drop in-memory edits
+        if (new RegistrationsDialog(_regs) { Owner = this }.ShowDialog() != true) _regs = AppRegistrationStore.Load();   // cancelled: drop in-memory edits
         RefreshRegistrations(keepS, keepT);
     }
 
@@ -160,11 +147,11 @@ public partial class MainWindow : Window
 
     private static string Friendly(string msg)
     {
-        if (msg.Contains("7000215")) return "The client secret is not valid. It may be the secret's ID instead of its Value, or a different app's secret. Create a new secret and update it under Manage.";
-        if (msg.Contains("7000222")) return "The client secret has expired. Create a new one and update it under Manage.";
-        if (msg.Contains("700016")) return "That application (client) ID was not found in this tenant. Check the tenant and client IDs under Manage.";
-        if (msg.Contains("90002") || msg.Contains("90013")) return "That tenant ID was not found. Check it under Manage.";
-        if (msg.Contains("403") || msg.Contains("Authorization_RequestDenied")) return "The app is missing the User.Read.All application permission, or admin consent has not been granted.";
+        if (msg.Contains("7000215")) return Loc.T("Err_SecretInvalid");
+        if (msg.Contains("7000222")) return Loc.T("Err_SecretExpired");
+        if (msg.Contains("700016")) return Loc.T("Err_ClientNotFound");
+        if (msg.Contains("90002") || msg.Contains("90013")) return Loc.T("Err_TenantNotFound");
+        if (msg.Contains("403") || msg.Contains("Authorization_RequestDenied")) return Loc.T("Err_MissingUserRead");
         return msg.Length > 260 ? msg[..260] + "…" : msg;
     }
 
@@ -174,29 +161,29 @@ public partial class MainWindow : Window
         bool Has(string name) => granted.Contains(name, StringComparer.OrdinalIgnoreCase);
         bool Any(string prefix) => granted.Any(g => g.StartsWith(prefix, StringComparison.OrdinalIgnoreCase));
         var rows = new List<(string Label, bool Ok, bool Required, string Why)>();
-        if (role == SessionRole.Source) rows.Add(("Mail.Read", Has("Mail.Read") || Has("Mail.ReadWrite"), true, "read mail"));
-        else rows.Add(("Mail.ReadWrite", Has("Mail.ReadWrite"), true, "create folders in the target"));
-        rows.Add(("MailboxItem.* (import/export and read)", Any("MailboxItem."), true, "export and import mail items"));
-        rows.Add(("MailboxFolder.Read.All", Any("MailboxFolder."), true, "read the folder tree"));
-        rows.Add(("User.Read.All", Has("User.Read.All"), true, "list mailboxes"));
+        if (role == SessionRole.Source) rows.Add(("Mail.Read", Has("Mail.Read") || Has("Mail.ReadWrite"), true, Loc.T("Chk_WhyReadMail")));
+        else rows.Add(("Mail.ReadWrite", Has("Mail.ReadWrite"), true, Loc.T("Chk_WhyCreateFolders")));
+        rows.Add((Loc.T("Chk_LabelMailboxItem"), Any("MailboxItem."), true, Loc.T("Chk_WhyImportExport")));
+        rows.Add(("MailboxFolder.Read.All", Any("MailboxFolder."), true, Loc.T("Chk_WhyFolderTree")));
+        rows.Add(("User.Read.All", Has("User.Read.All"), true, Loc.T("Chk_WhyListMailboxes")));
         if (role == SessionRole.Target)
         {
-            rows.Add(("Calendars.ReadWrite", Has("Calendars.ReadWrite"), false, "only to copy additional calendars"));
-            rows.Add(("Contacts.ReadWrite", Has("Contacts.ReadWrite"), false, "only to copy additional contact folders"));
+            rows.Add(("Calendars.ReadWrite", Has("Calendars.ReadWrite"), false, Loc.T("Chk_WhyCalendars")));
+            rows.Add(("Contacts.ReadWrite", Has("Contacts.ReadWrite"), false, Loc.T("Chk_WhyContacts")));
         }
-        var sb = new StringBuilder("Application permissions granted to this app:\n");
-        foreach (var r in rows) sb.AppendLine(r.Ok ? $"  ✓ {r.Label}" : r.Required ? $"  ✗ {r.Label}  MISSING: needed to {r.Why}" : $"  – {r.Label}  not granted ({r.Why})");
-        if (rows.Any(r => !r.Ok && r.Required)) sb.Append("Add the missing permissions as Application permissions and grant admin consent. They can take a few minutes to appear.");
+        var sb = new StringBuilder(Loc.T("Chk_Header") + "\n");
+        foreach (var r in rows) sb.AppendLine(r.Ok ? $"  ✓ {r.Label}" : r.Required ? "  ✗ " + Loc.T("Chk_Missing", r.Label, r.Why) : "  – " + Loc.T("Chk_NotGranted", r.Label, r.Why));
+        if (rows.Any(r => !r.Ok && r.Required)) sb.Append(Loc.T("Chk_AddMissing"));
         return (sb.ToString().TrimEnd(), rows.All(r => r.Ok || !r.Required));
     }
 
     private async Task ConnectAsync(ConnectionPanel panel, SessionRole role)
     {
         var reg = panel.Selected;
-        if (reg == null) { panel.SetResult("Choose an app registration first.", false); return; }
+        if (reg == null) { panel.SetResult(Loc.T("Conn_ChooseReg"), false); return; }
         var secret = reg.GetClientSecret();
-        if (secret == null) { panel.SetResult("This registration has no client secret saved on this PC. Choose Manage and add it.", false); return; }
-        panel.SetBusy(true); panel.SetResult("Connecting…", null);
+        if (secret == null) { panel.SetResult(Loc.T("Conn_NoSecret"), false); return; }
+        panel.SetBusy(true); panel.SetResult(Loc.T("Conn_Connecting"), null);
         var ok = false;
         try
         {
@@ -210,7 +197,7 @@ public partial class MainWindow : Window
             if (role == SessionRole.Source) LoadSourceBoxes(list);
             else { _targetBoxes = list; _targetAddrs = list.SelectMany(m => new[] { m.Upn, m.Mail }).ToHashSet(StringComparer.OrdinalIgnoreCase); }
             _mapStale = true; ok = true;
-            panel.SetResult($"Connected. {list.Count} accounts with a mailbox address found.", true);
+            panel.SetResult(Loc.T("Conn_Connected", list.Count), true);
         }
         catch (Exception ex) { panel.SetResult(Friendly(ex.Message), false); }
         finally
@@ -232,7 +219,7 @@ public partial class MainWindow : Window
             _boxes.Add(m);
         }
         var domains = list.Select(d => d.Domain).Where(x => x != "").Distinct(StringComparer.OrdinalIgnoreCase).OrderBy(x => x).ToList();
-        DomainFilter.ItemsSource = new[] { "All domains" }.Concat(domains).ToList();
+        DomainFilter.ItemsSource = new[] { Loc.T("Boxes_AllDomains") }.Concat(domains).ToList();
         DomainFilter.SelectedIndex = 0;
         _boxView.Refresh(); UpdateSelectionText();
     }
@@ -257,7 +244,7 @@ public partial class MainWindow : Window
     private void UpdateSelectionText()
     {
         var sel = _boxes.Count(m => m.Selected); var shown = Shown().Count(); var hidden = _boxes.Count(m => m.Selected && !PassesFilter(m));
-        SelectionText.Text = $"{sel} selected · {shown} shown of {_boxes.Count}" + (hidden > 0 ? $" · {hidden} selected but hidden by the filters" : "");
+        SelectionText.Text = Loc.T("Boxes_Selection", sel, shown, _boxes.Count) + (hidden > 0 ? Loc.T("Boxes_SelectionHidden", hidden) : "");
     }
 
     // =============================== match mailboxes ===============================
@@ -288,33 +275,34 @@ public partial class MainWindow : Window
         foreach (var m in _map)
         {
             var t = m.Target.Trim();
-            m.Status = t == "" ? "Enter a target address" : !t.Contains('@') ? "Not an email address" : dupes.Contains(t) ? "Another row uses this target"
-                : _targetAddrs.Contains(t) ? "Ready" : "Not found in the target tenant";
-            m.Ready = m.Status == "Ready";
+            var isReady = t != "" && t.Contains('@') && !dupes.Contains(t) && _targetAddrs.Contains(t);
+            m.Status = t == "" ? Loc.T("Match_Enter") : !t.Contains('@') ? Loc.T("Match_NotEmail") : dupes.Contains(t) ? Loc.T("Match_Dupe")
+                : isReady ? Loc.T("Match_Ready") : Loc.T("Match_NotFound");
+            m.Ready = isReady;
         }
-        var ready = _map.Count(m => m.Ready);
-        MapSummary.Text = $"{ready} of {_map.Count} ready to copy" + (ready < _map.Count ? $" · {_map.Count - ready} will be left out until fixed" : "");
+        var readyCount = _map.Count(m => m.Ready);
+        MapSummary.Text = Loc.T("Match_Summary", readyCount, _map.Count) + (readyCount < _map.Count ? Loc.T("Match_SummaryLeft", _map.Count - readyCount) : "");
     }
 
     private void ApplyDomain_Click(object s, RoutedEventArgs e) { foreach (var m in _map) m.Target = Suggest(m.Source); RecheckAll(); UpdateNav(); }
 
     private void ImportMap_Click(object s, RoutedEventArgs e)
     {
-        var dlg = new Microsoft.Win32.OpenFileDialog { Filter = "CSV files (*.csv)|*.csv|All files|*.*", Title = "Import a source,target map" };
+        var dlg = new Microsoft.Win32.OpenFileDialog { Filter = Loc.T("Match_CsvFilter"), Title = Loc.T("Match_ImportTitle") };
         if (dlg.ShowDialog(this) != true) return;
         try
         {
             var rows = MailboxMap.Load(dlg.FileName); var matched = 0;
             foreach (var r in rows) if (_map.FirstOrDefault(m => string.Equals(m.Source, r.Source, StringComparison.OrdinalIgnoreCase)) is { } m) { m.Target = r.Target; matched++; }
             RecheckAll(); UpdateNav();
-            MessageBox.Show(this, $"{matched} of {rows.Count} rows in the file matched a mailbox you selected. The others were ignored.", "Map imported");
+            MessageBox.Show(this, Loc.T("Match_Imported", matched, rows.Count), Loc.T("Match_ImportedTitle"));
         }
-        catch (Exception ex) { MessageBox.Show(this, ex.Message, "Could not read the map", MessageBoxButton.OK, MessageBoxImage.Warning); }
+        catch (Exception ex) { MessageBox.Show(this, ex.Message, Loc.T("Match_ReadFail"), MessageBoxButton.OK, MessageBoxImage.Warning); }
     }
 
     private void ExportMap_Click(object s, RoutedEventArgs e)
     {
-        var dlg = new Microsoft.Win32.SaveFileDialog { Filter = "CSV files (*.csv)|*.csv", FileName = "mailbox-map.csv", Title = "Export the map" };
+        var dlg = new Microsoft.Win32.SaveFileDialog { Filter = Loc.T("Match_ExportFilter"), FileName = "mailbox-map.csv", Title = Loc.T("Match_ExportTitle") };
         if (dlg.ShowDialog(this) == true) MailboxMap.Save(dlg.FileName, _map.Select(m => new MapRow(m.Source, m.Target)));
     }
 
@@ -344,8 +332,7 @@ public partial class MainWindow : Window
         var n = 0;
         n += new[] { FolderInbox, FolderSent, FolderDrafts, FolderDeleted, FolderJunk, FolderArchive, FolderUser }.Count(c => c.IsChecked == true) > 0 ? 1 : 0;
         n += DateFilter.IsChecked == true ? 1 : 0; n += SizeFilter.IsChecked == true ? 1 : 0;
-        FilterExpander.Header = n == 0 ? "Limit what is copied (optional): nothing is limited, everything is copied"
-                                      : $"Limit what is copied (optional): {n} limit{(n == 1 ? "" : "s")} on";
+        FilterExpander.Header = n == 0 ? Loc.T("Opt_LimitNone") : Loc.T("Opt_LimitSome", n);
     }
 
     private void Option_Changed(object s, RoutedEventArgs e)
@@ -376,35 +363,41 @@ public partial class MainWindow : Window
         && (PimOnlyOn || new[] { FolderInbox, FolderSent, FolderDrafts, FolderDeleted, FolderJunk, FolderArchive, FolderUser }.Any(c => c.IsChecked != true));
     private void Option_Changed(object s, TextChangedEventArgs e) { if (_ready) UpdateNav(); }
 
+    private static string FolderName(string wellKnown) => wellKnown switch
+    {
+        "inbox" => Loc.T("Folder_Inbox"), "sentitems" => Loc.T("Folder_Sent"), "drafts" => Loc.T("Folder_Drafts"), "deleteditems" => Loc.T("Folder_Deleted"),
+        "junkemail" => Loc.T("Folder_Junk"), "archive" => Loc.T("Folder_Archive"), _ => wellKnown
+    };
+
     private void BuildReview()
     {
         var ready = _map.Where(m => m.Ready).ToList(); var left = _map.Count - ready.Count;
         var sb = new StringBuilder();
-        sb.AppendLine($"Copy {ready.Count} mailbox{(ready.Count == 1 ? "" : "es")} from \"{SourcePanel.Selected?.DisplayName}\" to \"{TargetPanel.Selected?.DisplayName}\".");
-        if (PimOnlyOn) sb.AppendLine("Only calendar events and contacts are copied, into each target mailbox's default Calendar and Contacts. No mail is copied.");
-        else sb.AppendLine(Merge ? "Mail goes into each target mailbox's real folders (Inbox, Sent Items, Drafts…); other folders are recreated beside them."
-                            : $"Mail only goes into a new folder named \"{ContainerName.Text.Trim()}\" in each target mailbox, folder structure included.");
-        if (WantsPim && LeaveOutSet().Count > 0) sb.AppendLine($"Calendars and contact folders left out by name: {LeaveOutSet().Count}.");
-        if (!PimOnlyOn) sb.AppendLine(WantsPim ? "Calendar events and contacts: copied into each target mailbox's default Calendar and Contacts." : "Calendar events and contacts: not copied.");
-        if (!PimOnlyOn) sb.AppendLine(Dedupe.IsChecked == true ? "Mail already in the target is skipped." : "Mail already in the target is NOT checked for.");
+        sb.AppendLine(Loc.T("Rev_Copy", ready.Count, SourcePanel.Selected?.DisplayName, TargetPanel.Selected?.DisplayName));
+        if (PimOnlyOn) sb.AppendLine(Loc.T("Rev_PimOnly"));
+        else sb.AppendLine(Merge ? Loc.T("Rev_Merge") : Loc.T("Rev_Container", ContainerName.Text.Trim()));
+        if (WantsPim && LeaveOutSet().Count > 0) sb.AppendLine(Loc.T("Rev_LeftOutCal", LeaveOutSet().Count));
+        if (!PimOnlyOn) sb.AppendLine(Loc.T(WantsPim ? "Rev_PimYes" : "Rev_PimNo"));
+        if (!PimOnlyOn) sb.AppendLine(Loc.T(Dedupe.IsChecked == true ? "Rev_DedupeOn" : "Rev_DedupeOff"));
         if (!PimOnlyOn)
         {
             var f = ReadFilters(); var omitted = new List<string>();
-            foreach (var (box, name) in new[] { (FolderInbox, "Inbox"), (FolderSent, "Sent Items"), (FolderDrafts, "Drafts"), (FolderDeleted, "Deleted Items"), (FolderJunk, "Junk Email"), (FolderArchive, "Archive"), (FolderUser, "the folders people created") })
-                if (box.IsChecked == true) omitted.Add(name);
-            if (omitted.Count > 0) sb.AppendLine("Left out: " + string.Join(", ", omitted) + ".");
-            if (f.Since is { } sd) sb.AppendLine($"Only mail created on or after {sd:yyyy-MM-dd}.");
-            if (f.MaxBytes > 0) sb.AppendLine($"Messages larger than {f.MaxBytes / 1048576} MB are skipped.");
+            foreach (var (box, name) in new[] { (FolderInbox, "inbox"), (FolderSent, "sentitems"), (FolderDrafts, "drafts"), (FolderDeleted, "deleteditems"), (FolderJunk, "junkemail"), (FolderArchive, "archive") })
+                if (box.IsChecked == true) omitted.Add(FolderName(name));
+            if (FolderUser.IsChecked == true) omitted.Add(Loc.T("Folder_User"));
+            if (omitted.Count > 0) sb.AppendLine(Loc.T("Rev_LeftOut", string.Join(", ", omitted)));
+            if (f.Since is { } sd) sb.AppendLine(Loc.T("Rev_Since", sd.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture)));
+            if (f.MaxBytes > 0) sb.AppendLine(Loc.T("Rev_MaxSize", f.MaxBytes / 1048576));
         }
-        if (!PimOnlyOn) sb.AppendLine(Verify.IsChecked == true ? "Every copied message is compared with its source afterward." : "No comparison afterward.");
-        sb.Append("Mailboxes are copied one after another. Nothing in the source is changed.");
+        if (!PimOnlyOn) sb.AppendLine(Loc.T(Verify.IsChecked == true ? "Rev_VerifyOn" : "Rev_VerifyOff"));
+        sb.Append(Loc.T("Rev_Sequential"));
         PlanText.Text = sb.ToString();
 
         var warn = new List<string>();
-        if (left > 0) warn.Add($"{left} mailbox{(left == 1 ? "" : "es")} will be left out because no matching target mailbox was found. Go back to Match mailboxes to fix them.");
+        if (left > 0) warn.Add(Loc.T("Rev_WarnLeft", left));
         var resources = ready.Count(r => _boxes.FirstOrDefault(b => string.Equals(b.Upn, r.Source, StringComparison.OrdinalIgnoreCase))?.Kind == MailboxKind.UnlicensedResource);
-        if (resources > 0) warn.Add($"{resources} selected mailbox{(resources == 1 ? " has" : "es have")} no license (shared, room or equipment). Their mail folders are copied, and so is their calendar when calendar copying is on. Resource settings such as booking policies are not.");
-        if (Merge) warn.Add(PimOnlyOn ? "This adds calendar events and contacts permanently. This tool has no way to remove them." : "Merging adds items to the real folders permanently. This tool has no way to remove them.");
+        if (resources > 0) warn.Add(Loc.T("Rev_WarnResource", resources));
+        if (Merge) warn.Add(Loc.T(PimOnlyOn ? "Rev_WarnMergePim" : "Rev_WarnMerge"));
         WarnCard.Visibility = warn.Count > 0 ? Visibility.Visible : Visibility.Collapsed;
         WarnText.Text = string.Join("\n\n", warn.Select(w => "• " + w));
         Understand.Visibility = Merge ? Visibility.Visible : Visibility.Collapsed; Understand.IsChecked = false;
@@ -426,12 +419,12 @@ public partial class MainWindow : Window
 
     private string NextHint() => _step switch
     {
-        1 => _sourceOk ? "" : "Connect to the source tenant to continue.",
-        2 => _targetOk ? "" : "Connect to the target tenant to continue.",
-        3 => _boxes.Any(b => b.Selected) ? "" : "Tick at least one mailbox to continue.",
-        4 => _map.Any(m => m.Ready) ? "" : "At least one row must say Ready to continue.",
-        5 => !Merge && ContainerName.Text.Trim() == "" ? "Enter a folder name to continue." : !FiltersValid() ? "Check the mail filters: tick at least one folder, pick a date, and enter a size greater than 0." : "",
-        6 => _scanning ? "Estimating the size and time (read only). Start is available when it finishes, or choose Skip the estimate." : !Merge || Understand.IsChecked == true ? "" : "Tick the box above to continue.",
+        1 => _sourceOk ? "" : Loc.T("Hint_Source"),
+        2 => _targetOk ? "" : Loc.T("Hint_Target"),
+        3 => _boxes.Any(b => b.Selected) ? "" : Loc.T("Hint_TickOne"),
+        4 => _map.Any(m => m.Ready) ? "" : Loc.T("Hint_OneReady"),
+        5 => !Merge && ContainerName.Text.Trim() == "" ? Loc.T("Hint_EnterFolder") : !FiltersValid() ? Loc.T("Hint_Filters") : "",
+        6 => _scanning ? Loc.T("Hint_Estimating") : !Merge || Understand.IsChecked == true ? "" : Loc.T("Hint_Understand"),
         _ => "",
     };
 
@@ -441,7 +434,7 @@ public partial class MainWindow : Window
         BackButton.Visibility = _step > 0 && _step < 7 && !_running ? Visibility.Visible : Visibility.Collapsed;
         NextButton.Visibility = _running ? Visibility.Collapsed : Visibility.Visible;
         StopButton.Visibility = _running ? Visibility.Visible : Visibility.Collapsed;
-        NextButton.Content = _step switch { 0 => "Get started", 6 => "Start copying", 7 => "View results", 8 => "New migration", _ => "Next" };
+        NextButton.Content = Loc.T(_step switch { 0 => "Btn_GetStarted", 6 => "Btn_Start", 7 => "Btn_ViewResults", 8 => "Btn_NewMigration", _ => "Btn_Next" });
         RunAgainButton.Visibility = _step == 8 ? Visibility.Visible : Visibility.Collapsed;
         NextButton.IsEnabled = CanNext();
         NavHint.Text = NextHint();
@@ -453,9 +446,8 @@ public partial class MainWindow : Window
         if (_scanning && step != 6) _scanCts?.Cancel();
         _step = step;
         for (var i = 0; i < _panels.Length; i++) _panels[i].Visibility = i == step ? Visibility.Visible : Visibility.Collapsed;
-        StepTitle.Text = Steps[step].Title; StepDesc.Text = Steps[step].Desc;
+        StepTitle.Text = TitleOf(step); StepDesc.Text = DescOf(step);
         for (var i = 0; i < _nav.Count; i++) _nav[i].Current = i == step;
-        _navSync = true; NavList.SelectedIndex = step; _navSync = false;
         if (_panels[step] is ScrollViewer sv) Dispatcher.BeginInvoke(() => sv.ScrollToTop(), System.Windows.Threading.DispatcherPriority.Loaded);   // always open a screen at its top
         if (step == 3) UpdateSelectionText();
         if (step == 4 && _mapStale) BuildMap();
@@ -473,11 +465,21 @@ public partial class MainWindow : Window
         try { _regs.Save(); } catch { }
     }
 
-    private void Nav_Changed(object s, SelectionChangedEventArgs e)
+    /// <summary>A finished step in the step bar takes you back to it (never while a copy is running).</summary>
+    private void Step_Click(object s, RoutedEventArgs e)
     {
-        if (_navSync || !_ready) return;
-        var i = NavList.SelectedIndex;
-        if (i >= 0 && i < _step && !_running) GoTo(i); else { _navSync = true; NavList.SelectedIndex = _step; _navSync = false; }
+        if (_running || s is not FrameworkElement { DataContext: NavItem n }) return;
+        if (n.Number - 1 < _step) GoTo(n.Number - 1);
+    }
+
+    private void Minimize_Click(object s, RoutedEventArgs e) => WindowState = WindowState.Minimized;
+    private void MaximizeRestore_Click(object s, RoutedEventArgs e) => WindowState = WindowState == WindowState.Maximized ? WindowState.Normal : WindowState.Maximized;
+    private void CloseWindow_Click(object s, RoutedEventArgs e) => Close();
+
+    private void Settings_Click(object s, RoutedEventArgs e)
+    {
+        if (_demo) return;   // demo mode never writes the saved settings
+        new SettingsDialog(_regs) { Owner = this }.ShowDialog();
     }
 
     private void Back_Click(object s, RoutedEventArgs e) { if (_step > 0 && !_running) GoTo(_step - 1); }
@@ -498,19 +500,18 @@ public partial class MainWindow : Window
         var ready = _map.Where(m => m.Ready).ToList();
         var sReg = SourcePanel.Selected!; var tReg = TargetPanel.Selected!;
         var sSecret = sReg.GetClientSecret(); var tSecret = tReg.GetClientSecret();
-        if (sSecret == null || tSecret == null) { MessageBox.Show(this, "A client secret is missing on this PC. Add it under App registrations.", "Cannot start", MessageBoxButton.OK, MessageBoxImage.Warning); return; }
+        if (sSecret == null || tSecret == null) { MessageBox.Show(this, Loc.T("Run_NoSecret"), Loc.T("Run_CannotStart"), MessageBoxButton.OK, MessageBoxImage.Warning); return; }
         var prot = ProtectedList();
         var cfg = new CopyConfig(new SideConfig(sReg.TenantId, sReg.ClientId, "", sReg.ClientId, sSecret), new SideConfig(tReg.TenantId, tReg.ClientId, "", tReg.ClientId, tSecret), prot);
         var rows = ready.Select(m => new MapRow(m.Source.Trim(), m.Target.Trim())).ToList();
         var problems = MailboxMap.Validate(rows, string.Equals(sReg.TenantId, tReg.TenantId, StringComparison.OrdinalIgnoreCase), cfg.IsProtected);
-        if (problems.Count > 0) { MessageBox.Show(this, "Fix these first:\n\n" + string.Join("\n", problems), "Cannot start", MessageBoxButton.OK, MessageBoxImage.Warning); return; }
+        if (problems.Count > 0) { MessageBox.Show(this, Loc.T("Run_FixFirst") + "\n\n" + string.Join("\n", problems), Loc.T("Run_CannotStart"), MessageBoxButton.OK, MessageBoxImage.Warning); return; }
 
         var merge = Merge; var container = ContainerName.Text.Trim(); var pim = WantsPim; var pimOnly = PimOnlyOn; var nonEmpty = merge && AllowNonEmpty.IsChecked == true;
         var dedupe = Dedupe.IsChecked == true; var verify = Verify.IsChecked == true; var fresh = Fresh.IsChecked == true; var flt = ReadFilters(); var leaveOut = LeaveOutSet();
 
-        var ok = MessageBox.Show(this,
-            $"Start copying {rows.Count} mailbox{(rows.Count == 1 ? "" : "es")} now?\n\n" + (merge ? "Mail will be added to the real folders of each target mailbox. It cannot be removed by this tool." : $"Mail will be added in a new folder \"{container}\" in each target mailbox.") + "\n\nNothing in the source is changed. You can stop at any time.",
-            "Start the copy?", MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
+        var ok = MessageBox.Show(this, Loc.T("Run_Confirm", rows.Count, merge ? Loc.T("Run_ConfirmMerge") : Loc.T("Run_ConfirmContainer", container)),
+            Loc.T("Run_ConfirmTitle"), MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No);
         if (ok != MessageBoxResult.Yes) return;
 
         SaveSettings();
@@ -519,9 +520,9 @@ public partial class MainWindow : Window
         _verifyOn = verify; _cur = 0; _runStart = DateTime.Now;
         _prog = new double[rows.Count]; _weights = new double[rows.Count]; _known = new bool[rows.Count];
         for (var i = 0; i < rows.Count; i++) if (_est.TryGetValue(rows[i].Source, out var e0)) { _weights[i] = Math.Max(1, e0.Items); _known[i] = true; }
-        MailboxBar.Value = 0; TotalsText.Text = ""; PhaseText.Text = ""; EtaText.Text = "Starting…";
+        MailboxBar.Value = 0; TotalsText.Text = ""; PhaseText.Text = ""; EtaText.Text = Loc.T("Run_Starting");
         _timer.Tick -= Timer_Tick; _timer.Tick += Timer_Tick; _timer.Start();
-        RunHeadline.Text = $"Copying {rows.Count} mailbox{(rows.Count == 1 ? "" : "es")}…";
+        RunHeadline.Text = Loc.T("Run_Headline", rows.Count);
         OpenResultsButton.Visibility = OpenLogButton.Visibility = OpenItemsButton.Visibility = Visibility.Collapsed; _finished = false; _running = true;
         GoTo(7);
 
@@ -547,18 +548,18 @@ public partial class MainWindow : Window
             outcome = o;
             _resultsPath = BatchCopier.SaveResults(o);
             var notRun = o.Results.Count(r => r.State == MailboxState.Skipped);
-            headline = $"Finished: {o.Done} copied cleanly" + (o.Problems > 0 ? $", {o.Problems} need a look" : "") + (o.Failed > 0 ? $", {o.Failed} failed" : "") + (notRun > 0 ? $", {notRun} not run" : "") + ".";
-            if (o.Problems == 0 && o.Failed == 0 && notRun == 0) headline += verify ? " Every message was compared with its source." : "";
-            else headline += " Select a row for details, or open the results file.";
+            headline = Loc.T("Run_Finished", Parts(o.Done, o.Problems, o.Failed, notRun, true));
+            if (o.Problems == 0 && o.Failed == 0 && notRun == 0) headline += verify ? " " + Loc.T("Run_AllCompared") : "";
+            else headline += " " + Loc.T("Run_SelectRow");
         }
-        catch (Exception ex) { _runLog.Error($"STOPPED: {ex.GetType().Name}: {ex.Message}", ex); headline = "Stopped by an error: " + ex.Message; runError = ex.Message; }
+        catch (Exception ex) { _runLog.Error($"STOPPED: {ex.GetType().Name}: {ex.Message}", ex); headline = Loc.T("Run_StoppedByError", ex.Message); runError = ex.Message; }
 
         _runLog.Info($"\nFinished with {_runLog.Errors} errors and {_runLog.Warnings} warnings.");
         _runLog.SaveReport();
         _running = false; _finished = true; _timer.Stop();
         for (var i = 0; i < _prog.Length; i++) if (_runRows[i].State is MailboxState.Done or MailboxState.Problems or MailboxState.Failed) _prog[i] = 1;
         MailboxBar.Value = _runRows.All(r => r.State is MailboxState.Done or MailboxState.Problems or MailboxState.Failed) ? 1000 : MailboxBar.Value;
-        EtaText.Text = $"Took {Dur(DateTime.Now - _runStart)}.";
+        EtaText.Text = Loc.T("Run_Took", Dur(DateTime.Now - _runStart)).Replace("..", ".");
         RunHeadline.Text = headline; PhaseText.Text = "";
         OpenLogButton.Visibility = Visibility.Visible; OpenResultsButton.Visibility = _resultsPath != null ? Visibility.Visible : Visibility.Collapsed;
         OpenItemsButton.Visibility = File.Exists(_runLog.ItemsPath) ? Visibility.Visible : Visibility.Collapsed;
@@ -569,6 +570,17 @@ public partial class MainWindow : Window
     // =============================== results screen ===============================
 
     private string _summaryText = "";
+
+    /// <summary>"Copied cleanly: 3 · Need a look: 1 · Failed: 1" (the last three only when they are not zero).</summary>
+    private static string Parts(int done, int prob, int fail, int notRun, bool includeClean)
+    {
+        var parts = new List<string>();
+        if (includeClean) parts.Add(Loc.T("Part_Clean", done));
+        if (prob > 0) parts.Add(Loc.T("Part_Problems", prob));
+        if (fail > 0) parts.Add(Loc.T("Part_Failed", fail));
+        if (notRun > 0) parts.Add(Loc.T("Part_NotRun", notRun));
+        return string.Join(" · ", parts);
+    }
 
     private void ShowResults(BatchOutcome? o, string? error, bool merge, string container, bool pim, bool verify, TimeSpan took)
     {
@@ -581,48 +593,49 @@ public partial class MainWindow : Window
         var vBad = oc.Where(x => x.Verification != null).Sum(x => x.Verification!.Different + x.Verification!.Unpaired);
         var clean = o != null && prob == 0 && fail == 0 && notRun == 0 && failedItems == 0 && vBad == 0;
 
+        // Banner colors come from the palette (background brush, border brush), so they follow the theme.
         (string Title, string Sub, string Back, string Border) banner =
-            error != null ? ("The copy stopped", error, "#FFE9E9", "#C0392B")
-            : clean ? ("Copy complete", $"{done} mailbox{(done == 1 ? "" : "es")} copied" + (verify && vAll > 0 ? $", and every one of the {vAll:N0} messages checked was identical to its source." : "."), "#E8F6EC", "#2E8B57")
-            : notRun > 0 && fail == 0 && prob == 0 ? ("Copy stopped before it finished", $"{done} mailbox{(done == 1 ? "" : "es")} finished, {notRun} not started. Run again to continue: finished items are not copied twice.", "#FFF6E0", "#E0A800")
-            : ("Finished, with items that need a look", $"{done} of {results.Count} mailboxes are clean" + (prob > 0 ? $", {prob} need a look" : "") + (fail > 0 ? $", {fail} failed" : "") + (notRun > 0 ? $", {notRun} not run" : "") + ".", fail > 0 ? "#FFE9E9" : "#FFF6E0", fail > 0 ? "#C0392B" : "#E0A800");
-        ResultBanner.Background = (System.Windows.Media.Brush)new System.Windows.Media.BrushConverter().ConvertFromString(banner.Back)!;
-        ResultBanner.BorderBrush = (System.Windows.Media.Brush)new System.Windows.Media.BrushConverter().ConvertFromString(banner.Border)!;
+            error != null ? (Loc.T("Res_Stopped"), error, "DangerBgBrush", "DangerBrush")
+            : clean ? (Loc.T("Res_Complete"), verify && vAll > 0 ? Loc.T("Res_CompleteVerified", done, vAll.ToString("N0")) : Loc.T("Res_CompleteSub", done), "SuccessBgBrush", "SuccessBrush")
+            : notRun > 0 && fail == 0 && prob == 0 ? (Loc.T("Res_StoppedEarly"), Loc.T("Res_StoppedEarlySub", done, notRun), "WarningBgBrush", "WarningBrush")
+            : (Loc.T("Res_NeedLook"), Loc.T("Res_NeedLookSub", done, results.Count, Parts(done, prob, fail, notRun, false)).Trim(), fail > 0 ? "DangerBgBrush" : "WarningBgBrush", fail > 0 ? "DangerBrush" : "WarningBrush");
+        ResultBanner.Background = ThemeManager.Brush(banner.Back);
+        ResultBanner.BorderBrush = ThemeManager.Brush(banner.Border);
         ResultTitle.Text = banner.Title; ResultSub.Text = banner.Sub;
 
         StatsList.ItemsSource = new[]
         {
-            new StatItem("Mailboxes copied", $"{done} of {results.Count}"),
-            new StatItem("Messages copied", copied.ToString("N0")),
-            new StatItem("Already in target", already.ToString("N0")),
-            new StatItem("Failed items", failedItems.ToString("N0")),
-            new StatItem("Verified identical", verify && vAll > 0 ? $"{vOk:N0} of {vAll:N0}" : verify ? "none" : "not checked"),
-            new StatItem("Time taken", Dur(took)),
+            new StatItem(Loc.T("Stat_Mailboxes"), Loc.T("Stat_Of", done, results.Count)),
+            new StatItem(Loc.T("Stat_Messages"), copied.ToString("N0")),
+            new StatItem(Loc.T("Stat_Already"), already.ToString("N0")),
+            new StatItem(Loc.T("Stat_Failed"), failedItems.ToString("N0")),
+            new StatItem(Loc.T("Stat_Verified"), verify && vAll > 0 ? Loc.T("Stat_Of", vOk.ToString("N0"), vAll.ToString("N0")) : verify ? Loc.T("Stat_None") : Loc.T("Stat_NotChecked")),
+            new StatItem(Loc.T("Stat_Time"), Dur(took)),
         };
 
         ResultGrid.ItemsSource = results.Select(r => new ResultRow
         {
             Source = r.Row.Source, Target = r.Row.Target,
-            Result = r.State switch { MailboxState.Done => "Copied", MailboxState.Problems => "Needs a look", MailboxState.Failed => "Failed", MailboxState.Skipped => "Not run", _ => "" },
+            Result = r.State is MailboxState.Done or MailboxState.Problems or MailboxState.Failed or MailboxState.Skipped ? RunRow.StateName(r.State, running: false) : "",
+            StatusLevel = r.State switch { MailboxState.Done => "Ready", MailboxState.Problems => "Look", MailboxState.Failed => "Error", _ => "" },
             Copied = r.Outcome?.Imported.ToString("N0") ?? "–", AlreadyThere = r.Outcome?.AlreadyDone.ToString("N0") ?? "–", Failed = r.Outcome?.Failed.ToString("N0") ?? "–",
-            Verified = r.Outcome?.Verification is { } v ? $"{v.Identical:N0} of {v.Paired:N0}" : verify ? "–" : "not checked",
+            Verified = r.Outcome?.Verification is { } v ? Loc.T("Stat_Of", v.Identical.ToString("N0"), v.Paired.ToString("N0")) : verify ? "–" : Loc.T("Stat_NotChecked"),
             Notes = r.State == MailboxState.Done ? "" : r.Message,
             HasProblem = r.State is MailboxState.Problems or MailboxState.Failed,
         }).ToList();
 
         var steps = new List<string>();
-        if (error != null || fail > 0 || prob > 0 || notRun > 0)
-            steps.Add("Open the results file or the log to see why, fix the cause (for example a missing permission or a target mailbox that does not exist yet), and choose Run again. Finished items are remembered, so nothing is copied twice.");
-        steps.Add(merge ? "Open a few target mailboxes in Outlook and check the Inbox, Sent Items and your own folders. Spot-check messages with attachments."
-                        : $"Open a few target mailboxes in Outlook and look for the folder \"{container}\". Spot-check messages with attachments. People can move mail out of it, or leave it there.");
-        if (pim) steps.Add("Contacts and calendar are counted but not yet compared field by field. Open the Contacts and Calendar in a few target mailboxes and check them, recurring meetings especially.");
-        steps.Add("To pick up mail that arrived after this run, choose Run again with the same settings. Only new mail is copied.");
-        steps.Add("When the migration is completely finished, delete the client secrets and remove the app registrations in Microsoft Entra, since they can reach every mailbox in the tenant.");
+        if (error != null || fail > 0 || prob > 0 || notRun > 0) steps.Add(Loc.T("Next_Problems"));
+        steps.Add(merge ? Loc.T("Next_SpotMerge") : Loc.T("Next_SpotContainer", container));
+        if (pim) steps.Add(Loc.T("Next_Pim"));
+        steps.Add(Loc.T("Next_Rerun"));
+        steps.Add(Loc.T("Next_Cleanup"));
         NextSteps.Text = string.Join("\n", steps.Select((s, i) => $"{i + 1}. {s}"));
 
-        _summaryText = $"Smart Mailbox Copy: {banner.Title}\n{banner.Sub}\nMailboxes copied: {done} of {results.Count}; messages copied: {copied:N0}; already in target: {already:N0}; failed items: {failedItems:N0}; "
-            + (verify ? $"verified identical: {vOk:N0} of {vAll:N0}; " : "") + $"time: {Dur(took)}.\n"
-            + string.Join("\n", results.Select(r => $"  {r.Row.Source} -> {r.Row.Target}: {r.State}" + (r.Message != "" ? $" ({r.Message})" : "")));
+        _summaryText = Loc.T("Sum_Header", banner.Title) + "\n" + banner.Sub + "\n"
+            + (verify ? Loc.T("Sum_LineVerified", done, results.Count, copied.ToString("N0"), already.ToString("N0"), failedItems.ToString("N0"), vOk.ToString("N0"), vAll.ToString("N0"), Dur(took))
+                      : Loc.T("Sum_Line", done, results.Count, copied.ToString("N0"), already.ToString("N0"), failedItems.ToString("N0"), Dur(took))) + "\n"
+            + string.Join("\n", results.Select(r => $"  {r.Row.Source} -> {r.Row.Target}: {RunRow.StateName(r.State, running: false)}" + (r.Message != "" ? $" ({r.Message})" : "")));
     }
 
     private void CopySummary_Click(object s, RoutedEventArgs e) { try { Clipboard.SetText(_summaryText); } catch { } }
@@ -639,8 +652,9 @@ public partial class MainWindow : Window
 
     private void OnPhase(int n, string phase, int total)
     {
-        PhaseText.Text = $"Mailbox {n} of {total}: {phase}";
         var m = PhaseRx.Match(phase);
+        // The engine's phase text is English; the app shows the same phase in the chosen language, keyed by its number.
+        PhaseText.Text = Loc.T("Run_Phase", n, total, m.Success ? $"[{m.Groups[1].Value}/6] " + Loc.T("Phase_" + m.Groups[1].Value) : phase);
         if (m.Success && n >= 1 && n <= _prog.Length)
         {
             var k = int.Parse(m.Groups[1].Value);
@@ -651,7 +665,7 @@ public partial class MainWindow : Window
 
     private void OnTotals(int n, TreeTotals t)
     {
-        TotalsText.Text = $"Mailbox {n}: {t.Imported + t.AlreadyDone + t.Failed} of {t.Total} items processed — {t.Imported} copied, {t.AlreadyDone} already there, {t.Failed} failed";
+        TotalsText.Text = Loc.T("Run_Totals", n, (t.Imported + t.AlreadyDone + t.Failed).ToString("N0"), t.Total.ToString("N0"), t.Imported.ToString("N0"), t.AlreadyDone.ToString("N0"), t.Failed.ToString("N0"));
         if (n < 1 || n > _prog.Length) return;
         if (t.Total > 0 && !_known[n - 1]) { _weights[n - 1] = t.Total; _known[n - 1] = true; }
         if (t.Total > 0) _prog[n - 1] = Math.Max(_prog[n - 1], OverheadShare + CopyShare * Math.Min(1.0, (t.Imported + t.AlreadyDone + t.Failed) / (double)t.Total));
@@ -672,13 +686,13 @@ public partial class MainWindow : Window
         MailboxBar.Value = f * 1000;
         var elapsed = DateTime.Now - _runStart;
         var finished = _runRows.Count(r => r.State is MailboxState.Done or MailboxState.Problems or MailboxState.Failed or MailboxState.Skipped);
-        string eta = f >= 0.03 && elapsed.TotalSeconds >= 20 ? $"about {Dur(TimeSpan.FromSeconds(elapsed.TotalSeconds * (1 - f) / f))} left"
-            : _estRange != "" ? $"estimated {_estRange}" : "estimating the time…";
-        EtaText.Text = $"{f:P0} · {finished} of {_runRows.Count} mailboxes finished · {eta} · {Dur(elapsed)} so far";
+        string eta = f >= 0.03 && elapsed.TotalSeconds >= 20 ? Loc.T("Run_EtaLeft", Dur(TimeSpan.FromSeconds(elapsed.TotalSeconds * (1 - f) / f)))
+            : _estRange != "" ? Loc.T("Run_EtaEstimated", _estRange) : Loc.T("Run_EtaEstimating");
+        EtaText.Text = Loc.T("Run_Eta", f, finished, _runRows.Count, eta, Dur(elapsed));
     }
 
     private static string Dur(TimeSpan t) =>
-        t.TotalSeconds < 60 ? "under a minute" : t.TotalMinutes < 60 ? $"{Math.Round(t.TotalMinutes)} min" : $"{(int)t.TotalHours} h {t.Minutes} min";
+        t.TotalSeconds < 60 ? Loc.T("Dur_Under") : t.TotalMinutes < 60 ? Loc.T("Dur_Min", Math.Round(t.TotalMinutes)) : Loc.T("Dur_HourMin", (int)t.TotalHours, t.Minutes);
 
     // =============================== estimate (read-only scan of the selected mailboxes) ===============================
 
@@ -690,12 +704,12 @@ public partial class MainWindow : Window
         var rows = _map.Where(m => m.Ready).Select(m => new MapRow(m.Source.Trim(), m.Target.Trim())).ToList();
         var sReg = SourcePanel.Selected; var tReg = TargetPanel.Selected;
         var sSecret = sReg?.GetClientSecret(); var tSecret = tReg?.GetClientSecret();
-        if (rows.Count == 0 || sReg == null || tReg == null || sSecret == null || tSecret == null) { EstimateText.Text = "An estimate needs the connections from the earlier steps."; return; }
+        if (rows.Count == 0 || sReg == null || tReg == null || sSecret == null || tSecret == null) { EstimateText.Text = Loc.T("Est_NeedsConn"); return; }
         var cfg = new CopyConfig(new SideConfig(sReg.TenantId, sReg.ClientId, "", sReg.ClientId, sSecret), new SideConfig(tReg.TenantId, tReg.ClientId, "", tReg.ClientId, tSecret), ProtectedList());
         var flt0 = ReadFilters(); var leaveOut0 = LeaveOutSet(); var pimOnlyScan = PimOnlyOn; var mergeScan = Merge; var pimScan = WantsPim; var verify = Verify.IsChecked == true && !pimOnlyScan;
 
         _scanning = true; EstimateBar.Visibility = SkipEstimateButton.Visibility = Visibility.Visible; EstimateBar.Value = 0;
-        EstimateText.Text = $"Reading the size of {rows.Count} mailbox{(rows.Count == 1 ? "" : "es")} (read only, nothing is changed)…"; UpdateNav();
+        EstimateText.Text = Loc.T("Est_Reading", rows.Count); UpdateNav();
         _scanCts = new CancellationTokenSource();
         var token = _scanCts.Token;
         var log = new RunLog(); log.Hide(sSecret, tSecret);
@@ -707,8 +721,8 @@ public partial class MainWindow : Window
         catch (Exception ex) { error = ex.Message; }
         finally { _scanning = false; EstimateBar.Visibility = SkipEstimateButton.Visibility = Visibility.Collapsed; }
 
-        if (token.IsCancellationRequested) { EstimateText.Text = "Estimate skipped. The progress bar will still show an estimate once the copy is under way."; UpdateNav(); return; }
-        if (outcome == null) { EstimateText.Text = "The estimate could not be made: " + Friendly(error ?? ""); UpdateNav(); return; }
+        if (token.IsCancellationRequested) { EstimateText.Text = Loc.T("Est_Skipped"); UpdateNav(); return; }
+        if (outcome == null) { EstimateText.Text = Loc.T("Est_Failed", Friendly(error ?? "")); UpdateNav(); return; }
 
         foreach (var r in outcome.Results.Where(r => r.Outcome != null)) _est[r.Row.Source] = (r.Outcome!.Listed, r.Outcome.Bytes);
         var items = _est.Values.Sum(v => v.Items); var mb = _est.Values.Sum(v => v.Bytes) / 1048576.0;
@@ -716,11 +730,11 @@ public partial class MainWindow : Window
         var lo = TimeSpan.FromSeconds(secs * 0.8); var hi = TimeSpan.FromSeconds(secs * 1.8);
         _estRange = Dur(lo) == Dur(hi) ? Dur(hi) : $"{(lo.TotalMinutes < 60 ? Math.Round(lo.TotalMinutes).ToString() : Dur(lo))}–{Dur(hi)}";
         var sb = new StringBuilder();
-        sb.AppendLine($"About {items:N0} messages ({mb:N0} MB) across {_est.Count} mailbox{(_est.Count == 1 ? "" : "es")}.");
-        sb.AppendLine($"Estimated time: {_estRange}.");
-        sb.Append("Based on speeds measured in our tests with ordinary messages; very large attachments take longer. Mailboxes are copied one after another. If you stop, the next run resumes where it left off.");
+        sb.AppendLine(Loc.T("Est_Summary", items.ToString("N0"), mb.ToString("N0"), _est.Count));
+        sb.AppendLine(Loc.T("Est_Time", _estRange).Replace("..", "."));
+        sb.Append(Loc.T("Est_Basis"));
         var failed = outcome.Results.Where(r => r.State == MailboxState.Failed).ToList();
-        if (failed.Count > 0) sb.Append($"\n\n{failed.Count} mailbox{(failed.Count == 1 ? " could" : "es could")} not be read, so {(failed.Count == 1 ? "it is" : "they are")} not in the estimate and will probably fail in the copy too. First reason: {Friendly(failed[0].Message)}");
+        if (failed.Count > 0) sb.Append("\n\n" + Loc.T("Est_Unreadable", failed.Count, Friendly(failed[0].Message)));
         EstimateText.Text = sb.ToString();
         UpdateNav();
     }
@@ -731,7 +745,7 @@ public partial class MainWindow : Window
         _folders.Clear(); _byPath.Clear();
         foreach (var f in list)
         {
-            var row = new FolderRow { Path = f.Path, Display = new string(' ', f.Depth * 3) + f.Path, Kind = f.WellKnown == "" ? "user folder" : f.WellKnown, Items = f.ItemCount };
+            var row = new FolderRow { Path = f.Path, Display = new string(' ', f.Depth * 3) + f.Path, WellKnown = f.WellKnown, Items = f.ItemCount };
             _byPath[f.Path] = row; _folders.Add(row);
         }
     }
@@ -739,11 +753,11 @@ public partial class MainWindow : Window
     private void OnFolderChanged(FolderProgress p)
     {
         if (!_byPath.TryGetValue(p.Path, out var r)) return;
-        if (p.Status == "Mismatch") { r.Status = "Counts differ"; return; }
+        if (p.Status == "Mismatch") { r.Status = "Mismatch"; return; }
         r.Imported = p.Imported; r.AlreadyDone = p.AlreadyDone; r.Failed = p.Failed; r.Status = p.Status;
     }
 
-    private void Stop_Click(object s, RoutedEventArgs e) { _cts?.Cancel(); StopButton.IsEnabled = false; PhaseText.Text = "Stopping after the current item… finished items are remembered."; }
+    private void Stop_Click(object s, RoutedEventArgs e) { _cts?.Cancel(); StopButton.IsEnabled = false; PhaseText.Text = Loc.T("Run_Stopping"); }
 
     private void NewMigration()
     {
@@ -769,7 +783,7 @@ public partial class MainWindow : Window
         if (LogList.Items.Count > 0) LogList.ScrollIntoView(LogList.Items[^1]);
     }
 
-    private void UpdateCounts() => CountsText.Text = $"{_errors} errors, {_warnings} warnings";
+    private void UpdateCounts() => CountsText.Text = Loc.T("Run_Counts", _errors, _warnings);
     private void LogFilter_Click(object s, RoutedEventArgs e) => _logView.Refresh();
 
     private void OpenReports_Click(object s, RoutedEventArgs e)
@@ -785,7 +799,7 @@ public partial class MainWindow : Window
     private void Window_Closing(object? s, CancelEventArgs e)
     {
         if (!_running) return;
-        if (MessageBox.Show(this, "A copy is running. Closing now stops it (finished items are remembered, so you can resume).\n\nClose anyway?", "Copy in progress", MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No) != MessageBoxResult.Yes) e.Cancel = true;
+        if (MessageBox.Show(this, Loc.T("Run_Closing"), Loc.T("Run_ClosingTitle"), MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.No) != MessageBoxResult.Yes) e.Cancel = true;
         else _cts?.Cancel();
     }
 }

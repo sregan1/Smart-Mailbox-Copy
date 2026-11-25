@@ -1,5 +1,6 @@
 using System.Windows;
 using System.Windows.Threading;
+using SmartMailboxCopy.App.Localization;
 
 namespace SmartMailboxCopy.App;
 
@@ -13,9 +14,9 @@ public partial class MainWindow
         Width = 1200; Height = 880;
         var src = DemoData.Source(); var tgt = DemoData.Target();
         SourcePanel.Select(_regs.Registrations[0]); TargetPanel.Select(_regs.Registrations[1]);
-        LoadSourceBoxes(src); _sourceOk = true; SourcePanel.SetResult($"Connected. {src.Count} accounts with a mailbox address found.", true);
+        LoadSourceBoxes(src); _sourceOk = true; SourcePanel.SetResult(Loc.T("Conn_Connected", src.Count), true);
         _targetBoxes = tgt; _targetAddrs = tgt.SelectMany(m => new[] { m.Upn, m.Mail }).ToHashSet(StringComparer.OrdinalIgnoreCase); _targetOk = true;
-        TargetPanel.SetResult($"Connected. {tgt.Count} accounts with a mailbox address found.", true);
+        TargetPanel.SetResult(Loc.T("Conn_Connected", tgt.Count), true);
         SourcePanel.SetChecks(CheckRoles(SessionRole.Source, new[] { "Mail.Read", "MailboxItem.ImportExport.All", "MailboxItem.Read.All", "MailboxFolder.Read.All", "User.Read.All" }).Text, true);
         TargetPanel.SetChecks(CheckRoles(SessionRole.Target, new[] { "Mail.ReadWrite", "MailboxItem.ImportExport.All", "MailboxItem.Read.All", "MailboxFolder.Read.All", "User.Read.All", "Calendars.ReadWrite", "Contacts.ReadWrite" }).Text, true);
         foreach (var m in _boxes) m.Selected = DemoData.Picked.Contains(m.Upn, StringComparer.OrdinalIgnoreCase);
@@ -32,7 +33,7 @@ public partial class MainWindow
 
         if (step == 6)
         {
-            EstimateText.Text = "About 41,380 messages (12,640 MB) across 5 mailboxes.\nEstimated time: 3 h 51 min–8 h 40 min.\nBased on speeds measured in our tests with ordinary messages; very large attachments take longer. Mailboxes are copied one after another. If you stop, the next run resumes where it left off.";
+            EstimateText.Text = Loc.T("Est_Summary", 41380.ToString("N0"), 12640.ToString("N0"), 5) + "\n" + Loc.T("Est_Time", Dur(new TimeSpan(3, 51, 0)) + "–" + Dur(new TimeSpan(8, 40, 0))).Replace("..", ".") + "\n" + Loc.T("Est_Basis");
             EstimateBar.Visibility = SkipEstimateButton.Visibility = Visibility.Collapsed; _scanning = false; UpdateNav();
         }
         if (step == 7) ShowDemoCopy();
@@ -75,7 +76,7 @@ public partial class MainWindow
         _folders.Clear(); _byPath.Clear();
         void F(string path, string kind, int items, int copied, int already, int failed, string status)
         {
-            var r = new FolderRow { Path = path, Display = new string(' ', path.Count(c => c == '.') * 3) + path, Kind = kind, Items = items, Imported = copied, AlreadyDone = already, Failed = failed, Status = status };
+            var r = new FolderRow { Path = path, Display = new string(' ', path.Count(c => c == '.') * 3) + path, WellKnown = kind == "user folder" ? "" : kind, Items = items, Imported = copied, AlreadyDone = already, Failed = failed, Status = status };
             _byPath[path] = r; _folders.Add(r);
         }
         F("1", "inbox", 3120, 3120, 0, 0, "Done"); F("1.1", "user folder", 640, 640, 0, 0, "Done"); F("2", "sentitems", 2275, 2275, 0, 0, "Done");
@@ -84,10 +85,10 @@ public partial class MainWindow
 
         FolderExpander.IsExpanded = true;
         MailboxBar.Value = 420;
-        RunHeadline.Text = "Copying 5 mailboxes…";
-        EtaText.Text = "42% · 2 of 5 mailboxes finished · about 1 h 12 min left · 52 min so far";
-        PhaseText.Text = "Mailbox 3 of 5: [4/6] Copy: import the items";
-        TotalsText.Text = "Mailbox 3: 8,442 of 13,098 items processed — 8,442 copied, 0 already there, 0 failed";
+        RunHeadline.Text = Loc.T("Run_Headline", 5);
+        EtaText.Text = Loc.T("Run_Eta", 0.42, 2, 5, Loc.T("Run_EtaLeft", Dur(new TimeSpan(1, 12, 0))), Dur(new TimeSpan(0, 52, 0)));
+        PhaseText.Text = Loc.T("Run_Phase", 3, 5, "[4/6] " + Loc.T("Phase_4"));
+        TotalsText.Text = Loc.T("Run_Totals", 3, 8442.ToString("N0"), 13098.ToString("N0"), 8442.ToString("N0"), 0, 0);
         UpdateNav();
     }
 
@@ -109,7 +110,7 @@ public partial class MainWindow
                 P(5, "taylor.brooks@contoso.com", "taylor.brooks@fabrikam.com", 4762, 0, ""),
             });
         }
-        ShowResults(Make(), null, true, "Migrated mail", true, true, new TimeSpan(4, 12, 0));
+        ShowResults(Make(), null, true, Loc.T("Opt_DefaultFolderName"), true, true, new TimeSpan(4, 12, 0));
         OpenResultsButton.Visibility = OpenLogButton.Visibility = OpenItemsButton.Visibility = Visibility.Visible;
         GoTo(8);
     }

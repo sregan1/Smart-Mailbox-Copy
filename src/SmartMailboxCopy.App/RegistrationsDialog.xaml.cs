@@ -1,5 +1,6 @@
 using System.Windows;
 using System.Windows.Controls;
+using SmartMailboxCopy.App.Localization;
 
 namespace SmartMailboxCopy.App;
 
@@ -8,11 +9,11 @@ public partial class RegistrationsDialog : Window
     private readonly AppRegistrationStore _store;
     private bool _loading;
 
-    public RegistrationsDialog(AppRegistrationStore store, string setupHelp)
+    public RegistrationsDialog(AppRegistrationStore store)
     {
         InitializeComponent();
         _store = store;
-        SetupHelp.Text = setupHelp;
+        SetupHelp.Text = Loc.T("Reg_SetupHelp");
         List.ItemsSource = _store.Registrations;
         if (_store.Registrations.Count > 0) List.SelectedIndex = 0;
     }
@@ -51,7 +52,7 @@ public partial class RegistrationsDialog : Window
 
     private void Add_Click(object s, RoutedEventArgs e)
     {
-        var r = new AppRegistration { Name = "New registration" };
+        var r = new AppRegistration { Name = Loc.T("Reg_New") };
         _store.Registrations.Add(r);
         List.Items.Refresh(); List.SelectedItem = r; NameBox.Focus(); NameBox.SelectAll();
     }
@@ -59,7 +60,7 @@ public partial class RegistrationsDialog : Window
     private void Remove_Click(object s, RoutedEventArgs e)
     {
         if (Current is not { } r) return;
-        if (MessageBox.Show(this, $"Remove \"{r.DisplayName}\" from this list?\n\nThis only forgets it here. The app registration in Microsoft Entra is not touched.", "Remove registration",
+        if (MessageBox.Show(this, Loc.T("Reg_RemoveText", r.DisplayName), Loc.T("Reg_RemoveTitle"),
                 MessageBoxButton.YesNo, MessageBoxImage.Question, MessageBoxResult.No) != MessageBoxResult.Yes) return;
         _store.Registrations.Remove(r);
         List.Items.Refresh();
@@ -70,12 +71,12 @@ public partial class RegistrationsDialog : Window
     {
         foreach (var r in _store.Registrations)
         {
-            if (string.IsNullOrWhiteSpace(r.Name)) { MessageBox.Show(this, "Give every registration a name.", "Check the list"); return; }
+            if (string.IsNullOrWhiteSpace(r.Name)) { MessageBox.Show(this, Loc.T("Reg_NeedName"), Loc.T("Reg_CheckTitle")); return; }
             if (!Guid.TryParse(r.TenantId, out _) || !Guid.TryParse(r.ClientId, out _))
-            { MessageBox.Show(this, $"\"{r.DisplayName}\": the tenant ID and the client ID must both be GUIDs (for example 00000000-0000-0000-0000-000000000000).", "Check the list"); return; }
+            { MessageBox.Show(this, Loc.T("Reg_NeedGuid", r.DisplayName), Loc.T("Reg_CheckTitle")); return; }
         }
         try { _store.Save(); DialogResult = true; }
-        catch (Exception ex) { MessageBox.Show(this, $"Could not save: {ex.Message}", "Save failed"); }
+        catch (Exception ex) { MessageBox.Show(this, Loc.T("Reg_SaveFailed", ex.Message), Loc.T("Reg_SaveFailedTitle")); }
     }
 
     private void Cancel_Click(object s, RoutedEventArgs e) => DialogResult = false;

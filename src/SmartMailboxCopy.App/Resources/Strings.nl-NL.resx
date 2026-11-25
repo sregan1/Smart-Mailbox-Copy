@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>App-registraties</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Eerdere uitvoeringen en rapporten</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Instellingen</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimaliseren</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximaliseren of herstellen</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Sluiten</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Stappen</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Annuleren</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Opslaan</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Terug</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Volgende</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Aan de slag</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Kopiëren starten</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Resultaten weergeven</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Nieuwe migratie</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Stoppen</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Resultaten openen (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Itemlijst openen (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Logboek openen</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Opnieuw uitvoeren (hervatten)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Welkom</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Bron</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Doel</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postvakken</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Koppelen</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opties</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Controle</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopiëren</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Resultaten</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Welkom</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Brontenant</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Doeltenant</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Postvakken kiezen</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Postvakken koppelen</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opties</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Controle</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopiëren</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Resultaten</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Verplaats e-mail tussen Microsoft 365-tenants: één postvak, meerdere of alle.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Maak verbinding met de tenant waaruit u kopieert. Deze wordt alleen gelezen; er wordt niets in gewijzigd.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Maak verbinding met de tenant waarnaar u kopieert. Hier wordt e-mail toegevoegd; wat er al staat, wordt niet gewijzigd of verwijderd.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Kies de postvakken die u wilt kopiëren. Beperk de lijst met de filters en schakel daarna de gewenste postvakken in.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Geef aan in welk doelpostvak elk bronpostvak terechtkomt.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Kies hoe de e-mail in het doel terechtkomt en welke veiligheidscontroles worden uitgevoerd.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Controleer het plan. Er is nog niets gekopieerd.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Bezig met kopiëren. U kunt op elk moment stoppen; voltooide items worden onthouden, zodat u later kunt hervatten.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Wat er is gekopieerd, wat er is gecontroleerd en wat u hierna kunt doen.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Maak verbinding met de brontenant om door te gaan.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Maak verbinding met de doeltenant om door te gaan.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Schakel ten minste één postvak in om door te gaan.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Ten minste één rij moet de status Gereed hebben om door te gaan.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Voer een mapnaam in om door te gaan.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Controleer de e-mailfilters: schakel ten minste één map in, kies een datum en voer een grootte groter dan 0 in.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Grootte en tijd worden geschat (alleen lezen). Starten is beschikbaar zodra dit klaar is, of kies Schatting overslaan.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Schakel het selectievakje hierboven in om door te gaan.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Met deze tool kopieert u e-mail tussen Microsoft 365-tenants. U kunt één postvak, een selectie of alle postvakken verplaatsen, en achteraf wordt elk bericht met het origineel vergeleken.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Wat de tool wel en niet doet</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• De brontenant wordt alleen gelezen. Er wordt niets in gewijzigd of verwijderd.
+• Het doel ontvangt alleen items (e-mail en, indien gekozen, agenda-items en contactpersonen). De tool verwijdert of wijzigt nooit iets wat er al staat.
+• Een bericht dat al is gekopieerd, wordt overgeslagen, zodat een uitvoering veilig kan worden herhaald of hervat.
+• Elk gekopieerd bericht wordt veld voor veld met de bron vergeleken en het resultaat wordt gerapporteerd.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Wat u nodig hebt voordat u begint</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Een app-registratie in elke tenant (bron en doel), ingesteld door een globale beheerder. In de volgende stappen ziet u precies welke machtigingen u moet toevoegen.
+2. Een clientgeheim voor elke registratie.
+3. De postvakken die u wilt verplaatsen, moeten al bestaan in de doeltenant (maak eerst de gebruikers aan en wijs licenties toe).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Hoe het werkt</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>De tool gebruikt de app-registratie, niet de aanmelding van een persoon, en kan zo bij de postvakken van anderen zonder hun wachtwoorden. Omdat een app-registratie met deze machtigingen bij elk postvak in de tenant kan, houdt u het geheim privé en verwijdert u de registratie wanneer de migratie klaar is.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Kies Volgende om verbinding te maken met de brontenant. U kunt via de stappenbalk bovenaan terugkeren naar elke voltooide stap.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>De bron is de tenant waarin de e-mail zich nu bevindt. Smart Mailbox Copy meldt zich aan met een app-registratie (er meldt zich geen persoon aan) en leest de postvakken die u kiest.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Het doel is de tenant waarnaar de e-mail wordt verplaatst. De postvakken moeten daar al bestaan, met licenties. De tool voegt alleen e-mail toe.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>In het Microsoft Entra-beheercentrum: App-registraties &gt; uw app &gt; API-machtigingen &gt; Een machtiging toevoegen &gt; Microsoft Graph &gt; Toepassingsmachtigingen. Kies daarna Beheerderstoestemming verlenen.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Zelfde plek als bij de bron: API-machtigingen &gt; Een machtiging toevoegen &gt; Microsoft Graph &gt; Toepassingsmachtigingen, en daarna Beheerderstoestemming verlenen.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>exporteren; gebruik de exportmachtiging als de portal er een toont</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>App-registratie</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>De opgeslagen Microsoft Entra-app-registratie voor deze tenant. Staat deze nog niet in de lijst, kies dan Beheren en voeg deze toe.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Beheren…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Machtigingen die deze app-registratie nodig heeft</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Verbinden en postvakken weergeven</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Hiermee meldt u zich aan met de app-registratie, wordt de lijst met postvakken gelezen en wordt gecontroleerd welke toepassingsmachtigingen aan de app zijn verleend. Er wordt niets gewijzigd. Een machtiging die u zojuist hebt toegevoegd, kan enkele minuten duren voordat deze verschijnt: wacht even en maak dan opnieuw verbinding.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  toepassing {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>clientgeheim opgeslagen</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>GEEN clientgeheim opgeslagen: voeg er een toe onder Beheren</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Niets geselecteerd.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Verbinding maken…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Verbonden. Gevonden accounts met een postvakadres: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Kies eerst een app-registratie.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Voor deze registratie is op deze pc geen clientgeheim opgeslagen. Kies Beheren en voeg er een toe.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Het clientgeheim is ongeldig. Mogelijk is het de ID van het geheim in plaats van de waarde, of het geheim van een andere app. Maak een nieuw geheim en werk het bij onder Beheren.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Het clientgeheim is verlopen. Maak een nieuw geheim en werk het bij onder Beheren.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Die toepassings-ID (client-ID) is niet gevonden in deze tenant. Controleer de tenant-ID en de client-ID onder Beheren.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Die tenant-ID is niet gevonden. Controleer deze onder Beheren.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>De app mist de toepassingsmachtiging User.Read.All, of er is geen beheerderstoestemming verleend.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Toepassingsmachtigingen die aan deze app zijn verleend:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (importeren/exporteren en lezen)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>e-mail te lezen</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>mappen in het doel te maken</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>e-mailitems te exporteren en te importeren</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>de mapstructuur te lezen</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>postvakken weer te geven</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>alleen om extra agenda's te kopiëren</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>alleen om extra contactpersonenmappen te kopiëren</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  ONTBREEKT: nodig om {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  niet verleend ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Voeg de ontbrekende machtigingen toe als toepassingsmachtigingen en verleen beheerderstoestemming. Het kan een paar minuten duren voordat ze verschijnen.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Toon de soorten postvakken die u wilt, beperk de lijst op domein of tekst en schakel daarna de postvakken in die u wilt kopiëren. Uw selectie blijft behouden wanneer u de filters wijzigt. Accounts zonder licentie zijn gedeelde postvakken, ruimtepostvakken of apparatuurpostvakken; Microsoft geeft niet aan welke.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Gebruikers</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Gedeeld, ruimte, apparatuur (geen licentie)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Gasten</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Alleen ingeschakelde accounts</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domein</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Zoeken</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Alle domeinen</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopiëren</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Naam</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adres</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Type</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Account</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Gebruiker</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Gedeeld, ruimte of apparatuur (geen licentie)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Gast</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Ingeschakeld</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Uitgeschakeld</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Alle getoonde inschakelen</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Alle getoonde uitschakelen</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Lijst vernieuwen</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} geselecteerd · {1} getoond van {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} geselecteerd maar verborgen door de filters</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Domeinfilter</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Postvakken zoeken</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Bronpostvakken</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Elk bronadres heeft een postvak in de doeltenant nodig. Ze worden gekoppeld door het domein te vervangen; typ in elke rij waar de namen verschillen een ander doeladres. Rijen met de status Gereed worden gekopieerd; de andere worden overgeslagen.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Doeldomein</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Alle rijen aan dit domein koppelen</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Koppeling importeren (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Koppeling exporteren (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Bronpostvak</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Doelpostvak (bewerkbaar)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Gereed</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Voer een doeladres in</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Geen e-mailadres</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Een andere rij gebruikt dit doel</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Niet gevonden in de doeltenant</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} van {1} gereed om te kopiëren</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} worden overgeslagen totdat ze zijn opgelost</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-bestanden (*.csv)|*.csv|Alle bestanden|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Een koppeling 'bron,doel' importeren</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-bestanden (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>De koppeling exporteren</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} van {1} rijen in het bestand kwamen overeen met een postvak dat u hebt geselecteerd. De overige zijn genegeerd.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Koppeling geïmporteerd</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>De koppeling kan niet worden gelezen</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Doeldomein</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postvakkoppeling</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Alleen agenda-items en contactpersonen (geen e-mail kopiëren)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Een goede eerste test, of een manier om agenda's apart te kopiëren. Afspraken komen in de standaardagenda en contactpersonen in de standaardmap Contactpersonen van elk doelpostvak. Dit voegt items blijvend toe: de tool kan ze daarna niet verwijderen.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Waar moet de e-mail naartoe?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Alleen e-mail, in één nieuwe map in elk doelpostvak (aanbevolen)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Alle e-mail, inclusief de mapstructuur, wordt gekopieerd naar één nieuwe map. Het veiligst en in Outlook eenvoudig te controleren of te verwijderen voordat iemand het postvak gaat gebruiken. Agenda-items en contactpersonen kunnen hier niet in worden geplaatst en worden in deze modus dus niet gekopieerd.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Mapnaam</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Gemigreerde e-mail</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Samengevoegd in de echte mappen, met agenda en contactpersonen</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>E-mail komt terecht waar de persoon het verwacht (Postvak IN in Postvak IN, Verzonden items in Verzonden items) en de andere mappen worden ernaast opnieuw gemaakt. Dit voegt items blijvend toe: de tool kan ze daarna niet verwijderen.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Ook agenda-items en contactpersonen kopiëren (de standaardmappen en eventuele extra agenda's en contactpersonenmappen)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Schakel uit om alleen e-mail te kopiëren. Afspraken, inclusief terugkerende vergaderingen, worden geteld maar nog niet veld voor veld vergeleken.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Beperken wat wordt gekopieerd (optioneel): niets beperkt, alles wordt gekopieerd</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Beperken wat wordt gekopieerd (optioneel): beperkingen ingeschakeld: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Standaard worden alle mappen en alle berichten gekopieerd. Gebruik dit alleen om minder te kopiëren. Het geldt voor elk postvak, nooit voor agenda-items en contactpersonen, en overgeslagen e-mail wordt in de bron nooit gewijzigd of verwijderd.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Deze mappen overslaan</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Een map die wordt overgeslagen, neemt de submappen mee.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Postvak IN</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Verzonden items</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Concepten</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Verwijderde items</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Ongewenste e-mail</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archief</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Door gebruikers gemaakte mappen</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Alleen e-mail gemaakt op of na</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Dit is de dag waarop elk bericht in het postvak is gemaakt, normaal gesproken de dag van ontvangst. Controleer na de eerste kopie een steekproef.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Berichten overslaan die groter zijn dan</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Veiligheidscontroles</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>E-mail overslaan die al in het doel staat (zodat een nieuwe uitvoering geen duplicaten maakt)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Elk gekopieerd bericht achteraf met de bron vergelijken (kost extra tijd, aanbevolen)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Doelmappen toestaan die al items bevatten (de gekopieerde items worden ernaast toegevoegd)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Samenvoegen start niet wanneer een doelmap, zoals Postvak IN of Agenda, al items bevat, tenzij dit is ingeschakeld.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Geavanceerd</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Opnieuw beginnen: negeer wat eerdere uitvoeringen al hebben gekopieerd (de duplicatencontrole hierboven beschermt de e-mail in het doel nog steeds)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Agenda's en contactpersonenmappen die worden overgeslagen</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Eén naam per regel, precies zoals in Outlook. Extra agenda's en contactpersonenmappen met deze namen worden niet gekopieerd; een contactpersonenmap neemt de submappen mee. Gebruik dit voor agenda's waarop mensen zijn geabonneerd, zoals een feestdagenagenda. De agenda Verjaardagen wordt nooit gekopieerd (Outlook bouwt die op basis van contactpersonen). De standaardagenda en standaardmap Contactpersonen worden niet beïnvloed.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postvakken waarnaar nooit mag worden geschreven</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Eén adres per regel. Als een van deze als doel wordt gekozen, wordt het kopiëren ervoor geweigerd.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Naam van nieuwe map</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Vroegste datum</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Grootste bericht in megabytes</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Te kopiëren postvakken: {0}, van "{1}" naar "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Alleen agenda-items en contactpersonen worden gekopieerd, naar de standaardagenda en standaardmap Contactpersonen van elk doelpostvak. Er wordt geen e-mail gekopieerd.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>E-mail komt in de echte mappen van elk doelpostvak (Postvak IN, Verzonden items, Concepten…); andere mappen worden ernaast opnieuw gemaakt.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Alleen e-mail komt in een nieuwe map met de naam "{0}" in elk doelpostvak, inclusief de mapstructuur.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Op naam overgeslagen agenda's en contactpersonenmappen: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Agenda-items en contactpersonen: gekopieerd naar de standaardagenda en standaardmap Contactpersonen van elk doelpostvak.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Agenda-items en contactpersonen: niet gekopieerd.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>E-mail die al in het doel staat, wordt overgeslagen.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Er wordt NIET gecontroleerd of e-mail al in het doel staat.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Overgeslagen: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Alleen e-mail gemaakt op of na {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Berichten groter dan {0} MB worden overgeslagen.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Elk gekopieerd bericht wordt achteraf met de bron vergeleken.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Geen vergelijking achteraf.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Postvakken worden na elkaar gekopieerd. Er wordt niets in de bron gewijzigd.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Schatting van grootte en tijd</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Schatting overslaan</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Postvakken die zijn overgeslagen omdat er geen passend doelpostvak is gevonden: {0}. Ga terug naar Postvakken koppelen om ze op te lossen.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Geselecteerde postvakken zonder licentie (gedeeld, ruimte of apparatuur): {0}. Hun e-mailmappen worden gekopieerd, en hun agenda ook als het kopiëren van agenda's is ingeschakeld. Resource-instellingen zoals boekingsbeleid niet.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Dit voegt agenda-items en contactpersonen blijvend toe. Deze tool kan ze niet verwijderen.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Samenvoegen voegt blijvend items toe aan de echte mappen. Deze tool kan ze niet verwijderen.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Ik begrijp dat samenvoegen e-mail toevoegt aan de echte mappen en dat deze tool die niet kan verwijderen.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Voor een schatting zijn de verbindingen uit de eerdere stappen nodig.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>De grootte van de postvakken wordt gelezen ({0}); alleen lezen, er wordt niets gewijzigd…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Schatting overgeslagen. De voortgangsbalk toont alsnog een schatting zodra het kopiëren bezig is.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>De schatting kan niet worden gemaakt: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Ongeveer {0} berichten ({1} MB). Postvakken: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Geschatte tijd: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Gebaseerd op snelheden die in onze tests met gewone berichten zijn gemeten; zeer grote bijlagen duren langer. Postvakken worden na elkaar gekopieerd. Als u stopt, gaat de volgende uitvoering verder waar die was gebleven.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Postvakken die niet konden worden gelezen: {0}. Ze zitten niet in de schatting en mislukken waarschijnlijk ook bij het kopiëren. Eerste oorzaak: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>minder dan een minuut</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} u {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Het kopiëren starten?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Het kopiëren nu starten? Postvakken: {0}.
+
+{1}
+
+Er wordt niets in de bron gewijzigd. U kunt op elk moment stoppen.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>E-mail wordt toegevoegd aan de echte mappen van elk doelpostvak. Deze tool kan ze niet verwijderen.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>E-mail wordt toegevoegd in een nieuwe map "{0}" in elk doelpostvak.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Kan niet starten</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Op deze pc ontbreekt een clientgeheim. Voeg het toe onder App-registraties.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Los eerst het volgende op:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Postvakken worden gekopieerd: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Starten…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Voltooid. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Elk bericht is met de bron vergeleken.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Selecteer een rij voor details, of open het resultatenbestand.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Gestopt door een fout: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Duur: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} van {2} postvakken voltooid · {3} · {4} tot nu toe</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>nog ongeveer {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>geschat {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>tijd wordt geschat…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Postvak {0} van {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Postvak {0}: {1} van {2} items verwerkt — {3} gekopieerd, {4} al aanwezig, {5} mislukt</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Stoppen na het huidige item… voltooide items worden onthouden.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postvakken</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Mapdetails voor het lopende postvak</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Logboek</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Alleen waarschuwingen en fouten</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} fouten, {1} waarschuwingen</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopiëren bezig</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Er wordt gekopieerd. Als u nu sluit, stopt het kopiëren (voltooide items worden onthouden, zodat u kunt hervatten).
+
+Toch sluiten?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Totale voortgang</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Voortgang per postvak</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Zonder problemen gekopieerd: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Aandacht nodig: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Mislukt: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Niet uitgevoerd: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Aanmelden en de accounts verifiëren</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Bron (alleen lezen): de mapstructuur doorlopen en items weergeven</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Doel: de mappen zoeken waarin de e-mail terechtkomt</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>De structuur opnieuw maken en items kopiëren (exporteren uit de bron, importeren in het doel)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Afstemmen: het aantal items per map vergelijken</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verifiëren: elk gekopieerd bericht veld voor veld met de bron vergelijken</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Wacht</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopiëren…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Klaar</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Aandacht nodig</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Mislukt</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Niet uitgevoerd</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Gekopieerd</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopiëren</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} mislukt</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Aantallen verschillen</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>gebruikersmap</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Bron</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Doel</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Details (selecteren om te kopiëren)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Map</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Soort</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Items</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Gekopieerd</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Al aanwezig</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Mislukt</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Resultaat</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Identiek geverifieerd</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Opmerkingen (selecteren om te kopiëren)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Opmerkingen</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Details</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Het kopiëren is gestopt</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopiëren voltooid</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Gekopieerde postvakken: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Gekopieerde postvakken: {0}. Alle {1} gecontroleerde berichten waren identiek aan de bron.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Het kopiëren is gestopt voordat het klaar was</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Voltooide postvakken: {0}. Niet gestart: {1}. Voer opnieuw uit om door te gaan: voltooide items worden niet twee keer gekopieerd.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Voltooid, met items die aandacht nodig hebben</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Zonder problemen gekopieerde postvakken: {0} van {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postvak voor postvak</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Wat u hierna kunt doen</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Deze samenvatting kopiëren</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Resultaten per postvak</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Gekopieerde postvakken</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Gekopieerde berichten</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Al in het doel</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Mislukte items</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Identiek geverifieerd</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Benodigde tijd</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} van {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>geen</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>niet gecontroleerd</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Open het resultatenbestand of het logboek om te zien waarom, los de oorzaak op (bijvoorbeeld een ontbrekende machtiging of een doelpostvak dat nog niet bestaat) en kies Opnieuw uitvoeren. Voltooide items worden onthouden, dus er wordt niets twee keer gekopieerd.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Open enkele doelpostvakken in Outlook en controleer Postvak IN, Verzonden items en uw eigen mappen. Controleer steekproefsgewijs berichten met bijlagen.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Open enkele doelpostvakken in Outlook en zoek naar de map "{0}". Controleer steekproefsgewijs berichten met bijlagen. Gebruikers kunnen e-mail eruit verplaatsen of er laten staan.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Contactpersonen en agenda worden geteld maar nog niet veld voor veld vergeleken. Open de contactpersonen en de agenda in enkele doelpostvakken en controleer ze, vooral terugkerende vergaderingen.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Om e-mail op te halen die na deze uitvoering is binnengekomen, kiest u Opnieuw uitvoeren met dezelfde instellingen. Alleen nieuwe e-mail wordt gekopieerd.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Wanneer de migratie helemaal klaar is, verwijdert u de clientgeheimen en de app-registraties in Microsoft Entra, omdat ze bij elk postvak in de tenant kunnen.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Gekopieerde postvakken: {0} van {1}; gekopieerde berichten: {2}; al in het doel: {3}; mislukte items: {4}; tijd: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Gekopieerde postvakken: {0} van {1}; gekopieerde berichten: {2}; al in het doel: {3}; mislukte items: {4}; identiek geverifieerd: {5} van {6}; tijd: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>App-registraties</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Een app-registratie is de identiteit waarmee deze tool in een tenant met Microsoft 365 communiceert. U maakt er één per tenant in het Microsoft Entra-beheercentrum, slaat die hier op onder een naam die u herkent en kiest die in de stappen Bron en Doel. Er wordt niets naar ergens anders verzonden; het wordt alleen voor uw Windows-gebruiker opgeslagen.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Toevoegen</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Verwijderen</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Naam</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Alles waarmee u ze uit elkaar kunt houden, bijvoorbeeld "Contoso (bron)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Map-ID (tenant)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Een GUID. Op de pagina Overzicht van de registratie in het Entra-beheercentrum.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Toepassings-ID (client)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Een GUID. Ook op de pagina Overzicht.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Clientgeheim</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>De waarde van het geheim (niet de ID) onder Certificaten en geheimen. Hiermee kan de app postvakken kopiëren zonder dat iemand zich aanmeldt. Het wordt versleuteld voor uw Windows-gebruiker en kan op een andere pc niet worden gelezen. Het wordt alleen getoond tijdens het typen; typ een nieuw geheim om het te vervangen.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Er is een geheim opgeslagen.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Wissen</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Zo maakt u er een: Microsoft Entra-beheercentrum &gt; App-registraties &gt; Nieuwe registratie (één tenant). Open API-machtigingen, voeg de toepassingsmachtigingen toe die bij de stappen Bron en Doel worden getoond en verleen daarna beheerderstoestemming. Open Certificaten en geheimen, maak een Nieuw clientgeheim en kopieer de waarde meteen (deze wordt maar één keer getoond). Kopieer de map-ID (tenant) en de toepassings-ID (client) van de pagina Overzicht naar dit formulier.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Nieuwe registratie</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(naamloos)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Registratie verwijderen</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>"{0}" uit deze lijst verwijderen?
+
+Dit vergeet de registratie alleen hier. De app-registratie in Microsoft Entra wordt niet aangeraakt.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>De lijst controleren</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Geef elke registratie een naam.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": de tenant-ID en de client-ID moeten beide GUID's zijn (bijvoorbeeld 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Opslaan mislukt</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Kan niet opslaan: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Instellingen</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Taal</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Zelfde als Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Een nieuwe taal wordt actief de volgende keer dat u Smart Mailbox Copy start.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Thema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Zelfde als Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Licht</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Donker</value></data>
+</root>

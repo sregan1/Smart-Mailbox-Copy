@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Înregistrări de aplicații</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Rulări și rapoarte anterioare</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Setări</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimizare</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximizare sau restaurare</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Închidere</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Pași</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Anulare</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Salvare</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Înapoi</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Următorul</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Începeți</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Începeți copierea</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Vizualizare rezultate</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Migrare nouă</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Oprire</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Deschidere rezultate (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Deschidere listă de elemente (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Deschidere jurnal</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Rulare din nou (reluare)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Bun venit</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Sursă</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Destinație</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Căsuțe</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Asociere</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opțiuni</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Revizuire</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Copiere</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Rezultate</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Bun venit</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Tenant sursă</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Tenant destinație</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Alegerea căsuțelor poștale</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Asocierea căsuțelor poștale</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opțiuni</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Revizuire</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Copiere</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Rezultate</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Mutați mesaje între tenanturi Microsoft 365: o căsuță poștală, mai multe sau toate.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Conectați-vă la tenantul DIN CARE copiați. Este doar citit; nimic din el nu se modifică.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Conectați-vă la tenantul ÎN CARE copiați. Aici se adaugă mesaje; nimic din ce există deja nu se modifică și nu se șterge.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Alegeți căsuțele poștale de copiat. Folosiți filtrele pentru a restrânge lista, apoi bifați-le pe cele dorite.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Spuneți instrumentului în ce căsuță poștală destinație merge fiecare căsuță poștală sursă.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Alegeți cum ajung mesajele în destinație și ce verificări de siguranță se execută.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Verificați planul. Încă nu s-a copiat nimic.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Se copiază acum. Puteți opri oricând; elementele finalizate sunt reținute, deci puteți relua mai târziu.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Ce s-a copiat, ce s-a verificat și ce urmează.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Conectați-vă la tenantul sursă pentru a continua.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Conectați-vă la tenantul destinație pentru a continua.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Bifați cel puțin o căsuță poștală pentru a continua.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Cel puțin un rând trebuie să indice Gata pentru a continua.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Introduceți un nume de folder pentru a continua.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Verificați filtrele de e-mail: bifați cel puțin un folder, alegeți o dată și introduceți o dimensiune mai mare de 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Se estimează dimensiunea și durata (numai citire). Pornirea devine disponibilă la final, sau alegeți Omiteți estimarea.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Bifați caseta de mai sus pentru a continua.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Acest instrument copiază mesaje între tenanturi Microsoft 365. Puteți muta o căsuță poștală, câteva alese sau pe toate, iar după aceea compară fiecare mesaj cu originalul.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Ce face și ce nu face</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Tenantul sursă este doar citit. Nimic din el nu se modifică și nu se șterge.
+• Destinația doar primește elemente (mesaje și, dacă alegeți, evenimente din calendar și contacte). Instrumentul nu șterge și nu modifică niciodată ce există deja.
+• Un mesaj copiat de două ori este omis, deci o rulare poate fi repetată sau reluată în siguranță.
+• Fiecare mesaj copiat este comparat cu sursa, câmp cu câmp, iar rezultatul este raportat.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Ce vă trebuie înainte de a începe</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. O înregistrare de aplicație în fiecare tenant (sursă și destinație), configurată de un administrator global. Pașii următori arată exact ce permisiuni trebuie adăugate.
+2. Un secret client pentru fiecare înregistrare.
+3. Căsuțele poștale de mutat trebuie să existe deja în tenantul destinație (creați mai întâi utilizatorii și atribuiți-le licențe).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Cum funcționează</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Instrumentul folosește înregistrarea de aplicație, nu autentificarea unei persoane, deci poate accesa căsuțele poștale ale altor persoane fără parolele lor. Deoarece o înregistrare de aplicație cu aceste permisiuni poate accesa orice căsuță poștală din tenantul ei, păstrați secretul confidențial și eliminați înregistrarea la încheierea migrării.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Selectați Următorul pentru a conecta tenantul sursă. Vă puteți întoarce la orice pas finalizat din bara de pași de sus.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Sursa este tenantul în care se află acum mesajele. Smart Mailbox Copy se autentifică cu o înregistrare de aplicație (nicio persoană nu se autentifică) și citește căsuțele poștale alese de dumneavoastră.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Destinația este tenantul în care se mută mesajele. Căsuțele poștale trebuie să existe deja acolo, cu licențe. Instrumentul doar adaugă mesaje.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>În centrul de administrare Microsoft Entra: Înregistrări de aplicații &gt; aplicația dumneavoastră &gt; Permisiuni API &gt; Adăugați o permisiune &gt; Microsoft Graph &gt; Permisiuni de aplicație. Apoi selectați Acordați consimțământul administratorului.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Același loc ca pentru sursă: Permisiuni API &gt; Adăugați o permisiune &gt; Microsoft Graph &gt; Permisiuni de aplicație, apoi Acordați consimțământul administratorului.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>export; folosiți permisiunea de export dacă portalul o afișează</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Înregistrare de aplicație</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Înregistrarea de aplicație Microsoft Entra salvată pentru acest tenant. Dacă nu apare încă în listă, alegeți Gestionare și adăugați-o.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Gestionare…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Permisiunile de care are nevoie această înregistrare de aplicație</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Conectare și listare căsuțe poștale</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Aceasta se autentifică cu înregistrarea de aplicație, citește lista căsuțelor poștale și verifică ce permisiuni de aplicație au fost acordate aplicației. Nu modifică nimic. O permisiune adăugată adineauri poate dura câteva minute până apare: așteptați, apoi conectați-vă din nou.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  aplicație {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>secret client salvat</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NU există secret client salvat: adăugați unul în Gestionare</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nimic selectat.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Se conectează…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Conectat. Conturi cu adresă de căsuță poștală găsite: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Alegeți mai întâi o înregistrare de aplicație.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Această înregistrare nu are un secret client salvat pe acest PC. Alegeți Gestionare și adăugați-l.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Secretul client nu este valid. Poate fi ID-ul secretului în loc de Valoarea lui sau secretul altei aplicații. Creați un secret nou și actualizați-l în Gestionare.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Secretul client a expirat. Creați unul nou și actualizați-l în Gestionare.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>ID-ul aplicației (client) nu a fost găsit în acest tenant. Verificați ID-urile de tenant și de client în Gestionare.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>ID-ul de tenant nu a fost găsit. Verificați-l în Gestionare.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Aplicației îi lipsește permisiunea de aplicație User.Read.All sau consimțământul administratorului nu a fost acordat.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Permisiuni de aplicație acordate acestei aplicații:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/export și citire)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>citirea mesajelor</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>crearea de foldere în destinație</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>exportul și importul elementelor de e-mail</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>citirea structurii de foldere</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>listarea căsuțelor poștale</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>numai pentru copierea calendarelor suplimentare</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>numai pentru copierea folderelor de contacte suplimentare</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  LIPSEȘTE: necesară pentru {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  neacordată ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Adăugați permisiunile lipsă ca Permisiuni de aplicație și acordați consimțământul administratorului. Pot dura câteva minute până apar.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Afișați tipurile de căsuțe poștale dorite, restrângeți după domeniu sau text, apoi bifați-le pe cele de copiat. Bifările se păstrează când schimbați filtrele. Conturile fără licență sunt căsuțe poștale partajate, de sală sau de echipament; Microsoft nu precizează care este care.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Utilizatori</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Partajate, sală, echipament (fără licență)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Invitați</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Numai conturi activate</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domeniu</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Căutare</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Toate domeniile</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Copiere</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nume</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adresă</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Tip</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Cont</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Utilizator</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Partajată, de sală sau de echipament (fără licență)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Invitat</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Activat</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Dezactivat</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Bifare toate cele afișate</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Debifare toate cele afișate</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Reîmprospătare listă</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} selectate · {1} afișate din {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} selectate, dar ascunse de filtre</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filtru de domeniu</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Căutare căsuțe poștale</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Căsuțe poștale sursă</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Fiecare adresă sursă necesită o căsuță poștală în tenantul destinație. Se asociază prin înlocuirea domeniului; tastați o altă adresă destinație în orice rând în care numele diferă. Rândurile care indică Gata vor fi copiate; celelalte sunt excluse.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Domeniu destinație</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Asociere toate rândurile cu acest domeniu</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Import hartă (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Export hartă (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Căsuță poștală sursă</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Căsuță poștală destinație (editabilă)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Stare</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Gata</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Introduceți o adresă destinație</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Nu este o adresă de e-mail</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Alt rând folosește această destinație</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Nu a fost găsită în tenantul destinație</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} din {1} gata de copiere</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} vor fi excluse până la remediere</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Fișiere CSV (*.csv)|*.csv|Toate fișierele|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importați o hartă sursă,destinație</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Fișiere CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Exportați harta</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} din {1} rânduri din fișier corespund unei căsuțe poștale selectate de dumneavoastră. Celelalte au fost ignorate.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Hartă importată</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Harta nu a putut fi citită</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Domeniu destinație</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Harta căsuțelor poștale</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Numai evenimente din calendar și contacte (nu se copiază mesaje)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Un bun prim test sau o modalitate de a copia calendarele separat. Evenimentele merg în Calendarul implicit al fiecărei căsuțe poștale destinație, iar contactele în Contactele implicite. Aceasta adaugă elemente definitiv: instrumentul nu le poate elimina ulterior.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Unde să meargă mesajele?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Numai mesaje, într-un folder nou în fiecare căsuță poștală destinație (recomandat)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Toate mesajele, inclusiv structura de foldere, sunt copiate într-un singur folder nou. Este cea mai sigură variantă și ușor de revizuit sau de șters în Outlook înainte ca cineva să înceapă să folosească căsuța poștală. Evenimentele din calendar și contactele nu pot fi plasate în el, deci nu se copiază în acest mod.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Nume folder</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Mesaje migrate</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Îmbinate în folderele reale, cu calendar și contacte</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Mesajele ajung unde se așteaptă persoana (Inbox în Inbox, Sent Items în Sent Items) iar celelalte foldere sunt recreate alături. Aceasta adaugă elemente definitiv: instrumentul nu are nicio cale de a le elimina ulterior.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Copiază și evenimentele din calendar și contactele (cele implicite și orice calendare și foldere de contacte suplimentare)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Debifați pentru a copia numai mesajele. Evenimentele, inclusiv întâlnirile recurente, sunt numărate, dar încă nu sunt comparate câmp cu câmp.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Limitați ce se copiază (opțional): nimic nu este limitat, se copiază tot</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Limitați ce se copiază (opțional): limite activate: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Implicit se copiază fiecare folder și fiecare mesaj. Folosiți acestea numai pentru a copia mai puțin. Se aplică tuturor căsuțelor poștale, niciodată evenimentelor din calendar și contactelor, iar mesajele excluse nu se modifică și nu se șterg niciodată în sursă.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Excludeți aceste foldere</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Un folder exclus își ia cu el și subfolderele.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Inbox</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Elemente trimise</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Ciorne</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Elemente șterse</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Mesaje nesolicitate</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arhivă</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Foldere create de utilizatori</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Numai mesajele create în sau după</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Aceasta este ziua în care fiecare mesaj a fost creat în căsuța poștală, care este în mod normal ziua în care a sosit. Verificați un eșantion după prima copiere.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Omiteți mesajele mai mari de</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Verificări de siguranță</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Omiteți mesajele care sunt deja în destinație (astfel o nouă rulare nu poate crea dubluri)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Comparați după aceea fiecare mesaj copiat cu sursa (durează mai mult, recomandat)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Permiteți foldere destinație care conțin deja elemente (elementele copiate se adaugă alături de ele)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Îmbinarea refuză să pornească atunci când un folder destinație, cum ar fi Inbox sau Calendar, conține deja elemente, cu excepția cazului în care această opțiune este bifată.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Avansat</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Reluare de la zero: ignorați ce au copiat deja rulările anterioare (verificarea dublurilor de mai sus protejează în continuare mesajele din destinație)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Calendare și foldere de contacte de exclus</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Un nume pe rând, exact așa cum apare în Outlook. Calendarele și folderele de contacte suplimentare cu aceste nume nu se copiază; un folder de contacte își ia cu el subfolderele. Utilizați-l pentru calendarele la care se abonează utilizatorii, cum ar fi un calendar de sărbători. Calendarul Zile de naștere nu se copiază niciodată (Outlook îl construiește din contacte). Calendarul și Contactele implicite nu sunt afectate.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Căsuțe poștale în care nu trebuie să se scrie niciodată</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>O adresă pe rând. Dacă una dintre acestea este aleasă ca destinație, copierea pentru ea este refuzată.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Numele noului folder</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Cea mai veche dată</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Cel mai mare mesaj, în megaocteți</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Căsuțe poștale de copiat: {0}, din „{1}” în „{2}”.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Se copiază numai evenimentele din calendar și contactele, în Calendarul și Contactele implicite ale fiecărei căsuțe poștale destinație. Nu se copiază mesaje.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Mesajele merg în folderele reale ale fiecărei căsuțe poștale destinație (Inbox, Elemente trimise, Ciorne…); celelalte foldere sunt recreate alături.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Numai mesajele merg într-un folder nou numit „{0}” în fiecare căsuță poștală destinație, inclusiv structura de foldere.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Calendare și foldere de contacte excluse după nume: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Evenimente din calendar și contacte: copiate în Calendarul și Contactele implicite ale fiecărei căsuțe poștale destinație.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Evenimente din calendar și contacte: nu se copiază.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Mesajele care sunt deja în destinație sunt omise.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Mesajele care sunt deja în destinație NU sunt căutate.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Excluse: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Numai mesajele create în sau după {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Mesajele mai mari de {0} MB sunt omise.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Fiecare mesaj copiat este comparat după aceea cu sursa.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Nicio comparare după aceea.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Căsuțele poștale sunt copiate una după alta. Nimic din sursă nu se modifică.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Estimarea dimensiunii și a duratei</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Omiteți estimarea</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Căsuțe poștale excluse deoarece nu s-a găsit o căsuță poștală destinație corespunzătoare: {0}. Reveniți la Asocierea căsuțelor poștale pentru a le remedia.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Căsuțe poștale selectate fără licență (partajate, de sală sau de echipament): {0}. Folderele lor de e-mail se copiază, la fel și calendarul lor când copierea calendarelor este activată. Setările resursei, cum ar fi politicile de rezervare, nu se copiază.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Aceasta adaugă definitiv evenimente din calendar și contacte. Acest instrument nu are nicio cale de a le elimina.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Îmbinarea adaugă definitiv elemente în folderele reale. Acest instrument nu are nicio cale de a le elimina.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Înțeleg că îmbinarea adaugă mesaje în folderele reale și că acest instrument nu le poate elimina.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>O estimare necesită conexiunile din pașii anteriori.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Se citește dimensiunea căsuțelor poștale ({0}); numai citire, nimic nu se modifică…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Estimare omisă. Bara de progres va afișa totuși o estimare după ce copierea este în desfășurare.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Estimarea nu a putut fi făcută: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Aproximativ {0} mesaje ({1} MB). Căsuțe poștale: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Durată estimată: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Bazată pe vitezele măsurate în testele noastre cu mesaje obișnuite; atașamentele foarte mari durează mai mult. Căsuțele poștale sunt copiate una după alta. Dacă opriți, următoarea rulare continuă de unde a rămas.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Căsuțe poștale care nu au putut fi citite: {0}. Nu sunt incluse în estimare și probabil vor eșua și la copiere. Primul motiv: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>sub un minut</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Începeți copierea?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Începeți copierea acum? Căsuțe poștale: {0}.
+
+{1}
+
+Nimic din sursă nu se modifică. Puteți opri oricând.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Mesajele vor fi adăugate în folderele reale ale fiecărei căsuțe poștale destinație. Acest instrument nu le poate elimina.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Mesajele vor fi adăugate într-un folder nou „{0}” în fiecare căsuță poștală destinație.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Nu se poate începe</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Lipsește un secret client pe acest PC. Adăugați-l în Înregistrări de aplicații.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Remediați mai întâi acestea:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Se copiază căsuțele poștale: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Se pornește…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Finalizat. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Fiecare mesaj a fost comparat cu sursa.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Selectați un rând pentru detalii sau deschideți fișierul de rezultate.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Oprit de o eroare: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>A durat {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} din {2} căsuțe poștale finalizate · {3} · {4} până acum</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>mai rămân aproximativ {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>estimat {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>se estimează durata…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Căsuța poștală {0} din {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Căsuța poștală {0}: {1} din {2} elemente procesate — {3} copiate, {4} deja existente, {5} eșuate</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Oprire după elementul curent… elementele finalizate sunt reținute.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Căsuțe poștale</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Detalii foldere pentru căsuța poștală în curs</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Jurnal</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Numai avertismente și erori</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} erori, {1} avertismente</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Copiere în curs</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>O copiere este în desfășurare. Închiderea acum o oprește (elementele finalizate sunt reținute, deci puteți relua).
+
+Închideți oricum?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Progres general</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Progresul căsuțelor poștale</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Copiate fără probleme: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Necesită verificare: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Eșuate: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Nerulate: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Autentificare și verificarea conturilor</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Sursă (numai citire): parcurgerea structurii de foldere și listarea elementelor</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Destinație: localizarea folderelor în care merg mesajele</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Recrearea structurii și copierea elementelor (export din sursă, import în destinație)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Reconciliere: compararea numărului de elemente pe folder</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verificare: compararea fiecărui mesaj copiat cu sursa, câmp cu câmp</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>În așteptare</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Se copiază…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Finalizat</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Necesită verificare</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Eșuat</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Nerulat</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Copiat</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Se copiază</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} eșuate</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Numere diferite</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>folder de utilizator</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>Nr.</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Sursă</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Destinație</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Stare</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Detalii (selectați pentru a copia)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Folder</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Tip</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elemente</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Copiate</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Deja existente</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Eșuate</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Rezultat</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Verificate identice</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Note (selectați pentru a copia)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Note</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Detalii</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Copierea s-a oprit</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Copiere finalizată</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Căsuțe poștale copiate: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Căsuțe poștale copiate: {0}. Fiecare dintre cele {1} mesaje verificate era identic cu sursa.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Copierea s-a oprit înainte de a se termina</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Căsuțe poștale finalizate: {0}. Neîncepute: {1}. Rulați din nou pentru a continua: elementele finalizate nu se copiază de două ori.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Finalizat, cu elemente care necesită verificare</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Căsuțe poștale copiate fără probleme: {0} din {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Căsuță poștală cu căsuță poștală</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Ce urmează</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Copiază acest rezumat</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Rezultate pe căsuță poștală</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Căsuțe poștale copiate</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Mesaje copiate</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Deja în destinație</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Elemente eșuate</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Verificate identice</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Timp scurs</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} din {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>niciunul</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>neverificat</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Deschideți fișierul de rezultate sau jurnalul pentru a vedea motivul, remediați cauza (de exemplu o permisiune lipsă sau o căsuță poștală destinație care nu există încă) și alegeți Rulare din nou. Elementele finalizate sunt reținute, deci nimic nu se copiază de două ori.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Deschideți câteva căsuțe poștale destinație în Outlook și verificați Inbox, Elemente trimise și folderele proprii. Verificați prin sondaj mesaje cu atașamente.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Deschideți câteva căsuțe poștale destinație în Outlook și căutați folderul „{0}”. Verificați prin sondaj mesaje cu atașamente. Utilizatorii pot muta mesajele din el sau le pot lăsa acolo.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Contactele și calendarul sunt numărate, dar încă nu sunt comparate câmp cu câmp. Deschideți Contactele și Calendarul în câteva căsuțe poștale destinație și verificați-le, în special întâlnirile recurente.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Pentru a prelua mesajele sosite după această rulare, alegeți Rulare din nou cu aceleași setări. Se copiază numai mesajele noi.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Când migrarea este complet încheiată, ștergeți secretele client și eliminați înregistrările de aplicații din Microsoft Entra, deoarece pot accesa orice căsuță poștală din tenant.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Căsuțe poștale copiate: {0} din {1}; mesaje copiate: {2}; deja în destinație: {3}; elemente eșuate: {4}; timp: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Căsuțe poștale copiate: {0} din {1}; mesaje copiate: {2}; deja în destinație: {3}; elemente eșuate: {4}; verificate identice: {5} din {6}; timp: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Înregistrări de aplicații</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>O înregistrare de aplicație este identitatea pe care acest instrument o folosește pentru a comunica cu Microsoft 365 într-un tenant. O creați o singură dată pentru fiecare tenant în centrul de administrare Microsoft Entra, apoi o salvați aici sub un nume pe care îl recunoașteți și o alegeți la pașii Sursă și Destinație. Nimic de aici nu este trimis altundeva; se stochează numai pentru utilizatorul dumneavoastră Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Adăugare</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Eliminare</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nume</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Orice vă ajută să le deosebiți, de exemplu „Contoso (sursă)”.</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID director (tenant)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Un GUID. Pe pagina Prezentare generală a înregistrării din centrul de administrare Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID aplicație (client)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Un GUID. Tot pe pagina Prezentare generală.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Secret client</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Valoarea secretului (nu ID-ul lui), din Certificate și secrete. Permite aplicației să copieze căsuțe poștale fără ca cineva să se autentifice. Este criptat pentru utilizatorul dumneavoastră Windows și nu poate fi citit pe alt PC. Este afișat numai pe măsură ce îl tastați; tastați unul nou pentru a-l înlocui.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Un secret este salvat.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Golire</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Pentru a crea una: centrul de administrare Microsoft Entra &gt; Înregistrări de aplicații &gt; Înregistrare nouă (un singur tenant). Deschideți Permisiuni API și adăugați Permisiunile de aplicație afișate la pașii Sursă și Destinație, apoi Acordați consimțământul administratorului. Deschideți Certificate și secrete, creați un Secret client nou și copiați imediat Valoarea lui (se afișează o singură dată). Copiați ID-ul directorului (tenant) și ID-ul aplicației (client) din pagina Prezentare generală în acest formular.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Înregistrare nouă</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(fără nume)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Eliminare înregistrare</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Eliminați „{0}” din această listă?
+
+Aceasta doar o uită aici. Înregistrarea de aplicație din Microsoft Entra nu este atinsă.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Verificați lista</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Dați un nume fiecărei înregistrări.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>„{0}”: ID-ul de tenant și ID-ul de client trebuie să fie ambele GUID-uri (de exemplu 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Salvarea a eșuat</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Nu s-a putut salva: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Setări</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Limbă</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>La fel ca Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>O limbă nouă are efect la următoarea pornire a aplicației Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Temă</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>La fel ca Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Luminoasă</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Întunecată</value></data>
+</root>

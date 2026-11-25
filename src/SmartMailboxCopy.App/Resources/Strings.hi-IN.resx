@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>ऐप पंजीकरण</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>पिछले रन और रिपोर्ट</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>सेटिंग्स</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>छोटा करें</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>बड़ा करें या पुनर्स्थापित करें</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>बंद करें</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>चरण</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>रद्द करें</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>सहेजें</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>वापस</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>आगे</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>शुरू करें</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>कॉपी करना शुरू करें</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>परिणाम देखें</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>नया माइग्रेशन</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>रोकें</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>परिणाम खोलें (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>आइटम सूची खोलें (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>लॉग खोलें</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>दोबारा चलाएँ (फिर से शुरू करें)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>स्वागत</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>स्रोत</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>लक्ष्य</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>मेलबॉक्स</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>मिलान</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>विकल्प</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>समीक्षा</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>कॉपी</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>परिणाम</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>स्वागत है</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>स्रोत टेनेंट</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>लक्ष्य टेनेंट</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>मेलबॉक्स चुनें</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>मेलबॉक्स का मिलान करें</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>विकल्प</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>समीक्षा</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>कॉपी</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>परिणाम</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Microsoft 365 टेनेंट के बीच मेल ले जाएँ: एक मेलबॉक्स, कई मेलबॉक्स, या सभी।</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>उस टेनेंट से कनेक्ट करें जिससे आप कॉपी कर रहे हैं। इसे केवल पढ़ा जाता है; इसमें कुछ भी नहीं बदलता।</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>उस टेनेंट से कनेक्ट करें जिसमें आप कॉपी कर रहे हैं। यहाँ मेल जोड़ा जाता है; पहले से मौजूद किसी चीज़ को न बदला जाता है, न हटाया जाता है।</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>कॉपी करने के लिए मेलबॉक्स चुनें। सूची को सीमित करने के लिए फ़िल्टर का उपयोग करें, फिर जो चाहिए उन्हें चुनें।</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>टूल को बताएँ कि प्रत्येक स्रोत मेलबॉक्स किस लक्ष्य मेलबॉक्स में जाएगा।</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>चुनें कि मेल लक्ष्य में कैसे पहुँचे और कौन-सी सुरक्षा जाँचें चलाई जाएँ।</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>योजना जाँचें। अभी तक कुछ भी कॉपी नहीं हुआ है।</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>अभी कॉपी हो रहा है। आप कभी भी रोक सकते हैं; पूरे हो चुके आइटम याद रखे जाते हैं, इसलिए आप बाद में फिर से शुरू कर सकते हैं।</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>क्या कॉपी हुआ, क्या जाँचा गया, और आगे क्या करना है।</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>जारी रखने के लिए स्रोत टेनेंट से कनेक्ट करें।</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>जारी रखने के लिए लक्ष्य टेनेंट से कनेक्ट करें।</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>जारी रखने के लिए कम से कम एक मेलबॉक्स चुनें।</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>जारी रखने के लिए कम से कम एक पंक्ति में तैयार लिखा होना चाहिए।</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>जारी रखने के लिए फ़ोल्डर का नाम दर्ज करें।</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>मेल फ़िल्टर जाँचें: कम से कम एक फ़ोल्डर चुनें, एक तारीख चुनें, और 0 से बड़ा आकार दर्ज करें।</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>आकार और समय का अनुमान लगाया जा रहा है (केवल पढ़ना)। पूरा होने पर शुरू करें उपलब्ध होगा, या अनुमान छोड़ें चुनें।</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>जारी रखने के लिए ऊपर का बॉक्स चुनें।</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>यह टूल Microsoft 365 टेनेंट के बीच मेल कॉपी करता है। आप एक मेलबॉक्स, चुने हुए कुछ मेलबॉक्स, या सभी को ले जा सकते हैं, और बाद में यह हर संदेश की मूल प्रति से तुलना करता है।</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>यह क्या करेगा और क्या नहीं</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• स्रोत टेनेंट को केवल पढ़ा जाता है। उसमें कुछ भी बदला या हटाया नहीं जाता।
+• लक्ष्य में केवल आइटम जोड़े जाते हैं (मेल, और आप चुनें तो कैलेंडर इवेंट और संपर्क)। टूल पहले से मौजूद किसी चीज़ को कभी नहीं हटाता या बदलता।
+• दो बार कॉपी किया गया संदेश छोड़ दिया जाता है, इसलिए रन को सुरक्षित रूप से दोहराया या फिर से शुरू किया जा सकता है।
+• कॉपी किए गए हर संदेश की उसके स्रोत से फ़ील्ड-दर-फ़ील्ड तुलना की जाती है और परिणाम रिपोर्ट किया जाता है।</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>शुरू करने से पहले आपको क्या चाहिए</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. प्रत्येक टेनेंट (स्रोत और लक्ष्य) में एक ऐप पंजीकरण, जो ग्लोबल एडमिनिस्ट्रेटर द्वारा सेट किया गया हो। अगले चरण दिखाते हैं कि कौन-सी अनुमतियाँ जोड़नी हैं।
+2. प्रत्येक पंजीकरण के लिए एक क्लाइंट सीक्रेट।
+3. जिन मेलबॉक्स को आप ले जाना चाहते हैं वे लक्ष्य टेनेंट में पहले से मौजूद होने चाहिए (पहले उपयोगकर्ता बनाएँ और उन्हें लाइसेंस दें)।</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>यह कैसे काम करता है</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>टूल किसी व्यक्ति के साइन-इन के बजाय ऐप पंजीकरण का उपयोग करता है, इसलिए यह दूसरे लोगों के मेलबॉक्स तक उनके पासवर्ड के बिना पहुँच सकता है। चूँकि इन अनुमतियों वाला ऐप पंजीकरण अपने टेनेंट के हर मेलबॉक्स तक पहुँच सकता है, इसका सीक्रेट निजी रखें और माइग्रेशन पूरा होने पर पंजीकरण हटा दें।</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>स्रोत टेनेंट से कनेक्ट करने के लिए आगे चुनें। आप ऊपर के चरण बार से किसी भी पूरे हो चुके चरण पर लौट सकते हैं।</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>स्रोत वह टेनेंट है जिसमें मेल अभी मौजूद है। Smart Mailbox Copy ऐप पंजीकरण से साइन इन करता है (कोई व्यक्ति साइन इन नहीं करता) और आपके चुने मेलबॉक्स पढ़ता है।</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>लक्ष्य वह टेनेंट है जिसमें मेल ले जाया जा रहा है। मेलबॉक्स वहाँ लाइसेंस के साथ पहले से मौजूद होने चाहिए। टूल केवल मेल जोड़ता है।</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Microsoft Entra एडमिन सेंटर में: ऐप पंजीकरण &gt; आपका ऐप &gt; API अनुमतियाँ &gt; अनुमति जोड़ें &gt; Microsoft Graph &gt; एप्लिकेशन अनुमतियाँ। फिर एडमिन सहमति दें चुनें।</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>वही जगह जो स्रोत के लिए है: API अनुमतियाँ &gt; अनुमति जोड़ें &gt; Microsoft Graph &gt; एप्लिकेशन अनुमतियाँ, फिर एडमिन सहमति दें।</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>निर्यात; यदि पोर्टल निर्यात अनुमति दिखाता है तो उसका उपयोग करें</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>ऐप पंजीकरण</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>इस टेनेंट के लिए सहेजा गया Microsoft Entra ऐप पंजीकरण। यदि यह अभी सूची में नहीं है, तो प्रबंधित करें चुनें और इसे जोड़ें।</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>प्रबंधित करें…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>इस ऐप पंजीकरण को चाहिए अनुमतियाँ</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>कनेक्ट करें और मेलबॉक्स सूचीबद्ध करें</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>यह ऐप पंजीकरण से साइन इन करता है, मेलबॉक्स की सूची पढ़ता है, और जाँचता है कि ऐप को कौन-सी एप्लिकेशन अनुमतियाँ दी गई हैं। यह कुछ भी नहीं बदलता। अभी जोड़ी गई अनुमति दिखने में कुछ मिनट लग सकते हैं: प्रतीक्षा करें, फिर दोबारा कनेक्ट करें।</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>टेनेंट {0}  ·  एप्लिकेशन {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>क्लाइंट सीक्रेट सहेजा गया</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>कोई क्लाइंट सीक्रेट सहेजा नहीं गया: प्रबंधित करें में जोड़ें</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>कुछ भी चयनित नहीं है।</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>कनेक्ट हो रहा है…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>कनेक्ट हो गया। मेलबॉक्स पते वाले खाते मिले: {0}।</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>पहले एक ऐप पंजीकरण चुनें।</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>इस पंजीकरण का क्लाइंट सीक्रेट इस PC पर सहेजा नहीं गया है। प्रबंधित करें चुनें और इसे जोड़ें।</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>क्लाइंट सीक्रेट मान्य नहीं है। यह सीक्रेट का मान (Value) होने के बजाय उसकी ID हो सकती है, या किसी दूसरे ऐप का सीक्रेट। नया सीक्रेट बनाएँ और उसे प्रबंधित करें में अपडेट करें।</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>क्लाइंट सीक्रेट की समय-सीमा समाप्त हो गई है। नया बनाएँ और उसे प्रबंधित करें में अपडेट करें।</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>यह एप्लिकेशन (क्लाइंट) ID इस टेनेंट में नहीं मिली। प्रबंधित करें में टेनेंट और क्लाइंट ID जाँचें।</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>यह टेनेंट ID नहीं मिली। प्रबंधित करें में इसे जाँचें।</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>ऐप में User.Read.All एप्लिकेशन अनुमति नहीं है, या एडमिन सहमति नहीं दी गई है।</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>इस ऐप को दी गई एप्लिकेशन अनुमतियाँ:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (आयात/निर्यात और पढ़ना)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>मेल पढ़ने के लिए</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>लक्ष्य में फ़ोल्डर बनाने के लिए</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>मेल आइटम निर्यात और आयात करने के लिए</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>फ़ोल्डर ट्री पढ़ने के लिए</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>मेलबॉक्स सूचीबद्ध करने के लिए</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>केवल अतिरिक्त कैलेंडर कॉपी करने के लिए</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>केवल अतिरिक्त संपर्क फ़ोल्डर कॉपी करने के लिए</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  अनुपलब्ध: इसके लिए आवश्यक: {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  नहीं दी गई ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>अनुपलब्ध अनुमतियों को एप्लिकेशन अनुमतियों के रूप में जोड़ें और एडमिन सहमति दें। उन्हें दिखने में कुछ मिनट लग सकते हैं।</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>जिन प्रकार के मेलबॉक्स चाहिए उन्हें दिखाएँ, डोमेन या टेक्स्ट से सीमित करें, फिर कॉपी करने वालों को चुनें। फ़िल्टर बदलने पर भी आपके चयन बने रहते हैं। बिना लाइसेंस वाले खाते साझा, रूम या उपकरण मेलबॉक्स होते हैं; Microsoft यह नहीं बताता कि कौन-सा कौन-सा है।</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>उपयोगकर्ता</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>साझा, रूम, उपकरण (लाइसेंस नहीं)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>अतिथि</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>केवल सक्षम खाते</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>डोमेन</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>खोजें</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>सभी डोमेन</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>कॉपी</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>नाम</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>पता</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>प्रकार</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>खाता</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>उपयोगकर्ता</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>साझा, रूम या उपकरण (लाइसेंस नहीं)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>अतिथि</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>सक्षम</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>अक्षम</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>दिखाए गए सभी चुनें</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>दिखाए गए सभी का चयन हटाएँ</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>सूची रीफ़्रेश करें</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} चयनित · {2} में से {1} दिखाए गए</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} चयनित लेकिन फ़िल्टर द्वारा छिपे हैं</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>डोमेन फ़िल्टर</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>मेलबॉक्स खोजें</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>स्रोत मेलबॉक्स</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>प्रत्येक स्रोत पते के लिए लक्ष्य टेनेंट में एक मेलबॉक्स चाहिए। मिलान डोमेन बदलकर किया जाता है; जिस पंक्ति में नाम अलग हों वहाँ कोई दूसरा लक्ष्य पता टाइप करें। जिन पंक्तियों में तैयार लिखा है उन्हें कॉपी किया जाएगा; बाकी छोड़ दी जाती हैं।</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>लक्ष्य डोमेन</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>सभी पंक्तियों का इस डोमेन से मिलान करें</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>मैप आयात करें (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>मैप निर्यात करें (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>स्रोत मेलबॉक्स</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>लक्ष्य मेलबॉक्स (संपादन योग्य)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>स्थिति</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>तैयार</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>लक्ष्य पता दर्ज करें</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>ईमेल पता नहीं है</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>दूसरी पंक्ति यही लक्ष्य उपयोग करती है</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>लक्ष्य टेनेंट में नहीं मिला</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{1} में से {0} कॉपी के लिए तैयार</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · ठीक होने तक {0} छोड़े जाएँगे</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV फ़ाइलें (*.csv)|*.csv|सभी फ़ाइलें|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>स्रोत,लक्ष्य मैप आयात करें</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV फ़ाइलें (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>मैप निर्यात करें</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>फ़ाइल की {1} में से {0} पंक्तियाँ आपके चुने किसी मेलबॉक्स से मेल खाईं। बाकी को अनदेखा किया गया।</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>मैप आयात किया गया</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>मैप पढ़ा नहीं जा सका</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>लक्ष्य डोमेन</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>मेलबॉक्स मैप</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>केवल कैलेंडर इवेंट और संपर्क (कोई मेल कॉपी न करें)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>एक अच्छा पहला परीक्षण, या कैलेंडर अलग से कॉपी करने का तरीका। इवेंट प्रत्येक लक्ष्य मेलबॉक्स के डिफ़ॉल्ट कैलेंडर में और संपर्क उसके डिफ़ॉल्ट संपर्क में जाते हैं। यह आइटम स्थायी रूप से जोड़ता है: टूल उन्हें बाद में हटा नहीं सकता।</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>मेल कहाँ जाना चाहिए?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>केवल मेल, प्रत्येक लक्ष्य मेलबॉक्स में एक नए फ़ोल्डर में (अनुशंसित)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>फ़ोल्डर संरचना सहित सारा मेल एक नए फ़ोल्डर में कॉपी होता है। सबसे सुरक्षित, और किसी के मेलबॉक्स का उपयोग शुरू करने से पहले Outlook में समीक्षा या हटाना आसान। कैलेंडर इवेंट और संपर्क इसमें नहीं रखे जा सकते, इसलिए इस मोड में वे कॉपी नहीं होते।</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>फ़ोल्डर का नाम</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>माइग्रेट किया गया मेल</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>वास्तविक फ़ोल्डरों में मर्ज किया गया, कैलेंडर और संपर्क सहित</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>मेल वहाँ पहुँचता है जहाँ व्यक्ति उसे ढूँढता है (इनबॉक्स इनबॉक्स में, भेजे गए आइटम भेजे गए आइटम में) और बाकी फ़ोल्डर उनके बगल में फिर से बनाए जाते हैं। यह आइटम स्थायी रूप से जोड़ता है: टूल के पास उन्हें बाद में हटाने का कोई तरीका नहीं है।</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>कैलेंडर इवेंट और संपर्क भी कॉपी करें (डिफ़ॉल्ट और कोई भी अतिरिक्त कैलेंडर और संपर्क फ़ोल्डर)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>केवल मेल कॉपी करने के लिए चयन हटाएँ। आवर्ती मीटिंग सहित इवेंट की गिनती होती है, लेकिन फ़ील्ड-दर-फ़ील्ड तुलना अभी नहीं होती।</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>क्या कॉपी हो इसे सीमित करें (वैकल्पिक): कोई सीमा नहीं, सब कुछ कॉपी होता है</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>क्या कॉपी हो इसे सीमित करें (वैकल्पिक): सीमाएँ चालू हैं: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>डिफ़ॉल्ट रूप से हर फ़ोल्डर और हर संदेश कॉपी होता है। इनका उपयोग केवल कम कॉपी करने के लिए करें। ये हर मेलबॉक्स पर लागू होती हैं, कैलेंडर इवेंट और संपर्कों पर कभी नहीं, और छोड़े गए मेल को स्रोत में कभी बदला या हटाया नहीं जाता।</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>इन फ़ोल्डरों को छोड़ें</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>छोड़ा गया फ़ोल्डर अपने सबफ़ोल्डर भी साथ ले जाता है।</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>इनबॉक्स</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>भेजे गए आइटम</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>ड्राफ़्ट</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>हटाए गए आइटम</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>जंक ईमेल</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>संग्रहीत</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>लोगों द्वारा बनाए गए फ़ोल्डर</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>केवल इस तारीख को या इसके बाद बनाया गया मेल</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>यह वह दिन है जब प्रत्येक संदेश मेलबॉक्स में बनाया गया, जो सामान्यतः उसके आने का दिन होता है। पहली कॉपी के बाद एक नमूना जाँचें।</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>इससे बड़े संदेश छोड़ें</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>सुरक्षा जाँचें</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>लक्ष्य में पहले से मौजूद मेल छोड़ें (ताकि दोबारा चलाने पर डुप्लिकेट न बनें)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>बाद में कॉपी किए गए हर संदेश की उसके स्रोत से तुलना करें (समय बढ़ाता है, अनुशंसित)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>ऐसे लक्ष्य फ़ोल्डरों की अनुमति दें जिनमें पहले से आइटम हैं (कॉपी किए गए आइटम उनके साथ जोड़े जाते हैं)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>मर्ज करना तब शुरू होने से मना कर देता है जब इनबॉक्स या कैलेंडर जैसे किसी लक्ष्य फ़ोल्डर में पहले से आइटम हों, जब तक यह चुना न गया हो।</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>उन्नत</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>फिर से शुरू करें: पिछले रन में जो कॉपी हो चुका है उसे अनदेखा करें (ऊपर की डुप्लिकेट जाँच फिर भी लक्ष्य के मेल की रक्षा करती है)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>छोड़े जाने वाले कैलेंडर और संपर्क फ़ोल्डर</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>प्रति पंक्ति एक नाम, ठीक वैसे जैसे Outlook में दिखता है। इन नामों वाले अतिरिक्त कैलेंडर और संपर्क फ़ोल्डर कॉपी नहीं किए जाते; संपर्क फ़ोल्डर अपने सबफ़ोल्डर भी साथ ले जाता है। इसका उपयोग उन कैलेंडर के लिए करें जिनकी लोग सदस्यता लेते हैं, जैसे अवकाश कैलेंडर। जन्मदिन कैलेंडर कभी कॉपी नहीं होता (Outlook उसे संपर्कों से बनाता है)। डिफ़ॉल्ट कैलेंडर और संपर्क प्रभावित नहीं होते।</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>वे मेलबॉक्स जिनमें कभी नहीं लिखा जाना चाहिए</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>प्रति पंक्ति एक पता। यदि इनमें से कोई लक्ष्य के रूप में चुना जाता है, तो उसके लिए कॉपी अस्वीकार कर दी जाती है।</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>नए फ़ोल्डर का नाम</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>सबसे पुरानी तारीख</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>सबसे बड़ा संदेश मेगाबाइट में</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>कॉपी करने के लिए मेलबॉक्स: {0}, "{1}" से "{2}" में।</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>केवल कैलेंडर इवेंट और संपर्क कॉपी होते हैं, प्रत्येक लक्ष्य मेलबॉक्स के डिफ़ॉल्ट कैलेंडर और संपर्क में। कोई मेल कॉपी नहीं होता।</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>मेल प्रत्येक लक्ष्य मेलबॉक्स के वास्तविक फ़ोल्डरों (इनबॉक्स, भेजे गए आइटम, ड्राफ़्ट…) में जाता है; बाकी फ़ोल्डर उनके बगल में फिर से बनाए जाते हैं।</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>केवल मेल, प्रत्येक लक्ष्य मेलबॉक्स में "{0}" नाम के नए फ़ोल्डर में जाता है, फ़ोल्डर संरचना सहित।</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>नाम से छोड़े गए कैलेंडर और संपर्क फ़ोल्डर: {0}।</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>कैलेंडर इवेंट और संपर्क: प्रत्येक लक्ष्य मेलबॉक्स के डिफ़ॉल्ट कैलेंडर और संपर्क में कॉपी होते हैं।</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>कैलेंडर इवेंट और संपर्क: कॉपी नहीं होते।</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>लक्ष्य में पहले से मौजूद मेल छोड़ दिया जाता है।</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>लक्ष्य में पहले से मौजूद मेल की जाँच नहीं की जाती।</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>छोड़ा गया: {0}।</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>केवल {0} को या उसके बाद बनाया गया मेल।</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>{0} MB से बड़े संदेश छोड़ दिए जाते हैं।</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>कॉपी किए गए हर संदेश की बाद में उसके स्रोत से तुलना की जाती है।</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>बाद में कोई तुलना नहीं।</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>मेलबॉक्स एक के बाद एक कॉपी होते हैं। स्रोत में कुछ भी नहीं बदलता।</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>आकार और समय का अनुमान</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>अनुमान छोड़ें</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>मेल खाता लक्ष्य मेलबॉक्स न मिलने के कारण छोड़े गए मेलबॉक्स: {0}। उन्हें ठीक करने के लिए मेलबॉक्स का मिलान करें पर वापस जाएँ।</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>बिना लाइसेंस के चयनित मेलबॉक्स (साझा, रूम या उपकरण): {0}। उनके मेल फ़ोल्डर कॉपी होते हैं, और कैलेंडर कॉपी चालू होने पर उनका कैलेंडर भी। बुकिंग नीतियों जैसी रिसोर्स सेटिंग्स नहीं।</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>यह कैलेंडर इवेंट और संपर्क स्थायी रूप से जोड़ता है। इस टूल के पास उन्हें हटाने का कोई तरीका नहीं है।</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>मर्ज करना वास्तविक फ़ोल्डरों में आइटम स्थायी रूप से जोड़ता है। इस टूल के पास उन्हें हटाने का कोई तरीका नहीं है।</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>मैं समझता/समझती हूँ कि मर्ज करना वास्तविक फ़ोल्डरों में मेल जोड़ता है और यह टूल उसे हटा नहीं सकता।</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>अनुमान के लिए पिछले चरणों के कनेक्शन चाहिए।</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>मेलबॉक्स का आकार पढ़ा जा रहा है ({0}); केवल पढ़ना, कुछ भी नहीं बदलता…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>अनुमान छोड़ा गया। कॉपी शुरू होने के बाद भी प्रगति बार एक अनुमान दिखाएगा।</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>अनुमान नहीं लगाया जा सका: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>लगभग {0} संदेश ({1} MB)। मेलबॉक्स: {2}।</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>अनुमानित समय: {0}।</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>सामान्य संदेशों के साथ हमारे परीक्षणों में मापी गई गति पर आधारित; बहुत बड़े अनुलग्नकों में अधिक समय लगता है। मेलबॉक्स एक के बाद एक कॉपी होते हैं। यदि आप रोकते हैं, तो अगला रन वहीं से जारी रहता है जहाँ रुका था।</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>जो मेलबॉक्स पढ़े नहीं जा सके: {0}। वे अनुमान में शामिल नहीं हैं और संभवतः कॉपी में भी विफल होंगे। पहला कारण: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>एक मिनट से कम</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} मिनट</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} घंटा {1} मिनट</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>कॉपी शुरू करें?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>अभी कॉपी शुरू करें? मेलबॉक्स: {0}।
+
+{1}
+
+स्रोत में कुछ भी नहीं बदलता। आप कभी भी रोक सकते हैं।</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>मेल प्रत्येक लक्ष्य मेलबॉक्स के वास्तविक फ़ोल्डरों में जोड़ा जाएगा। इस टूल से उसे हटाया नहीं जा सकता।</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>मेल प्रत्येक लक्ष्य मेलबॉक्स में नए फ़ोल्डर "{0}" में जोड़ा जाएगा।</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>शुरू नहीं किया जा सकता</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>इस PC पर क्लाइंट सीक्रेट अनुपलब्ध है। इसे ऐप पंजीकरण में जोड़ें।</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>पहले इन्हें ठीक करें:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>मेलबॉक्स कॉपी हो रहे हैं: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>शुरू हो रहा है…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>पूरा हुआ। {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>हर संदेश की उसके स्रोत से तुलना की गई।</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>विवरण के लिए कोई पंक्ति चुनें, या परिणाम फ़ाइल खोलें।</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>त्रुटि के कारण रुका: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>{0} लगे।</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {2} में से {1} मेलबॉक्स पूरे · {3} · अब तक {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>लगभग {0} शेष</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>अनुमानित {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>समय का अनुमान लगाया जा रहा है…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>मेलबॉक्स {0}/{1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>मेलबॉक्स {0}: {2} में से {1} आइटम संसाधित — {3} कॉपी हुए, {4} पहले से मौजूद, {5} विफल</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>वर्तमान आइटम के बाद रुक रहा है… पूरे हो चुके आइटम याद रखे जाते हैं।</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>मेलबॉक्स</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>चल रहे मेलबॉक्स का फ़ोल्डर विवरण</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>लॉग</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>केवल चेतावनियाँ और त्रुटियाँ</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} त्रुटियाँ, {1} चेतावनियाँ</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>कॉपी जारी है</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>कॉपी चल रही है। अभी बंद करने पर यह रुक जाएगी (पूरे हो चुके आइटम याद रखे जाते हैं, इसलिए आप फिर से शुरू कर सकते हैं)।
+
+फिर भी बंद करें?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>कुल प्रगति</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>मेलबॉक्स प्रगति</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>सही ढंग से कॉपी हुए: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>जाँच की आवश्यकता: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>विफल: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>नहीं चले: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>साइन इन करें और खातों को सत्यापित करें</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>स्रोत (केवल पढ़ना): फ़ोल्डर ट्री खंगालें और आइटम सूचीबद्ध करें</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>लक्ष्य: वे फ़ोल्डर ढूँढें जिनमें मेल जाएगा</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>ट्री फिर से बनाएँ और आइटम कॉपी करें (स्रोत से निर्यात, लक्ष्य में आयात)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>मिलान: प्रति फ़ोल्डर आइटम की गिनती की तुलना करें</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>सत्यापन: कॉपी किए गए हर संदेश की उसके स्रोत से फ़ील्ड-दर-फ़ील्ड तुलना करें</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>प्रतीक्षा में</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>कॉपी हो रहा है…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>हो गया</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>जाँच की आवश्यकता</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>विफल</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>नहीं चला</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>कॉपी हुआ</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>कॉपी हो रहा है</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} विफल</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>गिनती अलग है</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>उपयोगकर्ता फ़ोल्डर</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>स्रोत</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>लक्ष्य</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>स्थिति</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>विवरण (कॉपी करने के लिए चुनें)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>फ़ोल्डर</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>प्रकार</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>आइटम</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>कॉपी हुए</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>पहले से मौजूद</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>विफल</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>परिणाम</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>समान सत्यापित</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>टिप्पणियाँ (कॉपी करने के लिए चुनें)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>टिप्पणियाँ</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>विवरण</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>कॉपी रुक गई</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>कॉपी पूरी हुई</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>कॉपी किए गए मेलबॉक्स: {0}।</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>कॉपी किए गए मेलबॉक्स: {0}। जाँचे गए {1} संदेशों में से हर एक अपने स्रोत के समान था।</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>कॉपी पूरी होने से पहले रुक गई</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>पूरे हुए मेलबॉक्स: {0}। शुरू नहीं हुए: {1}। जारी रखने के लिए दोबारा चलाएँ: पूरे हो चुके आइटम दो बार कॉपी नहीं होते।</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>पूरा हुआ, कुछ आइटम जाँच के लिए हैं</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>सही ढंग से कॉपी हुए मेलबॉक्स: {1} में से {0}। {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>मेलबॉक्स के अनुसार</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>आगे क्या करें</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>यह सारांश कॉपी करें</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>मेलबॉक्स के अनुसार परिणाम</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>कॉपी किए गए मेलबॉक्स</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>कॉपी किए गए संदेश</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>लक्ष्य में पहले से</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>विफल आइटम</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>समान सत्यापित</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>लगा समय</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{1} में से {0}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>कोई नहीं</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>जाँचा नहीं गया</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>कारण देखने के लिए परिणाम फ़ाइल या लॉग खोलें, कारण ठीक करें (उदाहरण के लिए कोई अनुपलब्ध अनुमति या ऐसा लक्ष्य मेलबॉक्स जो अभी मौजूद नहीं है), और दोबारा चलाएँ चुनें। पूरे हो चुके आइटम याद रखे जाते हैं, इसलिए कुछ भी दो बार कॉपी नहीं होता।</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>कुछ लक्ष्य मेलबॉक्स Outlook में खोलें और इनबॉक्स, भेजे गए आइटम और अपने फ़ोल्डर जाँचें। अनुलग्नकों वाले संदेशों का नमूना जाँचें।</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>कुछ लक्ष्य मेलबॉक्स Outlook में खोलें और फ़ोल्डर "{0}" देखें। अनुलग्नकों वाले संदेशों का नमूना जाँचें। लोग मेल को उसमें से बाहर ले जा सकते हैं, या वहीं रहने दे सकते हैं।</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>संपर्क और कैलेंडर की गिनती होती है, लेकिन फ़ील्ड-दर-फ़ील्ड तुलना अभी नहीं होती। कुछ लक्ष्य मेलबॉक्स में संपर्क और कैलेंडर खोलकर जाँचें, विशेषकर आवर्ती मीटिंग।</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>इस रन के बाद आए मेल को लेने के लिए वही सेटिंग्स रखकर दोबारा चलाएँ चुनें। केवल नया मेल कॉपी होता है।</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>जब माइग्रेशन पूरी तरह समाप्त हो जाए, तो क्लाइंट सीक्रेट हटा दें और Microsoft Entra में ऐप पंजीकरण हटा दें, क्योंकि वे टेनेंट के हर मेलबॉक्स तक पहुँच सकते हैं।</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>कॉपी किए गए मेलबॉक्स: {1} में से {0}; कॉपी किए गए संदेश: {2}; लक्ष्य में पहले से: {3}; विफल आइटम: {4}; समय: {5}।</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>कॉपी किए गए मेलबॉक्स: {1} में से {0}; कॉपी किए गए संदेश: {2}; लक्ष्य में पहले से: {3}; विफल आइटम: {4}; समान सत्यापित: {6} में से {5}; समय: {7}।</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>ऐप पंजीकरण</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>ऐप पंजीकरण वह पहचान है जिसका उपयोग यह टूल किसी टेनेंट में Microsoft 365 से बात करने के लिए करता है। आप इसे प्रत्येक टेनेंट के लिए एक बार Microsoft Entra एडमिन सेंटर में बनाते हैं, फिर यहाँ अपनी पहचानने योग्य नाम से सहेजते हैं और स्रोत व लक्ष्य चरणों में चुनते हैं। यहाँ से कुछ भी कहीं नहीं भेजा जाता; यह केवल आपके Windows उपयोगकर्ता के लिए संग्रहीत है।</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>जोड़ें</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>हटाएँ</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>नाम</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>कुछ भी जो उन्हें अलग पहचानने में मदद करे, उदाहरण के लिए "Contoso (स्रोत)"।</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>डायरेक्टरी (टेनेंट) ID</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>एक GUID। Entra एडमिन सेंटर में पंजीकरण के अवलोकन पृष्ठ पर।</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>एप्लिकेशन (क्लाइंट) ID</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>एक GUID। यह भी अवलोकन पृष्ठ पर।</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>क्लाइंट सीक्रेट</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>सीक्रेट का मान (Value), उसकी ID नहीं, प्रमाणपत्र और सीक्रेट से। यह ऐप को बिना किसी के साइन इन किए मेलबॉक्स कॉपी करने देता है। यह आपके Windows उपयोगकर्ता के लिए एन्क्रिप्ट किया जाता है और किसी दूसरे PC पर पढ़ा नहीं जा सकता। यह केवल टाइप करते समय दिखता है; बदलने के लिए नया टाइप करें।</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>एक सीक्रेट सहेजा गया है।</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>साफ़ करें</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>बनाने के लिए: Microsoft Entra एडमिन सेंटर &gt; ऐप पंजीकरण &gt; नया पंजीकरण (सिंगल टेनेंट)। API अनुमतियाँ खोलें और स्रोत व लक्ष्य चरणों में दिखाई गई एप्लिकेशन अनुमतियाँ जोड़ें, फिर एडमिन सहमति दें। प्रमाणपत्र और सीक्रेट खोलें, नया क्लाइंट सीक्रेट बनाएँ, और उसका मान (Value) तुरंत कॉपी करें (यह केवल एक बार दिखता है)। अवलोकन पृष्ठ से डायरेक्टरी (टेनेंट) ID और एप्लिकेशन (क्लाइंट) ID को इस फ़ॉर्म में कॉपी करें।</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>नया पंजीकरण</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(बिना नाम)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>पंजीकरण हटाएँ</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>"{0}" को इस सूची से हटाएँ?
+
+यह इसे केवल यहाँ से भुलाता है। Microsoft Entra में ऐप पंजीकरण को छुआ नहीं जाता।</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>सूची जाँचें</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>हर पंजीकरण को एक नाम दें।</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": टेनेंट ID और क्लाइंट ID दोनों GUID होने चाहिए (उदाहरण के लिए 00000000-0000-0000-0000-000000000000)।</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>सहेजना विफल</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>सहेजा नहीं जा सका: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>सेटिंग्स</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>भाषा</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Windows के समान</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>नई भाषा अगली बार Smart Mailbox Copy शुरू करने पर लागू होगी।</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>थीम</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Windows के समान</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>लाइट</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>डार्क</value></data>
+</root>

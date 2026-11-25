@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Εγγραφές εφαρμογών</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Προηγούμενες εκτελέσεις και αναφορές</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Ρυθμίσεις</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Ελαχιστοποίηση</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Μεγιστοποίηση ή επαναφορά</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Κλείσιμο</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Βήματα</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Άκυρο</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Αποθήκευση</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Πίσω</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Επόμενο</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Έναρξη</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Έναρξη αντιγραφής</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Προβολή αποτελεσμάτων</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Νέα μετάβαση</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Διακοπή</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Άνοιγμα αποτελεσμάτων (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Άνοιγμα λίστας στοιχείων (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Άνοιγμα αρχείου καταγραφής</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Εκτέλεση ξανά (συνέχιση)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Καλώς ήρθατε</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Πηγή</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Προορισμός</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Γραμματοκιβώτια</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Αντιστοίχιση</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Επιλογές</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Έλεγχος</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Αντιγραφή</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Αποτελέσματα</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Καλώς ήρθατε</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Μισθωτής προέλευσης</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Μισθωτής προορισμού</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Επιλογή γραμματοκιβωτίων</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Αντιστοίχιση γραμματοκιβωτίων</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Επιλογές</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Έλεγχος</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Αντιγραφή</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Αποτελέσματα</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Μετακινήστε αλληλογραφία μεταξύ μισθωτών του Microsoft 365: ένα γραμματοκιβώτιο, μερικά ή όλα.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Συνδεθείτε στον μισθωτή από τον οποίο γίνεται η αντιγραφή. Διαβάζεται μόνο· τίποτα σε αυτόν δεν αλλάζει.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Συνδεθείτε στον μισθωτή στον οποίο γίνεται η αντιγραφή. Εδώ προστίθεται αλληλογραφία· τίποτα από όσα υπάρχουν ήδη δεν αλλάζει ούτε διαγράφεται.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Επιλέξτε τα γραμματοκιβώτια για αντιγραφή. Χρησιμοποιήστε τα φίλτρα για να περιορίσετε τη λίστα και μετά επιλέξτε όσα θέλετε.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Ορίστε σε ποιο γραμματοκιβώτιο προορισμού πηγαίνει κάθε γραμματοκιβώτιο προέλευσης.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Επιλέξτε πώς θα καταχωρούνται τα μηνύματα στον προορισμό και ποιοι έλεγχοι ασφαλείας θα εκτελούνται.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Ελέγξτε το πλάνο. Δεν έχει αντιγραφεί τίποτα ακόμη.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Γίνεται αντιγραφή. Μπορείτε να διακόψετε οποιαδήποτε στιγμή· τα ολοκληρωμένα στοιχεία αποθηκεύονται, ώστε να συνεχίσετε αργότερα.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Τι αντιγράφηκε, τι ελέγχθηκε και τι να κάνετε στη συνέχεια.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Συνδεθείτε στον μισθωτή προέλευσης για να συνεχίσετε.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Συνδεθείτε στον μισθωτή προορισμού για να συνεχίσετε.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Επιλέξτε τουλάχιστον ένα γραμματοκιβώτιο για να συνεχίσετε.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Τουλάχιστον μία γραμμή πρέπει να έχει την ένδειξη Έτοιμο για να συνεχίσετε.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Εισαγάγετε όνομα φακέλου για να συνεχίσετε.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Ελέγξτε τα φίλτρα αλληλογραφίας: επιλέξτε τουλάχιστον έναν φάκελο, ορίστε ημερομηνία και εισαγάγετε μέγεθος μεγαλύτερο από 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Γίνεται εκτίμηση μεγέθους και χρόνου (μόνο ανάγνωση). Η έναρξη είναι διαθέσιμη όταν ολοκληρωθεί ή επιλέξτε Παράλειψη της εκτίμησης.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Επιλέξτε το πλαίσιο παραπάνω για να συνεχίσετε.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Αυτό το εργαλείο αντιγράφει αλληλογραφία μεταξύ μισθωτών του Microsoft 365. Μπορείτε να μετακινήσετε ένα γραμματοκιβώτιο, μερικά επιλεγμένα ή όλα, και στη συνέχεια ελέγχει κάθε μήνυμα σε σχέση με το πρωτότυπο.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Τι θα κάνει και τι δεν θα κάνει</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Ο μισθωτής προέλευσης διαβάζεται μόνο. Τίποτα σε αυτόν δεν αλλάζει ή διαγράφεται.
+• Ο προορισμός μόνο λαμβάνει στοιχεία (αλληλογραφία και, αν το επιλέξετε, συμβάντα ημερολογίου και επαφές). Το εργαλείο δεν διαγράφει ούτε αλλάζει ποτέ κάτι που υπάρχει ήδη.
+• Ένα μήνυμα που έχει ήδη αντιγραφεί παραλείπεται, ώστε η εκτέλεση να μπορεί να επαναληφθεί ή να συνεχιστεί με ασφάλεια.
+• Κάθε αντιγραμμένο μήνυμα συγκρίνεται με την πηγή του, πεδίο προς πεδίο, και το αποτέλεσμα αναφέρεται.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Τι χρειάζεστε πριν ξεκινήσετε</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Μια εγγραφή εφαρμογής σε κάθε μισθωτή (προέλευσης και προορισμού), που ρυθμίζεται από καθολικό διαχειριστή. Τα επόμενα βήματα δείχνουν ακριβώς ποια δικαιώματα πρέπει να προσθέσετε.
+2. Ένα μυστικό πελάτη για κάθε εγγραφή.
+3. Τα γραμματοκιβώτια που θέλετε να μετακινήσετε πρέπει να υπάρχουν ήδη στον μισθωτή προορισμού (δημιουργήστε πρώτα τους χρήστες και αναθέστε τους άδειες χρήσης).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Πώς λειτουργεί</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Το εργαλείο χρησιμοποιεί την εγγραφή εφαρμογής και όχι τη σύνδεση ενός ατόμου, ώστε να έχει πρόσβαση στα γραμματοκιβώτια άλλων χωρίς τους κωδικούς πρόσβασής τους. Επειδή μια εγγραφή εφαρμογής με αυτά τα δικαιώματα έχει πρόσβαση σε κάθε γραμματοκιβώτιο του μισθωτή της, κρατήστε το μυστικό της ιδιωτικό και καταργήστε την εγγραφή όταν ολοκληρωθεί η μετάβαση.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Επιλέξτε Επόμενο για να συνδεθείτε στον μισθωτή προέλευσης. Μπορείτε να επιστρέψετε σε οποιοδήποτε ολοκληρωμένο βήμα από τη γραμμή βημάτων στην κορυφή.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Η πηγή είναι ο μισθωτής όπου βρίσκεται αυτή τη στιγμή η αλληλογραφία. Το Smart Mailbox Copy συνδέεται με μια εγγραφή εφαρμογής (δεν συνδέεται κανένα άτομο) και διαβάζει τα γραμματοκιβώτια που επιλέγετε.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Ο προορισμός είναι ο μισθωτής στον οποίο μετακινείται η αλληλογραφία. Τα γραμματοκιβώτια πρέπει να υπάρχουν ήδη εκεί, με άδειες χρήσης. Το εργαλείο μόνο προσθέτει αλληλογραφία.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Στο κέντρο διαχείρισης Microsoft Entra: Εγγραφές εφαρμογών &gt; η εφαρμογή σας &gt; Δικαιώματα API &gt; Προσθήκη δικαιώματος &gt; Microsoft Graph &gt; Δικαιώματα εφαρμογής. Στη συνέχεια επιλέξτε Παροχή συγκατάθεσης διαχειριστή.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Στο ίδιο σημείο όπως για την πηγή: Δικαιώματα API &gt; Προσθήκη δικαιώματος &gt; Microsoft Graph &gt; Δικαιώματα εφαρμογής και μετά Παροχή συγκατάθεσης διαχειριστή.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>εξαγωγή· χρησιμοποιήστε το δικαίωμα εξαγωγής αν το εμφανίζει η πύλη</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Εγγραφή εφαρμογής</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Η αποθηκευμένη εγγραφή εφαρμογής Microsoft Entra για αυτόν τον μισθωτή. Αν δεν υπάρχει ακόμη στη λίστα, επιλέξτε Διαχείριση και προσθέστε την.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Διαχείριση…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Δικαιώματα που χρειάζεται αυτή η εγγραφή εφαρμογής</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Σύνδεση και λίστα γραμματοκιβωτίων</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Συνδέεται με την εγγραφή εφαρμογής, διαβάζει τη λίστα των γραμματοκιβωτίων και ελέγχει ποια δικαιώματα εφαρμογής έχουν παραχωρηθεί. Δεν αλλάζει τίποτα. Ένα δικαίωμα που προσθέσατε πριν από λίγο μπορεί να χρειαστεί μερικά λεπτά για να εμφανιστεί: περιμένετε και συνδεθείτε ξανά.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Μισθωτής {0}  ·  εφαρμογή {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>το μυστικό πελάτη αποθηκεύτηκε</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>ΔΕΝ υπάρχει αποθηκευμένο μυστικό πελάτη: προσθέστε ένα στη Διαχείριση</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Δεν έχει επιλεγεί τίποτα.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Σύνδεση…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Η σύνδεση ολοκληρώθηκε. Λογαριασμοί με διεύθυνση γραμματοκιβωτίου που βρέθηκαν: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Επιλέξτε πρώτα μια εγγραφή εφαρμογής.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Αυτή η εγγραφή δεν έχει αποθηκευμένο μυστικό πελάτη σε αυτόν τον υπολογιστή. Επιλέξτε Διαχείριση και προσθέστε το.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Το μυστικό πελάτη δεν είναι έγκυρο. Μπορεί να είναι το αναγνωριστικό του μυστικού αντί για την Τιμή του ή μυστικό άλλης εφαρμογής. Δημιουργήστε νέο μυστικό και ενημερώστε το στη Διαχείριση.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Το μυστικό πελάτη έχει λήξει. Δημιουργήστε νέο και ενημερώστε το στη Διαχείριση.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Το αναγνωριστικό εφαρμογής (πελάτη) δεν βρέθηκε σε αυτόν τον μισθωτή. Ελέγξτε τα αναγνωριστικά μισθωτή και πελάτη στη Διαχείριση.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Το αναγνωριστικό μισθωτή δεν βρέθηκε. Ελέγξτε το στη Διαχείριση.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Η εφαρμογή δεν έχει το δικαίωμα εφαρμογής User.Read.All ή δεν έχει παρασχεθεί συγκατάθεση διαχειριστή.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Δικαιώματα εφαρμογής που έχουν παραχωρηθεί σε αυτήν την εφαρμογή:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (εισαγωγή/εξαγωγή και ανάγνωση)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>ανάγνωση αλληλογραφίας</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>δημιουργία φακέλων στον προορισμό</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>εξαγωγή και εισαγωγή στοιχείων αλληλογραφίας</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>ανάγνωση του δέντρου φακέλων</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>εμφάνιση λίστας γραμματοκιβωτίων</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>μόνο για αντιγραφή πρόσθετων ημερολογίων</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>μόνο για αντιγραφή πρόσθετων φακέλων επαφών</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  ΛΕΙΠΕΙ: απαιτείται για {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  δεν έχει παραχωρηθεί ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Προσθέστε τα δικαιώματα που λείπουν ως Δικαιώματα εφαρμογής και παράσχετε συγκατάθεση διαχειριστή. Μπορεί να χρειαστούν μερικά λεπτά για να εμφανιστούν.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Εμφανίστε τα είδη γραμματοκιβωτίων που θέλετε, περιορίστε ανά τομέα ή κείμενο και μετά επιλέξτε όσα θα αντιγραφούν. Οι επιλογές σας διατηρούνται όσο αλλάζετε τα φίλτρα. Οι λογαριασμοί χωρίς άδεια χρήσης είναι κοινόχρηστα γραμματοκιβώτια ή γραμματοκιβώτια αιθουσών ή εξοπλισμού· η Microsoft δεν ορίζει ποιο είναι ποιο.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Χρήστες</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Κοινόχρηστα, αιθουσών, εξοπλισμού (χωρίς άδεια χρήσης)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Επισκέπτες</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Μόνο ενεργοποιημένοι λογαριασμοί</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Τομέας</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Αναζήτηση</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Όλοι οι τομείς</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Αντιγραφή</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Όνομα</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Διεύθυνση</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Τύπος</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Λογαριασμός</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Χρήστης</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Κοινόχρηστο, αίθουσας ή εξοπλισμού (χωρίς άδεια χρήσης)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Επισκέπτης</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Ενεργοποιημένος</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Απενεργοποιημένος</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Επιλογή όλων των εμφανιζόμενων</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Αποεπιλογή όλων των εμφανιζόμενων</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Ανανέωση λίστας</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} επιλεγμένα · {1} εμφανίζονται από {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} επιλεγμένα αλλά κρυμμένα από τα φίλτρα</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Φίλτρο τομέα</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Αναζήτηση γραμματοκιβωτίων</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Γραμματοκιβώτια προέλευσης</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Κάθε διεύθυνση προέλευσης χρειάζεται ένα γραμματοκιβώτιο στον μισθωτή προορισμού. Η αντιστοίχιση γίνεται με αλλαγή του τομέα· πληκτρολογήστε διαφορετική διεύθυνση προορισμού σε όποια γραμμή τα ονόματα διαφέρουν. Οι γραμμές με την ένδειξη Έτοιμο θα αντιγραφούν· οι υπόλοιπες παραλείπονται.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Τομέας προορισμού</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Αντιστοίχιση όλων των γραμμών με αυτόν τον τομέα</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Εισαγωγή αντιστοίχισης (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Εξαγωγή αντιστοίχισης (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Γραμματοκιβώτιο προέλευσης</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Γραμματοκιβώτιο προορισμού (επεξεργάσιμο)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Κατάσταση</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Έτοιμο</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Εισαγάγετε διεύθυνση προορισμού</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Δεν είναι διεύθυνση email</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Άλλη γραμμή χρησιμοποιεί αυτόν τον προορισμό</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Δεν βρέθηκε στον μισθωτή προορισμού</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} από {1} έτοιμα για αντιγραφή</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} θα παραλειφθούν μέχρι να διορθωθούν</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Αρχεία CSV (*.csv)|*.csv|Όλα τα αρχεία|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Εισαγωγή αντιστοίχισης πηγή,προορισμός</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Αρχεία CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Εξαγωγή της αντιστοίχισης</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} από {1} γραμμές του αρχείου αντιστοιχίστηκαν με γραμματοκιβώτιο που επιλέξατε. Οι υπόλοιπες αγνοήθηκαν.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Η αντιστοίχιση εισήχθη</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Δεν ήταν δυνατή η ανάγνωση της αντιστοίχισης</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Τομέας προορισμού</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Αντιστοίχιση γραμματοκιβωτίων</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Μόνο συμβάντα ημερολογίου και επαφές (χωρίς αντιγραφή αλληλογραφίας)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Μια καλή πρώτη δοκιμή ή τρόπος για να αντιγράψετε ξεχωριστά τα ημερολόγια. Τα συμβάντα μπαίνουν στο προεπιλεγμένο Ημερολόγιο κάθε γραμματοκιβωτίου προορισμού και οι επαφές στις προεπιλεγμένες Επαφές του. Τα στοιχεία προστίθενται μόνιμα: το εργαλείο δεν μπορεί να τα αφαιρέσει στη συνέχεια.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Πού να πηγαίνει η αλληλογραφία;</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Μόνο αλληλογραφία, σε έναν νέο φάκελο σε κάθε γραμματοκιβώτιο προορισμού (συνιστάται)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Όλη η αλληλογραφία, μαζί με τη δομή των φακέλων, αντιγράφεται σε έναν νέο φάκελο. Είναι ο ασφαλέστερος τρόπος και εύκολο να ελεγχθεί ή να διαγραφεί στο Outlook πριν αρχίσει κανείς να χρησιμοποιεί το γραμματοκιβώτιο. Τα συμβάντα ημερολογίου και οι επαφές δεν μπορούν να τοποθετηθούν σε αυτόν, επομένως δεν αντιγράφονται σε αυτήν τη λειτουργία.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Όνομα φακέλου</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Μεταφερμένη αλληλογραφία</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Συγχώνευση στους πραγματικούς φακέλους, με ημερολόγιο και επαφές</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Η αλληλογραφία καταλήγει εκεί που την περιμένει ο χρήστης (Εισερχόμενα στα Εισερχόμενα, Απεσταλμένα στα Απεσταλμένα) και οι υπόλοιποι φάκελοι δημιουργούνται δίπλα τους. Τα στοιχεία προστίθενται μόνιμα: το εργαλείο δεν έχει τρόπο να τα αφαιρέσει στη συνέχεια.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Αντιγραφή και των συμβάντων ημερολογίου και των επαφών (του προεπιλεγμένου και τυχόν πρόσθετων ημερολογίων και φακέλων επαφών)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Καταργήστε την επιλογή για αντιγραφή μόνο αλληλογραφίας. Τα συμβάντα, συμπεριλαμβανομένων των επαναλαμβανόμενων συσκέψεων, καταμετρούνται αλλά δεν συγκρίνονται ακόμη πεδίο προς πεδίο.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Περιορισμός αντιγραφής (προαιρετικό): κανένας περιορισμός, αντιγράφονται όλα</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Περιορισμός αντιγραφής (προαιρετικό): ενεργοί περιορισμοί: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Από προεπιλογή αντιγράφονται όλοι οι φάκελοι και όλα τα μηνύματα. Χρησιμοποιήστε τα μόνο για να αντιγράψετε λιγότερα. Ισχύουν για κάθε γραμματοκιβώτιο, ποτέ για συμβάντα ημερολογίου και επαφές, και η αλληλογραφία που παραλείπεται δεν αλλάζει ούτε διαγράφεται ποτέ στην πηγή.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Παράλειψη αυτών των φακέλων</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Ένας φάκελος που παραλείπεται παίρνει μαζί του και τους υποφακέλους του.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Εισερχόμενα</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Απεσταλμένα</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Πρόχειρα</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Διαγραμμένα</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Ανεπιθύμητη αλληλογραφία</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Αρχειοθήκη</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Φάκελοι που δημιούργησαν οι χρήστες</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Μόνο αλληλογραφία που δημιουργήθηκε από</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Είναι η ημέρα που δημιουργήθηκε κάθε μήνυμα στο γραμματοκιβώτιο, η οποία συνήθως είναι η ημέρα άφιξής του. Ελέγξτε ένα δείγμα μετά την πρώτη αντιγραφή.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Παράλειψη μηνυμάτων μεγαλύτερων από</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Έλεγχοι ασφαλείας</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Παράλειψη αλληλογραφίας που υπάρχει ήδη στον προορισμό (ώστε μια νέα εκτέλεση να μη δημιουργεί διπλότυπα)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Σύγκριση κάθε αντιγραμμένου μηνύματος με την πηγή του στο τέλος (προσθέτει χρόνο, συνιστάται)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Να επιτρέπονται φάκελοι προορισμού που περιέχουν ήδη στοιχεία (τα αντιγραμμένα στοιχεία προστίθενται δίπλα τους)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Η συγχώνευση αρνείται να ξεκινήσει όταν ένας φάκελος προορισμού, όπως τα Εισερχόμενα ή το Ημερολόγιο, περιέχει ήδη στοιχεία, εκτός αν είναι επιλεγμένο αυτό.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Για προχωρημένους</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Εκκίνηση από την αρχή: να αγνοηθεί ό,τι έχουν ήδη αντιγράψει προηγούμενες εκτελέσεις (ο παραπάνω έλεγχος διπλοτύπων εξακολουθεί να προστατεύει την αλληλογραφία του προορισμού)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Ημερολόγια και φάκελοι επαφών που θα παραλειφθούν</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Ένα όνομα ανά γραμμή, ακριβώς όπως εμφανίζεται στο Outlook. Τα πρόσθετα ημερολόγια και οι φάκελοι επαφών με αυτά τα ονόματα δεν αντιγράφονται· ένας φάκελος επαφών παίρνει μαζί του τους υποφακέλους του. Χρησιμοποιήστε το για ημερολόγια στα οποία γίνεται συνδρομή, όπως ένα ημερολόγιο αργιών. Το ημερολόγιο Γενέθλια δεν αντιγράφεται ποτέ (το Outlook το δημιουργεί από τις επαφές). Το προεπιλεγμένο Ημερολόγιο και οι Επαφές δεν επηρεάζονται.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Γραμματοκιβώτια στα οποία δεν πρέπει να γίνει ποτέ εγγραφή</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Μία διεύθυνση ανά γραμμή. Αν κάποιο από αυτά επιλεγεί ως προορισμός, η αντιγραφή για αυτό απορρίπτεται.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Όνομα νέου φακέλου</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Παλαιότερη ημερομηνία</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Μεγαλύτερο μήνυμα σε megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Γραμματοκιβώτια προς αντιγραφή: {0}, από «{1}» σε «{2}».</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Αντιγράφονται μόνο συμβάντα ημερολογίου και επαφές, στο προεπιλεγμένο Ημερολόγιο και τις Επαφές κάθε γραμματοκιβωτίου προορισμού. Δεν αντιγράφεται αλληλογραφία.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Η αλληλογραφία πηγαίνει στους πραγματικούς φακέλους κάθε γραμματοκιβωτίου προορισμού (Εισερχόμενα, Απεσταλμένα, Πρόχειρα…)· οι υπόλοιποι φάκελοι δημιουργούνται δίπλα τους.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Μόνο αλληλογραφία σε έναν νέο φάκελο με όνομα «{0}» σε κάθε γραμματοκιβώτιο προορισμού, μαζί με τη δομή των φακέλων.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Ημερολόγια και φάκελοι επαφών που παραλείπονται με βάση το όνομα: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Συμβάντα ημερολογίου και επαφές: αντιγράφονται στο προεπιλεγμένο Ημερολόγιο και τις Επαφές κάθε γραμματοκιβωτίου προορισμού.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Συμβάντα ημερολογίου και επαφές: δεν αντιγράφονται.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Η αλληλογραφία που υπάρχει ήδη στον προορισμό παραλείπεται.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Η αλληλογραφία που υπάρχει ήδη στον προορισμό ΔΕΝ ελέγχεται.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Παραλείπονται: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Μόνο αλληλογραφία που δημιουργήθηκε από {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Τα μηνύματα μεγαλύτερα από {0} MB παραλείπονται.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Κάθε αντιγραμμένο μήνυμα συγκρίνεται με την πηγή του στο τέλος.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Καμία σύγκριση στο τέλος.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Τα γραμματοκιβώτια αντιγράφονται το ένα μετά το άλλο. Τίποτα στην πηγή δεν αλλάζει.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Εκτίμηση μεγέθους και χρόνου</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Παράλειψη της εκτίμησης</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Γραμματοκιβώτια που παραλείπονται επειδή δεν βρέθηκε αντίστοιχο γραμματοκιβώτιο προορισμού: {0}. Επιστρέψτε στην Αντιστοίχιση γραμματοκιβωτίων για να τα διορθώσετε.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Επιλεγμένα γραμματοκιβώτια χωρίς άδεια χρήσης (κοινόχρηστα, αιθουσών ή εξοπλισμού): {0}. Οι φάκελοι αλληλογραφίας τους αντιγράφονται, όπως και το ημερολόγιό τους όταν είναι ενεργή η αντιγραφή ημερολογίου. Οι ρυθμίσεις πόρων, όπως οι πολιτικές κρατήσεων, δεν αντιγράφονται.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Αυτό προσθέτει μόνιμα συμβάντα ημερολογίου και επαφές. Αυτό το εργαλείο δεν έχει τρόπο να τα αφαιρέσει.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Η συγχώνευση προσθέτει μόνιμα στοιχεία στους πραγματικούς φακέλους. Αυτό το εργαλείο δεν έχει τρόπο να τα αφαιρέσει.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Κατανοώ ότι η συγχώνευση προσθέτει αλληλογραφία στους πραγματικούς φακέλους και ότι αυτό το εργαλείο δεν μπορεί να την αφαιρέσει.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Η εκτίμηση απαιτεί τις συνδέσεις από τα προηγούμενα βήματα.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Ανάγνωση του μεγέθους των γραμματοκιβωτίων ({0})· μόνο ανάγνωση, τίποτα δεν αλλάζει…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Η εκτίμηση παραλείφθηκε. Η γραμμή προόδου θα εμφανίζει εκτίμηση μόλις ξεκινήσει η αντιγραφή.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Δεν ήταν δυνατή η εκτίμηση: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Περίπου {0} μηνύματα ({1} MB). Γραμματοκιβώτια: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Εκτιμώμενος χρόνος: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Βασίζεται σε ταχύτητες που μετρήθηκαν στις δοκιμές μας με συνηθισμένα μηνύματα· πολύ μεγάλα συνημμένα διαρκούν περισσότερο. Τα γραμματοκιβώτια αντιγράφονται το ένα μετά το άλλο. Αν διακόψετε, η επόμενη εκτέλεση συνεχίζει από εκεί που σταμάτησε.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Γραμματοκιβώτια που δεν ήταν δυνατό να διαβαστούν: {0}. Δεν περιλαμβάνονται στην εκτίμηση και πιθανότατα θα αποτύχουν και στην αντιγραφή. Πρώτος λόγος: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>λιγότερο από ένα λεπτό</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} λεπτά</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} ώ. {1} λεπτά</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Έναρξη της αντιγραφής;</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Να ξεκινήσει η αντιγραφή τώρα; Γραμματοκιβώτια: {0}.
+
+{1}
+
+Τίποτα στην πηγή δεν αλλάζει. Μπορείτε να διακόψετε οποιαδήποτε στιγμή.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Η αλληλογραφία θα προστεθεί στους πραγματικούς φακέλους κάθε γραμματοκιβωτίου προορισμού. Αυτό το εργαλείο δεν μπορεί να την αφαιρέσει.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Η αλληλογραφία θα προστεθεί σε έναν νέο φάκελο «{0}» σε κάθε γραμματοκιβώτιο προορισμού.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Δεν είναι δυνατή η έναρξη</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Λείπει ένα μυστικό πελάτη σε αυτόν τον υπολογιστή. Προσθέστε το στις Εγγραφές εφαρμογών.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Διορθώστε πρώτα τα εξής:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Αντιγραφή γραμματοκιβωτίων: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Έναρξη…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Ολοκληρώθηκε. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Κάθε μήνυμα συγκρίθηκε με την πηγή του.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Επιλέξτε μια γραμμή για λεπτομέρειες ή ανοίξτε το αρχείο αποτελεσμάτων.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Διακόπηκε από σφάλμα: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Διάρκεια: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} από {2} γραμματοκιβώτια ολοκληρώθηκαν · {3} · {4} μέχρι τώρα</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>απομένουν περίπου {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>εκτιμώμενος χρόνος {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>εκτίμηση χρόνου…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Γραμματοκιβώτιο {0} από {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Γραμματοκιβώτιο {0}: {1} από {2} στοιχεία επεξεργάστηκαν — {3} αντιγράφηκαν, {4} υπήρχαν ήδη, {5} απέτυχαν</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Διακοπή μετά το τρέχον στοιχείο… τα ολοκληρωμένα στοιχεία αποθηκεύονται.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Γραμματοκιβώτια</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Λεπτομέρειες φακέλων για το γραμματοκιβώτιο που εκτελείται</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Αρχείο καταγραφής</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Μόνο προειδοποιήσεις και σφάλματα</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} σφάλματα, {1} προειδοποιήσεις</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Αντιγραφή σε εξέλιξη</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Εκτελείται μια αντιγραφή. Αν κλείσετε τώρα, θα διακοπεί (τα ολοκληρωμένα στοιχεία αποθηκεύονται, ώστε να συνεχίσετε).
+
+Κλείσιμο ούτως ή άλλως;</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Συνολική πρόοδος</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Πρόοδος γραμματοκιβωτίων</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Αντιγράφηκαν χωρίς προβλήματα: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Χρειάζονται έλεγχο: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Απέτυχαν: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Δεν εκτελέστηκαν: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Σύνδεση και επαλήθευση των λογαριασμών</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Πηγή (μόνο ανάγνωση): εξερεύνηση του δέντρου φακέλων και λίστα στοιχείων</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Προορισμός: εντοπισμός των φακέλων όπου πηγαίνει η αλληλογραφία</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Δημιουργία του δέντρου και αντιγραφή στοιχείων (εξαγωγή από την πηγή, εισαγωγή στον προορισμό)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Συμφωνία: σύγκριση του πλήθους στοιχείων ανά φάκελο</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Επαλήθευση: σύγκριση κάθε αντιγραμμένου μηνύματος με την πηγή του, πεδίο προς πεδίο</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Σε αναμονή</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Αντιγραφή…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Ολοκληρώθηκε</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Χρειάζεται έλεγχο</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Απέτυχε</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Δεν εκτελέστηκε</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Αντιγράφηκε</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Αντιγραφή</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} απέτυχαν</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Τα πλήθη διαφέρουν</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>φάκελος χρήστη</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Πηγή</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Προορισμός</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Κατάσταση</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Λεπτομέρειες (επιλογή για αντιγραφή)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Φάκελος</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Είδος</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Στοιχεία</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Αντιγράφηκαν</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Υπήρχαν ήδη</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Απέτυχαν</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Αποτέλεσμα</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Επαληθεύτηκαν ως πανομοιότυπα</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Σημειώσεις (επιλογή για αντιγραφή)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Σημειώσεις</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Λεπτομέρειες</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Η αντιγραφή διακόπηκε</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Η αντιγραφή ολοκληρώθηκε</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν: {0}. Και τα {1} μηνύματα που ελέγχθηκαν ήταν πανομοιότυπα με την πηγή τους.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Η αντιγραφή διακόπηκε πριν ολοκληρωθεί</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Γραμματοκιβώτια που ολοκληρώθηκαν: {0}. Δεν ξεκίνησαν: {1}. Εκτελέστε ξανά για να συνεχίσετε: τα ολοκληρωμένα στοιχεία δεν αντιγράφονται δύο φορές.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Ολοκληρώθηκε, με στοιχεία που χρειάζονται έλεγχο</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν χωρίς προβλήματα: {0} από {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Ανά γραμματοκιβώτιο</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Τι να κάνετε στη συνέχεια</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Αντιγραφή αυτής της σύνοψης</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Αποτελέσματα ανά γραμματοκιβώτιο</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Μηνύματα που αντιγράφηκαν</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Ήδη στον προορισμό</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Στοιχεία που απέτυχαν</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Επαληθεύτηκαν ως πανομοιότυπα</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Χρόνος που απαιτήθηκε</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} από {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>κανένα</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>δεν ελέγχθηκε</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Ανοίξτε το αρχείο αποτελεσμάτων ή το αρχείο καταγραφής για να δείτε τον λόγο, διορθώστε την αιτία (για παράδειγμα ένα δικαίωμα που λείπει ή ένα γραμματοκιβώτιο προορισμού που δεν υπάρχει ακόμη) και επιλέξτε Εκτέλεση ξανά. Τα ολοκληρωμένα στοιχεία αποθηκεύονται, επομένως τίποτα δεν αντιγράφεται δύο φορές.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Ανοίξτε μερικά γραμματοκιβώτια προορισμού στο Outlook και ελέγξτε τα Εισερχόμενα, τα Απεσταλμένα και τους δικούς σας φακέλους. Ελέγξτε δειγματοληπτικά μηνύματα με συνημμένα.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Ανοίξτε μερικά γραμματοκιβώτια προορισμού στο Outlook και αναζητήστε τον φάκελο «{0}». Ελέγξτε δειγματοληπτικά μηνύματα με συνημμένα. Οι χρήστες μπορούν να μετακινήσουν αλληλογραφία από αυτόν ή να τον αφήσουν όπως είναι.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Οι επαφές και το ημερολόγιο καταμετρούνται αλλά δεν συγκρίνονται ακόμη πεδίο προς πεδίο. Ανοίξτε τις Επαφές και το Ημερολόγιο σε μερικά γραμματοκιβώτια προορισμού και ελέγξτε τα, ιδίως τις επαναλαμβανόμενες συσκέψεις.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Για να μεταφέρετε αλληλογραφία που έφτασε μετά από αυτήν την εκτέλεση, επιλέξτε Εκτέλεση ξανά με τις ίδιες ρυθμίσεις. Αντιγράφεται μόνο η νέα αλληλογραφία.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Όταν η μετάβαση ολοκληρωθεί πλήρως, διαγράψτε τα μυστικά πελάτη και καταργήστε τις εγγραφές εφαρμογών στο Microsoft Entra, καθώς έχουν πρόσβαση σε κάθε γραμματοκιβώτιο του μισθωτή.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν: {0} από {1}· μηνύματα που αντιγράφηκαν: {2}· ήδη στον προορισμό: {3}· στοιχεία που απέτυχαν: {4}· χρόνος: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Γραμματοκιβώτια που αντιγράφηκαν: {0} από {1}· μηνύματα που αντιγράφηκαν: {2}· ήδη στον προορισμό: {3}· στοιχεία που απέτυχαν: {4}· επαληθεύτηκαν ως πανομοιότυπα: {5} από {6}· χρόνος: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Εγγραφές εφαρμογών</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Μια εγγραφή εφαρμογής είναι η ταυτότητα που χρησιμοποιεί αυτό το εργαλείο για να επικοινωνεί με το Microsoft 365 σε έναν μισθωτή. Τη δημιουργείτε μία φορά ανά μισθωτή στο κέντρο διαχείρισης Microsoft Entra, την αποθηκεύετε εδώ με ένα όνομα που αναγνωρίζετε και την επιλέγετε στα βήματα Πηγή και Προορισμός. Τίποτα από αυτά δεν αποστέλλεται πουθενά· αποθηκεύεται μόνο για τον χρήστη των Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Προσθήκη</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Κατάργηση</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Όνομα</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Οτιδήποτε σας βοηθά να τις ξεχωρίζετε, για παράδειγμα «Contoso (πηγή)».</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Αναγνωριστικό καταλόγου (μισθωτή)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Ένα GUID. Στη σελίδα Επισκόπηση της εγγραφής στο κέντρο διαχείρισης Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Αναγνωριστικό εφαρμογής (πελάτη)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Ένα GUID. Επίσης στη σελίδα Επισκόπηση.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Μυστικό πελάτη</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Η Τιμή του μυστικού (όχι το αναγνωριστικό του), από τα Πιστοποιητικά και μυστικά. Επιτρέπει στην εφαρμογή να αντιγράφει γραμματοκιβώτια χωρίς να συνδεθεί κανείς. Είναι κρυπτογραφημένο για τον χρήστη των Windows και δεν μπορεί να διαβαστεί σε άλλον υπολογιστή. Εμφανίζεται μόνο καθώς πληκτρολογείται· πληκτρολογήστε νέο για να το αντικαταστήσετε.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Υπάρχει αποθηκευμένο μυστικό.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Εκκαθάριση</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Για να δημιουργήσετε μία: κέντρο διαχείρισης Microsoft Entra &gt; Εγγραφές εφαρμογών &gt; Νέα εγγραφή (έναν μισθωτή). Ανοίξτε τα Δικαιώματα API και προσθέστε τα Δικαιώματα εφαρμογής που εμφανίζονται στα βήματα Πηγή και Προορισμός και μετά Παροχή συγκατάθεσης διαχειριστή. Ανοίξτε τα Πιστοποιητικά και μυστικά, δημιουργήστε ένα Νέο μυστικό πελάτη και αντιγράψτε αμέσως την Τιμή του (εμφανίζεται μόνο μία φορά). Αντιγράψτε το Αναγνωριστικό καταλόγου (μισθωτή) και το Αναγνωριστικό εφαρμογής (πελάτη) από τη σελίδα Επισκόπηση σε αυτήν τη φόρμα.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Νέα εγγραφή</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(χωρίς όνομα)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Κατάργηση εγγραφής</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Να καταργηθεί το «{0}» από αυτήν τη λίστα;
+
+Αυτό απλώς την αφαιρεί από εδώ. Η εγγραφή εφαρμογής στο Microsoft Entra δεν επηρεάζεται.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Ελέγξτε τη λίστα</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Δώστε όνομα σε κάθε εγγραφή.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>«{0}»: το αναγνωριστικό μισθωτή και το αναγνωριστικό πελάτη πρέπει να είναι και τα δύο GUID (για παράδειγμα 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Η αποθήκευση απέτυχε</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Δεν ήταν δυνατή η αποθήκευση: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Ρυθμίσεις</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Γλώσσα</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Όπως στα Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Η νέα γλώσσα τίθεται σε ισχύ την επόμενη φορά που θα ξεκινήσετε το Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Θέμα</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Όπως στα Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Ανοιχτόχρωμο</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Σκουρόχρωμο</value></data>
+</root>

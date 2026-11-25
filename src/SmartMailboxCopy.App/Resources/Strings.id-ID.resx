@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Pendaftaran aplikasi</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Proses sebelumnya dan laporan</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Pengaturan</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimalkan</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maksimalkan atau pulihkan</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Tutup</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Langkah</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Batal</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Simpan</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Kembali</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Berikutnya</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Mulai</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Mulai menyalin</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Lihat hasil</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Migrasi baru</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Hentikan</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Buka hasil (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Buka daftar item (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Buka log</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Jalankan lagi (lanjutkan)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Selamat datang</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Sumber</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Target</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Kotak surat</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Cocokkan</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opsi</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Tinjau</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Salin</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Hasil</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Selamat datang</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Tenant sumber</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Tenant target</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Pilih kotak surat</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Cocokkan kotak surat</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opsi</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Tinjau</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Salin</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Hasil</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Pindahkan email antar tenant Microsoft 365: satu kotak surat, beberapa, atau semuanya.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Hubungkan ke tenant tempat Anda menyalin DARI. Tenant ini hanya dibaca; tidak ada yang diubah di dalamnya.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Hubungkan ke tenant tempat Anda menyalin KE. Email ditambahkan di sini; tidak ada yang sudah ada yang diubah atau dihapus.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Pilih kotak surat yang akan disalin. Gunakan filter untuk mempersempit daftar, lalu centang yang Anda inginkan.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Beri tahu alat ini ke kotak surat target mana setiap kotak surat sumber akan dimasukkan.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Pilih bagaimana email masuk ke target dan pemeriksaan keamanan mana yang dijalankan.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Periksa rencananya. Belum ada yang disalin.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Sedang menyalin. Anda dapat berhenti kapan saja; item yang selesai diingat, sehingga Anda dapat melanjutkan nanti.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Apa yang disalin, apa yang diperiksa, dan apa yang harus dilakukan selanjutnya.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Hubungkan ke tenant sumber untuk melanjutkan.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Hubungkan ke tenant target untuk melanjutkan.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Centang setidaknya satu kotak surat untuk melanjutkan.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Setidaknya satu baris harus berstatus Siap untuk melanjutkan.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Masukkan nama folder untuk melanjutkan.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Periksa filter email: centang setidaknya satu folder, pilih tanggal, dan masukkan ukuran lebih besar dari 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Memperkirakan ukuran dan waktu (hanya baca). Mulai tersedia setelah selesai, atau pilih Lewati perkiraan.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Centang kotak di atas untuk melanjutkan.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Alat ini menyalin email antar tenant Microsoft 365. Anda dapat memindahkan satu kotak surat, beberapa yang dipilih, atau semuanya, dan setelahnya alat ini memeriksa setiap pesan terhadap aslinya.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Apa yang dilakukan dan tidak dilakukan alat ini</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Tenant sumber hanya dibaca. Tidak ada yang diubah atau dihapus di dalamnya.
+• Target hanya menerima item (email, serta acara kalender dan kontak jika Anda memilihnya). Alat ini tidak pernah menghapus atau mengubah apa pun yang sudah ada.
+• Pesan yang disalin dua kali akan dilewati, sehingga proses dapat diulang atau dilanjutkan dengan aman.
+• Setiap pesan yang disalin dibandingkan dengan sumbernya, bidang demi bidang, dan hasilnya dilaporkan.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Yang Anda perlukan sebelum memulai</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Pendaftaran aplikasi di setiap tenant (sumber dan target), yang disiapkan oleh administrator global. Langkah berikutnya menunjukkan izin apa yang harus ditambahkan.
+2. Rahasia klien untuk setiap pendaftaran.
+3. Kotak surat yang ingin Anda pindahkan harus sudah ada di tenant target (buat pengguna dan berikan lisensi terlebih dahulu).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Cara kerjanya</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Alat ini menggunakan pendaftaran aplikasi, bukan proses masuk seseorang, sehingga dapat mengakses kotak surat orang lain tanpa kata sandi mereka. Karena pendaftaran aplikasi dengan izin ini dapat mengakses setiap kotak surat di tenantnya, jaga kerahasiaan rahasianya dan hapus pendaftaran setelah migrasi selesai.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Pilih Berikutnya untuk menghubungkan tenant sumber. Anda dapat kembali ke langkah mana pun yang sudah selesai dari bilah langkah di bagian atas.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Sumber adalah tenant tempat email berada saat ini. Smart Mailbox Copy masuk dengan pendaftaran aplikasi (tidak ada orang yang masuk) dan membaca kotak surat yang Anda pilih.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Target adalah tenant tujuan pemindahan email. Kotak surat harus sudah ada di sana, dengan lisensi. Alat ini hanya menambahkan email.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Di pusat admin Microsoft Entra: Pendaftaran aplikasi &gt; aplikasi Anda &gt; Izin API &gt; Tambahkan izin &gt; Microsoft Graph &gt; Izin aplikasi. Lalu pilih Berikan persetujuan admin.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Tempat yang sama seperti untuk sumber: Izin API &gt; Tambahkan izin &gt; Microsoft Graph &gt; Izin aplikasi, lalu Berikan persetujuan admin.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>ekspor; gunakan izin ekspor jika portal mencantumkannya</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Pendaftaran aplikasi</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Pendaftaran aplikasi Microsoft Entra yang disimpan untuk tenant ini. Jika belum ada dalam daftar, pilih Kelola dan tambahkan.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Kelola…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Izin yang diperlukan pendaftaran aplikasi ini</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Hubungkan dan daftar kotak surat</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Ini masuk dengan pendaftaran aplikasi, membaca daftar kotak surat, dan memeriksa izin aplikasi mana yang telah diberikan kepada aplikasi. Tidak ada yang diubah. Izin yang baru saja Anda tambahkan dapat membutuhkan beberapa menit untuk muncul: tunggu, lalu hubungkan lagi.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  aplikasi {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>rahasia klien disimpan</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>TIDAK ada rahasia klien yang disimpan: tambahkan di Kelola</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Tidak ada yang dipilih.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Menghubungkan…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Terhubung. Akun dengan alamat kotak surat yang ditemukan: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Pilih pendaftaran aplikasi terlebih dahulu.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Pendaftaran ini tidak memiliki rahasia klien yang disimpan di PC ini. Pilih Kelola dan tambahkan.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Rahasia klien tidak valid. Mungkin itu ID rahasia, bukan Nilainya, atau rahasia aplikasi lain. Buat rahasia baru dan perbarui di Kelola.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Rahasia klien telah kedaluwarsa. Buat yang baru dan perbarui di Kelola.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>ID aplikasi (klien) tersebut tidak ditemukan di tenant ini. Periksa ID tenant dan klien di Kelola.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>ID tenant tersebut tidak ditemukan. Periksa di Kelola.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Aplikasi tidak memiliki izin aplikasi User.Read.All, atau persetujuan admin belum diberikan.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Izin aplikasi yang diberikan kepada aplikasi ini:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (impor/ekspor dan baca)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>membaca email</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>membuat folder di target</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>mengekspor dan mengimpor item email</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>membaca struktur folder</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>mendaftar kotak surat</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>hanya untuk menyalin kalender tambahan</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>hanya untuk menyalin folder kontak tambahan</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  HILANG: diperlukan untuk {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  tidak diberikan ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Tambahkan izin yang hilang sebagai Izin aplikasi dan berikan persetujuan admin. Izin dapat membutuhkan beberapa menit untuk muncul.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Tampilkan jenis kotak surat yang Anda inginkan, persempit berdasarkan domain atau teks, lalu centang yang akan disalin. Centang Anda tetap tersimpan saat Anda mengubah filter. Akun tanpa lisensi adalah kotak surat bersama, ruangan, atau peralatan; Microsoft tidak menyebutkan yang mana.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Pengguna</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Bersama, ruangan, peralatan (tanpa lisensi)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Tamu</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Hanya akun yang diaktifkan</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domain</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Cari</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Semua domain</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Salin</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nama</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Alamat</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Jenis</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Akun</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Pengguna</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Bersama, ruangan, atau peralatan (tanpa lisensi)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Tamu</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Diaktifkan</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Dinonaktifkan</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Centang semua yang ditampilkan</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Hapus centang semua yang ditampilkan</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Segarkan daftar</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} dipilih · {1} ditampilkan dari {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} dipilih tetapi disembunyikan oleh filter</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filter domain</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Cari kotak surat</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Kotak surat sumber</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Setiap alamat sumber memerlukan kotak surat di tenant target. Alamat dicocokkan dengan menukar domain; ketik alamat target yang berbeda di baris mana pun yang namanya berbeda. Baris berstatus Siap akan disalin; sisanya dilewati.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Domain target</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Cocokkan semua baris dengan domain ini</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Impor peta (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Ekspor peta (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Kotak surat sumber</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Kotak surat target (dapat diedit)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Siap</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Masukkan alamat target</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Bukan alamat email</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Baris lain menggunakan target ini</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Tidak ditemukan di tenant target</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} dari {1} siap disalin</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} akan dilewati sampai diperbaiki</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>File CSV (*.csv)|*.csv|Semua file|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Impor peta sumber,target</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>File CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Ekspor peta</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} dari {1} baris dalam file cocok dengan kotak surat yang Anda pilih. Sisanya diabaikan.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Peta diimpor</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Tidak dapat membaca peta</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Domain target</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Peta kotak surat</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Hanya acara kalender dan kontak (jangan salin email apa pun)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Uji coba pertama yang baik, atau cara menyalin kalender secara terpisah. Acara masuk ke Kalender default setiap kotak surat target dan kontak ke Kontak defaultnya. Ini menambahkan item secara permanen: alat ini tidak dapat menghapusnya setelahnya.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Ke mana email harus masuk?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Hanya email, ke satu folder baru di setiap kotak surat target (disarankan)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Semua email, termasuk struktur folder, disalin ke satu folder baru. Paling aman, dan mudah ditinjau atau dihapus di Outlook sebelum ada yang mulai menggunakan kotak surat. Acara kalender dan kontak tidak dapat ditempatkan di dalamnya, jadi tidak disalin dalam mode ini.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Nama folder</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Email yang dimigrasikan</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Digabungkan ke folder asli, dengan kalender dan kontak</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Email masuk ke tempat yang diharapkan orang (Kotak Masuk ke Kotak Masuk, Item Terkirim ke Item Terkirim) dan folder lainnya dibuat ulang di sampingnya. Ini menambahkan item secara permanen: alat ini tidak punya cara untuk menghapusnya setelahnya.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Salin juga acara kalender dan kontak (default serta kalender dan folder kontak tambahan apa pun)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Hapus centang untuk menyalin email saja. Acara, termasuk rapat berulang, dihitung tetapi belum dibandingkan bidang demi bidang.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Batasi apa yang disalin (opsional): tidak ada batasan, semuanya disalin</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Batasi apa yang disalin (opsional): batasan diaktifkan: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Secara default setiap folder dan setiap pesan disalin. Gunakan ini hanya untuk menyalin lebih sedikit. Batasan berlaku untuk setiap kotak surat, tidak pernah untuk acara kalender dan kontak, dan email yang dilewati tidak pernah diubah atau dihapus di sumber.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Lewati folder ini</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Folder yang dilewati membawa serta subfoldernya.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Kotak Masuk</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Item Terkirim</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Draf</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Item yang Dihapus</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Email Sampah</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arsip</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Folder yang dibuat orang</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Hanya email yang dibuat pada atau setelah</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Ini adalah hari setiap pesan dibuat di kotak surat, yang biasanya hari pesan itu tiba. Periksa sampel setelah penyalinan pertama.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Lewati pesan yang lebih besar dari</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Pemeriksaan keamanan</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Lewati email yang sudah ada di target (agar proses ulang tidak membuat duplikat)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Bandingkan setiap pesan yang disalin dengan sumbernya setelahnya (menambah waktu, disarankan)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Izinkan folder target yang sudah berisi item (item yang disalin ditambahkan di sampingnya)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Penggabungan menolak untuk dimulai jika folder target, seperti Kotak Masuk atau Kalender, sudah berisi item, kecuali ini dicentang.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Lanjutan</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Mulai dari awal: abaikan apa yang sudah disalin oleh proses sebelumnya (pemeriksaan duplikat di atas tetap melindungi email target)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kalender dan folder kontak yang dilewati</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Satu nama per baris, persis seperti yang muncul di Outlook. Kalender dan folder kontak tambahan dengan nama ini tidak disalin; folder kontak membawa serta subfoldernya. Gunakan untuk kalender yang dilanggani orang, seperti kalender hari libur. Kalender Ulang Tahun tidak pernah disalin (Outlook membuatnya dari kontak). Kalender dan Kontak default tidak terpengaruh.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Kotak surat yang tidak boleh ditulis sama sekali</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Satu alamat per baris. Jika salah satunya dipilih sebagai target, penyalinan untuknya ditolak.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nama folder baru</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Tanggal paling awal</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Pesan terbesar dalam megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Kotak surat yang akan disalin: {0}, dari "{1}" ke "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Hanya acara kalender dan kontak yang disalin, ke Kalender dan Kontak default setiap kotak surat target. Tidak ada email yang disalin.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Email masuk ke folder asli setiap kotak surat target (Kotak Masuk, Item Terkirim, Draf…); folder lainnya dibuat ulang di sampingnya.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Hanya email yang masuk ke folder baru bernama "{0}" di setiap kotak surat target, termasuk struktur folder.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Kalender dan folder kontak yang dilewati berdasarkan nama: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Acara kalender dan kontak: disalin ke Kalender dan Kontak default setiap kotak surat target.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Acara kalender dan kontak: tidak disalin.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Email yang sudah ada di target dilewati.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Email yang sudah ada di target TIDAK diperiksa.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Dilewati: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Hanya email yang dibuat pada atau setelah {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Pesan yang lebih besar dari {0} MB dilewati.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Setiap pesan yang disalin dibandingkan dengan sumbernya setelahnya.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Tidak ada perbandingan setelahnya.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Kotak surat disalin satu per satu. Tidak ada yang diubah di sumber.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Perkiraan ukuran dan waktu</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Lewati perkiraan</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Kotak surat yang dilewati karena tidak ditemukan kotak surat target yang cocok: {0}. Kembali ke Cocokkan kotak surat untuk memperbaikinya.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Kotak surat terpilih tanpa lisensi (bersama, ruangan, atau peralatan): {0}. Folder email mereka disalin, begitu juga kalender mereka saat penyalinan kalender aktif. Pengaturan sumber daya seperti kebijakan pemesanan tidak disalin.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Ini menambahkan acara kalender dan kontak secara permanen. Alat ini tidak punya cara untuk menghapusnya.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Penggabungan menambahkan item ke folder asli secara permanen. Alat ini tidak punya cara untuk menghapusnya.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Saya memahami bahwa penggabungan menambahkan email ke folder asli dan alat ini tidak dapat menghapusnya.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Perkiraan memerlukan koneksi dari langkah-langkah sebelumnya.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Membaca ukuran kotak surat ({0}); hanya baca, tidak ada yang diubah…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Perkiraan dilewati. Bilah kemajuan tetap akan menampilkan perkiraan setelah penyalinan berjalan.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Perkiraan tidak dapat dibuat: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Sekitar {0} pesan ({1} MB). Kotak surat: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Perkiraan waktu: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Berdasarkan kecepatan yang diukur dalam pengujian kami dengan pesan biasa; lampiran yang sangat besar memakan waktu lebih lama. Kotak surat disalin satu per satu. Jika Anda berhenti, proses berikutnya dilanjutkan dari tempat terakhir.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Kotak surat yang tidak dapat dibaca: {0}. Kotak surat ini tidak termasuk dalam perkiraan dan kemungkinan juga akan gagal saat penyalinan. Alasan pertama: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>kurang dari satu menit</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} mnt</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} j {1} mnt</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Mulai menyalin?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Mulai menyalin sekarang? Kotak surat: {0}.
+
+{1}
+
+Tidak ada yang diubah di sumber. Anda dapat berhenti kapan saja.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Email akan ditambahkan ke folder asli setiap kotak surat target. Alat ini tidak dapat menghapusnya.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Email akan ditambahkan di folder baru "{0}" di setiap kotak surat target.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Tidak dapat memulai</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Rahasia klien tidak ada di PC ini. Tambahkan di Pendaftaran aplikasi.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Perbaiki ini terlebih dahulu:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Menyalin kotak surat: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Memulai…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Selesai. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Setiap pesan dibandingkan dengan sumbernya.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Pilih baris untuk melihat detail, atau buka file hasil.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Dihentikan oleh kesalahan: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Memakan waktu {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} dari {2} kotak surat selesai · {3} · {4} sejauh ini</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>sekitar {0} lagi</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>perkiraan {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>memperkirakan waktu…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Kotak surat {0} dari {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Kotak surat {0}: {1} dari {2} item diproses — {3} disalin, {4} sudah ada, {5} gagal</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Berhenti setelah item saat ini… item yang selesai diingat.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Kotak surat</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Detail folder untuk kotak surat yang sedang berjalan</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Log</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Hanya peringatan dan kesalahan</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} kesalahan, {1} peringatan</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Penyalinan sedang berlangsung</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Penyalinan sedang berjalan. Menutup sekarang akan menghentikannya (item yang selesai diingat, sehingga Anda dapat melanjutkan).
+
+Tetap tutup?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Kemajuan keseluruhan</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Kemajuan kotak surat</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Disalin dengan bersih: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Perlu ditinjau: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Gagal: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Tidak dijalankan: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Masuk dan verifikasi akun</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Sumber (hanya baca): telusuri struktur folder dan daftar item</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Target: temukan folder tujuan email</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Buat ulang struktur dan salin item (ekspor dari sumber, impor ke target)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Rekonsiliasi: bandingkan jumlah item per folder</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verifikasi: bandingkan setiap pesan yang disalin dengan sumbernya, bidang demi bidang</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Menunggu</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Menyalin…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Selesai</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Perlu ditinjau</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Gagal</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Tidak dijalankan</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Disalin</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Menyalin</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} gagal</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Jumlah berbeda</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>folder pengguna</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Sumber</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Target</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Detail (pilih untuk menyalin)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Folder</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Jenis</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Item</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Disalin</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Sudah ada</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Gagal</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Hasil</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Terverifikasi identik</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Catatan (pilih untuk menyalin)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Catatan</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Detail</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Penyalinan dihentikan</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Penyalinan selesai</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Kotak surat yang disalin: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Kotak surat yang disalin: {0}. Setiap dari {1} pesan yang diperiksa identik dengan sumbernya.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Penyalinan dihentikan sebelum selesai</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Kotak surat yang selesai: {0}. Belum dimulai: {1}. Jalankan lagi untuk melanjutkan: item yang selesai tidak disalin dua kali.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Selesai, dengan item yang perlu ditinjau</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Kotak surat yang disalin dengan bersih: {0} dari {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Per kotak surat</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Yang harus dilakukan selanjutnya</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Salin ringkasan ini</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Hasil per kotak surat</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Kotak surat disalin</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Pesan disalin</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Sudah ada di target</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Item gagal</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Terverifikasi identik</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Waktu yang dibutuhkan</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} dari {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>tidak ada</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>tidak diperiksa</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Buka file hasil atau log untuk melihat alasannya, perbaiki penyebabnya (misalnya izin yang hilang atau kotak surat target yang belum ada), lalu pilih Jalankan lagi. Item yang selesai diingat, jadi tidak ada yang disalin dua kali.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Buka beberapa kotak surat target di Outlook dan periksa Kotak Masuk, Item Terkirim, dan folder Anda sendiri. Periksa sampel pesan yang memiliki lampiran.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Buka beberapa kotak surat target di Outlook dan cari folder "{0}". Periksa sampel pesan yang memiliki lampiran. Orang dapat memindahkan email keluar dari folder itu, atau membiarkannya di sana.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontak dan kalender dihitung tetapi belum dibandingkan bidang demi bidang. Buka Kontak dan Kalender di beberapa kotak surat target dan periksa, terutama rapat berulang.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Untuk mengambil email yang tiba setelah proses ini, pilih Jalankan lagi dengan pengaturan yang sama. Hanya email baru yang disalin.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Setelah migrasi benar-benar selesai, hapus rahasia klien dan hapus pendaftaran aplikasi di Microsoft Entra, karena keduanya dapat mengakses setiap kotak surat di tenant.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Kotak surat disalin: {0} dari {1}; pesan disalin: {2}; sudah ada di target: {3}; item gagal: {4}; waktu: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Kotak surat disalin: {0} dari {1}; pesan disalin: {2}; sudah ada di target: {3}; item gagal: {4}; terverifikasi identik: {5} dari {6}; waktu: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Pendaftaran aplikasi</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Pendaftaran aplikasi adalah identitas yang digunakan alat ini untuk berkomunikasi dengan Microsoft 365 di sebuah tenant. Anda membuatnya sekali per tenant di pusat admin Microsoft Entra, lalu menyimpannya di sini dengan nama yang Anda kenali dan memilihnya pada langkah Sumber dan Target. Tidak ada yang dikirim ke mana pun dari sini; data disimpan hanya untuk pengguna Windows Anda.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Tambah</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Hapus</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nama</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Apa pun yang membantu Anda membedakannya, misalnya "Contoso (sumber)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID Direktori (tenant)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Sebuah GUID. Ada di halaman Ringkasan pendaftaran di pusat admin Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID Aplikasi (klien)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Sebuah GUID. Juga ada di halaman Ringkasan.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Rahasia klien</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Nilai rahasia (bukan ID-nya), dari Sertifikat &amp; rahasia. Ini memungkinkan aplikasi menyalin kotak surat tanpa ada yang masuk. Rahasia dienkripsi untuk pengguna Windows Anda dan tidak dapat dibaca di PC lain. Rahasia hanya ditampilkan saat diketik; ketik yang baru untuk menggantinya.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Rahasia telah disimpan.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Hapus isian</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Untuk membuatnya: pusat admin Microsoft Entra &gt; Pendaftaran aplikasi &gt; Pendaftaran baru (tenant tunggal). Buka Izin API dan tambahkan Izin aplikasi yang ditampilkan pada langkah Sumber dan Target, lalu Berikan persetujuan admin. Buka Sertifikat &amp; rahasia, buat Rahasia klien baru, dan segera salin Nilainya (hanya ditampilkan sekali). Salin ID Direktori (tenant) dan ID Aplikasi (klien) dari halaman Ringkasan ke formulir ini.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Pendaftaran baru</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(tanpa nama)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Hapus pendaftaran</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Hapus "{0}" dari daftar ini?
+
+Ini hanya melupakannya di sini. Pendaftaran aplikasi di Microsoft Entra tidak disentuh.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Periksa daftar</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Beri nama untuk setiap pendaftaran.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": ID tenant dan ID klien harus berupa GUID (misalnya 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Gagal menyimpan</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Tidak dapat menyimpan: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Pengaturan</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Bahasa</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Sama seperti Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Bahasa baru berlaku saat Anda memulai Smart Mailbox Copy berikutnya.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Sama seperti Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Terang</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Gelap</value></data>
+</root>

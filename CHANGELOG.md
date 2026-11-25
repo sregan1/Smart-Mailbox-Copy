@@ -4,6 +4,25 @@ All notable changes to Smart Mailbox Copy are documented here.
 
 ---
 
+## 1.1.0 — 2026-11-25
+
+### Added
+
+- **A look that matches Smart Copy** — blue app bar, a step bar across the top (finished steps are clickable) instead of the gray step list, card layouts, themed buttons, check boxes, drop-downs and grids, and status chips for Ready, Copying, Done, Needs a look and Failed.
+- **Settings dialog** — choose the display language and theme from the blue bar.
+- **Light and dark themes** — in Settings, or the same as Windows.
+- **30 display languages**, including right-to-left layout for Arabic and Hebrew — in Settings, or the same as Windows. Translations are machine-assisted and not yet reviewed by native speakers; logs, CSV files and the engine's per-mailbox messages stay in English.
+
+### Changed
+
+- **Full-width layout** — the cards and text boxes on every step now use the whole window width instead of stopping at a fixed width.
+
+### Fixed
+
+- **Options step** — the two mail-destination choices ("into one new folder" and "merged into the real folders") were not in one radio group, so once Merge was selected the other choice could not be selected again.
+
+---
+
 ## 1.0.0 — 2026-11-23
 
 First release. Please [report issues](https://github.com/sregan1/Smart-Mailbox-Copy/issues): attach the errors log from `%LOCALAPPDATA%\SmartMailboxCopy\logs` (it contains no mail content), and leave out any addresses or secrets.

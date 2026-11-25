@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>App-Registrierungen</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Frühere Läufe und Berichte</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimieren</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximieren oder Wiederherstellen</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Schließen</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Schritte</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Abbrechen</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Speichern</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Zurück</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Weiter</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Los geht's</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Kopieren starten</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Ergebnisse anzeigen</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Neue Migration</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Beenden</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Ergebnisse öffnen (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Elementliste öffnen (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Protokoll öffnen</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Erneut ausführen (fortsetzen)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Start</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Quelle</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Ziel</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postfächer</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Zuordnen</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Optionen</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Prüfen</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopieren</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Ergebnisse</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Willkommen</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Quelltenant</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Zieltenant</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Postfächer auswählen</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Postfächer zuordnen</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Optionen</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Prüfen</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopieren</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Ergebnisse</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>E-Mails zwischen Microsoft 365-Tenants verschieben: ein Postfach, mehrere oder alle.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Verbinden Sie sich mit dem Tenant, VON dem Sie kopieren. Er wird nur gelesen; darin wird nichts geändert.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Verbinden Sie sich mit dem Tenant, IN den Sie kopieren. Hier werden E-Mails hinzugefügt; bereits vorhandene Elemente werden weder geändert noch gelöscht.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Wählen Sie die zu kopierenden Postfächer aus. Grenzen Sie die Liste mit den Filtern ein, und aktivieren Sie dann die gewünschten Postfächer.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Legen Sie fest, in welches Zielpostfach jedes Quellpostfach kopiert wird.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Legen Sie fest, wie die E-Mails im Ziel abgelegt werden und welche Sicherheitsprüfungen ausgeführt werden.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Prüfen Sie den Plan. Es wurde noch nichts kopiert.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Der Kopiervorgang läuft. Sie können jederzeit beenden; fertige Elemente werden gemerkt, sodass Sie später fortsetzen können.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Was kopiert und geprüft wurde und was als Nächstes zu tun ist.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Verbinden Sie sich mit dem Quelltenant, um fortzufahren.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Verbinden Sie sich mit dem Zieltenant, um fortzufahren.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Aktivieren Sie mindestens ein Postfach, um fortzufahren.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Mindestens eine Zeile muss den Status „Bereit“ haben, um fortzufahren.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Geben Sie einen Ordnernamen ein, um fortzufahren.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Prüfen Sie die E-Mail-Filter: Aktivieren Sie mindestens einen Ordner, wählen Sie ein Datum, und geben Sie eine Größe über 0 ein.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Größe und Dauer werden geschätzt (nur Lesezugriff). „Starten“ ist danach verfügbar, oder wählen Sie „Schätzung überspringen“.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Aktivieren Sie das Kontrollkästchen oben, um fortzufahren.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Dieses Tool kopiert E-Mails zwischen Microsoft 365-Tenants. Sie können ein Postfach, einige ausgewählte oder alle verschieben, und anschließend wird jede Nachricht mit dem Original verglichen.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Was das Tool tut und was nicht</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Der Quelltenant wird nur gelesen. Darin wird nichts geändert oder gelöscht.
+• Das Ziel erhält nur Elemente (E-Mails sowie auf Wunsch Kalendereinträge und Kontakte). Das Tool löscht oder ändert nie etwas, das dort bereits vorhanden ist.
+• Eine bereits kopierte Nachricht wird übersprungen, sodass ein Lauf gefahrlos wiederholt oder fortgesetzt werden kann.
+• Jede kopierte Nachricht wird Feld für Feld mit ihrer Quelle verglichen, und das Ergebnis wird gemeldet.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Was Sie vor dem Start benötigen</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Eine App-Registrierung in jedem Tenant (Quelle und Ziel), eingerichtet von einem globalen Administrator. Die nächsten Schritte zeigen genau, welche Berechtigungen hinzuzufügen sind.
+2. Einen geheimen Clientschlüssel für jede Registrierung.
+3. Die zu verschiebenden Postfächer müssen im Zieltenant bereits vorhanden sein (erstellen Sie zuerst die Benutzer, und weisen Sie ihnen Lizenzen zu).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>So funktioniert es</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Das Tool verwendet die App-Registrierung statt der Anmeldung einer Person und kann daher ohne deren Kennwörter auf die Postfächer anderer Personen zugreifen. Da eine App-Registrierung mit diesen Berechtigungen auf jedes Postfach ihres Tenants zugreifen kann, halten Sie den geheimen Schlüssel geheim, und entfernen Sie die Registrierung nach Abschluss der Migration.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Wählen Sie „Weiter“, um den Quelltenant zu verbinden. Über die Schrittleiste oben können Sie zu jedem abgeschlossenen Schritt zurückkehren.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Die Quelle ist der Tenant, in dem die E-Mails derzeit liegen. Smart Mailbox Copy meldet sich mit einer App-Registrierung an (keine Person meldet sich an) und liest die von Ihnen gewählten Postfächer.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Das Ziel ist der Tenant, in den die E-Mails verschoben werden. Die Postfächer müssen dort bereits mit Lizenzen vorhanden sein. Das Tool fügt nur E-Mails hinzu.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Im Microsoft Entra Admin Center: App-Registrierungen &gt; Ihre App &gt; API-Berechtigungen &gt; Berechtigung hinzufügen &gt; Microsoft Graph &gt; Anwendungsberechtigungen. Wählen Sie dann „Administratorzustimmung erteilen“.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Gleicher Ort wie bei der Quelle: API-Berechtigungen &gt; Berechtigung hinzufügen &gt; Microsoft Graph &gt; Anwendungsberechtigungen, dann „Administratorzustimmung erteilen“.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>Export; verwenden Sie die Exportberechtigung, falls das Portal eine anzeigt</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>App-Registrierung</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Die gespeicherte Microsoft Entra-App-Registrierung für diesen Tenant. Falls sie noch nicht in der Liste steht, wählen Sie „Verwalten“ und fügen Sie sie hinzu.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Verwalten…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Berechtigungen, die diese App-Registrierung benötigt</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Verbinden und Postfächer auflisten</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Dabei erfolgt die Anmeldung mit der App-Registrierung, die Liste der Postfächer wird gelesen, und es wird geprüft, welche Anwendungsberechtigungen der App erteilt wurden. Es wird nichts geändert. Eine soeben hinzugefügte Berechtigung kann einige Minuten brauchen, bis sie erscheint: Warten Sie, und verbinden Sie sich dann erneut.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  Anwendung {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>Geheimer Clientschlüssel gespeichert</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>KEIN geheimer Clientschlüssel gespeichert: unter „Verwalten“ hinzufügen</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nichts ausgewählt.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Verbindung wird hergestellt…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Verbunden. Gefundene Konten mit Postfachadresse: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Wählen Sie zuerst eine App-Registrierung aus.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Für diese Registrierung ist auf diesem PC kein geheimer Clientschlüssel gespeichert. Wählen Sie „Verwalten“, und fügen Sie ihn hinzu.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Der geheime Clientschlüssel ist ungültig. Möglicherweise wurde die ID statt des Werts des Schlüssels verwendet, oder es ist der Schlüssel einer anderen App. Erstellen Sie einen neuen Schlüssel, und aktualisieren Sie ihn unter „Verwalten“.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Der geheime Clientschlüssel ist abgelaufen. Erstellen Sie einen neuen, und aktualisieren Sie ihn unter „Verwalten“.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Diese Anwendungs-ID (Client-ID) wurde in diesem Tenant nicht gefunden. Prüfen Sie die Tenant-ID und die Client-ID unter „Verwalten“.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Diese Tenant-ID wurde nicht gefunden. Prüfen Sie sie unter „Verwalten“.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Der App fehlt die Anwendungsberechtigung User.Read.All, oder die Administratorzustimmung wurde nicht erteilt.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Dieser App erteilte Anwendungsberechtigungen:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (Import/Export und Lesen)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>E-Mails zu lesen</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>Ordner im Ziel zu erstellen</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>E-Mail-Elemente zu exportieren und zu importieren</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>die Ordnerstruktur zu lesen</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>Postfächer aufzulisten</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>nur zum Kopieren zusätzlicher Kalender</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>nur zum Kopieren zusätzlicher Kontaktordner</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  FEHLT: erforderlich, um {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  nicht erteilt ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Fügen Sie die fehlenden Berechtigungen als Anwendungsberechtigungen hinzu, und erteilen Sie die Administratorzustimmung. Es kann einige Minuten dauern, bis sie angezeigt werden.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Zeigen Sie die gewünschten Postfachtypen an, grenzen Sie nach Domäne oder Text ein, und aktivieren Sie dann die zu kopierenden Postfächer. Ihre Auswahl bleibt beim Ändern der Filter erhalten. Konten ohne Lizenz sind freigegebene Postfächer, Raum- oder Ressourcenpostfächer; Microsoft gibt nicht an, welche davon.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Benutzer</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Freigegeben, Raum, Ressource (ohne Lizenz)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Gäste</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Nur aktivierte Konten</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domäne</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Suchen</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Alle Domänen</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopieren</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Name</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adresse</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Typ</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Konto</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Benutzer</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Freigegeben, Raum oder Ressource (ohne Lizenz)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Gast</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Aktiviert</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Deaktiviert</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Alle angezeigten auswählen</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Auswahl aller angezeigten aufheben</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Liste aktualisieren</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} ausgewählt · {1} von {2} angezeigt</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} ausgewählt, aber durch die Filter ausgeblendet</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Domänenfilter</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Postfächer durchsuchen</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Quellpostfächer</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Jede Quelladresse benötigt ein Postfach im Zieltenant. Die Zuordnung erfolgt durch Austausch der Domäne; geben Sie in jeder Zeile, in der die Namen abweichen, eine andere Zieladresse ein. Zeilen mit dem Status „Bereit“ werden kopiert, die übrigen ausgelassen.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Zieldomäne</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Alle Zeilen dieser Domäne zuordnen</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Zuordnung importieren (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Zuordnung exportieren (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Quellpostfach</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Zielpostfach (bearbeitbar)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Bereit</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Zieladresse eingeben</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Keine E-Mail-Adresse</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Eine andere Zeile verwendet dieses Ziel</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Im Zieltenant nicht gefunden</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} von {1} bereit zum Kopieren</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} werden bis zur Korrektur ausgelassen</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-Dateien (*.csv)|*.csv|Alle Dateien|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Zuordnung „Quelle,Ziel“ importieren</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-Dateien (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Zuordnung exportieren</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} von {1} Zeilen der Datei entsprachen einem von Ihnen ausgewählten Postfach. Die übrigen wurden ignoriert.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Zuordnung importiert</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Die Zuordnung konnte nicht gelesen werden</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Zieldomäne</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postfachzuordnung</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Nur Kalendereinträge und Kontakte (keine E-Mails kopieren)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Ein guter erster Test oder eine Möglichkeit, Kalender getrennt zu kopieren. Termine gelangen in den Standardkalender und Kontakte in die Standardkontakte jedes Zielpostfachs. Dies fügt Elemente dauerhaft hinzu: Das Tool kann sie anschließend nicht entfernen.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Wohin sollen die E-Mails?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Nur E-Mails, in einen neuen Ordner in jedem Zielpostfach (empfohlen)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Alle E-Mails samt Ordnerstruktur werden in einen einzigen neuen Ordner kopiert. Am sichersten und in Outlook leicht zu prüfen oder zu löschen, bevor jemand das Postfach verwendet. Kalendereinträge und Kontakte lassen sich darin nicht ablegen und werden in diesem Modus daher nicht kopiert.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Ordnername</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrierte E-Mails</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>In die echten Ordner zusammengeführt, mit Kalender und Kontakten</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>E-Mails landen dort, wo die Person sie erwartet (Posteingang in Posteingang, Gesendete Elemente in Gesendete Elemente), und die übrigen Ordner werden daneben neu erstellt. Dies fügt Elemente dauerhaft hinzu: Das Tool kann sie anschließend nicht entfernen.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Auch Kalendereinträge und Kontakte kopieren (die Standardordner sowie alle zusätzlichen Kalender und Kontaktordner)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Deaktivieren, um nur E-Mails zu kopieren. Termine, auch Serientermine, werden gezählt, aber noch nicht Feld für Feld verglichen.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Kopierumfang einschränken (optional): nichts eingeschränkt, alles wird kopiert</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Kopierumfang einschränken (optional): Einschränkungen aktiv: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Standardmäßig werden alle Ordner und alle Nachrichten kopiert. Verwenden Sie dies nur, um weniger zu kopieren. Es gilt für jedes Postfach, nie für Kalendereinträge und Kontakte, und ausgelassene E-Mails werden in der Quelle nie geändert oder gelöscht.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Diese Ordner auslassen</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Ein ausgelassener Ordner nimmt seine Unterordner mit.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Posteingang</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Gesendete Elemente</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Entwürfe</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Gelöschte Elemente</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Junk-E-Mail</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Archiv</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Von Benutzern erstellte Ordner</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Nur E-Mails, die an oder nach diesem Datum erstellt wurden</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Das ist der Tag, an dem jede Nachricht im Postfach erstellt wurde, normalerweise der Tag ihres Eingangs. Prüfen Sie nach dem ersten Kopieren eine Stichprobe.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Nachrichten überspringen, die größer sind als</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Sicherheitsprüfungen</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>E-Mails überspringen, die bereits im Ziel vorhanden sind (damit ein erneuter Lauf keine Duplikate erzeugt)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Jede kopierte Nachricht anschließend mit ihrer Quelle vergleichen (dauert länger, empfohlen)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Zielordner zulassen, die bereits Elemente enthalten (die kopierten Elemente werden daneben hinzugefügt)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Das Zusammenführen startet nicht, wenn ein Zielordner wie der Posteingang oder der Kalender bereits Elemente enthält, es sei denn, dies ist aktiviert.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Erweitert</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Neu beginnen: bereits von früheren Läufen Kopiertes ignorieren (die obige Duplikatprüfung schützt die E-Mails im Ziel weiterhin)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Auszulassende Kalender und Kontaktordner</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Ein Name pro Zeile, genau wie in Outlook angezeigt. Zusätzliche Kalender und Kontaktordner mit diesen Namen werden nicht kopiert; ein Kontaktordner nimmt seine Unterordner mit. Nutzen Sie dies für abonnierte Kalender, etwa einen Feiertagskalender. Der Kalender „Geburtstage“ wird nie kopiert (Outlook erstellt ihn aus den Kontakten). Der Standardkalender und die Standardkontakte sind nicht betroffen.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postfächer, in die nie geschrieben werden darf</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Eine Adresse pro Zeile. Wird eines davon als Ziel gewählt, wird das Kopieren dafür abgelehnt.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Name des neuen Ordners</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Frühestes Datum</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Größte Nachricht in Megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Zu kopierende Postfächer: {0}, von „{1}“ nach „{2}“.</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Es werden nur Kalendereinträge und Kontakte in den Standardkalender und die Standardkontakte jedes Zielpostfachs kopiert. Es werden keine E-Mails kopiert.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>E-Mails gelangen in die echten Ordner jedes Zielpostfachs (Posteingang, Gesendete Elemente, Entwürfe…); die übrigen Ordner werden daneben neu erstellt.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>E-Mails (nur E-Mails) gelangen in einen neuen Ordner mit dem Namen „{0}“ in jedem Zielpostfach, samt Ordnerstruktur.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Nach Namen ausgelassene Kalender und Kontaktordner: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Kalendereinträge und Kontakte: werden in den Standardkalender und die Standardkontakte jedes Zielpostfachs kopiert.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Kalendereinträge und Kontakte: werden nicht kopiert.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>E-Mails, die bereits im Ziel vorhanden sind, werden übersprungen.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Es wird NICHT geprüft, ob E-Mails bereits im Ziel vorhanden sind.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Ausgelassen: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Nur E-Mails, die am oder nach dem {0} erstellt wurden.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Nachrichten über {0} MB werden übersprungen.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Jede kopierte Nachricht wird anschließend mit ihrer Quelle verglichen.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Kein anschließender Vergleich.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Postfächer werden nacheinander kopiert. In der Quelle wird nichts geändert.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Schätzung von Größe und Dauer</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Schätzung überspringen</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Ausgelassene Postfächer, weil kein passendes Zielpostfach gefunden wurde: {0}. Gehen Sie zurück zu „Postfächer zuordnen“, um sie zu korrigieren.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Ausgewählte Postfächer ohne Lizenz (freigegeben, Raum oder Ressource): {0}. Ihre E-Mail-Ordner werden kopiert, ebenso ihr Kalender, wenn das Kopieren von Kalendern aktiviert ist. Ressourceneinstellungen wie Buchungsrichtlinien nicht.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Dies fügt Kalendereinträge und Kontakte dauerhaft hinzu. Dieses Tool kann sie nicht entfernen.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Das Zusammenführen fügt den echten Ordnern dauerhaft Elemente hinzu. Dieses Tool kann sie nicht entfernen.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Ich verstehe, dass das Zusammenführen E-Mails zu den echten Ordnern hinzufügt und dieses Tool sie nicht entfernen kann.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Für eine Schätzung werden die Verbindungen aus den vorherigen Schritten benötigt.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Die Größe der Postfächer wird gelesen ({0}); nur Lesezugriff, es wird nichts geändert…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Schätzung übersprungen. Der Fortschrittsbalken zeigt nach Beginn des Kopierens trotzdem eine Schätzung an.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Die Schätzung konnte nicht erstellt werden: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Etwa {0} Nachrichten ({1} MB). Postfächer: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Geschätzte Dauer: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Basierend auf in unseren Tests mit gewöhnlichen Nachrichten gemessenen Geschwindigkeiten; sehr große Anhänge dauern länger. Postfächer werden nacheinander kopiert. Wenn Sie beenden, wird der nächste Lauf dort fortgesetzt, wo er aufgehört hat.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Postfächer, die nicht gelesen werden konnten: {0}. Sie sind nicht in der Schätzung enthalten und schlagen beim Kopieren wahrscheinlich ebenfalls fehl. Erste Ursache: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>unter einer Minute</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} Min.</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} Std. {1} Min.</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Kopieren starten?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Kopieren jetzt starten? Postfächer: {0}.
+
+{1}
+
+In der Quelle wird nichts geändert. Sie können jederzeit beenden.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>E-Mails werden den echten Ordnern jedes Zielpostfachs hinzugefügt. Dieses Tool kann sie nicht entfernen.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>E-Mails werden in einem neuen Ordner „{0}“ in jedem Zielpostfach hinzugefügt.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Start nicht möglich</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Auf diesem PC fehlt ein geheimer Clientschlüssel. Fügen Sie ihn unter „App-Registrierungen“ hinzu.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Beheben Sie zuerst Folgendes:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Postfächer werden kopiert: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Wird gestartet…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Abgeschlossen. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Jede Nachricht wurde mit ihrer Quelle verglichen.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Wählen Sie eine Zeile für Details aus, oder öffnen Sie die Ergebnisdatei.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Durch einen Fehler beendet: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Dauer: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} von {2} Postfächern abgeschlossen · {3} · bisher {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>noch etwa {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>geschätzt {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>Dauer wird geschätzt…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Postfach {0} von {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Postfach {0}: {1} von {2} Elementen verarbeitet — {3} kopiert, {4} bereits vorhanden, {5} fehlgeschlagen</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Wird nach dem aktuellen Element beendet… fertige Elemente werden gemerkt.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postfächer</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Ordnerdetails für das laufende Postfach</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Protokoll</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Nur Warnungen und Fehler</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} Fehler, {1} Warnungen</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopieren läuft</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Ein Kopiervorgang läuft. Beim Schließen wird er beendet (fertige Elemente werden gemerkt, sodass Sie fortsetzen können).
+
+Trotzdem schließen?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Gesamtfortschritt</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postfachfortschritt</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Fehlerfrei kopiert: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Zu prüfen: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Fehlgeschlagen: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Nicht ausgeführt: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Anmelden und die Konten überprüfen</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Quelle (nur Lesezugriff): Ordnerstruktur durchlaufen und Elemente auflisten</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Ziel: die Ordner suchen, in die die E-Mails kommen</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Struktur neu erstellen und Elemente kopieren (Export aus der Quelle, Import in das Ziel)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Abgleichen: Elementanzahl pro Ordner vergleichen</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Überprüfen: jede kopierte Nachricht Feld für Feld mit ihrer Quelle vergleichen</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Wartet</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Wird kopiert…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Fertig</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Zu prüfen</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Fehlgeschlagen</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Nicht ausgeführt</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Kopiert</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Wird kopiert</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} fehlgeschlagen</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Anzahlen weichen ab</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>Benutzerordner</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Quelle</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Ziel</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Details (zum Kopieren auswählen)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Ordner</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Art</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elemente</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Kopiert</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Bereits vorhanden</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Fehlgeschlagen</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Ergebnis</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Identisch geprüft</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Hinweise (zum Kopieren auswählen)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Hinweise</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Details</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Das Kopieren wurde beendet</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopieren abgeschlossen</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Kopierte Postfächer: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Kopierte Postfächer: {0}. Alle {1} geprüften Nachrichten waren mit ihrer Quelle identisch.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Das Kopieren wurde vor dem Abschluss beendet</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Abgeschlossene Postfächer: {0}. Nicht gestartet: {1}. Führen Sie den Vorgang erneut aus, um fortzufahren: Fertige Elemente werden nicht doppelt kopiert.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Abgeschlossen, mit Elementen, die geprüft werden sollten</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Fehlerfrei kopierte Postfächer: {0} von {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postfach für Postfach</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Nächste Schritte</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Diese Zusammenfassung kopieren</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Ergebnisse nach Postfach</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Kopierte Postfächer</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Kopierte Nachrichten</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Bereits im Ziel</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Fehlgeschlagene Elemente</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Identisch geprüft</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Benötigte Zeit</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} von {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>keine</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>nicht geprüft</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Öffnen Sie die Ergebnisdatei oder das Protokoll, um die Ursache zu sehen, beheben Sie sie (zum Beispiel eine fehlende Berechtigung oder ein noch nicht vorhandenes Zielpostfach), und wählen Sie „Erneut ausführen“. Fertige Elemente werden gemerkt, sodass nichts doppelt kopiert wird.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Öffnen Sie einige Zielpostfächer in Outlook, und prüfen Sie den Posteingang, die gesendeten Elemente und Ihre eigenen Ordner. Prüfen Sie stichprobenartig Nachrichten mit Anhängen.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Öffnen Sie einige Zielpostfächer in Outlook, und suchen Sie den Ordner „{0}“. Prüfen Sie stichprobenartig Nachrichten mit Anhängen. Benutzer können E-Mails daraus verschieben oder dort belassen.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontakte und Kalender werden gezählt, aber noch nicht Feld für Feld verglichen. Öffnen Sie Kontakte und Kalender in einigen Zielpostfächern, und prüfen Sie sie, besonders Serientermine.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Um E-Mails zu übernehmen, die nach diesem Lauf eingegangen sind, wählen Sie „Erneut ausführen“ mit denselben Einstellungen. Es werden nur neue E-Mails kopiert.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Wenn die Migration vollständig abgeschlossen ist, löschen Sie die geheimen Clientschlüssel, und entfernen Sie die App-Registrierungen in Microsoft Entra, da sie auf jedes Postfach des Tenants zugreifen können.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Kopierte Postfächer: {0} von {1}; kopierte Nachrichten: {2}; bereits im Ziel: {3}; fehlgeschlagene Elemente: {4}; Zeit: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Kopierte Postfächer: {0} von {1}; kopierte Nachrichten: {2}; bereits im Ziel: {3}; fehlgeschlagene Elemente: {4}; identisch geprüft: {5} von {6}; Zeit: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>App-Registrierungen</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Eine App-Registrierung ist die Identität, mit der dieses Tool in einem Tenant mit Microsoft 365 kommuniziert. Sie erstellen sie einmal pro Tenant im Microsoft Entra Admin Center, speichern sie hier unter einem Namen, den Sie wiedererkennen, und wählen sie in den Schritten „Quelle“ und „Ziel“ aus. Nichts davon wird irgendwohin gesendet; es wird nur für Ihren Windows-Benutzer gespeichert.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Hinzufügen</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Entfernen</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Name</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Beliebig, solange Sie sie unterscheiden können, zum Beispiel „Contoso (Quelle)“.</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Verzeichnis-ID (Mandant)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Eine GUID. Auf der Seite „Übersicht“ der Registrierung im Entra Admin Center.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Anwendungs-ID (Client)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Eine GUID. Ebenfalls auf der Seite „Übersicht“.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Geheimer Clientschlüssel</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Der Wert des Schlüssels (nicht seine ID) unter „Zertifikate &amp; Geheimnisse“. Damit kann die App Postfächer kopieren, ohne dass sich jemand anmeldet. Er wird für Ihren Windows-Benutzer verschlüsselt und kann auf einem anderen PC nicht gelesen werden. Er wird nur während der Eingabe angezeigt; geben Sie einen neuen ein, um ihn zu ersetzen.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Ein geheimer Schlüssel ist gespeichert.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Löschen</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>So erstellen Sie eine: Microsoft Entra Admin Center &gt; App-Registrierungen &gt; Neue Registrierung (einzelner Mandant). Öffnen Sie „API-Berechtigungen“, fügen Sie die in den Schritten „Quelle“ und „Ziel“ angezeigten Anwendungsberechtigungen hinzu, und erteilen Sie dann die Administratorzustimmung. Öffnen Sie „Zertifikate &amp; Geheimnisse“, erstellen Sie einen neuen geheimen Clientschlüssel, und kopieren Sie seinen Wert sofort (er wird nur einmal angezeigt). Kopieren Sie die Verzeichnis-ID (Mandant) und die Anwendungs-ID (Client) von der Seite „Übersicht“ in dieses Formular.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Neue Registrierung</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(ohne Namen)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Registrierung entfernen</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>„{0}“ aus dieser Liste entfernen?
+
+Dadurch wird sie nur hier vergessen. Die App-Registrierung in Microsoft Entra bleibt unberührt.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Liste prüfen</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Geben Sie jeder Registrierung einen Namen.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>„{0}“: Tenant-ID und Client-ID müssen beide GUIDs sein (zum Beispiel 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Speichern fehlgeschlagen</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Speichern nicht möglich: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Einstellungen</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Sprache</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Wie Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Eine neue Sprache wird beim nächsten Start von Smart Mailbox Copy wirksam.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Design</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Wie Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Hell</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Dunkel</value></data>
+</root>

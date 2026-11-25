@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>應用程式註冊</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>過去的執行與報告</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>設定</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>最小化</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>最大化或還原</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>關閉</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>步驟</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>儲存</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>上一步</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>下一步</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>開始使用</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>開始複製</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>檢視結果</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>新增移轉</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>停止</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>開啟結果 (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>開啟項目清單 (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>開啟記錄</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>再次執行 (繼續)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>歡迎</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>來源</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>目標</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>信箱</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>對應</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>選項</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>檢閱</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>複製</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>結果</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>歡迎</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>來源租用戶</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>目標租用戶</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>選擇信箱</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>對應信箱</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>選項</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>檢閱</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>複製</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>結果</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>在 Microsoft 365 租用戶之間移轉郵件:一個信箱、多個信箱或所有人。</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>連線到您要從中複製的租用戶。系統只會讀取該租用戶,不會變更其中任何內容。</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>連線到您要複製到的租用戶。郵件會新增到此處,其中已有的內容不會被變更或刪除。</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>選取要複製的信箱。使用篩選器縮小清單範圍,然後勾選您要的信箱。</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>告訴工具每個來源信箱要複製到哪個目標信箱。</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>選擇郵件在目標中的放置方式,以及要執行的安全檢查。</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>檢查計畫。目前尚未複製任何內容。</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>正在複製。您可以隨時停止;已完成的項目會被記住,因此稍後可以繼續。</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>已複製的內容、已檢查的內容,以及後續該做的事。</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>連線到來源租用戶以繼續。</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>連線到目標租用戶以繼續。</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>至少勾選一個信箱以繼續。</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>至少要有一列顯示「就緒」才能繼續。</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>輸入資料夾名稱以繼續。</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>請檢查郵件篩選器:至少勾選一個資料夾、選擇日期,並輸入大於 0 的大小。</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>正在估計大小和時間 (唯讀)。完成後即可開始,或選擇「略過估計」。</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>勾選上方的核取方塊以繼續。</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>此工具可在 Microsoft 365 租用戶之間複製郵件。您可以移轉一個信箱、指定的幾個信箱或所有人,並在之後將每封郵件與原始郵件進行比對。</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>它會做什麼,不會做什麼</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• 來源租用戶只會被讀取。其中的任何內容都不會被變更或刪除。
+• 目標只會接收項目 (郵件,以及您選擇的行事曆事件和連絡人)。此工具絕不會刪除或變更其中已有的任何內容。
+• 複製過兩次的郵件會被略過,因此可以放心地重複執行或繼續執行。
+• 每封複製的郵件都會逐欄位與其來源進行比較,並回報結果。</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>開始之前所需的準備</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. 每個租用戶 (來源和目標) 中各一個應用程式註冊,由全域管理員設定。後續步驟會確切顯示要新增哪些權限。
+2. 每個註冊的用戶端密碼。
+3. 要移轉的信箱必須已存在於目標租用戶中 (請先建立使用者並指派授權)。</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>運作方式</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>此工具使用應用程式註冊,而非個人登入,因此不需要密碼就能存取其他人的信箱。由於具有這些權限的應用程式註冊可以存取其租用戶中的每個信箱,請妥善保管其密碼,並在移轉完成後移除該註冊。</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>選擇 [下一步] 以連線到來源租用戶。您可以從頂端的步驟列返回任何已完成的步驟。</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>來源是郵件目前所在的租用戶。Smart Mailbox Copy 會使用應用程式註冊登入 (不需要任何人登入),並讀取您選擇的信箱。</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>目標是郵件要移轉到的租用戶。信箱必須已存在於其中,並已指派授權。此工具只會新增郵件。</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>在 Microsoft Entra 系統管理中心:應用程式註冊 &gt; 您的應用程式 &gt; API 權限 &gt; 新增權限 &gt; Microsoft Graph &gt; 應用程式權限。然後選取 [授與管理員同意]。</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>位置與來源相同:API 權限 &gt; 新增權限 &gt; Microsoft Graph &gt; 應用程式權限,然後 [授與管理員同意]。</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>匯出;如果入口網站列出匯出權限,請使用該權限</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>應用程式註冊</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>為此租用戶儲存的 Microsoft Entra 應用程式註冊。如果清單中還沒有,請選擇 [管理] 並新增。</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>管理…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>此應用程式註冊所需的權限</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>連線並列出信箱</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>這會使用應用程式註冊登入、讀取信箱清單,並檢查該應用程式已被授與哪些應用程式權限。它不會變更任何內容。剛新增的權限可能需要幾分鐘才會顯示:請稍候,然後再次連線。</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>租用戶 {0}  ·  應用程式 {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>已儲存用戶端密碼</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>尚未儲存用戶端密碼:請在 [管理] 中新增</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>未選取任何項目。</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>正在連線…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>已連線。找到具有信箱位址的帳戶:{0}。</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>請先選擇應用程式註冊。</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>此註冊在這部電腦上沒有儲存用戶端密碼。請選擇 [管理] 並新增。</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>用戶端密碼無效。可能是填入了密碼的識別碼而非其值,或是其他應用程式的密碼。請建立新密碼,並在 [管理] 中更新。</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>用戶端密碼已到期。請建立新密碼,並在 [管理] 中更新。</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>在此租用戶中找不到該應用程式 (用戶端) 識別碼。請在 [管理] 中檢查租用戶識別碼和用戶端識別碼。</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>找不到該租用戶識別碼。請在 [管理] 中檢查。</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>該應用程式缺少 User.Read.All 應用程式權限,或尚未授與管理員同意。</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>已授與此應用程式的應用程式權限:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (匯入/匯出和讀取)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>讀取郵件</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>在目標中建立資料夾</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>匯出及匯入郵件項目</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>讀取資料夾樹狀結構</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>列出信箱</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>僅用於複製其他行事曆</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>僅用於複製其他連絡人資料夾</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  缺少:需要用於{1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  未授與 ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>請將缺少的權限新增為應用程式權限,並授與管理員同意。它們可能需要幾分鐘才會顯示。</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>顯示您要的信箱種類,依網域或文字縮小範圍,然後勾選要複製的信箱。變更篩選器時,您的勾選會保留。未授權的帳戶是共用信箱、會議室信箱或設備信箱;Microsoft 不會說明具體是哪一種。</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>使用者</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>共用、會議室、設備 (無授權)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>訪客</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>僅限已啟用的帳戶</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>網域</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>搜尋</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>所有網域</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>複製</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>名稱</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>位址</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>類型</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>帳戶</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>使用者</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>共用、會議室或設備 (無授權)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>訪客</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>已啟用</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>已停用</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>勾選所有顯示項目</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>取消勾選所有顯示項目</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>重新整理清單</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>已選取 {0} · 顯示 {1} / {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} 個已選取但被篩選器隱藏</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>網域篩選器</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>搜尋信箱</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>來源信箱</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>每個來源位址在目標租用戶中都需要一個信箱。系統會透過替換網域來對應;若名稱不同,請在該列輸入不同的目標位址。顯示「就緒」的列會被複製;其他列會被排除。</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>目標網域</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>將所有列對應到此網域</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>匯入對應 (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>匯出對應 (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>來源信箱</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>目標信箱 (可編輯)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>狀態</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>就緒</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>請輸入目標位址</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>不是電子郵件位址</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>另一列使用了此目標</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>在目標租用戶中找不到</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} / {1} 已就緒可複製</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · 修正前將排除 {0} 個</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV 檔案 (*.csv)|*.csv|所有檔案|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>匯入來源,目標對應</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV 檔案 (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>匯出對應</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>檔案中的 {1} 列裡有 {0} 列與您選取的信箱相符。其餘的列已被忽略。</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>對應已匯入</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>無法讀取對應</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>目標網域</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>信箱對應</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>僅行事曆事件和連絡人 (不複製任何郵件)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>這是很好的初次測試,也可用來單獨複製行事曆。事件會放入每個目標信箱的預設行事曆,連絡人會放入其預設連絡人。這會永久新增項目:此工具之後無法移除它們。</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>郵件要放在哪裡?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>僅郵件,放入每個目標信箱中的一個新資料夾 (建議)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>所有郵件 (包含資料夾結構) 都會複製到單一新資料夾中。這是最安全的方式,也方便在有人開始使用信箱之前於 Outlook 中檢閱或刪除。行事曆事件和連絡人無法放入其中,因此在此模式下不會複製。</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>資料夾名稱</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>已移轉的郵件</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>合併到實際資料夾,包含行事曆和連絡人</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>郵件會放在使用者預期的位置 (收件匣到收件匣,寄件備份到寄件備份),其他資料夾會在旁邊重新建立。這會永久新增項目:此工具無法在之後移除它們。</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>同時複製行事曆事件和連絡人 (預設及任何其他行事曆和連絡人資料夾)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>取消勾選則僅複製郵件。事件 (包含週期性會議) 會被計數,但尚未逐欄位比較。</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>限制複製內容 (選用):無限制,複製全部內容</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>限制複製內容 (選用):已開啟限制:{0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>根據預設,會複製每個資料夾和每封郵件。僅在需要少複製時才使用這些選項。它們適用於每個信箱,但不適用於行事曆事件和連絡人,而且被排除的郵件在來源中絕不會被變更或刪除。</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>排除這些資料夾</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>被排除的資料夾會連同其子資料夾一起被排除。</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>收件匣</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>寄件備份</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>草稿</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>刪除的郵件</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>垃圾郵件</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>封存</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>使用者建立的資料夾</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>僅限建立於以下日期或之後的郵件</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>這是每封郵件在信箱中建立的日期,通常就是它送達的日期。第一次複製後,請抽查一個範例。</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>略過大於以下大小的郵件</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>安全檢查</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>略過目標中已有的郵件 (這樣重新執行不會產生重複項目)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>之後將每封複製的郵件與其來源進行比較 (會增加時間,建議使用)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>允許已包含項目的目標資料夾 (複製的項目會新增到現有項目旁)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>當目標資料夾 (例如收件匣或行事曆) 已包含項目時,合併會拒絕開始,除非勾選此項。</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>進階</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>重新開始:忽略先前執行已複製的內容 (上方的重複檢查仍會保護目標郵件)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>要排除的行事曆和連絡人資料夾</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>每行一個名稱,須與 Outlook 中顯示的完全一致。具有這些名稱的其他行事曆和連絡人資料夾不會被複製;連絡人資料夾會連同其子資料夾一起被排除。可用於使用者訂閱的行事曆,例如假日行事曆。生日行事曆絕不會被複製 (Outlook 會依連絡人建立)。預設行事曆和預設連絡人不受影響。</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>絕不可寫入的信箱</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>每行一個位址。如果選擇其中之一作為目標,則會拒絕對其進行複製。</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>新資料夾名稱</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>最早日期</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>最大郵件大小 (MB)</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>要複製的信箱:{0},從「{1}」到「{2}」。</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>僅複製行事曆事件和連絡人,到每個目標信箱的預設行事曆和連絡人。不複製任何郵件。</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>郵件會放入每個目標信箱的實際資料夾 (收件匣、寄件備份、草稿…);其他資料夾會在旁邊重新建立。</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>僅郵件會放入每個目標信箱中名為「{0}」的新資料夾,包含資料夾結構。</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>依名稱排除的行事曆和連絡人資料夾:{0}。</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>行事曆事件和連絡人:會複製到每個目標信箱的預設行事曆和連絡人。</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>行事曆事件和連絡人:不複製。</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>目標中已有的郵件會被略過。</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>不會檢查目標中是否已有郵件。</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>已排除:{0}。</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>僅限建立於 {0} 或之後的郵件。</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>大於 {0} MB 的郵件會被略過。</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>之後會將每封複製的郵件與其來源進行比較。</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>之後不進行比較。</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>信箱會依序逐一複製。來源中的任何內容都不會被變更。</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>大小和時間估計</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>略過估計</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>因找不到相符的目標信箱而被排除的信箱:{0}。請返回 [對應信箱] 進行修正。</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>所選的未授權信箱 (共用、會議室或設備):{0}。其郵件資料夾會被複製,啟用行事曆複製時其行事曆也會被複製。預約原則等資源設定則不會被複製。</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>這會永久新增行事曆事件和連絡人。此工具無法移除它們。</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>合併會永久將項目新增到實際資料夾。此工具無法移除它們。</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>我了解合併會將郵件新增到實際資料夾,而且此工具無法移除它們。</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>估計需要先前步驟中的連線。</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>正在讀取信箱大小 ({0});唯讀,不會變更任何內容…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>已略過估計。複製開始後,進度列仍會顯示估計值。</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>無法進行估計:{0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>約 {0} 封郵件 ({1} MB)。信箱:{2}。</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>預估時間:{0}。</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>依據我們以一般郵件測得的速度;非常大的附件會花費更長時間。信箱會依序逐一複製。如果您停止,下次執行會從中斷處繼續。</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>無法讀取的信箱:{0}。它們不在估計範圍內,複製時很可能也會失敗。第一個原因:{1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>不到一分鐘</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} 分鐘</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} 小時 {1} 分鐘</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>開始複製?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>現在開始複製嗎?信箱:{0}。
+
+{1}
+
+來源中的任何內容都不會被變更。您可以隨時停止。</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>郵件會新增到每個目標信箱的實際資料夾中。此工具無法移除它們。</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>郵件會新增到每個目標信箱中的新資料夾「{0}」。</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>無法開始</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>這部電腦上缺少用戶端密碼。請在 [應用程式註冊] 中新增。</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>請先修正以下問題:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>正在複製信箱:{0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>正在開始…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>已完成。{0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>每封郵件都已與其來源進行比較。</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>選取一列以檢視詳細資料,或開啟結果檔案。</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>因錯誤而停止:{0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>耗時 {0}。</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · 已完成 {1} / {2} 個信箱 · {3} · 目前 {4}</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>約剩 {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>預估 {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>正在估計時間…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>信箱 {0} / {1}:{2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>信箱 {0}:已處理 {1} / {2} 個項目 — 已複製 {3},已存在 {4},失敗 {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>將在目前項目完成後停止…已完成的項目會被記住。</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>信箱</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>執行中信箱的資料夾詳細資料</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>記錄</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>僅警告和錯誤</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} 個錯誤,{1} 個警告</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>複製進行中</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>複製正在執行。現在關閉會停止複製 (已完成的項目會被記住,因此可以繼續)。
+
+仍要關閉嗎?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>整體進度</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>信箱進度</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>順利複製:{0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>需要檢視:{0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>失敗:{0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>未執行:{0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>登入並驗證帳戶</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>來源 (唯讀):逐一查看資料夾樹狀結構並列出項目</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>目標:找出郵件要放入的資料夾</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>重新建立樹狀結構並複製項目 (從來源匯出,匯入到目標)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>核對:比較每個資料夾的項目數</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>驗證:逐欄位將每封複製的郵件與其來源進行比較</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>等待中</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>正在複製…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>完成</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>需要檢視</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>失敗</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>未執行</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>已複製</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>正在複製</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} 個失敗</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>數量不一致</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>使用者資料夾</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>來源</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>目標</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>狀態</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>詳細資料 (選取以複製)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>資料夾</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>種類</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>項目</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>已複製</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>已存在</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>失敗</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>結果</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>已驗證相同</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>備註 (選取以複製)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>備註</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>詳細資料</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>複製已停止</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>複製完成</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>已複製的信箱:{0}。</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>已複製的信箱:{0}。所檢查的 {1} 封郵件都與其來源相同。</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>複製在完成前已停止</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>已完成的信箱:{0}。未開始:{1}。再次執行以繼續:已完成的項目不會被重複複製。</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>已完成,但有項目需要檢視</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>順利複製的信箱:{0} / {1}。{2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>依信箱檢視</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>後續步驟</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>複製此摘要</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>依信箱顯示的結果</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>已複製的信箱</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>已複製的郵件</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>目標中已有</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>失敗的項目</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>已驗證相同</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>所需時間</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} / {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>無</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>未檢查</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>開啟結果檔案或記錄以查看原因,修正問題 (例如缺少權限或目標信箱尚不存在),然後選擇 [再次執行]。已完成的項目會被記住,因此不會重複複製。</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>在 Outlook 中開啟幾個目標信箱,檢查收件匣、寄件備份和您自己的資料夾。請抽查含附件的郵件。</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>在 Outlook 中開啟幾個目標信箱,尋找資料夾「{0}」。請抽查含附件的郵件。使用者可以將郵件移出該資料夾,也可以留在其中。</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>連絡人和行事曆已被計數,但尚未逐欄位比較。請開啟幾個目標信箱中的連絡人和行事曆進行檢查,尤其是週期性會議。</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>若要取得本次執行之後送達的郵件,請以相同設定選擇 [再次執行]。只會複製新郵件。</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>移轉完全結束後,請刪除用戶端密碼並在 Microsoft Entra 中移除應用程式註冊,因為它們可以存取租用戶中的每個信箱。</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy:{0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>已複製信箱:{0} / {1};已複製郵件:{2};目標中已有:{3};失敗項目:{4};耗時:{5}。</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>已複製信箱:{0} / {1};已複製郵件:{2};目標中已有:{3};失敗項目:{4};已驗證相同:{5} / {6};耗時:{7}。</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>應用程式註冊</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>應用程式註冊是此工具用來與租用戶中的 Microsoft 365 通訊的身分識別。您只需在 Microsoft Entra 系統管理中心為每個租用戶建立一次,然後以您認得的名稱儲存在此處,並在 [來源] 和 [目標] 步驟中選取。這裡的內容不會傳送到任何地方;僅為您的 Windows 使用者儲存。</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>新增</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>移除</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>名稱</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>任何有助於您區分它們的名稱,例如「Contoso (來源)」。</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>目錄 (租用戶) 識別碼</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>一個 GUID。位於 Entra 系統管理中心中該註冊的 [概觀] 頁面上。</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>應用程式 (用戶端) 識別碼</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>一個 GUID。同樣位於 [概觀] 頁面上。</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>用戶端密碼</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>來自 [憑證和密碼] 的密碼值 (而非其識別碼)。它讓應用程式不需任何人登入即可複製信箱。它已為您的 Windows 使用者加密,無法在其他電腦上讀取。只會在輸入時顯示;輸入新密碼即可取代。</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>已儲存密碼。</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>清除</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>建立方式:Microsoft Entra 系統管理中心 &gt; 應用程式註冊 &gt; 新增註冊 (單一租用戶)。開啟 [API 權限],新增 [來源] 和 [目標] 步驟中顯示的應用程式權限,然後 [授與管理員同意]。開啟 [憑證和密碼],建立 [新增用戶端密碼],並立即複製其值 (只會顯示一次)。將 [概觀] 頁面中的目錄 (租用戶) 識別碼和應用程式 (用戶端) 識別碼複製到此表單中。</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>新增註冊</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(未命名)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>移除註冊</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>要從此清單中移除「{0}」嗎?
+
+這只會在此處將它移除。Microsoft Entra 中的應用程式註冊不會受到影響。</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>檢查清單</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>請為每個註冊指定名稱。</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>「{0}」:租用戶識別碼和用戶端識別碼都必須是 GUID (例如 00000000-0000-0000-0000-000000000000)。</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>儲存失敗</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>無法儲存:{0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>設定</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>語言</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>與 Windows 相同</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>新語言會在您下次啟動 Smart Mailbox Copy 時生效。</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>主題</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>與 Windows 相同</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>淺色</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>深色</value></data>
+</root>

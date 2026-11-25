@@ -2,7 +2,7 @@
 
 *Copy Exchange Online mail between mailboxes and tenants*
 
-**Version 1.0.0  ·  November 2026**
+**Version 1.1.0  ·  November 2026**
 
 ---
 
@@ -140,11 +140,17 @@ Open **App registrations…** at the bottom left of the wizard, choose **Add**, 
 
 > **Note:** The same dialog is available from the **Manage…** button on the Source and Target steps.
 
+### Language and Theme
+
+Select **Settings** in the blue bar at the top to choose the display language (30 languages; the default follows your Windows display language) and the theme (light, dark, or the same as Windows). A theme applies at once; a new language applies the next time you start the app. The translations were produced with machine assistance and have not been reviewed by native speakers, so please report wording that reads wrongly. Log files, the results CSV files and the messages the copy engine writes for each mailbox stay in English.
+
+![The Settings dialog](docs/screenshots/14-settings.png)
+
 ---
 
 ## 5. Step-by-Step Guide
 
-Smart Mailbox Copy guides you through a nine-step wizard. The step list on the left shows your position, and you can return to any finished step at any time before a copy starts.
+Smart Mailbox Copy guides you through a nine-step wizard. The step bar across the top shows your position, and you can return to any finished step at any time before a copy starts: select it in the bar.
 
 > **Note:** The screenshots use fictional data (Contoso as the source tenant, Fabrikam as the target). To try the screens without a tenant, start the app with `SmartMailboxCopyApp.exe --demo`. Demo mode makes no network calls and saves nothing.
 

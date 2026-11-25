@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Đăng ký ứng dụng</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Lần chạy trước và báo cáo</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Cài đặt</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Thu nhỏ</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Phóng to hoặc khôi phục</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Đóng</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Các bước</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Hủy</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Lưu</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Quay lại</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Tiếp theo</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Bắt đầu</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Bắt đầu sao chép</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Xem kết quả</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Di chuyển mới</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Dừng</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Mở kết quả (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Mở danh sách mục (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Mở nhật ký</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Chạy lại (tiếp tục)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Chào mừng</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Nguồn</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Đích</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Hộp thư</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Khớp</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Tùy chọn</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Xem lại</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Sao chép</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Kết quả</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Chào mừng</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Tenant nguồn</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Tenant đích</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Chọn hộp thư</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Khớp hộp thư</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Tùy chọn</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Xem lại</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Sao chép</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Kết quả</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Chuyển thư giữa các tenant Microsoft 365: một hộp thư, một số hộp thư, hoặc tất cả.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Kết nối với tenant bạn sao chép TỪ đó. Tenant này chỉ được đọc; không có gì trong đó bị thay đổi.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Kết nối với tenant bạn sao chép ĐẾN đó. Thư được thêm vào đây; không có gì đã có sẵn bị thay đổi hoặc xóa.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Chọn các hộp thư cần sao chép. Dùng bộ lọc để thu hẹp danh sách, sau đó chọn những hộp thư bạn muốn.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Cho công cụ biết mỗi hộp thư nguồn sẽ vào hộp thư đích nào.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Chọn cách thư được đưa vào đích và những kiểm tra an toàn nào sẽ chạy.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Kiểm tra kế hoạch. Chưa có gì được sao chép.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Đang sao chép. Bạn có thể dừng bất cứ lúc nào; các mục đã xong được ghi nhớ nên bạn có thể tiếp tục sau.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Những gì đã được sao chép, những gì đã được kiểm tra và việc cần làm tiếp theo.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Kết nối với tenant nguồn để tiếp tục.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Kết nối với tenant đích để tiếp tục.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Chọn ít nhất một hộp thư để tiếp tục.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Ít nhất một dòng phải có trạng thái Sẵn sàng để tiếp tục.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Nhập tên thư mục để tiếp tục.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Kiểm tra bộ lọc thư: chọn ít nhất một thư mục, chọn một ngày và nhập kích thước lớn hơn 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Đang ước tính kích thước và thời gian (chỉ đọc). Nút Bắt đầu khả dụng khi hoàn tất, hoặc chọn Bỏ qua ước tính.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Chọn hộp ở trên để tiếp tục.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Công cụ này sao chép thư giữa các tenant Microsoft 365. Bạn có thể chuyển một hộp thư, một vài hộp thư đã chọn, hoặc tất cả, và sau đó nó kiểm tra từng thư so với bản gốc.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Công cụ sẽ làm và không làm gì</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Tenant nguồn chỉ được đọc. Không có gì trong đó bị thay đổi hoặc xóa.
+• Đích chỉ nhận các mục (thư, cùng sự kiện lịch và liên hệ nếu bạn chọn). Công cụ không bao giờ xóa hoặc thay đổi bất cứ thứ gì đã có sẵn.
+• Thư được sao chép hai lần sẽ bị bỏ qua, nên có thể lặp lại hoặc tiếp tục một lần chạy một cách an toàn.
+• Mỗi thư đã sao chép được so sánh với nguồn, từng trường một, và kết quả được báo cáo.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Những gì bạn cần trước khi bắt đầu</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Một đăng ký ứng dụng trong mỗi tenant (nguồn và đích), do quản trị viên toàn cầu thiết lập. Các bước tiếp theo chỉ rõ cần thêm quyền nào.
+2. Một bí mật ứng dụng khách cho mỗi đăng ký.
+3. Các hộp thư bạn muốn chuyển phải đã tồn tại trong tenant đích (hãy tạo người dùng và cấp giấy phép trước).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Cách hoạt động</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Công cụ dùng đăng ký ứng dụng, không phải đăng nhập của một người, nên có thể truy cập hộp thư của người khác mà không cần mật khẩu của họ. Vì đăng ký ứng dụng có các quyền này có thể truy cập mọi hộp thư trong tenant của nó, hãy giữ bí mật của nó và xóa đăng ký khi việc di chuyển hoàn tất.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Chọn Tiếp theo để kết nối tenant nguồn. Bạn có thể quay lại bất kỳ bước nào đã xong từ thanh các bước ở trên cùng.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Nguồn là tenant nơi thư hiện đang nằm. Smart Mailbox Copy đăng nhập bằng một đăng ký ứng dụng (không có ai đăng nhập) và đọc các hộp thư bạn chọn.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Đích là tenant nơi thư được chuyển đến. Các hộp thư phải đã tồn tại ở đó, có giấy phép. Công cụ chỉ thêm thư.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>Trong trung tâm quản trị Microsoft Entra: Đăng ký ứng dụng &gt; ứng dụng của bạn &gt; Quyền API &gt; Thêm quyền &gt; Microsoft Graph &gt; Quyền ứng dụng. Sau đó chọn Cấp sự đồng ý của quản trị viên.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Cùng vị trí như với nguồn: Quyền API &gt; Thêm quyền &gt; Microsoft Graph &gt; Quyền ứng dụng, sau đó Cấp sự đồng ý của quản trị viên.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>xuất; dùng quyền xuất nếu cổng thông tin liệt kê quyền đó</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Đăng ký ứng dụng</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Đăng ký ứng dụng Microsoft Entra đã lưu cho tenant này. Nếu chưa có trong danh sách, hãy chọn Quản lý và thêm vào.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Quản lý…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Các quyền mà đăng ký ứng dụng này cần</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Kết nối và liệt kê hộp thư</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Thao tác này đăng nhập bằng đăng ký ứng dụng, đọc danh sách hộp thư và kiểm tra những quyền ứng dụng nào đã được cấp cho ứng dụng. Nó không thay đổi gì. Quyền bạn vừa thêm có thể mất vài phút mới hiển thị: hãy đợi, rồi kết nối lại.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Tenant {0}  ·  ứng dụng {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>đã lưu bí mật ứng dụng khách</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>CHƯA lưu bí mật ứng dụng khách: hãy thêm trong Quản lý</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Chưa chọn gì.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Đang kết nối…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Đã kết nối. Số tài khoản có địa chỉ hộp thư được tìm thấy: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Hãy chọn một đăng ký ứng dụng trước.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Đăng ký này chưa có bí mật ứng dụng khách được lưu trên PC này. Chọn Quản lý và thêm vào.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Bí mật ứng dụng khách không hợp lệ. Có thể đó là ID của bí mật thay vì Giá trị của nó, hoặc là bí mật của ứng dụng khác. Hãy tạo bí mật mới và cập nhật trong Quản lý.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Bí mật ứng dụng khách đã hết hạn. Hãy tạo bí mật mới và cập nhật trong Quản lý.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Không tìm thấy ID ứng dụng (ứng dụng khách) đó trong tenant này. Hãy kiểm tra ID tenant và ID ứng dụng khách trong Quản lý.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Không tìm thấy ID tenant đó. Hãy kiểm tra trong Quản lý.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Ứng dụng thiếu quyền ứng dụng User.Read.All, hoặc chưa được cấp sự đồng ý của quản trị viên.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Các quyền ứng dụng đã cấp cho ứng dụng này:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (nhập/xuất và đọc)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>đọc thư</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>tạo thư mục trong đích</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>xuất và nhập các mục thư</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>đọc cây thư mục</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>liệt kê hộp thư</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>chỉ để sao chép lịch bổ sung</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>chỉ để sao chép thư mục liên hệ bổ sung</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  THIẾU: cần để {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  chưa được cấp ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Hãy thêm các quyền còn thiếu dưới dạng Quyền ứng dụng và cấp sự đồng ý của quản trị viên. Chúng có thể mất vài phút mới hiển thị.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Hiển thị các loại hộp thư bạn muốn, thu hẹp theo miền hoặc văn bản, rồi chọn những hộp thư cần sao chép. Các lựa chọn của bạn được giữ nguyên khi bạn đổi bộ lọc. Tài khoản không có giấy phép là hộp thư dùng chung, phòng họp hoặc thiết bị; Microsoft không cho biết loại nào.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Người dùng</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Dùng chung, phòng họp, thiết bị (không có giấy phép)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Khách</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Chỉ tài khoản đã bật</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Miền</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Tìm kiếm</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Tất cả miền</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Sao chép</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Tên</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Địa chỉ</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Loại</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Tài khoản</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Người dùng</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Dùng chung, phòng họp hoặc thiết bị (không có giấy phép)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Khách</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Đã bật</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Đã tắt</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Chọn tất cả mục đang hiển thị</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Bỏ chọn tất cả mục đang hiển thị</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Làm mới danh sách</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} đã chọn · hiển thị {1} trên {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} đã chọn nhưng bị bộ lọc ẩn</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Bộ lọc miền</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Tìm hộp thư</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Hộp thư nguồn</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Mỗi địa chỉ nguồn cần một hộp thư trong tenant đích. Chúng được khớp bằng cách đổi miền; hãy gõ địa chỉ đích khác ở bất kỳ dòng nào có tên khác nhau. Các dòng có trạng thái Sẵn sàng sẽ được sao chép; các dòng còn lại bị bỏ qua.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Miền đích</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Khớp tất cả dòng với miền này</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Nhập bản đồ (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Xuất bản đồ (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Hộp thư nguồn</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Hộp thư đích (có thể sửa)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Trạng thái</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Sẵn sàng</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Nhập địa chỉ đích</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Không phải địa chỉ email</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Dòng khác đang dùng đích này</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Không tìm thấy trong tenant đích</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} trên {1} sẵn sàng sao chép</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} sẽ bị bỏ qua cho đến khi được sửa</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Tệp CSV (*.csv)|*.csv|Tất cả tệp|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Nhập bản đồ nguồn,đích</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Tệp CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Xuất bản đồ</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} trên {1} dòng trong tệp khớp với hộp thư bạn đã chọn. Các dòng còn lại bị bỏ qua.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Đã nhập bản đồ</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Không thể đọc bản đồ</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Miền đích</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Bản đồ hộp thư</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Chỉ sự kiện lịch và liên hệ (không sao chép thư nào)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Một lần thử đầu tiên tốt, hoặc cách sao chép lịch riêng. Sự kiện được đưa vào Lịch mặc định của mỗi hộp thư đích và liên hệ vào Danh bạ mặc định của nó. Thao tác này thêm mục vĩnh viễn: công cụ không thể gỡ chúng sau đó.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Thư nên được đưa vào đâu?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Chỉ thư, vào một thư mục mới trong mỗi hộp thư đích (khuyến nghị)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Toàn bộ thư, gồm cả cấu trúc thư mục, được sao chép vào một thư mục mới duy nhất. An toàn nhất, và dễ xem lại hoặc xóa trong Outlook trước khi có ai bắt đầu dùng hộp thư. Sự kiện lịch và liên hệ không thể đặt vào đó, nên không được sao chép ở chế độ này.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Tên thư mục</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Thư đã di chuyển</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Hợp nhất vào các thư mục thật, kèm lịch và liên hệ</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>Thư vào đúng nơi mọi người mong đợi (Hộp thư đến vào Hộp thư đến, Mục đã gửi vào Mục đã gửi) và các thư mục khác được tạo lại bên cạnh. Thao tác này thêm mục vĩnh viễn: công cụ không có cách nào gỡ chúng sau đó.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Sao chép cả sự kiện lịch và liên hệ (mặc định và mọi lịch cùng thư mục liên hệ bổ sung)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Bỏ chọn để chỉ sao chép thư. Sự kiện, gồm cả cuộc họp lặp lại, được đếm nhưng chưa được so sánh từng trường.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Giới hạn nội dung sao chép (tùy chọn): không giới hạn, sao chép tất cả</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Giới hạn nội dung sao chép (tùy chọn): giới hạn đã bật: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Theo mặc định mọi thư mục và mọi thư đều được sao chép. Chỉ dùng các mục này để sao chép ít hơn. Chúng áp dụng cho mọi hộp thư, không bao giờ áp dụng cho sự kiện lịch và liên hệ, và thư bị bỏ qua không bao giờ bị thay đổi hay xóa trong nguồn.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Bỏ qua các thư mục này</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Thư mục bị bỏ qua kéo theo các thư mục con của nó.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Hộp thư đến</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Mục đã gửi</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Thư nháp</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Mục đã xóa</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Thư rác</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Lưu trữ</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Thư mục do mọi người tạo</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Chỉ thư được tạo vào hoặc sau</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Đây là ngày mỗi thư được tạo trong hộp thư, thường là ngày thư đến. Hãy kiểm tra một mẫu sau lần sao chép đầu tiên.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Bỏ qua thư lớn hơn</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Kiểm tra an toàn</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Bỏ qua thư đã có trong đích (để chạy lại không tạo bản trùng lặp)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>So sánh từng thư đã sao chép với nguồn sau đó (tốn thêm thời gian, khuyến nghị)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Cho phép thư mục đích đã có mục (các mục đã sao chép được thêm cạnh chúng)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Hợp nhất sẽ từ chối bắt đầu khi một thư mục đích, như Hộp thư đến hoặc Lịch, đã có mục, trừ khi tùy chọn này được chọn.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Nâng cao</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Bắt đầu lại: bỏ qua những gì các lần chạy trước đã sao chép (kiểm tra trùng lặp ở trên vẫn bảo vệ thư đích)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Lịch và thư mục liên hệ cần bỏ qua</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Mỗi dòng một tên, đúng như hiển thị trong Outlook. Các lịch và thư mục liên hệ bổ sung có tên này sẽ không được sao chép; thư mục liên hệ kéo theo các thư mục con của nó. Hãy dùng cho các lịch mà mọi người đăng ký, chẳng hạn lịch ngày lễ. Lịch Sinh nhật không bao giờ được sao chép (Outlook tạo nó từ danh bạ). Lịch và Danh bạ mặc định không bị ảnh hưởng.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Hộp thư không bao giờ được ghi vào</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Mỗi dòng một địa chỉ. Nếu một trong số này được chọn làm đích, việc sao chép cho nó sẽ bị từ chối.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Tên thư mục mới</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Ngày sớm nhất</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Thư lớn nhất tính bằng megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Hộp thư cần sao chép: {0}, từ "{1}" đến "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Chỉ sự kiện lịch và liên hệ được sao chép, vào Lịch và Danh bạ mặc định của mỗi hộp thư đích. Không có thư nào được sao chép.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>Thư vào các thư mục thật của mỗi hộp thư đích (Hộp thư đến, Mục đã gửi, Thư nháp…); các thư mục khác được tạo lại bên cạnh.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Chỉ thư được đưa vào một thư mục mới tên "{0}" trong mỗi hộp thư đích, gồm cả cấu trúc thư mục.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Lịch và thư mục liên hệ bị bỏ qua theo tên: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Sự kiện lịch và liên hệ: được sao chép vào Lịch và Danh bạ mặc định của mỗi hộp thư đích.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Sự kiện lịch và liên hệ: không được sao chép.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>Thư đã có trong đích sẽ bị bỏ qua.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Thư đã có trong đích KHÔNG được kiểm tra.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Bỏ qua: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Chỉ thư được tạo vào hoặc sau {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Thư lớn hơn {0} MB bị bỏ qua.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Mỗi thư đã sao chép được so sánh với nguồn sau đó.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Không so sánh sau đó.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Các hộp thư được sao chép lần lượt từng cái. Không có gì trong nguồn bị thay đổi.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Ước tính kích thước và thời gian</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Bỏ qua ước tính</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Hộp thư bị bỏ qua vì không tìm thấy hộp thư đích tương ứng: {0}. Hãy quay lại Khớp hộp thư để sửa.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Hộp thư đã chọn không có giấy phép (dùng chung, phòng họp hoặc thiết bị): {0}. Các thư mục thư của chúng được sao chép, lịch của chúng cũng vậy khi bật sao chép lịch. Các cài đặt tài nguyên như chính sách đặt chỗ thì không.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Thao tác này thêm sự kiện lịch và liên hệ vĩnh viễn. Công cụ này không có cách nào gỡ chúng.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Hợp nhất thêm mục vào các thư mục thật vĩnh viễn. Công cụ này không có cách nào gỡ chúng.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Tôi hiểu rằng hợp nhất thêm thư vào các thư mục thật và công cụ này không thể gỡ nó.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Việc ước tính cần các kết nối từ các bước trước.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Đang đọc kích thước các hộp thư ({0}); chỉ đọc, không có gì bị thay đổi…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Đã bỏ qua ước tính. Thanh tiến trình vẫn sẽ hiển thị ước tính khi việc sao chép đang diễn ra.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Không thể ước tính: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Khoảng {0} thư ({1} MB). Hộp thư: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Thời gian ước tính: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Dựa trên tốc độ đo được trong các thử nghiệm của chúng tôi với thư thông thường; tệp đính kèm rất lớn mất nhiều thời gian hơn. Các hộp thư được sao chép lần lượt từng cái. Nếu bạn dừng, lần chạy tiếp theo sẽ tiếp tục từ chỗ đã dừng.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Hộp thư không thể đọc: {0}. Chúng không có trong ước tính và có thể cũng sẽ lỗi khi sao chép. Lý do đầu tiên: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>dưới một phút</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} phút</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} giờ {1} phút</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Bắt đầu sao chép?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Bắt đầu sao chép ngay? Hộp thư: {0}.
+
+{1}
+
+Không có gì trong nguồn bị thay đổi. Bạn có thể dừng bất cứ lúc nào.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>Thư sẽ được thêm vào các thư mục thật của mỗi hộp thư đích. Công cụ này không thể gỡ nó.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>Thư sẽ được thêm vào thư mục mới "{0}" trong mỗi hộp thư đích.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Không thể bắt đầu</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Thiếu bí mật ứng dụng khách trên PC này. Hãy thêm trong Đăng ký ứng dụng.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Hãy sửa những mục này trước:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Đang sao chép hộp thư: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Đang bắt đầu…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Đã xong. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Mỗi thư đã được so sánh với nguồn.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Chọn một dòng để xem chi tiết, hoặc mở tệp kết quả.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Đã dừng do lỗi: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Mất {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} trên {2} hộp thư đã xong · {3} · {4} cho đến nay</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>còn khoảng {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>ước tính {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>đang ước tính thời gian…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Hộp thư {0} trên {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Hộp thư {0}: đã xử lý {1} trên {2} mục — {3} đã sao chép, {4} đã có sẵn, {5} thất bại</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Đang dừng sau mục hiện tại… các mục đã xong được ghi nhớ.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Hộp thư</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Chi tiết thư mục của hộp thư đang chạy</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Nhật ký</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Chỉ cảnh báo và lỗi</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} lỗi, {1} cảnh báo</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Đang sao chép</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Một lần sao chép đang chạy. Đóng bây giờ sẽ dừng nó (các mục đã xong được ghi nhớ nên bạn có thể tiếp tục).
+
+Vẫn đóng?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Tiến trình tổng thể</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Tiến trình hộp thư</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Sao chép sạch: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Cần xem lại: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Thất bại: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Chưa chạy: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Đăng nhập và xác minh tài khoản</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Nguồn (chỉ đọc): duyệt cây thư mục và liệt kê các mục</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Đích: xác định các thư mục mà thư sẽ vào</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Tạo lại cây thư mục và sao chép các mục (xuất từ nguồn, nhập vào đích)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Đối chiếu: so sánh số lượng mục theo từng thư mục</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Xác minh: so sánh từng thư đã sao chép với nguồn, từng trường một</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Đang chờ</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Đang sao chép…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Xong</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Cần xem lại</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Thất bại</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Chưa chạy</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Đã sao chép</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Đang sao chép</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} thất bại</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Số lượng khác nhau</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>thư mục người dùng</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Nguồn</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Đích</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Trạng thái</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Chi tiết (chọn để sao chép)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Thư mục</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Loại</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Mục</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Đã sao chép</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Đã có sẵn</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Thất bại</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Kết quả</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Đã xác minh giống hệt</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Ghi chú (chọn để sao chép)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Ghi chú</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Chi tiết</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Việc sao chép đã dừng</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Sao chép hoàn tất</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Hộp thư đã sao chép: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Hộp thư đã sao chép: {0}. Mỗi thư trong số {1} thư đã kiểm tra đều giống hệt nguồn.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Việc sao chép đã dừng trước khi xong</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Hộp thư đã xong: {0}. Chưa bắt đầu: {1}. Chạy lại để tiếp tục: các mục đã xong không bị sao chép hai lần.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Đã xong, có các mục cần xem lại</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Hộp thư sao chép sạch: {0} trên {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Theo từng hộp thư</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Việc cần làm tiếp theo</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Sao chép bản tóm tắt này</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Kết quả theo hộp thư</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Hộp thư đã sao chép</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Thư đã sao chép</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Đã có trong đích</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Mục thất bại</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Đã xác minh giống hệt</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Thời gian đã dùng</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} trên {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>không có</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>chưa kiểm tra</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Mở tệp kết quả hoặc nhật ký để xem lý do, khắc phục nguyên nhân (ví dụ thiếu quyền hoặc hộp thư đích chưa tồn tại), rồi chọn Chạy lại. Các mục đã xong được ghi nhớ, nên không có gì bị sao chép hai lần.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Mở một vài hộp thư đích trong Outlook và kiểm tra Hộp thư đến, Mục đã gửi và các thư mục riêng của bạn. Kiểm tra mẫu các thư có tệp đính kèm.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Mở một vài hộp thư đích trong Outlook và tìm thư mục "{0}". Kiểm tra mẫu các thư có tệp đính kèm. Mọi người có thể chuyển thư ra khỏi đó, hoặc để nguyên ở đó.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Danh bạ và lịch được đếm nhưng chưa được so sánh từng trường. Hãy mở Danh bạ và Lịch trong một vài hộp thư đích và kiểm tra, đặc biệt là các cuộc họp lặp lại.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Để lấy thư đến sau lần chạy này, hãy chọn Chạy lại với cùng cài đặt. Chỉ thư mới được sao chép.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Khi việc di chuyển hoàn toàn kết thúc, hãy xóa các bí mật ứng dụng khách và xóa các đăng ký ứng dụng trong Microsoft Entra, vì chúng có thể truy cập mọi hộp thư trong tenant.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Hộp thư đã sao chép: {0} trên {1}; thư đã sao chép: {2}; đã có trong đích: {3}; mục thất bại: {4}; thời gian: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Hộp thư đã sao chép: {0} trên {1}; thư đã sao chép: {2}; đã có trong đích: {3}; mục thất bại: {4}; đã xác minh giống hệt: {5} trên {6}; thời gian: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Đăng ký ứng dụng</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Đăng ký ứng dụng là danh tính mà công cụ này dùng để giao tiếp với Microsoft 365 trong một tenant. Bạn tạo nó một lần cho mỗi tenant trong trung tâm quản trị Microsoft Entra, sau đó lưu ở đây dưới một tên bạn dễ nhận ra và chọn nó ở các bước Nguồn và Đích. Không có gì ở đây được gửi đi đâu cả; dữ liệu chỉ được lưu cho người dùng Windows của bạn.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Thêm</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Xóa</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Tên</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Bất cứ tên nào giúp bạn phân biệt chúng, ví dụ "Contoso (nguồn)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID thư mục (tenant)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Một GUID. Nằm ở trang Tổng quan của đăng ký trong trung tâm quản trị Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID ứng dụng (ứng dụng khách)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Một GUID. Cũng nằm ở trang Tổng quan.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Bí mật ứng dụng khách</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Giá trị của bí mật (không phải ID của nó), từ Chứng chỉ &amp; bí mật. Nó cho phép ứng dụng sao chép hộp thư mà không cần ai đăng nhập. Nó được mã hóa cho người dùng Windows của bạn và không thể đọc trên PC khác. Nó chỉ hiển thị khi đang gõ; hãy gõ bí mật mới để thay thế.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Đã lưu một bí mật.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Xóa trắng</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Để tạo: trung tâm quản trị Microsoft Entra &gt; Đăng ký ứng dụng &gt; Đăng ký mới (một tenant). Mở Quyền API và thêm các Quyền ứng dụng được hiển thị ở các bước Nguồn và Đích, rồi Cấp sự đồng ý của quản trị viên. Mở Chứng chỉ &amp; bí mật, tạo Bí mật ứng dụng khách mới và sao chép ngay Giá trị của nó (chỉ hiển thị một lần). Sao chép ID thư mục (tenant) và ID ứng dụng (ứng dụng khách) từ trang Tổng quan vào biểu mẫu này.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Đăng ký mới</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(chưa đặt tên)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Xóa đăng ký</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Xóa "{0}" khỏi danh sách này?
+
+Thao tác này chỉ quên nó tại đây. Đăng ký ứng dụng trong Microsoft Entra không bị động đến.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Kiểm tra danh sách</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Hãy đặt tên cho mọi đăng ký.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": ID tenant và ID ứng dụng khách đều phải là GUID (ví dụ 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Lưu thất bại</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Không thể lưu: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Cài đặt</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Ngôn ngữ</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Giống Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Ngôn ngữ mới có hiệu lực vào lần bạn khởi động Smart Mailbox Copy tiếp theo.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Giao diện</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Giống Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Sáng</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Tối</value></data>
+</root>

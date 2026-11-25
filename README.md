@@ -81,6 +81,7 @@ A nine-step wizard with a short explanation on every screen:
 - **Field-by-field verification** — every copied message can be compared with its source afterward: dates, read state, flags, categories, importance, attachments, recipients and more
 - **Size and time estimate** before you start, an overall progress bar with time remaining while it runs, and a **Stop** button
 - **Results screen** with a results CSV, a per-item list (copied, skipped, failed, by item id), and the full log. Notes can be selected and copied
+- **Looks like the rest of the Smart Copy family** — a blue app bar, a step bar across the top, and light and dark themes. **Settings** in the app bar also switches the display language: 30 languages, including right-to-left layout for Arabic and Hebrew. The translations are machine-assisted and not yet reviewed by native speakers; logs and CSV files stay in English
 - **Saved app registrations** with each client secret encrypted for your Windows user (DPAPI), and a permission check that shows ✓ or ✗ for every permission the app needs
 - **Command line** for scripting: `copy`, `copy-tree`, `list-mailboxes` and `copy-batch`. Run it with no arguments for all options
 

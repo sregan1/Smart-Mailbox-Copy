@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>تسجيلات التطبيقات</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>عمليات التشغيل السابقة والتقارير</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>تصغير</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>تكبير أو استعادة</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>إغلاق</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>الخطوات</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>إلغاء</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>حفظ</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>رجوع</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>التالي</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>ابدأ الآن</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>بدء النسخ</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>عرض النتائج</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>ترحيل جديد</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>إيقاف</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>فتح النتائج (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>فتح قائمة العناصر (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>فتح السجل</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>تشغيل مرة أخرى (استئناف)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>مرحباً</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>المصدر</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>الهدف</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>صناديق</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>مطابقة</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>خيارات</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>مراجعة</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>نسخ</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>النتائج</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>مرحباً</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>المستأجر المصدر</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>المستأجر الهدف</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>اختيار صناديق البريد</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>مطابقة صناديق البريد</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>خيارات</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>مراجعة</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>نسخ</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>النتائج</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>انقل البريد بين مستأجري Microsoft 365: صندوق بريد واحد أو عدة صناديق أو الجميع.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>اتصل بالمستأجر الذي تنسخ منه. تتم قراءته فقط ولا يتغير فيه أي شيء.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>اتصل بالمستأجر الذي تنسخ إليه. تتم إضافة البريد هنا، ولا يتغير أو يُحذف أي شيء موجود فيه.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>اختر صناديق البريد المراد نسخها. استخدم عوامل التصفية لتضييق القائمة، ثم حدد الصناديق المطلوبة.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>حدد لأداة النسخ صندوق البريد الهدف الذي سيستقبل بريد كل صندوق بريد مصدر.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>اختر كيفية وصول البريد إلى الهدف وأي عمليات تحقق للسلامة يجب تشغيلها.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>راجع الخطة. لم يتم نسخ أي شيء بعد.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>جارٍ النسخ الآن. يمكنك الإيقاف في أي وقت؛ يتم تذكر العناصر المكتملة، لذا يمكنك الاستئناف لاحقاً.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>ما تم نسخه، وما تم التحقق منه، وما يجب فعله بعد ذلك.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>اتصل بالمستأجر المصدر للمتابعة.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>اتصل بالمستأجر الهدف للمتابعة.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>حدد صندوق بريد واحداً على الأقل للمتابعة.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>يجب أن يكون صف واحد على الأقل بحالة جاهز للمتابعة.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>أدخل اسم مجلد للمتابعة.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>راجع عوامل تصفية البريد: حدد مجلداً واحداً على الأقل، واختر تاريخاً، وأدخل حجماً أكبر من 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>جارٍ تقدير الحجم والوقت (للقراءة فقط). يتوفر زر البدء عند الانتهاء، أو اختر تخطي التقدير.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>حدد المربع أعلاه للمتابعة.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>تنسخ هذه الأداة البريد بين مستأجري Microsoft 365. يمكنك نقل صندوق بريد واحد أو عدد محدد منها أو الجميع، وتتحقق من كل رسالة مقارنةً بالأصل بعد ذلك.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>ما ستفعله الأداة وما لن تفعله</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• تتم قراءة المستأجر المصدر فقط. لا يتغير فيه أو يُحذف أي شيء.
+• لا يستقبل الهدف سوى العناصر (البريد، وأحداث التقويم وجهات الاتصال إذا اخترت ذلك). لا تحذف الأداة أو تغير أي شيء موجود فيه مطلقاً.
+• يتم تخطي الرسالة المنسوخة مرتين، لذا يمكن تكرار التشغيل أو استئنافه بأمان.
+• تتم مقارنة كل رسالة منسوخة بمصدرها، حقلاً بحقل، ويتم الإبلاغ بالنتيجة.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>ما تحتاج إليه قبل البدء</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. تسجيل تطبيق في كل مستأجر (المصدر والهدف)، يُعِدّه مسؤول عام. تعرض الخطوات التالية الأذونات المطلوب إضافتها بالضبط.
+2. سر عميل لكل تسجيل.
+3. يجب أن تكون صناديق البريد المراد نقلها موجودة مسبقاً في المستأجر الهدف (أنشئ المستخدمين وامنحهم التراخيص أولاً).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>كيف تعمل الأداة</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>تستخدم الأداة تسجيل التطبيق وليس تسجيل دخول شخص، لذا يمكنها الوصول إلى صناديق بريد الآخرين دون كلمات مرورهم. ولأن تسجيل التطبيق الذي يملك هذه الأذونات يمكنه الوصول إلى كل صندوق بريد في مستأجره، فاحتفظ بسره خاصاً واحذف التسجيل عند انتهاء الترحيل.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>حدد التالي للاتصال بالمستأجر المصدر. يمكنك العودة إلى أي خطوة مكتملة من شريط الخطوات في الأعلى.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>المصدر هو المستأجر الذي يوجد فيه البريد حالياً. يسجل Smart Mailbox Copy الدخول باستخدام تسجيل تطبيق (لا يسجل أي شخص الدخول) ويقرأ صناديق البريد التي تختارها.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>الهدف هو المستأجر الذي سيُنقل إليه البريد. يجب أن تكون صناديق البريد موجودة فيه مسبقاً، مع تراخيص. تضيف الأداة البريد فقط.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>في مركز إدارة Microsoft Entra: تسجيلات التطبيقات &gt; تطبيقك &gt; أذونات واجهة برمجة التطبيقات &gt; إضافة إذن &gt; Microsoft Graph &gt; أذونات التطبيق. ثم حدد منح موافقة المسؤول.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>في المكان نفسه المستخدم للمصدر: أذونات واجهة برمجة التطبيقات &gt; إضافة إذن &gt; Microsoft Graph &gt; أذونات التطبيق، ثم منح موافقة المسؤول.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>التصدير؛ استخدم إذن التصدير إذا عرضته البوابة</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>تسجيل التطبيق</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>تسجيل تطبيق Microsoft Entra المحفوظ لهذا المستأجر. إذا لم يكن في القائمة بعد، فاختر إدارة وأضفه.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>إدارة…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>الأذونات التي يحتاج إليها تسجيل التطبيق هذا</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>اتصال وسرد صناديق البريد</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>يسجل هذا الدخول باستخدام تسجيل التطبيق، ويقرأ قائمة صناديق البريد، ويتحقق من أذونات التطبيق الممنوحة للتطبيق. لا يغير أي شيء. قد يستغرق ظهور إذن أضفته للتو بضع دقائق: انتظر، ثم اتصل مرة أخرى.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>المستأجر {0}  ·  التطبيق {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>تم حفظ سر العميل</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>لا يوجد سر عميل محفوظ: أضف واحداً ضمن إدارة</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>لم يتم تحديد أي شيء.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>جارٍ الاتصال…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>تم الاتصال. الحسابات التي لها عنوان صندوق بريد: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>اختر تسجيل تطبيق أولاً.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>لا يوجد سر عميل محفوظ لهذا التسجيل على هذا الكمبيوتر. اختر إدارة وأضفه.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>سر العميل غير صالح. ربما يكون معرّف السر بدلاً من قيمته، أو سر تطبيق آخر. أنشئ سراً جديداً وحدّثه ضمن إدارة.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>انتهت صلاحية سر العميل. أنشئ سراً جديداً وحدّثه ضمن إدارة.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>لم يتم العثور على معرّف التطبيق (العميل) هذا في هذا المستأجر. تحقق من معرّفي المستأجر والعميل ضمن إدارة.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>لم يتم العثور على معرّف المستأجر هذا. تحقق منه ضمن إدارة.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>إذن التطبيق User.Read.All غير موجود في التطبيق، أو لم تتم الموافقة من المسؤول.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>أذونات التطبيق الممنوحة لهذا التطبيق:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (الاستيراد/التصدير والقراءة)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>قراءة البريد</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>إنشاء المجلدات في الهدف</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>تصدير عناصر البريد واستيرادها</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>قراءة شجرة المجلدات</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>سرد صناديق البريد</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>فقط لنسخ التقاويم الإضافية</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>فقط لنسخ مجلدات جهات الاتصال الإضافية</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  مفقود: مطلوب من أجل {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  غير ممنوح ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>أضف الأذونات المفقودة كأذونات تطبيق وامنح موافقة المسؤول. قد يستغرق ظهورها بضع دقائق.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>اعرض أنواع صناديق البريد التي تريدها، وضيّق النتائج حسب المجال أو النص، ثم حدد الصناديق المراد نسخها. تُحفظ تحديداتك أثناء تغيير عوامل التصفية. الحسابات غير المرخصة هي صناديق بريد مشتركة أو غرف أو معدات؛ ولا تحدد Microsoft أيها.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>المستخدمون</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>مشترك أو غرفة أو معدات (بدون ترخيص)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>الضيوف</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>الحسابات الممكّنة فقط</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>المجال</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>بحث</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>كل المجالات</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>نسخ</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>الاسم</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>العنوان</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>النوع</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>الحساب</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>مستخدم</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>مشترك أو غرفة أو معدات (بدون ترخيص)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>ضيف</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>ممكّن</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>معطّل</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>تحديد كل المعروض</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>إلغاء تحديد كل المعروض</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>تحديث القائمة</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>تم تحديد {0} · معروض {1} من {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} محددة لكنها مخفية بسبب عوامل التصفية</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>عامل تصفية المجال</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>بحث في صناديق البريد</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>صناديق البريد المصدر</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>يحتاج كل عنوان مصدر إلى صندوق بريد في المستأجر الهدف. تتم المطابقة باستبدال المجال؛ اكتب عنواناً هدفاً مختلفاً في أي صف تختلف فيه الأسماء. ستُنسخ الصفوف التي تحمل الحالة جاهز؛ أما الأخرى فتُستبعد.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>المجال الهدف</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>مطابقة كل الصفوف مع هذا المجال</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>استيراد التعيين (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>تصدير التعيين (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>صندوق البريد المصدر</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>صندوق البريد الهدف (قابل للتحرير)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>الحالة</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>جاهز</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>أدخل عنواناً هدفاً</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>ليس عنوان بريد إلكتروني</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>صف آخر يستخدم هذا الهدف</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>غير موجود في المستأجر الهدف</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} من {1} جاهز للنسخ</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · سيتم استبعاد {0} حتى يتم إصلاحها</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>ملفات CSV (*.csv)|*.csv|كل الملفات|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>استيراد تعيين المصدر والهدف</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>ملفات CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>تصدير التعيين</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>طابق {0} من {1} صفوف في الملف صندوق بريد حددته. تم تجاهل الباقي.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>تم استيراد التعيين</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>تعذرت قراءة التعيين</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>المجال الهدف</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>تعيين صناديق البريد</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>أحداث التقويم وجهات الاتصال فقط (دون نسخ أي بريد)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>اختبار أول جيد، أو طريقة لنسخ التقاويم بشكل منفصل. تذهب الأحداث إلى التقويم الافتراضي لكل صندوق بريد هدف وجهات الاتصال إلى جهات الاتصال الافتراضية فيه. تضيف هذه العملية عناصر بشكل دائم: لا تستطيع الأداة إزالتها بعد ذلك.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>أين يجب أن يذهب البريد؟</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>البريد فقط، في مجلد جديد واحد في كل صندوق بريد هدف (مستحسن)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>يُنسخ كل البريد، بما في ذلك بنية المجلدات، إلى مجلد جديد واحد. هذا هو الخيار الأكثر أماناً، ومن السهل مراجعته أو حذفه في Outlook قبل أن يبدأ أي شخص باستخدام صندوق البريد. لا يمكن وضع أحداث التقويم وجهات الاتصال فيه، لذا لا تُنسخ في هذا الوضع.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>اسم المجلد</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>البريد المرحَّل</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>دمج في المجلدات الفعلية، مع التقويم وجهات الاتصال</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>يصل البريد حيث يتوقعه الشخص (البريد الوارد إلى البريد الوارد، والعناصر المرسلة إلى العناصر المرسلة) وتُنشأ المجلدات الأخرى بجانبها. تضيف هذه العملية عناصر بشكل دائم: لا تملك الأداة وسيلة لإزالتها بعد ذلك.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>انسخ أيضاً أحداث التقويم وجهات الاتصال (الافتراضية وأي تقاويم ومجلدات جهات اتصال إضافية)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>ألغِ التحديد لنسخ البريد فقط. يتم عدّ الأحداث، بما فيها الاجتماعات المتكررة، لكن لا تتم مقارنتها حقلاً بحقل بعد.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>تحديد ما يتم نسخه (اختياري): لا توجد حدود، يتم نسخ كل شيء</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>تحديد ما يتم نسخه (اختياري): الحدود المفعّلة: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>يتم افتراضياً نسخ كل مجلد وكل رسالة. استخدم هذه الخيارات فقط لنسخ كمية أقل. تنطبق على كل صناديق البريد، ولا تنطبق أبداً على أحداث التقويم وجهات الاتصال، ولا يتغير البريد المستبعد أو يُحذف أبداً في المصدر.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>استبعاد هذه المجلدات</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>يؤدي استبعاد مجلد إلى استبعاد مجلداته الفرعية معه.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>البريد الوارد</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>العناصر المرسلة</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>المسودات</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>العناصر المحذوفة</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>البريد الإلكتروني العشوائي</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>الأرشيف</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>المجلدات التي أنشأها المستخدمون</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>البريد الذي أُنشئ في هذا التاريخ أو بعده فقط</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>هذا هو اليوم الذي أُنشئت فيه كل رسالة في صندوق البريد، وهو عادةً يوم وصولها. افحص عينة بعد النسخ الأول.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>تخطي الرسائل الأكبر من</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>عمليات التحقق للسلامة</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>تخطي البريد الموجود مسبقاً في الهدف (حتى لا يؤدي إعادة التشغيل إلى إنشاء نسخ مكررة)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>مقارنة كل رسالة منسوخة بمصدرها بعد ذلك (يزيد الوقت، مستحسن)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>السماح بمجلدات هدف تحتوي مسبقاً على عناصر (تُضاف العناصر المنسوخة إلى جانبها)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>يرفض الدمج البدء عندما يحتوي مجلد هدف، مثل البريد الوارد أو التقويم، على عناصر مسبقاً، ما لم يتم تحديد هذا الخيار.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>خيارات متقدمة</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>البدء من جديد: تجاهل ما نسخته عمليات التشغيل السابقة (يظل فحص التكرار أعلاه يحمي بريد الهدف)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>التقاويم ومجلدات جهات الاتصال المراد استبعادها</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>اسم واحد في كل سطر، تماماً كما يظهر في Outlook. لا يتم نسخ التقاويم الإضافية ومجلدات جهات الاتصال التي تحمل هذه الأسماء؛ ويؤدي استبعاد مجلد جهات اتصال إلى استبعاد مجلداته الفرعية. استخدمه للتقاويم التي يشترك فيها المستخدمون، مثل تقويم العطلات. لا يتم نسخ تقويم أعياد الميلاد أبداً (يبنيه Outlook من جهات الاتصال). لا يتأثر التقويم الافتراضي وجهات الاتصال الافتراضية.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>صناديق البريد التي يجب ألا تتم الكتابة إليها أبداً</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>عنوان واحد في كل سطر. إذا تم اختيار أحدها هدفاً، يُرفض النسخ إليه.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>اسم المجلد الجديد</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>أقدم تاريخ</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>أكبر رسالة بالميغابايت</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>صناديق البريد المراد نسخها: {0}، من "{1}" إلى "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>يتم نسخ أحداث التقويم وجهات الاتصال فقط، إلى التقويم وجهات الاتصال الافتراضيين في كل صندوق بريد هدف. لا يتم نسخ أي بريد.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>يذهب البريد إلى المجلدات الفعلية في كل صندوق بريد هدف (البريد الوارد، العناصر المرسلة، المسودات…)؛ وتُنشأ المجلدات الأخرى بجانبها.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>يذهب البريد فقط إلى مجلد جديد باسم "{0}" في كل صندوق بريد هدف، مع بنية المجلدات.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>التقاويم ومجلدات جهات الاتصال المستبعدة بالاسم: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>أحداث التقويم وجهات الاتصال: تُنسخ إلى التقويم وجهات الاتصال الافتراضيين في كل صندوق بريد هدف.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>أحداث التقويم وجهات الاتصال: لا تُنسخ.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>يتم تخطي البريد الموجود مسبقاً في الهدف.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>لا يتم التحقق من البريد الموجود مسبقاً في الهدف.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>مستبعد: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>البريد الذي أُنشئ في {0} أو بعده فقط.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>يتم تخطي الرسائل الأكبر من {0} MB.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>تتم مقارنة كل رسالة منسوخة بمصدرها بعد ذلك.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>لا توجد مقارنة بعد ذلك.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>تُنسخ صناديق البريد واحداً تلو الآخر. لا يتغير أي شيء في المصدر.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>تقدير الحجم والوقت</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>تخطي التقدير</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>صناديق البريد المستبعدة لعدم العثور على صندوق بريد هدف مطابق: {0}. ارجع إلى مطابقة صناديق البريد لإصلاحها.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>صناديق البريد المحددة بدون ترخيص (مشتركة أو غرف أو معدات): {0}. تُنسخ مجلدات بريدها، وكذلك تقويمها عند تشغيل نسخ التقويم. أما إعدادات الموارد مثل سياسات الحجز فلا تُنسخ.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>تضيف هذه العملية أحداث التقويم وجهات الاتصال بشكل دائم. لا تملك هذه الأداة وسيلة لإزالتها.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>يضيف الدمج عناصر إلى المجلدات الفعلية بشكل دائم. لا تملك هذه الأداة وسيلة لإزالتها.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>أدرك أن الدمج يضيف البريد إلى المجلدات الفعلية وأن هذه الأداة لا تستطيع إزالته.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>يحتاج التقدير إلى الاتصالات من الخطوات السابقة.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>جارٍ قراءة حجم صناديق البريد ({0})؛ للقراءة فقط، ولا يتغير أي شيء…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>تم تخطي التقدير. سيظهر شريط التقدم تقديراً بمجرد بدء النسخ.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>تعذر إجراء التقدير: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>حوالي {0} رسالة ({1} MB). صناديق البريد: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>الوقت المقدر: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>بناءً على السرعات المقاسة في اختباراتنا مع رسائل عادية؛ وتستغرق المرفقات الكبيرة جداً وقتاً أطول. تُنسخ صناديق البريد واحداً تلو الآخر. إذا أوقفت العملية، فسيستأنف التشغيل التالي من حيث توقف.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>صناديق البريد التي تعذرت قراءتها: {0}. وهي غير مشمولة في التقدير ومن المرجح أن تفشل في النسخ أيضاً. السبب الأول: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>أقل من دقيقة</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} د</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} س {1} د</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>بدء النسخ؟</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>هل تريد بدء النسخ الآن؟ صناديق البريد: {0}.
+
+{1}
+
+لا يتغير أي شيء في المصدر. يمكنك الإيقاف في أي وقت.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>ستتم إضافة البريد إلى المجلدات الفعلية في كل صندوق بريد هدف. لا يمكن لهذه الأداة إزالته.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>ستتم إضافة البريد في مجلد جديد "{0}" في كل صندوق بريد هدف.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>يتعذر البدء</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>سر العميل مفقود على هذا الكمبيوتر. أضفه ضمن تسجيلات التطبيقات.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>أصلح هذه الأمور أولاً:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>جارٍ نسخ صناديق البريد: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>جارٍ البدء…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>اكتمل. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>تمت مقارنة كل رسالة بمصدرها.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>حدد صفاً للاطلاع على التفاصيل، أو افتح ملف النتائج.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>توقفت العملية بسبب خطأ: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>استغرقت {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · اكتمل {1} من {2} صناديق بريد · {3} · {4} حتى الآن</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>متبقٍ حوالي {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>المقدر {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>جارٍ تقدير الوقت…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>صندوق البريد {0} من {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>صندوق البريد {0}: تمت معالجة {1} من {2} عنصراً — {3} منسوخ، {4} موجود مسبقاً، {5} فشل</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>جارٍ الإيقاف بعد العنصر الحالي… يتم تذكر العناصر المكتملة.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>صناديق البريد</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>تفاصيل المجلدات لصندوق البريد قيد التشغيل</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>السجل</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>التحذيرات والأخطاء فقط</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} أخطاء، {1} تحذيرات</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>النسخ قيد التقدم</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>عملية نسخ قيد التشغيل. سيؤدي الإغلاق الآن إلى إيقافها (يتم تذكر العناصر المكتملة، لذا يمكنك الاستئناف).
+
+هل تريد الإغلاق على أي حال؟</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>التقدم الإجمالي</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>تقدم صناديق البريد</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>نُسخ دون مشاكل: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>يحتاج إلى مراجعة: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>فشل: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>لم يتم التشغيل: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>تسجيل الدخول والتحقق من الحسابات</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>المصدر (للقراءة فقط): استعراض شجرة المجلدات وسرد العناصر</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>الهدف: تحديد موقع المجلدات التي سيذهب إليها البريد</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>إعادة إنشاء الشجرة ونسخ العناصر (تصدير من المصدر، استيراد إلى الهدف)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>التسوية: مقارنة أعداد العناصر لكل مجلد</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>التحقق: مقارنة كل رسالة منسوخة بمصدرها، حقلاً بحقل</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>في الانتظار</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>جارٍ النسخ…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>تم</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>يحتاج إلى مراجعة</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>فشل</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>لم يتم التشغيل</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>تم النسخ</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>جارٍ النسخ</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>فشل {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>الأعداد مختلفة</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>مجلد مستخدم</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>المصدر</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>الهدف</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>الحالة</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>التفاصيل (حدد للنسخ)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>المجلد</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>النوع</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>العناصر</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>المنسوخ</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>موجود مسبقاً</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>الفاشل</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>النتيجة</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>متطابق تم التحقق منه</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>ملاحظات (حدد للنسخ)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>ملاحظات</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>التفاصيل</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>توقف النسخ</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>اكتمل النسخ</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>صناديق البريد المنسوخة: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>صناديق البريد المنسوخة: {0}. كانت كل رسالة من الرسائل الـ {1} التي تم فحصها مطابقة لمصدرها.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>توقف النسخ قبل أن يكتمل</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>صناديق البريد المكتملة: {0}. لم تبدأ: {1}. شغّل مرة أخرى للمتابعة: لا تُنسخ العناصر المكتملة مرتين.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>اكتمل، مع عناصر تحتاج إلى مراجعة</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>صناديق البريد المنسوخة دون مشاكل: {0} من {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>صندوق بريد تلو الآخر</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>ما يجب فعله بعد ذلك</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>نسخ هذا الملخص</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>النتائج حسب صندوق البريد</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>صناديق البريد المنسوخة</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>الرسائل المنسوخة</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>موجود مسبقاً في الهدف</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>العناصر الفاشلة</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>متطابق تم التحقق منه</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>الوقت المستغرق</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} من {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>لا شيء</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>لم يتم الفحص</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>افتح ملف النتائج أو السجل لمعرفة السبب، وأصلح السبب (مثلاً إذن مفقود أو صندوق بريد هدف غير موجود بعد)، ثم اختر تشغيل مرة أخرى. يتم تذكر العناصر المكتملة، لذا لا يُنسخ أي شيء مرتين.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>افتح بعض صناديق البريد الهدف في Outlook وافحص البريد الوارد والعناصر المرسلة ومجلداتك الخاصة. افحص عينات من الرسائل التي تحتوي على مرفقات.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>افتح بعض صناديق البريد الهدف في Outlook وابحث عن المجلد "{0}". افحص عينات من الرسائل التي تحتوي على مرفقات. يمكن للمستخدمين نقل البريد خارجه، أو تركه فيه.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>يتم عدّ جهات الاتصال والتقويم لكن لا تتم مقارنتها حقلاً بحقل بعد. افتح جهات الاتصال والتقويم في بعض صناديق البريد الهدف وافحصها، وخاصة الاجتماعات المتكررة.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>لالتقاط البريد الذي وصل بعد هذا التشغيل، اختر تشغيل مرة أخرى بالإعدادات نفسها. لا يُنسخ سوى البريد الجديد.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>عند اكتمال الترحيل تماماً، احذف أسرار العميل وأزل تسجيلات التطبيقات في Microsoft Entra، لأنها تستطيع الوصول إلى كل صندوق بريد في المستأجر.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>صناديق البريد المنسوخة: {0} من {1}؛ الرسائل المنسوخة: {2}؛ الموجودة مسبقاً في الهدف: {3}؛ العناصر الفاشلة: {4}؛ الوقت: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>صناديق البريد المنسوخة: {0} من {1}؛ الرسائل المنسوخة: {2}؛ الموجودة مسبقاً في الهدف: {3}؛ العناصر الفاشلة: {4}؛ المتطابقة التي تم التحقق منها: {5} من {6}؛ الوقت: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>تسجيلات التطبيقات</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>تسجيل التطبيق هو الهوية التي تستخدمها هذه الأداة للتواصل مع Microsoft 365 في مستأجر. تنشئه مرة واحدة لكل مستأجر في مركز إدارة Microsoft Entra، ثم تحفظه هنا باسم تتعرف عليه وتختاره في خطوتي المصدر والهدف. لا يُرسل أي شيء من هنا إلى أي مكان؛ بل يُخزَّن لمستخدم Windows الخاص بك فقط.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>إضافة</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>إزالة</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>الاسم</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>أي اسم يساعدك على التمييز بينها، مثل "Contoso (المصدر)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>معرّف الدليل (المستأجر)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>GUID. في صفحة نظرة عامة للتسجيل في مركز إدارة Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>معرّف التطبيق (العميل)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>GUID. وهو أيضاً في صفحة نظرة عامة.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>سر العميل</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>قيمة السر (وليس معرّفه)، من الشهادات والأسرار. يتيح للتطبيق نسخ صناديق البريد دون أن يسجل أي شخص الدخول. وهو مشفّر لمستخدم Windows الخاص بك ولا يمكن قراءته على كمبيوتر آخر. يظهر فقط أثناء كتابته؛ اكتب سراً جديداً لاستبداله.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>تم حفظ سر.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>مسح</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>لإنشاء واحد: مركز إدارة Microsoft Entra &gt; تسجيلات التطبيقات &gt; تسجيل جديد (مستأجر واحد). افتح أذونات واجهة برمجة التطبيقات وأضف أذونات التطبيق المعروضة في خطوتي المصدر والهدف، ثم امنح موافقة المسؤول. افتح الشهادات والأسرار، وأنشئ سر عميل جديداً، وانسخ قيمته فوراً (تظهر مرة واحدة فقط). انسخ معرّف الدليل (المستأجر) ومعرّف التطبيق (العميل) من صفحة نظرة عامة إلى هذا النموذج.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>تسجيل جديد</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(بلا اسم)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>إزالة التسجيل</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>هل تريد إزالة "{0}" من هذه القائمة؟
+
+يؤدي هذا إلى نسيانه هنا فقط. لا يتأثر تسجيل التطبيق في Microsoft Entra.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>تحقق من القائمة</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>أعطِ كل تسجيل اسماً.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": يجب أن يكون معرّف المستأجر ومعرّف العميل كلاهما GUID (مثل 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>فشل الحفظ</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>تعذر الحفظ: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>الإعدادات</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>اللغة</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>مثل Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>يسري تغيير اللغة عند التشغيل التالي لـ Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>المظهر</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>مثل Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>فاتح</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>داكن</value></data>
+</root>

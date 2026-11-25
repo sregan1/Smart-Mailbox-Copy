@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>การลงทะเบียนแอป</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>การรันก่อนหน้าและรายงาน</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>การตั้งค่า</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>ย่อให้เล็กสุด</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>ขยายให้ใหญ่สุดหรือคืนค่า</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>ปิด</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>ขั้นตอน</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>ยกเลิก</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>บันทึก</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>ย้อนกลับ</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>ถัดไป</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>เริ่มต้นใช้งาน</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>เริ่มคัดลอก</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>ดูผลลัพธ์</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>การย้ายใหม่</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>หยุด</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>เปิดผลลัพธ์ (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>เปิดรายการรายการย่อย (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>เปิดบันทึก</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>รันอีกครั้ง (ต่อจากเดิม)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>ยินดีต้อนรับ</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>ต้นทาง</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>ปลายทาง</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>กล่องจดหมาย</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>จับคู่</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>ตัวเลือก</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>ตรวจทาน</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>คัดลอก</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>ผลลัพธ์</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>ยินดีต้อนรับ</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>ผู้เช่าต้นทาง</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>ผู้เช่าปลายทาง</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>เลือกกล่องจดหมาย</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>จับคู่กล่องจดหมาย</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>ตัวเลือก</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>ตรวจทาน</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>คัดลอก</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>ผลลัพธ์</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>ย้ายอีเมลระหว่างผู้เช่า Microsoft 365 ได้ทั้งกล่องจดหมายเดียว หลายกล่อง หรือของทุกคน</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>เชื่อมต่อกับผู้เช่าที่คุณจะคัดลอกจาก ระบบจะอ่านข้อมูลเท่านั้น และจะไม่มีการเปลี่ยนแปลงใดๆ</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>เชื่อมต่อกับผู้เช่าที่คุณจะคัดลอกไปยัง ระบบจะเพิ่มอีเมลที่นี่ และจะไม่เปลี่ยนแปลงหรือลบสิ่งที่มีอยู่แล้ว</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>เลือกกล่องจดหมายที่จะคัดลอก ใช้ตัวกรองเพื่อจำกัดรายการให้แคบลง แล้วเลือกกล่องที่ต้องการ</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>ระบุว่ากล่องจดหมายต้นทางแต่ละกล่องจะไปยังกล่องจดหมายปลายทางใด</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>เลือกวิธีวางอีเมลในปลายทางและการตรวจสอบความปลอดภัยที่จะทำ</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>ตรวจสอบแผน ยังไม่มีการคัดลอกใดๆ</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>กำลังคัดลอก คุณหยุดได้ทุกเมื่อ รายการที่เสร็จแล้วจะถูกจดจำไว้ จึงสามารถทำต่อภายหลังได้</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>สิ่งที่คัดลอก สิ่งที่ตรวจสอบ และสิ่งที่ควรทำต่อไป</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>เชื่อมต่อกับผู้เช่าต้นทางเพื่อดำเนินการต่อ</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>เชื่อมต่อกับผู้เช่าปลายทางเพื่อดำเนินการต่อ</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>เลือกกล่องจดหมายอย่างน้อยหนึ่งกล่องเพื่อดำเนินการต่อ</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>ต้องมีอย่างน้อยหนึ่งแถวที่แสดงสถานะพร้อมจึงจะดำเนินการต่อได้</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>ป้อนชื่อโฟลเดอร์เพื่อดำเนินการต่อ</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>ตรวจสอบตัวกรองอีเมล: เลือกโฟลเดอร์อย่างน้อยหนึ่งโฟลเดอร์ ระบุวันที่ และป้อนขนาดที่มากกว่า 0</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>กำลังประเมินขนาดและเวลา (อ่านอย่างเดียว) จะเริ่มได้เมื่อเสร็จสิ้น หรือเลือกข้ามการประเมิน</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>เลือกกล่องกาเครื่องหมายด้านบนเพื่อดำเนินการต่อ</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>เครื่องมือนี้คัดลอกอีเมลระหว่างผู้เช่า Microsoft 365 คุณสามารถย้ายกล่องจดหมายเดียว หลายกล่องที่เลือก หรือของทุกคน และเครื่องมือจะตรวจสอบทุกข้อความเทียบกับต้นฉบับหลังจากนั้น</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>สิ่งที่ทำและไม่ทำ</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• ผู้เช่าต้นทางจะถูกอ่านเท่านั้น จะไม่มีการเปลี่ยนแปลงหรือลบสิ่งใด
+• ปลายทางจะได้รับเฉพาะรายการ (อีเมล และเหตุการณ์ในปฏิทินกับผู้ติดต่อหากคุณเลือก) เครื่องมือจะไม่ลบหรือเปลี่ยนแปลงสิ่งที่มีอยู่แล้ว
+• ข้อความที่คัดลอกสองครั้งจะถูกข้าม ดังนั้นจึงรันซ้ำหรือทำต่อได้อย่างปลอดภัย
+• ทุกข้อความที่คัดลอกจะถูกเปรียบเทียบกับต้นฉบับทีละฟิลด์ และรายงานผลลัพธ์</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>สิ่งที่ต้องมีก่อนเริ่มต้น</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. การลงทะเบียนแอปในแต่ละผู้เช่า (ต้นทางและปลายทาง) ซึ่งตั้งค่าโดยผู้ดูแลระบบส่วนกลาง ขั้นตอนถัดไปจะแสดงสิทธิ์ที่ต้องเพิ่มอย่างชัดเจน
+2. ข้อมูลลับไคลเอ็นต์สำหรับแต่ละการลงทะเบียน
+3. กล่องจดหมายที่คุณต้องการย้ายต้องมีอยู่ในผู้เช่าปลายทางแล้ว (สร้างผู้ใช้และกำหนดสิทธิ์การใช้งานก่อน)</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>วิธีการทำงาน</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>เครื่องมือใช้การลงทะเบียนแอป ไม่ใช่การลงชื่อเข้าใช้ของบุคคล จึงเข้าถึงกล่องจดหมายของผู้อื่นได้โดยไม่ต้องใช้รหัสผ่านของพวกเขา เนื่องจากการลงทะเบียนแอปที่มีสิทธิ์เหล่านี้เข้าถึงทุกกล่องจดหมายในผู้เช่าได้ โปรดเก็บข้อมูลลับไว้เป็นส่วนตัวและลบการลงทะเบียนเมื่อการย้ายเสร็จสิ้น</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>เลือกถัดไปเพื่อเชื่อมต่อกับผู้เช่าต้นทาง คุณสามารถกลับไปยังขั้นตอนที่เสร็จแล้วได้จากแถบขั้นตอนด้านบน</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>ต้นทางคือผู้เช่าที่มีอีเมลอยู่ในปัจจุบัน Smart Mailbox Copy ลงชื่อเข้าใช้ด้วยการลงทะเบียนแอป (ไม่มีบุคคลลงชื่อเข้าใช้) และอ่านกล่องจดหมายที่คุณเลือก</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>ปลายทางคือผู้เช่าที่อีเมลจะถูกย้ายไป กล่องจดหมายต้องมีอยู่แล้วพร้อมสิทธิ์การใช้งาน เครื่องมือจะเพิ่มอีเมลเท่านั้น</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>ในศูนย์การจัดการ Microsoft Entra: การลงทะเบียนแอป &gt; แอปของคุณ &gt; สิทธิ์ API &gt; เพิ่มสิทธิ์ &gt; Microsoft Graph &gt; สิทธิ์ของแอปพลิเคชัน จากนั้นเลือกให้ความยินยอมของผู้ดูแลระบบ</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>ตำแหน่งเดียวกับต้นทาง: สิทธิ์ API &gt; เพิ่มสิทธิ์ &gt; Microsoft Graph &gt; สิทธิ์ของแอปพลิเคชัน แล้วเลือกให้ความยินยอมของผู้ดูแลระบบ</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>ส่งออก ใช้สิทธิ์การส่งออกหากพอร์ทัลแสดงไว้</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>การลงทะเบียนแอป</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>การลงทะเบียนแอป Microsoft Entra ที่บันทึกไว้สำหรับผู้เช่านี้ หากยังไม่อยู่ในรายการ ให้เลือกจัดการแล้วเพิ่ม</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>จัดการ…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>สิทธิ์ที่การลงทะเบียนแอปนี้ต้องใช้</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>เชื่อมต่อและแสดงรายการกล่องจดหมาย</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>ขั้นตอนนี้ลงชื่อเข้าใช้ด้วยการลงทะเบียนแอป อ่านรายการกล่องจดหมาย และตรวจสอบว่าแอปได้รับสิทธิ์ของแอปพลิเคชันใดบ้าง โดยไม่เปลี่ยนแปลงสิ่งใด สิทธิ์ที่เพิ่งเพิ่มอาจใช้เวลาสองสามนาทีจึงจะแสดง โปรดรอแล้วเชื่อมต่ออีกครั้ง</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>ผู้เช่า {0}  ·  แอปพลิเคชัน {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>บันทึกข้อมูลลับไคลเอ็นต์แล้ว</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>ไม่มีข้อมูลลับไคลเอ็นต์ที่บันทึกไว้: เพิ่มได้ในจัดการ</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>ไม่ได้เลือกสิ่งใด</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>กำลังเชื่อมต่อ…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>เชื่อมต่อแล้ว พบบัญชีที่มีที่อยู่กล่องจดหมาย: {0}</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>เลือกการลงทะเบียนแอปก่อน</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>การลงทะเบียนนี้ไม่มีข้อมูลลับไคลเอ็นต์ที่บันทึกไว้ในพีซีเครื่องนี้ เลือกจัดการแล้วเพิ่ม</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>ข้อมูลลับไคลเอ็นต์ไม่ถูกต้อง อาจเป็น ID ของข้อมูลลับแทนที่จะเป็นค่า หรือเป็นข้อมูลลับของแอปอื่น สร้างข้อมูลลับใหม่แล้วอัปเดตในจัดการ</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>ข้อมูลลับไคลเอ็นต์หมดอายุแล้ว สร้างข้อมูลลับใหม่แล้วอัปเดตในจัดการ</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>ไม่พบ ID แอปพลิเคชัน (ไคลเอ็นต์) นั้นในผู้เช่านี้ ตรวจสอบ ID ผู้เช่าและ ID ไคลเอ็นต์ในจัดการ</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>ไม่พบ ID ผู้เช่านั้น ตรวจสอบในจัดการ</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>แอปไม่มีสิทธิ์ของแอปพลิเคชัน User.Read.All หรือยังไม่ได้ให้ความยินยอมของผู้ดูแลระบบ</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>สิทธิ์ของแอปพลิเคชันที่ให้แก่แอปนี้:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (นำเข้า/ส่งออกและอ่าน)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>อ่านอีเมล</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>สร้างโฟลเดอร์ในปลายทาง</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>ส่งออกและนำเข้ารายการอีเมล</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>อ่านโครงสร้างโฟลเดอร์</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>แสดงรายการกล่องจดหมาย</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>เฉพาะเมื่อคัดลอกปฏิทินเพิ่มเติม</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>เฉพาะเมื่อคัดลอกโฟลเดอร์ผู้ติดต่อเพิ่มเติม</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  ขาดหาย: จำเป็นสำหรับ {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  ไม่ได้รับสิทธิ์ ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>เพิ่มสิทธิ์ที่ขาดหายเป็นสิทธิ์ของแอปพลิเคชัน และให้ความยินยอมของผู้ดูแลระบบ อาจใช้เวลาสองสามนาทีจึงจะแสดง</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>แสดงประเภทกล่องจดหมายที่คุณต้องการ จำกัดด้วยโดเมนหรือข้อความ แล้วเลือกกล่องที่จะคัดลอก ตัวเลือกของคุณจะยังคงอยู่เมื่อเปลี่ยนตัวกรอง บัญชีที่ไม่มีสิทธิ์การใช้งานคือกล่องจดหมายที่แชร์ ห้อง หรืออุปกรณ์ แต่ Microsoft ไม่ได้ระบุว่าเป็นประเภทใด</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>ผู้ใช้</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>ที่แชร์ ห้อง อุปกรณ์ (ไม่มีสิทธิ์การใช้งาน)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>ผู้เยี่ยมชม</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>เฉพาะบัญชีที่เปิดใช้งาน</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>โดเมน</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>ค้นหา</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>ทุกโดเมน</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>คัดลอก</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>ชื่อ</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>ที่อยู่</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>ประเภท</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>บัญชี</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>ผู้ใช้</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>ที่แชร์ ห้อง หรืออุปกรณ์ (ไม่มีสิทธิ์การใช้งาน)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>ผู้เยี่ยมชม</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>เปิดใช้งาน</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>ปิดใช้งาน</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>เลือกทั้งหมดที่แสดง</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>ยกเลิกการเลือกทั้งหมดที่แสดง</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>รีเฟรชรายการ</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>เลือกแล้ว {0} · แสดง {1} จาก {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · เลือกแล้ว {0} แต่ถูกซ่อนโดยตัวกรอง</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>ตัวกรองโดเมน</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>ค้นหากล่องจดหมาย</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>กล่องจดหมายต้นทาง</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>ที่อยู่ต้นทางแต่ละรายการต้องมีกล่องจดหมายในผู้เช่าปลายทาง ระบบจับคู่โดยสลับโดเมน พิมพ์ที่อยู่ปลายทางอื่นในแถวที่ชื่อไม่ตรงกัน แถวที่แสดงสถานะพร้อมจะถูกคัดลอก ส่วนแถวอื่นจะถูกละไว้</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>โดเมนปลายทาง</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>จับคู่ทุกแถวกับโดเมนนี้</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>นำเข้าการแมป (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>ส่งออกการแมป (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>กล่องจดหมายต้นทาง</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>กล่องจดหมายปลายทาง (แก้ไขได้)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>สถานะ</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>พร้อม</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>ป้อนที่อยู่ปลายทาง</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>ไม่ใช่ที่อยู่อีเมล</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>แถวอื่นใช้ปลายทางนี้อยู่</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>ไม่พบในผู้เช่าปลายทาง</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>พร้อมคัดลอก {0} จาก {1}</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} จะถูกละไว้จนกว่าจะแก้ไข</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>ไฟล์ CSV (*.csv)|*.csv|ไฟล์ทั้งหมด|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>นำเข้าการแมปต้นทาง,ปลายทาง</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>ไฟล์ CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>ส่งออกการแมป</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} จาก {1} แถวในไฟล์ตรงกับกล่องจดหมายที่คุณเลือก แถวอื่นถูกละเว้น</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>นำเข้าการแมปแล้ว</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>ไม่สามารถอ่านการแมปได้</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>โดเมนปลายทาง</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>การแมปกล่องจดหมาย</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>เฉพาะเหตุการณ์ในปฏิทินและผู้ติดต่อ (ไม่คัดลอกอีเมล)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>เหมาะสำหรับการทดสอบครั้งแรก หรือการคัดลอกปฏิทินแยกต่างหาก เหตุการณ์จะเข้าสู่ปฏิทินเริ่มต้นของแต่ละกล่องจดหมายปลายทาง และผู้ติดต่อจะเข้าสู่ผู้ติดต่อเริ่มต้น การดำเนินการนี้เพิ่มรายการอย่างถาวร เครื่องมือไม่สามารถลบรายการเหล่านั้นภายหลังได้</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>ควรวางอีเมลไว้ที่ใด</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>เฉพาะอีเมล ในโฟลเดอร์ใหม่หนึ่งโฟลเดอร์ในแต่ละกล่องจดหมายปลายทาง (แนะนำ)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>อีเมลทั้งหมดพร้อมโครงสร้างโฟลเดอร์จะถูกคัดลอกไปยังโฟลเดอร์ใหม่หนึ่งโฟลเดอร์ ปลอดภัยที่สุด และตรวจทานหรือลบได้ง่ายใน Outlook ก่อนที่ใครจะเริ่มใช้กล่องจดหมาย เหตุการณ์ในปฏิทินและผู้ติดต่อไม่สามารถวางในโฟลเดอร์นี้ได้ จึงไม่ถูกคัดลอกในโหมดนี้</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>ชื่อโฟลเดอร์</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>อีเมลที่ย้ายแล้ว</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>รวมเข้ากับโฟลเดอร์จริง พร้อมปฏิทินและผู้ติดต่อ</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>อีเมลจะไปอยู่ในที่ที่ผู้ใช้คาดหวัง (กล่องจดหมายเข้าไปยังกล่องจดหมายเข้า รายการที่ส่งไปยังรายการที่ส่ง) และโฟลเดอร์อื่นจะถูกสร้างใหม่ข้างกัน การดำเนินการนี้เพิ่มรายการอย่างถาวร เครื่องมือไม่มีวิธีลบรายการเหล่านั้นภายหลัง</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>คัดลอกเหตุการณ์ในปฏิทินและผู้ติดต่อด้วย (ค่าเริ่มต้นและปฏิทินกับโฟลเดอร์ผู้ติดต่อเพิ่มเติมทั้งหมด)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>ยกเลิกการเลือกเพื่อคัดลอกเฉพาะอีเมล เหตุการณ์ รวมถึงการประชุมที่เกิดซ้ำ จะนับจำนวนแต่ยังไม่เปรียบเทียบทีละฟิลด์</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>จำกัดสิ่งที่คัดลอก (ไม่บังคับ): ไม่มีการจำกัด คัดลอกทุกอย่าง</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>จำกัดสิ่งที่คัดลอก (ไม่บังคับ): เปิดใช้การจำกัด: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>ตามค่าเริ่มต้น ทุกโฟลเดอร์และทุกข้อความจะถูกคัดลอก ใช้ตัวเลือกเหล่านี้เมื่อต้องการคัดลอกน้อยลงเท่านั้น ตัวเลือกจะมีผลกับทุกกล่องจดหมาย แต่ไม่มีผลกับเหตุการณ์ในปฏิทินและผู้ติดต่อ และอีเมลที่ถูกละไว้จะไม่ถูกเปลี่ยนแปลงหรือลบในต้นทาง</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>ละโฟลเดอร์เหล่านี้</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>โฟลเดอร์ที่ถูกละไว้จะละโฟลเดอร์ย่อยไปด้วย</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>กล่องจดหมายเข้า</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>รายการที่ส่ง</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>ฉบับร่าง</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>รายการที่ถูกลบ</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>อีเมลขยะ</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>เก็บถาวร</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>โฟลเดอร์ที่ผู้ใช้สร้างขึ้น</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>เฉพาะอีเมลที่สร้างในหรือหลังวันที่</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>คือวันที่แต่ละข้อความถูกสร้างในกล่องจดหมาย ซึ่งโดยปกติคือวันที่ข้อความมาถึง ตรวจสอบตัวอย่างหลังการคัดลอกครั้งแรก</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>ข้ามข้อความที่ใหญ่กว่า</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>การตรวจสอบความปลอดภัย</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>ข้ามอีเมลที่มีอยู่ในปลายทางแล้ว (การรันซ้ำจึงไม่สร้างรายการซ้ำ)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>เปรียบเทียบทุกข้อความที่คัดลอกกับต้นฉบับหลังจากนั้น (ใช้เวลาเพิ่ม แนะนำ)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>อนุญาตโฟลเดอร์ปลายทางที่มีรายการอยู่แล้ว (รายการที่คัดลอกจะถูกเพิ่มควบคู่กับรายการเดิม)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>การรวมจะไม่เริ่มเมื่อโฟลเดอร์ปลายทาง เช่น กล่องจดหมายเข้าหรือปฏิทิน มีรายการอยู่แล้ว เว้นแต่จะเลือกตัวเลือกนี้</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>ขั้นสูง</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>เริ่มใหม่: ละเว้นสิ่งที่การรันก่อนหน้าคัดลอกไปแล้ว (การตรวจสอบรายการซ้ำด้านบนยังคงปกป้องอีเมลในปลายทาง)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>ปฏิทินและโฟลเดอร์ผู้ติดต่อที่จะละไว้</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>หนึ่งชื่อต่อบรรทัด ตามที่แสดงใน Outlook ทุกประการ ปฏิทินและโฟลเดอร์ผู้ติดต่อเพิ่มเติมที่มีชื่อเหล่านี้จะไม่ถูกคัดลอก โฟลเดอร์ผู้ติดต่อจะละโฟลเดอร์ย่อยไปด้วย ใช้กับปฏิทินที่ผู้ใช้สมัครรับ เช่น ปฏิทินวันหยุด ปฏิทินวันเกิดจะไม่ถูกคัดลอกเสมอ (Outlook สร้างจากผู้ติดต่อ) ปฏิทินและผู้ติดต่อเริ่มต้นไม่ได้รับผลกระทบ</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>กล่องจดหมายที่ห้ามเขียนข้อมูลเด็ดขาด</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>หนึ่งที่อยู่ต่อบรรทัด หากเลือกกล่องใดกล่องหนึ่งเหล่านี้เป็นปลายทาง การคัดลอกสำหรับกล่องนั้นจะถูกปฏิเสธ</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>ชื่อโฟลเดอร์ใหม่</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>วันที่เร็วที่สุด</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>ข้อความที่ใหญ่ที่สุดเป็นเมกะไบต์</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>กล่องจดหมายที่จะคัดลอก: {0} จาก "{1}" ไปยัง "{2}"</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>คัดลอกเฉพาะเหตุการณ์ในปฏิทินและผู้ติดต่อ ไปยังปฏิทินและผู้ติดต่อเริ่มต้นของแต่ละกล่องจดหมายปลายทาง ไม่คัดลอกอีเมล</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>อีเมลจะเข้าสู่โฟลเดอร์จริงของแต่ละกล่องจดหมายปลายทาง (กล่องจดหมายเข้า รายการที่ส่ง ฉบับร่าง…) โฟลเดอร์อื่นจะถูกสร้างใหม่ข้างกัน</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>เฉพาะอีเมลจะเข้าสู่โฟลเดอร์ใหม่ชื่อ "{0}" ในแต่ละกล่องจดหมายปลายทาง พร้อมโครงสร้างโฟลเดอร์</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>ปฏิทินและโฟลเดอร์ผู้ติดต่อที่ละไว้ตามชื่อ: {0}</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>เหตุการณ์ในปฏิทินและผู้ติดต่อ: คัดลอกไปยังปฏิทินและผู้ติดต่อเริ่มต้นของแต่ละกล่องจดหมายปลายทาง</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>เหตุการณ์ในปฏิทินและผู้ติดต่อ: ไม่คัดลอก</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>อีเมลที่มีอยู่ในปลายทางแล้วจะถูกข้าม</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>ไม่ตรวจสอบอีเมลที่มีอยู่ในปลายทางแล้ว</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>ละไว้: {0}</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>เฉพาะอีเมลที่สร้างในหรือหลัง {0}</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>ข้อความที่ใหญ่กว่า {0} MB จะถูกข้าม</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>ทุกข้อความที่คัดลอกจะถูกเปรียบเทียบกับต้นฉบับหลังจากนั้น</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>ไม่เปรียบเทียบหลังจากนั้น</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>กล่องจดหมายจะถูกคัดลอกทีละกล่องตามลำดับ ไม่มีการเปลี่ยนแปลงใดๆ ในต้นทาง</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>การประเมินขนาดและเวลา</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>ข้ามการประเมิน</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>กล่องจดหมายที่ถูกละไว้เพราะไม่พบกล่องจดหมายปลายทางที่ตรงกัน: {0} กลับไปที่จับคู่กล่องจดหมายเพื่อแก้ไข</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>กล่องจดหมายที่เลือกซึ่งไม่มีสิทธิ์การใช้งาน (ที่แชร์ ห้อง หรืออุปกรณ์): {0} โฟลเดอร์อีเมลของกล่องเหล่านี้จะถูกคัดลอก และปฏิทินก็จะถูกคัดลอกเมื่อเปิดการคัดลอกปฏิทิน แต่การตั้งค่าทรัพยากร เช่น นโยบายการจอง จะไม่ถูกคัดลอก</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>การดำเนินการนี้เพิ่มเหตุการณ์ในปฏิทินและผู้ติดต่ออย่างถาวร เครื่องมือนี้ไม่มีวิธีลบรายการเหล่านั้น</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>การรวมจะเพิ่มรายการเข้าสู่โฟลเดอร์จริงอย่างถาวร เครื่องมือนี้ไม่มีวิธีลบรายการเหล่านั้น</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>ฉันเข้าใจว่าการรวมจะเพิ่มอีเมลเข้าสู่โฟลเดอร์จริง และเครื่องมือนี้ไม่สามารถลบได้</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>การประเมินต้องใช้การเชื่อมต่อจากขั้นตอนก่อนหน้า</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>กำลังอ่านขนาดของกล่องจดหมาย ({0}) อ่านอย่างเดียว ไม่มีการเปลี่ยนแปลงใดๆ…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>ข้ามการประเมินแล้ว แถบความคืบหน้าจะยังแสดงค่าประเมินเมื่อการคัดลอกเริ่มดำเนินการ</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>ไม่สามารถประเมินได้: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>ประมาณ {0} ข้อความ ({1} MB) กล่องจดหมาย: {2}</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>เวลาโดยประมาณ: {0}</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>อ้างอิงจากความเร็วที่วัดได้ในการทดสอบของเรากับข้อความทั่วไป ไฟล์แนบขนาดใหญ่มากจะใช้เวลานานกว่า กล่องจดหมายจะถูกคัดลอกทีละกล่องตามลำดับ หากคุณหยุด การรันครั้งถัดไปจะทำต่อจากจุดที่ค้างไว้</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>กล่องจดหมายที่อ่านไม่ได้: {0} กล่องเหล่านี้ไม่รวมอยู่ในการประเมิน และมีแนวโน้มว่าจะล้มเหลวในการคัดลอกด้วย สาเหตุแรก: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>ไม่ถึงหนึ่งนาที</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} นาที</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} ชม. {1} นาที</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>เริ่มการคัดลอกหรือไม่</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>เริ่มการคัดลอกตอนนี้หรือไม่ กล่องจดหมาย: {0}
+
+{1}
+
+ไม่มีการเปลี่ยนแปลงใดๆ ในต้นทาง คุณหยุดได้ทุกเมื่อ</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>อีเมลจะถูกเพิ่มในโฟลเดอร์จริงของแต่ละกล่องจดหมายปลายทาง เครื่องมือนี้ไม่สามารถลบได้</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>อีเมลจะถูกเพิ่มในโฟลเดอร์ใหม่ "{0}" ในแต่ละกล่องจดหมายปลายทาง</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>ไม่สามารถเริ่มได้</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>ไม่มีข้อมูลลับไคลเอ็นต์ในพีซีเครื่องนี้ เพิ่มได้ในการลงทะเบียนแอป</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>แก้ไขสิ่งเหล่านี้ก่อน:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>กำลังคัดลอกกล่องจดหมาย: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>กำลังเริ่ม…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>เสร็จสิ้น {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>ทุกข้อความถูกเปรียบเทียบกับต้นฉบับแล้ว</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>เลือกแถวเพื่อดูรายละเอียด หรือเปิดไฟล์ผลลัพธ์</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>หยุดเนื่องจากข้อผิดพลาด: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>ใช้เวลา {0}</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · เสร็จแล้ว {1} จาก {2} กล่องจดหมาย · {3} · {4} จนถึงตอนนี้</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>เหลือประมาณ {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>ประเมินไว้ {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>กำลังประเมินเวลา…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>กล่องจดหมาย {0} จาก {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>กล่องจดหมาย {0}: ประมวลผลแล้ว {1} จาก {2} รายการ — คัดลอกแล้ว {3} มีอยู่แล้ว {4} ล้มเหลว {5}</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>กำลังหยุดหลังจากรายการปัจจุบัน… รายการที่เสร็จแล้วจะถูกจดจำไว้</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>กล่องจดหมาย</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>รายละเอียดโฟลเดอร์ของกล่องจดหมายที่กำลังรัน</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>บันทึก</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>เฉพาะคำเตือนและข้อผิดพลาด</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>ข้อผิดพลาด {0} คำเตือน {1}</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>กำลังคัดลอก</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>การคัดลอกกำลังทำงานอยู่ หากปิดตอนนี้จะหยุดการคัดลอก (รายการที่เสร็จแล้วจะถูกจดจำไว้ จึงทำต่อได้)
+
+ปิดต่อไปหรือไม่</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>ความคืบหน้าโดยรวม</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>ความคืบหน้าของกล่องจดหมาย</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>คัดลอกสมบูรณ์: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>ต้องตรวจสอบ: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>ล้มเหลว: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>ไม่ได้รัน: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>ลงชื่อเข้าใช้และตรวจสอบบัญชี</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>ต้นทาง (อ่านอย่างเดียว): เดินผ่านโครงสร้างโฟลเดอร์และแสดงรายการ</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>ปลายทาง: ค้นหาโฟลเดอร์ที่อีเมลจะเข้าไป</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>สร้างโครงสร้างใหม่และคัดลอกรายการ (ส่งออกจากต้นทาง นำเข้าสู่ปลายทาง)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>กระทบยอด: เปรียบเทียบจำนวนรายการต่อโฟลเดอร์</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>ตรวจสอบ: เปรียบเทียบทุกข้อความที่คัดลอกกับต้นฉบับทีละฟิลด์</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>กำลังรอ</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>กำลังคัดลอก…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>เสร็จสิ้น</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>ต้องตรวจสอบ</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>ล้มเหลว</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>ไม่ได้รัน</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>คัดลอกแล้ว</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>กำลังคัดลอก</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>ล้มเหลว {0}</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>จำนวนไม่ตรงกัน</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>โฟลเดอร์ผู้ใช้</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>ต้นทาง</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>ปลายทาง</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>สถานะ</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>รายละเอียด (เลือกเพื่อคัดลอก)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>โฟลเดอร์</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>ชนิด</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>รายการ</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>คัดลอกแล้ว</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>มีอยู่แล้ว</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>ล้มเหลว</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>ผลลัพธ์</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>ตรวจสอบว่าเหมือนกัน</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>หมายเหตุ (เลือกเพื่อคัดลอก)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>หมายเหตุ</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>รายละเอียด</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>การคัดลอกหยุดลง</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>คัดลอกเสร็จสิ้น</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>กล่องจดหมายที่คัดลอก: {0}</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>กล่องจดหมายที่คัดลอก: {0} ทั้ง {1} ข้อความที่ตรวจสอบเหมือนกับต้นฉบับทุกประการ</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>การคัดลอกหยุดก่อนเสร็จสิ้น</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>กล่องจดหมายที่เสร็จสิ้น: {0} ยังไม่เริ่ม: {1} รันอีกครั้งเพื่อดำเนินการต่อ: รายการที่เสร็จแล้วจะไม่ถูกคัดลอกซ้ำ</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>เสร็จสิ้น แต่มีรายการที่ต้องตรวจสอบ</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>กล่องจดหมายที่คัดลอกสมบูรณ์: {0} จาก {1} {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>ทีละกล่องจดหมาย</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>สิ่งที่ควรทำต่อไป</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>คัดลอกสรุปนี้</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>ผลลัพธ์ตามกล่องจดหมาย</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>กล่องจดหมายที่คัดลอก</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>ข้อความที่คัดลอก</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>มีอยู่ในปลายทางแล้ว</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>รายการที่ล้มเหลว</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>ตรวจสอบว่าเหมือนกัน</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>เวลาที่ใช้</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} จาก {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>ไม่มี</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>ไม่ได้ตรวจสอบ</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>เปิดไฟล์ผลลัพธ์หรือบันทึกเพื่อดูสาเหตุ แก้ไขสาเหตุ (เช่น สิทธิ์ที่ขาดหายหรือกล่องจดหมายปลายทางที่ยังไม่มี) แล้วเลือกรันอีกครั้ง รายการที่เสร็จแล้วจะถูกจดจำไว้ จึงไม่ถูกคัดลอกซ้ำ</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>เปิดกล่องจดหมายปลายทางสองสามกล่องใน Outlook แล้วตรวจสอบกล่องจดหมายเข้า รายการที่ส่ง และโฟลเดอร์ของคุณเอง สุ่มตรวจข้อความที่มีไฟล์แนบ</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>เปิดกล่องจดหมายปลายทางสองสามกล่องใน Outlook แล้วมองหาโฟลเดอร์ "{0}" สุ่มตรวจข้อความที่มีไฟล์แนบ ผู้ใช้สามารถย้ายอีเมลออกจากโฟลเดอร์นั้น หรือปล่อยไว้ก็ได้</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>ผู้ติดต่อและปฏิทินนับจำนวนแล้วแต่ยังไม่ได้เปรียบเทียบทีละฟิลด์ เปิดผู้ติดต่อและปฏิทินในกล่องจดหมายปลายทางสองสามกล่องแล้วตรวจสอบ โดยเฉพาะการประชุมที่เกิดซ้ำ</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>หากต้องการรับอีเมลที่มาถึงหลังการรันนี้ ให้เลือกรันอีกครั้งด้วยการตั้งค่าเดิม ระบบจะคัดลอกเฉพาะอีเมลใหม่</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>เมื่อการย้ายเสร็จสมบูรณ์ ให้ลบข้อมูลลับไคลเอ็นต์และลบการลงทะเบียนแอปใน Microsoft Entra เพราะเข้าถึงทุกกล่องจดหมายในผู้เช่าได้</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>กล่องจดหมายที่คัดลอก: {0} จาก {1}; ข้อความที่คัดลอก: {2}; มีอยู่ในปลายทางแล้ว: {3}; รายการที่ล้มเหลว: {4}; เวลา: {5}</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>กล่องจดหมายที่คัดลอก: {0} จาก {1}; ข้อความที่คัดลอก: {2}; มีอยู่ในปลายทางแล้ว: {3}; รายการที่ล้มเหลว: {4}; ตรวจสอบว่าเหมือนกัน: {5} จาก {6}; เวลา: {7}</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>การลงทะเบียนแอป</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>การลงทะเบียนแอปคือข้อมูลประจำตัวที่เครื่องมือนี้ใช้สื่อสารกับ Microsoft 365 ในผู้เช่า คุณสร้างครั้งเดียวต่อผู้เช่าในศูนย์การจัดการ Microsoft Entra จากนั้นบันทึกที่นี่ด้วยชื่อที่คุณจำได้ และเลือกในขั้นตอนต้นทางและปลายทาง ข้อมูลที่นี่ไม่ถูกส่งไปที่ใด และจัดเก็บไว้สำหรับผู้ใช้ Windows ของคุณเท่านั้น</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>เพิ่ม</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>ลบ</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>ชื่อ</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>ชื่ออะไรก็ได้ที่ช่วยให้แยกแยะได้ เช่น "Contoso (ต้นทาง)"</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID ไดเรกทอรี (ผู้เช่า)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>เป็น GUID อยู่ในหน้าภาพรวมของการลงทะเบียนในศูนย์การจัดการ Entra</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID แอปพลิเคชัน (ไคลเอ็นต์)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>เป็น GUID อยู่ในหน้าภาพรวมเช่นกัน</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>ข้อมูลลับไคลเอ็นต์</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>ค่าของข้อมูลลับ (ไม่ใช่ ID) จากใบรับรองและข้อมูลลับ ช่วยให้แอปคัดลอกกล่องจดหมายได้โดยไม่ต้องมีใครลงชื่อเข้าใช้ ข้อมูลนี้ถูกเข้ารหัสสำหรับผู้ใช้ Windows ของคุณและอ่านบนพีซีเครื่องอื่นไม่ได้ จะแสดงเฉพาะขณะพิมพ์ พิมพ์ค่าใหม่เพื่อแทนที่</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>บันทึกข้อมูลลับแล้ว</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>ล้าง</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>วิธีสร้าง: ศูนย์การจัดการ Microsoft Entra &gt; การลงทะเบียนแอป &gt; การลงทะเบียนใหม่ (ผู้เช่ารายเดียว) เปิดสิทธิ์ API แล้วเพิ่มสิทธิ์ของแอปพลิเคชันที่แสดงในขั้นตอนต้นทางและปลายทาง จากนั้นให้ความยินยอมของผู้ดูแลระบบ เปิดใบรับรองและข้อมูลลับ สร้างข้อมูลลับไคลเอ็นต์ใหม่ และคัดลอกค่าทันที (แสดงเพียงครั้งเดียว) คัดลอก ID ไดเรกทอรี (ผู้เช่า) และ ID แอปพลิเคชัน (ไคลเอ็นต์) จากหน้าภาพรวมมาใส่ในแบบฟอร์มนี้</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>การลงทะเบียนใหม่</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(ไม่มีชื่อ)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>ลบการลงทะเบียน</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>ลบ "{0}" ออกจากรายการนี้หรือไม่
+
+การดำเนินการนี้เพียงลบออกจากที่นี่ การลงทะเบียนแอปใน Microsoft Entra จะไม่ถูกแตะต้อง</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>ตรวจสอบรายการ</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>ตั้งชื่อให้ทุกการลงทะเบียน</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": ID ผู้เช่าและ ID ไคลเอ็นต์ต้องเป็น GUID ทั้งคู่ (เช่น 00000000-0000-0000-0000-000000000000)</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>บันทึกไม่สำเร็จ</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>ไม่สามารถบันทึกได้: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>การตั้งค่า</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>ภาษา</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>เหมือนกับ Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>ภาษาใหม่จะมีผลเมื่อคุณเริ่ม Smart Mailbox Copy ครั้งถัดไป</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>ธีม</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>เหมือนกับ Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>สว่าง</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>มืด</value></data>
+</root>

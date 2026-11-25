@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Appregistreringar</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Tidigare körningar och rapporter</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimera</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximera eller återställ</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Stäng</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Steg</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Spara</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Tillbaka</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Nästa</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Kom igång</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Starta kopiering</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Visa resultat</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Ny migrering</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Stoppa</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Öppna resultat (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Öppna objektlista (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Öppna logg</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Kör igen (återuppta)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Välkommen</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Källa</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Mål</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postlådor</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Matcha</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Alternativ</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Granska</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopiera</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Resultat</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Välkommen</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Källklientorganisation</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Målklientorganisation</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Välj postlådor</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Matcha postlådor</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Alternativ</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Granska</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopiera</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Resultat</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Flytta e-post mellan Microsoft 365-klientorganisationer: en postlåda, flera eller alla.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Anslut till den klientorganisation du kopierar FRÅN. Den läses bara; inget i den ändras.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Anslut till den klientorganisation du kopierar TILL. E-post läggs till här; inget som redan finns ändras eller tas bort.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Välj de postlådor som ska kopieras. Använd filtren för att begränsa listan och markera sedan dem du vill ha.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Ange vilken målpostlåda varje källpostlåda ska kopieras till.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Välj hur e-posten placeras i målet och vilka säkerhetskontroller som ska köras.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Kontrollera planen. Inget har kopierats än.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Kopierar nu. Du kan stoppa när som helst; slutförda objekt kommer ihåg, så du kan återuppta senare.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Vad som kopierades, vad som kontrollerades och vad du bör göra härnäst.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Anslut till källklientorganisationen för att fortsätta.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Anslut till målklientorganisationen för att fortsätta.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Markera minst en postlåda för att fortsätta.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Minst en rad måste ha statusen Klar för att fortsätta.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Ange ett mappnamn för att fortsätta.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Kontrollera e-postfiltren: markera minst en mapp, välj ett datum och ange en storlek större än 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Uppskattar storlek och tid (skrivskyddat). Starta blir tillgängligt när det är klart, eller välj Hoppa över uppskattningen.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Markera rutan ovan för att fortsätta.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Det här verktyget kopierar e-post mellan Microsoft 365-klientorganisationer. Du kan flytta en postlåda, ett fåtal utvalda eller alla, och verktyget kontrollerar varje meddelande mot originalet efteråt.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Vad det gör och inte gör</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Källklientorganisationen läses bara. Inget i den ändras eller tas bort.
+• Målet tar bara emot objekt (e-post, samt kalenderhändelser och kontakter om du väljer det). Verktyget tar aldrig bort eller ändrar något som redan finns där.
+• Ett meddelande som kopierats två gånger hoppas över, så en körning kan upprepas eller återupptas på ett säkert sätt.
+• Varje kopierat meddelande jämförs fält för fält med källan, och resultatet rapporteras.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Det här behöver du innan du börjar</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. En appregistrering i varje klientorganisation (källa och mål), skapad av en global administratör. De nästa stegen visar exakt vilka behörigheter som ska läggas till.
+2. En klienthemlighet för varje registrering.
+3. De postlådor du vill flytta måste redan finnas i målklientorganisationen (skapa användarna och ge dem licenser först).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Så fungerar det</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Verktyget använder appregistreringen, inte en persons inloggning, så det kan nå andras postlådor utan deras lösenord. Eftersom en appregistrering med dessa behörigheter kan nå alla postlådor i sin klientorganisation bör du hålla hemligheten privat och ta bort registreringen när migreringen är klar.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Välj Nästa för att ansluta till källklientorganisationen. Du kan gå tillbaka till vilket slutfört steg som helst från stegraden högst upp.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Källan är den klientorganisation där e-posten finns just nu. Smart Mailbox Copy loggar in med en appregistrering (ingen person loggar in) och läser de postlådor du väljer.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Målet är den klientorganisation som e-posten flyttas till. Postlådorna måste redan finnas där, med licenser. Verktyget lägger bara till e-post.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>I administrationscentret för Microsoft Entra: Appregistreringar &gt; din app &gt; API-behörigheter &gt; Lägg till en behörighet &gt; Microsoft Graph &gt; Programbehörigheter. Välj sedan Bevilja administratörsmedgivande.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Samma ställe som för källan: API-behörigheter &gt; Lägg till en behörighet &gt; Microsoft Graph &gt; Programbehörigheter, och välj sedan Bevilja administratörsmedgivande.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>export; använd exportbehörigheten om portalen visar en</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Appregistrering</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Den sparade Microsoft Entra-appregistreringen för den här klientorganisationen. Om den inte finns i listan än väljer du Hantera och lägger till den.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Hantera…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Behörigheter som den här appregistreringen behöver</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Anslut och lista postlådor</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Detta loggar in med appregistreringen, läser listan över postlådor och kontrollerar vilka programbehörigheter appen har beviljats. Det ändrar ingenting. En behörighet som du nyss lade till kan ta några minuter på sig att visas: vänta och anslut sedan igen.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Klientorganisation {0}  ·  program {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>klienthemlighet sparad</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>INGEN klienthemlighet sparad: lägg till en under Hantera</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Inget markerat.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Ansluter…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Ansluten. Konton med en postlådeadress hittades: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Välj en appregistrering först.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Den här registreringen har ingen klienthemlighet sparad på den här datorn. Välj Hantera och lägg till den.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Klienthemligheten är inte giltig. Det kan vara hemlighetens ID i stället för dess värde, eller en annan apps hemlighet. Skapa en ny hemlighet och uppdatera den under Hantera.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Klienthemligheten har gått ut. Skapa en ny och uppdatera den under Hantera.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Det program-ID:t (klient-ID:t) hittades inte i den här klientorganisationen. Kontrollera klientorganisations- och klient-ID:n under Hantera.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Det klientorganisations-ID:t hittades inte. Kontrollera det under Hantera.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Appen saknar programbehörigheten User.Read.All, eller så har administratörsmedgivande inte beviljats.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Programbehörigheter som beviljats den här appen:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/export och läsning)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>läsa e-post</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>skapa mappar i målet</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>exportera och importera e-postobjekt</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>läsa mappstrukturen</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>lista postlådor</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>endast för att kopiera ytterligare kalendrar</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>endast för att kopiera ytterligare kontaktmappar</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  SAKNAS: behövs för att {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  inte beviljad ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Lägg till de saknade behörigheterna som programbehörigheter och bevilja administratörsmedgivande. Det kan ta några minuter innan de visas.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Visa de typer av postlådor du vill ha, begränsa efter domän eller text och markera sedan de som ska kopieras. Dina markeringar behålls medan du ändrar filtren. Konton utan licens är delade postlådor samt rums- och utrustningspostlådor; Microsoft anger inte vilken typ det är.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Användare</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Delad, rum, utrustning (ingen licens)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Gäster</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Endast aktiverade konton</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domän</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Sök</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Alla domäner</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopiera</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Namn</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adress</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Typ</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Konto</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Användare</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Delad, rum eller utrustning (ingen licens)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Gäst</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Aktiverad</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Inaktiverad</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Markera alla som visas</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Avmarkera alla som visas</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Uppdatera lista</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} markerade · {1} visas av {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} markerade men dolda av filtren</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Domänfilter</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Sök i postlådor</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Källpostlådor</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Varje källadress behöver en postlåda i målklientorganisationen. De matchas genom att byta domän; skriv en annan måladress på de rader där namnen skiljer sig. Rader med statusen Klar kopieras; de andra utelämnas.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Måldomän</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Matcha alla rader mot den här domänen</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importera mappning (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Exportera mappning (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Källpostlåda</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Målpostlåda (redigerbar)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Klar</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Ange en måladress</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Inte en e-postadress</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>En annan rad använder det här målet</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Hittades inte i målklientorganisationen</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} av {1} klara att kopiera</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} utelämnas tills det åtgärdas</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-filer (*.csv)|*.csv|Alla filer|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importera en mappning av källa,mål</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-filer (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Exportera mappningen</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} av {1} rader i filen motsvarade en postlåda som du valde. De andra ignorerades.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Mappning importerad</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Det gick inte att läsa mappningen</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Måldomän</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postlådemappning</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Endast kalenderhändelser och kontakter (kopiera ingen e-post)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Ett bra första test, eller ett sätt att kopiera kalendrar separat. Händelser hamnar i varje målpostlådas standardkalender och kontakter i dess standardmapp Kontakter. Detta lägger till objekt permanent: verktyget kan inte ta bort dem efteråt.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Var ska e-posten hamna?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Endast e-post, i en ny mapp i varje målpostlåda (rekommenderas)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>All e-post, inklusive mappstrukturen, kopieras in i en enda ny mapp. Säkrast, och enkelt att granska eller ta bort i Outlook innan någon börjar använda postlådan. Kalenderhändelser och kontakter kan inte placeras i den, så de kopieras inte i det här läget.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Mappnamn</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrerad e-post</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Sammanfogad med de riktiga mapparna, med kalender och kontakter</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>E-posten hamnar där personen förväntar sig den (Inkorgen i Inkorgen, Skickat i Skickat) och de andra mapparna skapas bredvid. Detta lägger till objekt permanent: verktyget har inget sätt att ta bort dem efteråt.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Kopiera även kalenderhändelser och kontakter (standardkalendern och standardmappen för kontakter samt eventuella ytterligare kalendrar och kontaktmappar)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Avmarkera för att bara kopiera e-post. Händelser, inklusive återkommande möten, räknas men jämförs ännu inte fält för fält.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Begränsa vad som kopieras (valfritt): inget är begränsat, allt kopieras</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Begränsa vad som kopieras (valfritt): begränsningar aktiverade: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Som standard kopieras alla mappar och alla meddelanden. Använd dessa bara för att kopiera mindre. De gäller för alla postlådor, aldrig för kalenderhändelser och kontakter, och utelämnad e-post ändras eller tas aldrig bort i källan.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Utelämna dessa mappar</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>En mapp som utelämnas tar sina undermappar med sig.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Inkorgen</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Skickat</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Utkast</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Borttaget</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Skräppost</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arkiv</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Mappar som användare skapat</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Endast e-post skapad den eller efter</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Det här är den dag då varje meddelande skapades i postlådan, vilket normalt är den dag det kom in. Kontrollera ett stickprov efter den första kopieringen.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Hoppa över meddelanden som är större än</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Säkerhetskontroller</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Hoppa över e-post som redan finns i målet (så att en ny körning inte kan skapa dubbletter)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Jämför varje kopierat meddelande med källan efteråt (tar längre tid, rekommenderas)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Tillåt målmappar som redan innehåller objekt (de kopierade objekten läggs till bredvid dem)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Sammanfogning vägrar starta när en målmapp, till exempel Inkorgen eller Kalender, redan innehåller objekt, om inte detta är markerat.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Avancerat</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Börja om: ignorera vad tidigare körningar redan har kopierat (dubblettkontrollen ovan skyddar fortfarande e-posten i målet)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kalendrar och kontaktmappar som ska utelämnas</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Ett namn per rad, exakt som det visas i Outlook. Ytterligare kalendrar och kontaktmappar med dessa namn kopieras inte; en kontaktmapp tar sina undermappar med sig. Använd det för kalendrar som folk prenumererar på, till exempel en helgdagskalender. Kalendern Födelsedagar kopieras aldrig (Outlook skapar den från kontakter). Standardkalendern och standardmappen Kontakter påverkas inte.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postlådor som aldrig får skrivas till</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>En adress per rad. Om en av dessa väljs som mål avvisas kopieringen för den.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nytt mappnamn</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Tidigaste datum</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Största meddelande i megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Postlådor att kopiera: {0}, från "{1}" till "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Endast kalenderhändelser och kontakter kopieras, till varje målpostlådas standardkalender och standardmapp Kontakter. Ingen e-post kopieras.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>E-post hamnar i varje målpostlådas riktiga mappar (Inkorgen, Skickat, Utkast…); andra mappar skapas bredvid.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Endast e-post hamnar i en ny mapp med namnet "{0}" i varje målpostlåda, inklusive mappstrukturen.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Kalendrar och kontaktmappar som utelämnats efter namn: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Kalenderhändelser och kontakter: kopieras till varje målpostlådas standardkalender och standardmapp Kontakter.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Kalenderhändelser och kontakter: kopieras inte.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>E-post som redan finns i målet hoppas över.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Det kontrolleras INTE om e-post redan finns i målet.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Utelämnat: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Endast e-post skapad den {0} eller senare.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Meddelanden större än {0} MB hoppas över.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Varje kopierat meddelande jämförs med källan efteråt.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Ingen jämförelse efteråt.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Postlådorna kopieras en i taget. Inget i källan ändras.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Uppskattning av storlek och tid</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Hoppa över uppskattningen</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Postlådor som utelämnats eftersom ingen matchande målpostlåda hittades: {0}. Gå tillbaka till Matcha postlådor för att åtgärda dem.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Valda postlådor utan licens (delad, rum eller utrustning): {0}. Deras e-postmappar kopieras, och det gäller även deras kalender när kalenderkopiering är på. Resursinställningar som bokningsprinciper kopieras inte.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Detta lägger till kalenderhändelser och kontakter permanent. Det här verktyget har inget sätt att ta bort dem.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Sammanfogning lägger till objekt i de riktiga mapparna permanent. Det här verktyget har inget sätt att ta bort dem.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Jag förstår att sammanfogning lägger till e-post i de riktiga mapparna och att det här verktyget inte kan ta bort den.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>En uppskattning kräver anslutningarna från de tidigare stegen.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Läser storleken på postlådorna ({0}); skrivskyddat, inget ändras…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Uppskattningen hoppades över. Förloppsindikatorn visar ändå en uppskattning när kopieringen pågår.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Uppskattningen kunde inte göras: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Cirka {0} meddelanden ({1} MB). Postlådor: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Beräknad tid: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Baserat på hastigheter som uppmätts i våra tester med vanliga meddelanden; mycket stora bilagor tar längre tid. Postlådorna kopieras en i taget. Om du stoppar återupptar nästa körning där den slutade.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Postlådor som inte kunde läsas: {0}. De ingår inte i uppskattningen och kommer sannolikt också att misslyckas vid kopieringen. Första orsak: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>under en minut</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} tim {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Starta kopieringen?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Starta kopieringen nu? Postlådor: {0}.
+
+{1}
+
+Inget i källan ändras. Du kan stoppa när som helst.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>E-post läggs till i de riktiga mapparna i varje målpostlåda. Det här verktyget kan inte ta bort den.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>E-post läggs till i en ny mapp "{0}" i varje målpostlåda.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Det går inte att starta</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>En klienthemlighet saknas på den här datorn. Lägg till den under Appregistreringar.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Åtgärda dessa först:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Kopierar postlådor: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Startar…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Klart. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Varje meddelande jämfördes med källan.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Markera en rad för information, eller öppna resultatfilen.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Stoppades av ett fel: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Tog {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} av {2} postlådor klara · {3} · {4} hittills</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>cirka {0} kvar</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>uppskattat {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>uppskattar tiden…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Postlåda {0} av {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Postlåda {0}: {1} av {2} objekt bearbetade — {3} kopierade, {4} fanns redan, {5} misslyckades</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Stoppar efter det aktuella objektet… slutförda objekt kommer ihåg.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postlådor</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Mappinformation för postlådan som körs</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Logg</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Endast varningar och fel</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} fel, {1} varningar</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopiering pågår</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>En kopiering pågår. Om du stänger nu stoppas den (slutförda objekt kommer ihåg, så du kan återuppta).
+
+Stäng ändå?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Total förlopp</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postlådeförlopp</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Kopierade utan problem: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Behöver granskas: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Misslyckades: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Inte körda: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Logga in och verifiera kontona</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Källa (skrivskyddad): gå igenom mappstrukturen och lista objekt</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Mål: hitta mapparna som e-posten ska hamna i</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Återskapa strukturen och kopiera objekt (exportera från källan, importera till målet)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Stäm av: jämför antalet objekt per mapp</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verifiera: jämför varje kopierat meddelande med källan, fält för fält</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Väntar</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopierar…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Klart</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Behöver granskas</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Misslyckades</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Inte körd</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Kopierad</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopierar</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} misslyckades</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Antalet skiljer sig</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>användarmapp</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Källa</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Mål</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Information (markera för att kopiera)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Mapp</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Typ</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Objekt</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Kopierade</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Fanns redan</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Misslyckade</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Resultat</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Verifierat identiska</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Anteckningar (markera för att kopiera)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Anteckningar</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Information</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopieringen stoppades</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopieringen klar</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Postlådor kopierade: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Postlådor kopierade: {0}. Alla {1} kontrollerade meddelanden var identiska med källan.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopieringen stoppades innan den var klar</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Postlådor klara: {0}. Inte påbörjade: {1}. Kör igen för att fortsätta: slutförda objekt kopieras inte två gånger.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Klart, med objekt som behöver granskas</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Postlådor kopierade utan problem: {0} av {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postlåda för postlåda</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Vad du bör göra härnäst</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Kopiera den här sammanfattningen</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Resultat per postlåda</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Postlådor kopierade</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Meddelanden kopierade</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Fanns redan i målet</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Misslyckade objekt</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Verifierat identiska</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Tid som gått åt</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} av {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>inga</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>inte kontrollerat</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Öppna resultatfilen eller loggen för att se varför, åtgärda orsaken (till exempel en saknad behörighet eller en målpostlåda som inte finns än) och välj Kör igen. Slutförda objekt kommer ihåg, så inget kopieras två gånger.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Öppna några målpostlådor i Outlook och kontrollera Inkorgen, Skickat och dina egna mappar. Gör stickprov på meddelanden med bilagor.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Öppna några målpostlådor i Outlook och leta efter mappen "{0}". Gör stickprov på meddelanden med bilagor. Användare kan flytta e-post ut ur den eller låta den ligga kvar.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontakter och kalender räknas men jämförs ännu inte fält för fält. Öppna Kontakter och Kalender i några målpostlådor och kontrollera dem, särskilt återkommande möten.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>För att hämta e-post som kommit efter den här körningen väljer du Kör igen med samma inställningar. Endast ny e-post kopieras.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>När migreringen är helt klar tar du bort klienthemligheterna och appregistreringarna i Microsoft Entra, eftersom de kan nå alla postlådor i klientorganisationen.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Postlådor kopierade: {0} av {1}; meddelanden kopierade: {2}; fanns redan i målet: {3}; misslyckade objekt: {4}; tid: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Postlådor kopierade: {0} av {1}; meddelanden kopierade: {2}; fanns redan i målet: {3}; misslyckade objekt: {4}; verifierat identiska: {5} av {6}; tid: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Appregistreringar</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>En appregistrering är den identitet som det här verktyget använder för att kommunicera med Microsoft 365 i en klientorganisation. Du skapar den en gång per klientorganisation i administrationscentret för Microsoft Entra, sparar den sedan här under ett namn du känner igen och väljer den i stegen Källa och Mål. Inget här skickas någonstans; det lagras bara för din Windows-användare.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Lägg till</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Ta bort</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Namn</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Allt som hjälper dig att skilja dem åt, till exempel "Contoso (källa)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Katalog-ID (klientorganisations-ID)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Ett GUID. På registreringens sida Översikt i administrationscentret för Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Program-ID (klient-ID)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Ett GUID. Finns också på sidan Översikt.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Klienthemlighet</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Hemlighetens värde (inte dess ID), från Certifikat och hemligheter. Den låter appen kopiera postlådor utan att någon loggar in. Den är krypterad för din Windows-användare och kan inte läsas på en annan dator. Den visas bara medan den skrivs; skriv en ny för att ersätta den.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>En hemlighet är sparad.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Rensa</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Så här skapar du en: administrationscentret för Microsoft Entra &gt; Appregistreringar &gt; Ny registrering (en enda klientorganisation). Öppna API-behörigheter och lägg till de programbehörigheter som visas i stegen Källa och Mål, och välj sedan Bevilja administratörsmedgivande. Öppna Certifikat och hemligheter, skapa en Ny klienthemlighet och kopiera dess värde direkt (det visas bara en gång). Kopiera Katalog-ID (klientorganisations-ID) och Program-ID (klient-ID) från sidan Översikt till det här formuläret.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Ny registrering</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(namnlös)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Ta bort registrering</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Ta bort "{0}" från den här listan?
+
+Detta glömmer den bara här. Appregistreringen i Microsoft Entra påverkas inte.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Kontrollera listan</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Ge varje registrering ett namn.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": klientorganisations-ID:t och klient-ID:t måste båda vara GUID (till exempel 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Det gick inte att spara</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Det gick inte att spara: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Språk</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Samma som Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Ett nytt språk börjar gälla nästa gång du startar Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Samma som Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Ljust</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Mörkt</value></data>
+</root>

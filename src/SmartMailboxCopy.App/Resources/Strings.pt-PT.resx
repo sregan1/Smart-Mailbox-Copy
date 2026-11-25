@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Registos de aplicações</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Execuções e relatórios anteriores</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Definições</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimizar</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maximizar ou restaurar</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Fechar</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Passos</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Guardar</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Anterior</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Seguinte</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Começar</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Iniciar cópia</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Ver resultados</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Nova migração</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Parar</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Abrir resultados (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Abrir lista de itens (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Abrir registo</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Executar novamente (retomar)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Início</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Origem</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Destino</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Caixas</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Associar</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Opções</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Rever</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Resultados</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Boas-vindas</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Inquilino de origem</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Inquilino de destino</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Escolher caixas de correio</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Associar caixas de correio</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Opções</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Rever</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Resultados</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Mova o correio entre inquilinos do Microsoft 365: uma caixa de correio, várias ou todas.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Ligue-se ao inquilino DE ONDE vai copiar. É apenas lido; nada nele é alterado.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Ligue-se ao inquilino PARA ONDE vai copiar. O correio é adicionado aqui; nada do que já lá está é alterado ou eliminado.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Escolha as caixas de correio a copiar. Utilize os filtros para restringir a lista e depois assinale as que pretende.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Indique à ferramenta em que caixa de correio de destino entra cada caixa de correio de origem.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Escolha como o correio chega ao destino e que verificações de segurança executar.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Reveja o plano. Ainda não foi copiado nada.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>A copiar. Pode parar em qualquer altura; os itens concluídos ficam registados, pelo que pode retomar mais tarde.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>O que foi copiado, o que foi verificado e o que fazer a seguir.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Ligue-se ao inquilino de origem para continuar.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Ligue-se ao inquilino de destino para continuar.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Assinale pelo menos uma caixa de correio para continuar.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Pelo menos uma linha tem de indicar Pronto para continuar.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Introduza um nome de pasta para continuar.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Verifique os filtros de correio: assinale pelo menos uma pasta, escolha uma data e introduza um tamanho superior a 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>A estimar o tamanho e o tempo (só de leitura). Iniciar fica disponível quando terminar, ou escolha Ignorar a estimativa.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Assinale a caixa acima para continuar.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Esta ferramenta copia correio entre inquilinos do Microsoft 365. Pode mover uma caixa de correio, algumas escolhidas ou todas, e depois compara cada mensagem com o original.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>O que fará e não fará</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• O inquilino de origem é apenas lido. Nada nele é alterado ou eliminado.
+• O destino só recebe itens (correio e, se o escolher, eventos de calendário e contactos). A ferramenta nunca elimina nem altera nada do que já lá está.
+• Uma mensagem copiada duas vezes é ignorada, pelo que uma execução pode ser repetida ou retomada em segurança.
+• Cada mensagem copiada é comparada com a origem, campo a campo, e o resultado é comunicado.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>O que precisa antes de começar</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. Um registo de aplicação em cada inquilino (origem e destino), configurado por um administrador global. Os passos seguintes mostram exatamente que permissões adicionar.
+2. Um segredo do cliente para cada registo.
+3. As caixas de correio que pretende mover já têm de existir no inquilino de destino (crie primeiro os utilizadores e atribua-lhes licenças).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Como funciona</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>A ferramenta utiliza o registo de aplicação, e não o início de sessão de uma pessoa, pelo que consegue aceder às caixas de correio de outras pessoas sem as respetivas palavras-passe. Como um registo de aplicação com estas permissões pode aceder a todas as caixas de correio do inquilino, mantenha o segredo privado e remova o registo quando a migração terminar.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Selecione Seguinte para ligar o inquilino de origem. Pode voltar a qualquer passo concluído a partir da barra de passos na parte superior.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>A origem é o inquilino onde o correio se encontra atualmente. O Smart Mailbox Copy inicia sessão com um registo de aplicação (nenhuma pessoa inicia sessão) e lê as caixas de correio que escolher.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>O destino é o inquilino para onde o correio está a ser movido. As caixas de correio já têm de existir lá, com licenças. A ferramenta apenas adiciona correio.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>No centro de administração do Microsoft Entra: Registos de aplicações &gt; a sua aplicação &gt; Permissões de API &gt; Adicionar uma permissão &gt; Microsoft Graph &gt; Permissões da aplicação. Depois, selecione Conceder consentimento do administrador.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>No mesmo local que para a origem: Permissões de API &gt; Adicionar uma permissão &gt; Microsoft Graph &gt; Permissões da aplicação e, depois, Conceder consentimento do administrador.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>exportação; utilize a permissão de exportação se o portal indicar uma</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Registo de aplicação</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>O registo de aplicação do Microsoft Entra guardado para este inquilino. Se ainda não estiver na lista, escolha Gerir e adicione-o.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Gerir…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Permissões de que este registo de aplicação precisa</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Ligar e listar caixas de correio</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Isto inicia sessão com o registo de aplicação, lê a lista de caixas de correio e verifica que permissões de aplicação foram concedidas à aplicação. Não altera nada. Uma permissão adicionada há instantes pode demorar alguns minutos a aparecer: aguarde e ligue novamente.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Inquilino {0}  ·  aplicação {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>segredo do cliente guardado</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>NENHUM segredo do cliente guardado: adicione um em Gerir</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Nada selecionado.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>A ligar…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Ligado. Contas com endereço de caixa de correio encontradas: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Escolha primeiro um registo de aplicação.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Este registo não tem nenhum segredo do cliente guardado neste PC. Escolha Gerir e adicione um.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>O segredo do cliente não é válido. Pode ser o ID do segredo em vez do Valor, ou o segredo de outra aplicação. Crie um novo segredo e atualize-o em Gerir.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>O segredo do cliente expirou. Crie um novo e atualize-o em Gerir.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Esse ID da aplicação (cliente) não foi encontrado neste inquilino. Verifique os IDs do inquilino e do cliente em Gerir.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Esse ID de inquilino não foi encontrado. Verifique-o em Gerir.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>A aplicação não tem a permissão de aplicação User.Read.All, ou o consentimento do administrador não foi concedido.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Permissões de aplicação concedidas a esta aplicação:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (importação/exportação e leitura)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>ler correio</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>criar pastas no destino</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>exportar e importar itens de correio</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>ler a árvore de pastas</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>listar caixas de correio</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>apenas para copiar calendários adicionais</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>apenas para copiar pastas de contactos adicionais</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  EM FALTA: necessária para {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  não concedida ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Adicione as permissões em falta como Permissões da aplicação e conceda o consentimento do administrador. Podem demorar alguns minutos a aparecer.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Mostre os tipos de caixa de correio que pretende, restrinja por domínio ou texto e depois assinale as que vão ser copiadas. As suas seleções são mantidas enquanto altera os filtros. As contas sem licença são caixas de correio partilhadas, de sala ou de equipamento; a Microsoft não indica qual é qual.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Utilizadores</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Partilhadas, de sala, de equipamento (sem licença)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Convidados</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Apenas contas ativadas</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domínio</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Pesquisar</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Todos os domínios</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Copiar</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Nome</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Endereço</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Tipo</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Conta</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Utilizador</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Partilhada, de sala ou de equipamento (sem licença)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Convidado</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Ativada</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Desativada</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Assinalar todas as apresentadas</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Desassinalar todas as apresentadas</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Atualizar lista</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} selecionadas · {1} apresentadas de {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} selecionadas mas ocultas pelos filtros</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Filtro de domínio</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Pesquisar caixas de correio</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Caixas de correio de origem</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Cada endereço de origem precisa de uma caixa de correio no inquilino de destino. São associadas trocando o domínio; introduza outro endereço de destino em qualquer linha em que os nomes sejam diferentes. As linhas que indicam Pronto serão copiadas; as restantes ficam de fora.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Domínio de destino</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Associar todas as linhas a este domínio</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importar mapeamento (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Exportar mapeamento (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Caixa de origem</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Caixa de destino (editável)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Estado</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Pronto</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Introduza um endereço de destino</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Não é um endereço de email</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>Outra linha utiliza este destino</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Não encontrada no inquilino de destino</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} de {1} prontas a copiar</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} ficarão de fora até serem corrigidas</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>Ficheiros CSV (*.csv)|*.csv|Todos os ficheiros|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importar um mapeamento origem,destino</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>Ficheiros CSV (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Exportar o mapeamento</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} de {1} linhas do ficheiro corresponderam a uma caixa de correio selecionada. As restantes foram ignoradas.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Mapeamento importado</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Não foi possível ler o mapeamento</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Domínio de destino</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Mapeamento de caixas de correio</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Apenas eventos de calendário e contactos (não copiar correio)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>Um bom primeiro teste, ou uma forma de copiar calendários em separado. Os eventos vão para o Calendário predefinido de cada caixa de correio de destino e os contactos para os Contactos predefinidos. Isto adiciona itens de forma permanente: a ferramenta não os consegue remover depois.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Para onde deve ir o correio?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Apenas correio, numa nova pasta em cada caixa de correio de destino (recomendado)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>Todo o correio, incluindo a estrutura de pastas, é copiado para uma única pasta nova. É o mais seguro e fácil de rever ou eliminar no Outlook antes de alguém começar a utilizar a caixa de correio. Os eventos de calendário e os contactos não podem ser colocados nela, pelo que não são copiados neste modo.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Nome da pasta</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Correio migrado</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Intercalado nas pastas reais, com calendário e contactos</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>O correio fica onde a pessoa o espera (Caixa de Entrada na Caixa de Entrada, Itens Enviados em Itens Enviados) e as restantes pastas são recriadas junto a elas. Isto adiciona itens de forma permanente: a ferramenta não tem forma de os remover depois.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Copiar também eventos de calendário e contactos (o predefinido e quaisquer calendários e pastas de contactos adicionais)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Desassinale para copiar apenas correio. Os eventos, incluindo reuniões periódicas, são contados mas ainda não são comparados campo a campo.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Limitar o que é copiado (opcional): nada é limitado, tudo é copiado</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Limitar o que é copiado (opcional): limites ativados: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Por predefinição, todas as pastas e todas as mensagens são copiadas. Utilize isto apenas para copiar menos. Aplica-se a todas as caixas de correio, nunca a eventos de calendário e contactos, e o correio deixado de fora nunca é alterado nem eliminado na origem.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Deixar de fora estas pastas</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>Uma pasta deixada de fora leva consigo as suas subpastas.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Caixa de Entrada</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Itens Enviados</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Rascunhos</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Itens Eliminados</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Lixo Eletrónico</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arquivo</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Pastas criadas pelas pessoas</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Apenas correio criado a partir de</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>É o dia em que cada mensagem foi criada na caixa de correio, que normalmente é o dia em que chegou. Verifique uma amostra após a primeira cópia.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Ignorar mensagens maiores que</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Verificações de segurança</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Ignorar o correio que já está no destino (para que uma nova execução não crie duplicados)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Comparar depois cada mensagem copiada com a origem (demora mais, recomendado)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Permitir pastas de destino que já contêm itens (os itens copiados são adicionados junto a eles)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>A intercalação recusa-se a começar quando uma pasta de destino, como a Caixa de Entrada ou o Calendário, já contém itens, a menos que esta opção esteja assinalada.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Avançado</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Recomeçar: ignorar o que execuções anteriores já copiaram (a verificação de duplicados acima continua a proteger o correio do destino)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Calendários e pastas de contactos a deixar de fora</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Um nome por linha, exatamente como aparece no Outlook. Os calendários e as pastas de contactos adicionais com estes nomes não são copiados; uma pasta de contactos leva consigo as suas subpastas. Utilize para calendários subscritos pelas pessoas, como um calendário de feriados. O calendário de Aniversários nunca é copiado (o Outlook cria-o a partir dos contactos). O Calendário e os Contactos predefinidos não são afetados.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Caixas de correio em que nunca se deve escrever</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Um endereço por linha. Se uma destas for escolhida como destino, a cópia para ela é recusada.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nome da nova pasta</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Data mais antiga</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Maior mensagem em megabytes</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Caixas de correio a copiar: {0}, de "{1}" para "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Apenas são copiados eventos de calendário e contactos, para o Calendário e os Contactos predefinidos de cada caixa de correio de destino. Não é copiado correio.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>O correio vai para as pastas reais de cada caixa de correio de destino (Caixa de Entrada, Itens Enviados, Rascunhos…); as restantes pastas são recriadas junto a elas.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Apenas correio vai para uma nova pasta com o nome "{0}" em cada caixa de correio de destino, incluindo a estrutura de pastas.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Calendários e pastas de contactos deixados de fora por nome: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Eventos de calendário e contactos: copiados para o Calendário e os Contactos predefinidos de cada caixa de correio de destino.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Eventos de calendário e contactos: não copiados.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>O correio que já está no destino é ignorado.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>NÃO é verificado se o correio já está no destino.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Deixado de fora: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Apenas correio criado a partir de {0}.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>As mensagens maiores que {0} MB são ignoradas.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Cada mensagem copiada é depois comparada com a origem.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Sem comparação posterior.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>As caixas de correio são copiadas uma a seguir à outra. Nada na origem é alterado.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Estimativa de tamanho e tempo</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Ignorar a estimativa</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Caixas de correio deixadas de fora porque não foi encontrada nenhuma caixa de correio de destino correspondente: {0}. Volte a Associar caixas de correio para as corrigir.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Caixas de correio selecionadas sem licença (partilhadas, de sala ou de equipamento): {0}. As respetivas pastas de correio são copiadas, tal como o calendário quando a cópia de calendários está ativada. As definições do recurso, como as políticas de reserva, não são copiadas.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Isto adiciona eventos de calendário e contactos de forma permanente. Esta ferramenta não tem forma de os remover.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>A intercalação adiciona itens às pastas reais de forma permanente. Esta ferramenta não tem forma de os remover.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Compreendo que a intercalação adiciona correio às pastas reais e que esta ferramenta não o consegue remover.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Uma estimativa precisa das ligações dos passos anteriores.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>A ler o tamanho das caixas de correio ({0}); só de leitura, nada é alterado…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Estimativa ignorada. A barra de progresso continuará a mostrar uma estimativa assim que a cópia estiver em curso.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Não foi possível fazer a estimativa: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Cerca de {0} mensagens ({1} MB). Caixas de correio: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Tempo estimado: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Baseado em velocidades medidas nos nossos testes com mensagens normais; anexos muito grandes demoram mais. As caixas de correio são copiadas uma a seguir à outra. Se parar, a execução seguinte retoma onde ficou.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Caixas de correio que não foi possível ler: {0}. Não estão na estimativa e provavelmente também falharão na cópia. Primeiro motivo: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>menos de um minuto</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} h {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Iniciar a cópia?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Iniciar a cópia agora? Caixas de correio: {0}.
+
+{1}
+
+Nada na origem é alterado. Pode parar em qualquer altura.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>O correio será adicionado às pastas reais de cada caixa de correio de destino. Esta ferramenta não o consegue remover.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>O correio será adicionado numa nova pasta "{0}" em cada caixa de correio de destino.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Não é possível iniciar</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>Falta um segredo do cliente neste PC. Adicione-o em Registos de aplicações.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Corrija primeiro o seguinte:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>A copiar caixas de correio: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>A iniciar…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Concluído. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Cada mensagem foi comparada com a origem.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Selecione uma linha para ver os detalhes ou abra o ficheiro de resultados.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Interrompido por um erro: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Duração: {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} de {2} caixas de correio concluídas · {3} · {4} até agora</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>faltam cerca de {0}</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>estimado em {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>a estimar o tempo…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Caixa de correio {0} de {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Caixa de correio {0}: {1} de {2} itens processados — {3} copiados, {4} já existentes, {5} com falha</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>A parar após o item atual… os itens concluídos ficam registados.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Caixas de correio</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Detalhe das pastas da caixa de correio em curso</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Registo</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Apenas avisos e erros</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} erros, {1} avisos</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Cópia em curso</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>Está uma cópia em execução. Fechar agora interrompe-a (os itens concluídos ficam registados, pelo que pode retomar).
+
+Fechar mesmo assim?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Progresso geral</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Progresso das caixas de correio</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Copiadas sem problemas: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Requerem atenção: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Com falha: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Não executadas: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Iniciar sessão e verificar as contas</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Origem (só de leitura): percorrer a árvore de pastas e listar os itens</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Destino: localizar as pastas para onde vai o correio</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Recriar a árvore e copiar itens (exportar da origem, importar para o destino)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Reconciliar: comparar a contagem de itens por pasta</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Verificar: comparar cada mensagem copiada com a origem, campo a campo</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>A aguardar</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>A copiar…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Concluído</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Requer atenção</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Falhou</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Não executado</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Copiado</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>A copiar</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} com falha</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Contagens diferentes</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>pasta de utilizador</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>N.º</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Origem</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Destino</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Estado</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Detalhes (selecione para copiar)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Pasta</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Tipo</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Itens</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Copiados</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Já existentes</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Com falha</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Resultado</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Verificados idênticos</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Notas (selecione para copiar)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Notas</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Detalhes</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>A cópia foi interrompida</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Cópia concluída</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Caixas de correio copiadas: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Caixas de correio copiadas: {0}. Todas as {1} mensagens verificadas eram idênticas à origem.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>A cópia parou antes de terminar</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Caixas de correio concluídas: {0}. Não iniciadas: {1}. Execute novamente para continuar: os itens concluídos não são copiados duas vezes.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Concluído, com itens que requerem atenção</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Caixas de correio copiadas sem problemas: {0} de {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Caixa a caixa</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>O que fazer a seguir</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Copiar este resumo</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Resultados por caixa de correio</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Caixas de correio copiadas</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Mensagens copiadas</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Já no destino</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Itens com falha</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Verificados idênticos</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Tempo decorrido</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} de {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>nenhum</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>não verificado</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Abra o ficheiro de resultados ou o registo para ver o motivo, corrija a causa (por exemplo, uma permissão em falta ou uma caixa de correio de destino que ainda não existe) e escolha Executar novamente. Os itens concluídos ficam registados, pelo que nada é copiado duas vezes.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Abra algumas caixas de correio de destino no Outlook e verifique a Caixa de Entrada, os Itens Enviados e as suas próprias pastas. Verifique por amostragem mensagens com anexos.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Abra algumas caixas de correio de destino no Outlook e procure a pasta "{0}". Verifique por amostragem mensagens com anexos. As pessoas podem mover o correio para fora dela ou deixá-lo lá.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Os contactos e o calendário são contados mas ainda não são comparados campo a campo. Abra os Contactos e o Calendário de algumas caixas de correio de destino e verifique-os, especialmente as reuniões periódicas.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>Para obter o correio que chegou depois desta execução, escolha Executar novamente com as mesmas definições. Apenas o correio novo é copiado.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Quando a migração estiver completamente concluída, elimine os segredos do cliente e remova os registos de aplicações no Microsoft Entra, uma vez que podem aceder a todas as caixas de correio do inquilino.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Caixas de correio copiadas: {0} de {1}; mensagens copiadas: {2}; já no destino: {3}; itens com falha: {4}; tempo: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Caixas de correio copiadas: {0} de {1}; mensagens copiadas: {2}; já no destino: {3}; itens com falha: {4}; verificados idênticos: {5} de {6}; tempo: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Registos de aplicações</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>Um registo de aplicação é a identidade que esta ferramenta utiliza para comunicar com o Microsoft 365 num inquilino. Cria-o uma vez por inquilino no centro de administração do Microsoft Entra, guarda-o aqui com um nome que reconheça e escolhe-o nos passos Origem e Destino. Nada aqui é enviado para lado nenhum; fica armazenado apenas para o seu utilizador do Windows.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Adicionar</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Remover</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Nome</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Qualquer nome que ajude a distingui-los, por exemplo "Contoso (origem)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>ID do diretório (inquilino)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>Um GUID. Encontra-se na página Descrição geral do registo no centro de administração do Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>ID da aplicação (cliente)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>Um GUID. Também se encontra na página Descrição geral.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Segredo do cliente</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>O Valor do segredo (não o ID), em Certificados e segredos. Permite que a aplicação copie caixas de correio sem que ninguém inicie sessão. É encriptado para o seu utilizador do Windows e não pode ser lido noutro PC. É mostrado apenas enquanto é escrito; escreva um novo para o substituir.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>Está guardado um segredo.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Limpar</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Para criar um: centro de administração do Microsoft Entra &gt; Registos de aplicações &gt; Novo registo (inquilino único). Abra Permissões de API e adicione as Permissões da aplicação indicadas nos passos Origem e Destino; depois, Conceder consentimento do administrador. Abra Certificados e segredos, crie um Novo segredo do cliente e copie imediatamente o respetivo Valor (só é mostrado uma vez). Copie o ID do diretório (inquilino) e o ID da aplicação (cliente) da página Descrição geral para este formulário.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Novo registo</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(sem nome)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Remover registo</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Remover "{0}" desta lista?
+
+Isto apenas o esquece aqui. O registo de aplicação no Microsoft Entra não é alterado.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Verifique a lista</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Atribua um nome a cada registo.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": o ID do inquilino e o ID do cliente têm de ser GUIDs (por exemplo, 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Falha ao guardar</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Não foi possível guardar: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Definições</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Idioma</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Igual ao Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Um novo idioma aplica-se na próxima vez que iniciar o Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Igual ao Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Claro</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Escuro</value></data>
+</root>

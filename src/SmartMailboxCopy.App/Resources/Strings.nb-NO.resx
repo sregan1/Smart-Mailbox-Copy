@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Smart Mailbox Copy</value></data>
+  <data name="Bar_Registrations" xml:space="preserve"><value>Appregistreringer</value></data>
+  <data name="Bar_Reports" xml:space="preserve"><value>Tidligere kjøringer og rapporter</value></data>
+  <data name="Bar_Settings" xml:space="preserve"><value>Innstillinger</value></data>
+  <data name="Auto_Minimize" xml:space="preserve"><value>Minimer</value></data>
+  <data name="Auto_Maximize" xml:space="preserve"><value>Maksimer eller gjenopprett</value></data>
+  <data name="Auto_Close" xml:space="preserve"><value>Lukk</value></data>
+  <data name="Auto_Steps" xml:space="preserve"><value>Trinn</value></data>
+  <data name="Btn_Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Btn_Save" xml:space="preserve"><value>Lagre</value></data>
+  <data name="Btn_Back" xml:space="preserve"><value>Tilbake</value></data>
+  <data name="Btn_Next" xml:space="preserve"><value>Neste</value></data>
+  <data name="Btn_GetStarted" xml:space="preserve"><value>Kom i gang</value></data>
+  <data name="Btn_Start" xml:space="preserve"><value>Start kopiering</value></data>
+  <data name="Btn_ViewResults" xml:space="preserve"><value>Vis resultater</value></data>
+  <data name="Btn_NewMigration" xml:space="preserve"><value>Ny migrering</value></data>
+  <data name="Btn_Stop" xml:space="preserve"><value>Stopp</value></data>
+  <data name="Btn_OpenResults" xml:space="preserve"><value>Åpne resultater (CSV)</value></data>
+  <data name="Btn_OpenItems" xml:space="preserve"><value>Åpne elementliste (CSV)</value></data>
+  <data name="Btn_OpenLog" xml:space="preserve"><value>Åpne logg</value></data>
+  <data name="Btn_RunAgain" xml:space="preserve"><value>Kjør på nytt (gjenoppta)</value></data>
+  <data name="Step0_Label" xml:space="preserve"><value>Velkommen</value></data>
+  <data name="Step1_Label" xml:space="preserve"><value>Kilde</value></data>
+  <data name="Step2_Label" xml:space="preserve"><value>Mål</value></data>
+  <data name="Step3_Label" xml:space="preserve"><value>Postbokser</value></data>
+  <data name="Step4_Label" xml:space="preserve"><value>Match</value></data>
+  <data name="Step5_Label" xml:space="preserve"><value>Valg</value></data>
+  <data name="Step6_Label" xml:space="preserve"><value>Gjennomgå</value></data>
+  <data name="Step7_Label" xml:space="preserve"><value>Kopier</value></data>
+  <data name="Step8_Label" xml:space="preserve"><value>Resultater</value></data>
+  <data name="Step0_Title" xml:space="preserve"><value>Velkommen</value></data>
+  <data name="Step1_Title" xml:space="preserve"><value>Kildeleietaker</value></data>
+  <data name="Step2_Title" xml:space="preserve"><value>Målleietaker</value></data>
+  <data name="Step3_Title" xml:space="preserve"><value>Velg postbokser</value></data>
+  <data name="Step4_Title" xml:space="preserve"><value>Match postbokser</value></data>
+  <data name="Step5_Title" xml:space="preserve"><value>Valg</value></data>
+  <data name="Step6_Title" xml:space="preserve"><value>Gjennomgå</value></data>
+  <data name="Step7_Title" xml:space="preserve"><value>Kopier</value></data>
+  <data name="Step8_Title" xml:space="preserve"><value>Resultater</value></data>
+  <data name="Step0_Desc" xml:space="preserve"><value>Flytt e-post mellom Microsoft 365-leietakere: én postboks, flere eller alle.</value></data>
+  <data name="Step1_Desc" xml:space="preserve"><value>Koble til leietakeren du kopierer FRA. Den leses bare; ingenting i den endres.</value></data>
+  <data name="Step2_Desc" xml:space="preserve"><value>Koble til leietakeren du kopierer TIL. E-post legges til her; ingenting som allerede finnes, endres eller slettes.</value></data>
+  <data name="Step3_Desc" xml:space="preserve"><value>Velg postboksene som skal kopieres. Bruk filtrene til å begrense listen, og merk deretter de du vil ha.</value></data>
+  <data name="Step4_Desc" xml:space="preserve"><value>Angi hvilken målpostboks hver kildepostboks skal kopieres til.</value></data>
+  <data name="Step5_Desc" xml:space="preserve"><value>Velg hvordan e-posten plasseres i målet, og hvilke sikkerhetskontroller som skal kjøres.</value></data>
+  <data name="Step6_Desc" xml:space="preserve"><value>Kontroller planen. Ingenting er kopiert ennå.</value></data>
+  <data name="Step7_Desc" xml:space="preserve"><value>Kopierer nå. Du kan stoppe når som helst; ferdige elementer huskes, slik at du kan gjenoppta senere.</value></data>
+  <data name="Step8_Desc" xml:space="preserve"><value>Hva som ble kopiert, hva som ble kontrollert, og hva du bør gjøre videre.</value></data>
+  <data name="Hint_Source" xml:space="preserve"><value>Koble til kildeleietakeren for å fortsette.</value></data>
+  <data name="Hint_Target" xml:space="preserve"><value>Koble til målleietakeren for å fortsette.</value></data>
+  <data name="Hint_TickOne" xml:space="preserve"><value>Merk minst én postboks for å fortsette.</value></data>
+  <data name="Hint_OneReady" xml:space="preserve"><value>Minst én rad må ha statusen Klar for å fortsette.</value></data>
+  <data name="Hint_EnterFolder" xml:space="preserve"><value>Skriv inn et mappenavn for å fortsette.</value></data>
+  <data name="Hint_Filters" xml:space="preserve"><value>Kontroller e-postfiltrene: merk minst én mappe, velg en dato, og skriv inn en størrelse større enn 0.</value></data>
+  <data name="Hint_Estimating" xml:space="preserve"><value>Estimerer størrelse og tid (skrivebeskyttet). Start er tilgjengelig når det er ferdig, eller velg Hopp over estimatet.</value></data>
+  <data name="Hint_Understand" xml:space="preserve"><value>Merk av i boksen ovenfor for å fortsette.</value></data>
+  <data name="Welcome_Intro" xml:space="preserve"><value>Dette verktøyet kopierer e-post mellom Microsoft 365-leietakere. Du kan flytte én postboks, noen få utvalgte eller alle, og verktøyet kontrollerer hver melding mot originalen etterpå.</value></data>
+  <data name="Welcome_WillTitle" xml:space="preserve"><value>Hva det gjør, og hva det ikke gjør</value></data>
+  <data name="Welcome_WillBody" xml:space="preserve"><value>• Kildeleietakeren leses bare. Ingenting i den endres eller slettes.
+• Målet mottar bare elementer (e-post, og kalenderhendelser og kontakter hvis du velger det). Verktøyet sletter eller endrer aldri noe som allerede finnes der.
+• En melding som er kopiert to ganger, hoppes over, slik at en kjøring trygt kan gjentas eller gjenopptas.
+• Hver kopierte melding sammenlignes felt for felt med kilden, og resultatet rapporteres.</value></data>
+  <data name="Welcome_NeedTitle" xml:space="preserve"><value>Dette trenger du før du starter</value></data>
+  <data name="Welcome_NeedBody" xml:space="preserve"><value>1. En appregistrering i hver leietaker (kilde og mål), opprettet av en global administrator. De neste trinnene viser nøyaktig hvilke tillatelser som skal legges til.
+2. En klienthemmelighet for hver registrering.
+3. Postboksene du vil flytte, må allerede finnes i målleietakeren (opprett brukerne og gi dem lisenser først).</value></data>
+  <data name="Welcome_HowTitle" xml:space="preserve"><value>Slik fungerer det</value></data>
+  <data name="Welcome_HowBody" xml:space="preserve"><value>Verktøyet bruker appregistreringen, ikke en persons pålogging, slik at det kan nå andres postbokser uten passordene deres. Siden en appregistrering med disse tillatelsene kan nå alle postbokser i leietakeren, bør du holde hemmeligheten privat og fjerne registreringen når migreringen er ferdig.</value></data>
+  <data name="Welcome_NextHint" xml:space="preserve"><value>Velg Neste for å koble til kildeleietakeren. Du kan gå tilbake til et hvilket som helst ferdig trinn fra trinnlinjen øverst.</value></data>
+  <data name="Conn_SourceIntro" xml:space="preserve"><value>Kilden er leietakeren e-posten ligger i nå. Smart Mailbox Copy logger på med en appregistrering (ingen person logger på) og leser postboksene du velger.</value></data>
+  <data name="Conn_TargetIntro" xml:space="preserve"><value>Målet er leietakeren e-posten flyttes til. Postboksene må allerede finnes der, med lisenser. Verktøyet legger bare til e-post.</value></data>
+  <data name="Conn_SourcePermsIntro" xml:space="preserve"><value>I administrasjonssenteret for Microsoft Entra: Appregistreringer &gt; appen din &gt; API-tillatelser &gt; Legg til en tillatelse &gt; Microsoft Graph &gt; Programtillatelser. Velg deretter Gi administratorsamtykke.</value></data>
+  <data name="Conn_TargetPermsIntro" xml:space="preserve"><value>Samme sted som for kilden: API-tillatelser &gt; Legg til en tillatelse &gt; Microsoft Graph &gt; Programtillatelser, og velg deretter Gi administratorsamtykke.</value></data>
+  <data name="Conn_PermNoteExport" xml:space="preserve"><value>eksport; bruk eksporttillatelsen hvis portalen viser en</value></data>
+  <data name="Conn_RegLabel" xml:space="preserve"><value>Appregistrering</value></data>
+  <data name="Conn_RegHint" xml:space="preserve"><value>Den lagrede Microsoft Entra-appregistreringen for denne leietakeren. Hvis den ikke er i listen ennå, velger du Administrer og legger den til.</value></data>
+  <data name="Conn_Manage" xml:space="preserve"><value>Administrer…</value></data>
+  <data name="Conn_PermsTitle" xml:space="preserve"><value>Tillatelser denne appregistreringen trenger</value></data>
+  <data name="Conn_Connect" xml:space="preserve"><value>Koble til og vis postbokser</value></data>
+  <data name="Conn_TestNote" xml:space="preserve"><value>Dette logger på med appregistreringen, leser listen over postbokser og kontrollerer hvilke programtillatelser appen har fått. Det endrer ingenting. En tillatelse du la til for et øyeblikk siden, kan bruke noen minutter på å vises: vent, og koble til på nytt.</value></data>
+  <data name="Conn_Detail" xml:space="preserve"><value>Leietaker {0}  ·  program {1}  ·  {2}</value></data>
+  <data name="Conn_SecretSaved" xml:space="preserve"><value>klienthemmelighet lagret</value></data>
+  <data name="Conn_SecretMissing" xml:space="preserve"><value>INGEN klienthemmelighet lagret: legg til en under Administrer</value></data>
+  <data name="Conn_NothingSelected" xml:space="preserve"><value>Ingenting valgt.</value></data>
+  <data name="Conn_Connecting" xml:space="preserve"><value>Kobler til…</value></data>
+  <data name="Conn_Connected" xml:space="preserve"><value>Tilkoblet. Kontoer med en postboksadresse funnet: {0}.</value></data>
+  <data name="Conn_ChooseReg" xml:space="preserve"><value>Velg en appregistrering først.</value></data>
+  <data name="Conn_NoSecret" xml:space="preserve"><value>Denne registreringen har ingen klienthemmelighet lagret på denne PC-en. Velg Administrer og legg den til.</value></data>
+  <data name="Err_SecretInvalid" xml:space="preserve"><value>Klienthemmeligheten er ikke gyldig. Det kan være hemmelighetens ID i stedet for verdien, eller en annen apps hemmelighet. Opprett en ny hemmelighet, og oppdater den under Administrer.</value></data>
+  <data name="Err_SecretExpired" xml:space="preserve"><value>Klienthemmeligheten har utløpt. Opprett en ny, og oppdater den under Administrer.</value></data>
+  <data name="Err_ClientNotFound" xml:space="preserve"><value>Denne program-ID-en (klient-ID-en) ble ikke funnet i denne leietakeren. Kontroller leietaker- og klient-ID-ene under Administrer.</value></data>
+  <data name="Err_TenantNotFound" xml:space="preserve"><value>Denne leietaker-ID-en ble ikke funnet. Kontroller den under Administrer.</value></data>
+  <data name="Err_MissingUserRead" xml:space="preserve"><value>Appen mangler programtillatelsen User.Read.All, eller administratorsamtykke er ikke gitt.</value></data>
+  <data name="Chk_Header" xml:space="preserve"><value>Programtillatelser gitt til denne appen:</value></data>
+  <data name="Chk_LabelMailboxItem" xml:space="preserve"><value>MailboxItem.* (import/eksport og lesing)</value></data>
+  <data name="Chk_WhyReadMail" xml:space="preserve"><value>lese e-post</value></data>
+  <data name="Chk_WhyCreateFolders" xml:space="preserve"><value>opprette mapper i målet</value></data>
+  <data name="Chk_WhyImportExport" xml:space="preserve"><value>eksportere og importere e-postelementer</value></data>
+  <data name="Chk_WhyFolderTree" xml:space="preserve"><value>lese mappestrukturen</value></data>
+  <data name="Chk_WhyListMailboxes" xml:space="preserve"><value>vise postbokser</value></data>
+  <data name="Chk_WhyCalendars" xml:space="preserve"><value>bare for å kopiere flere kalendere</value></data>
+  <data name="Chk_WhyContacts" xml:space="preserve"><value>bare for å kopiere flere kontaktmapper</value></data>
+  <data name="Chk_Missing" xml:space="preserve"><value>{0}  MANGLER: nødvendig for å {1}</value></data>
+  <data name="Chk_NotGranted" xml:space="preserve"><value>{0}  ikke gitt ({1})</value></data>
+  <data name="Chk_AddMissing" xml:space="preserve"><value>Legg til de manglende tillatelsene som programtillatelser, og gi administratorsamtykke. Det kan ta noen minutter før de vises.</value></data>
+  <data name="Boxes_Intro" xml:space="preserve"><value>Vis typene postbokser du vil ha, begrens etter domene eller tekst, og merk deretter de som skal kopieres. Merkingene dine beholdes mens du endrer filtrene. Kontoer uten lisens er delte postbokser samt rom- og utstyrspostbokser; Microsoft oppgir ikke hvilken type det er.</value></data>
+  <data name="Boxes_Users" xml:space="preserve"><value>Brukere</value></data>
+  <data name="Boxes_Resources" xml:space="preserve"><value>Delt, rom, utstyr (ingen lisens)</value></data>
+  <data name="Boxes_Guests" xml:space="preserve"><value>Gjester</value></data>
+  <data name="Boxes_EnabledOnly" xml:space="preserve"><value>Bare aktiverte kontoer</value></data>
+  <data name="Boxes_Domain" xml:space="preserve"><value>Domene</value></data>
+  <data name="Boxes_Search" xml:space="preserve"><value>Søk</value></data>
+  <data name="Boxes_AllDomains" xml:space="preserve"><value>Alle domener</value></data>
+  <data name="Boxes_ColCopy" xml:space="preserve"><value>Kopier</value></data>
+  <data name="Boxes_ColName" xml:space="preserve"><value>Navn</value></data>
+  <data name="Boxes_ColAddress" xml:space="preserve"><value>Adresse</value></data>
+  <data name="Boxes_ColType" xml:space="preserve"><value>Type</value></data>
+  <data name="Boxes_ColAccount" xml:space="preserve"><value>Konto</value></data>
+  <data name="Boxes_KindUser" xml:space="preserve"><value>Bruker</value></data>
+  <data name="Boxes_KindResource" xml:space="preserve"><value>Delt, rom eller utstyr (ingen lisens)</value></data>
+  <data name="Boxes_KindGuest" xml:space="preserve"><value>Gjest</value></data>
+  <data name="Boxes_Enabled" xml:space="preserve"><value>Aktivert</value></data>
+  <data name="Boxes_Disabled" xml:space="preserve"><value>Deaktivert</value></data>
+  <data name="Boxes_TickAll" xml:space="preserve"><value>Merk alle viste</value></data>
+  <data name="Boxes_UntickAll" xml:space="preserve"><value>Fjern merkingen for alle viste</value></data>
+  <data name="Boxes_Refresh" xml:space="preserve"><value>Oppdater liste</value></data>
+  <data name="Boxes_Selection" xml:space="preserve"><value>{0} valgt · {1} vist av {2}</value></data>
+  <data name="Boxes_SelectionHidden" xml:space="preserve"><value> · {0} valgt, men skjult av filtrene</value></data>
+  <data name="Boxes_AutoDomain" xml:space="preserve"><value>Domenefilter</value></data>
+  <data name="Boxes_AutoSearch" xml:space="preserve"><value>Søk i postbokser</value></data>
+  <data name="Boxes_AutoGrid" xml:space="preserve"><value>Kildepostbokser</value></data>
+  <data name="Match_Intro" xml:space="preserve"><value>Hver kildeadresse trenger en postboks i målleietakeren. De matches ved å bytte domene; skriv inn en annen måladresse i rader der navnene er forskjellige. Rader med statusen Klar kopieres; de andre utelates.</value></data>
+  <data name="Match_TargetDomain" xml:space="preserve"><value>Måldomene</value></data>
+  <data name="Match_ApplyDomain" xml:space="preserve"><value>Match alle rader til dette domenet</value></data>
+  <data name="Match_Import" xml:space="preserve"><value>Importer oversikt (CSV)…</value></data>
+  <data name="Match_Export" xml:space="preserve"><value>Eksporter oversikt (CSV)…</value></data>
+  <data name="Match_ColSource" xml:space="preserve"><value>Kildepostboks</value></data>
+  <data name="Match_ColTarget" xml:space="preserve"><value>Målpostboks (kan redigeres)</value></data>
+  <data name="Match_ColStatus" xml:space="preserve"><value>Status</value></data>
+  <data name="Match_Ready" xml:space="preserve"><value>Klar</value></data>
+  <data name="Match_Enter" xml:space="preserve"><value>Skriv inn en måladresse</value></data>
+  <data name="Match_NotEmail" xml:space="preserve"><value>Ikke en e-postadresse</value></data>
+  <data name="Match_Dupe" xml:space="preserve"><value>En annen rad bruker dette målet</value></data>
+  <data name="Match_NotFound" xml:space="preserve"><value>Ikke funnet i målleietakeren</value></data>
+  <data name="Match_Summary" xml:space="preserve"><value>{0} av {1} klare til kopiering</value></data>
+  <data name="Match_SummaryLeft" xml:space="preserve"><value> · {0} utelates til det er rettet</value></data>
+  <data name="Match_CsvFilter" xml:space="preserve"><value>CSV-filer (*.csv)|*.csv|Alle filer|*.*</value></data>
+  <data name="Match_ImportTitle" xml:space="preserve"><value>Importer en oversikt over kilde,mål</value></data>
+  <data name="Match_ExportFilter" xml:space="preserve"><value>CSV-filer (*.csv)|*.csv</value></data>
+  <data name="Match_ExportTitle" xml:space="preserve"><value>Eksporter oversikten</value></data>
+  <data name="Match_Imported" xml:space="preserve"><value>{0} av {1} rader i filen samsvarte med en postboks du valgte. De andre ble ignorert.</value></data>
+  <data name="Match_ImportedTitle" xml:space="preserve"><value>Oversikt importert</value></data>
+  <data name="Match_ReadFail" xml:space="preserve"><value>Kunne ikke lese oversikten</value></data>
+  <data name="Match_AutoDomain" xml:space="preserve"><value>Måldomene</value></data>
+  <data name="Match_AutoGrid" xml:space="preserve"><value>Postboksoversikt</value></data>
+  <data name="Opt_PimOnly" xml:space="preserve"><value>Bare kalenderhendelser og kontakter (ikke kopier e-post)</value></data>
+  <data name="Opt_PimOnlyNote" xml:space="preserve"><value>En god første test, eller en måte å kopiere kalendere separat på. Hendelser legges i standardkalenderen til hver målpostboks og kontakter i standardmappen Kontakter. Dette legger til elementer permanent: verktøyet kan ikke fjerne dem etterpå.</value></data>
+  <data name="Opt_WhereTitle" xml:space="preserve"><value>Hvor skal e-posten plasseres?</value></data>
+  <data name="Opt_Container" xml:space="preserve"><value>Bare e-post, i én ny mappe i hver målpostboks (anbefalt)</value></data>
+  <data name="Opt_ContainerNote" xml:space="preserve"><value>All e-post, inkludert mappestrukturen, kopieres inn i én ny mappe. Tryggest, og enkelt å gjennomgå eller slette i Outlook før noen begynner å bruke postboksen. Kalenderhendelser og kontakter kan ikke plasseres i den, så de kopieres ikke i denne modusen.</value></data>
+  <data name="Opt_FolderName" xml:space="preserve"><value>Mappenavn</value></data>
+  <data name="Opt_DefaultFolderName" xml:space="preserve"><value>Migrert e-post</value></data>
+  <data name="Opt_Merge" xml:space="preserve"><value>Slått sammen med de ekte mappene, med kalender og kontakter</value></data>
+  <data name="Opt_MergeNote" xml:space="preserve"><value>E-posten havner der personen forventer den (Innboks i Innboks, Sendte elementer i Sendte elementer), og de andre mappene opprettes ved siden av. Dette legger til elementer permanent: verktøyet har ingen måte å fjerne dem på etterpå.</value></data>
+  <data name="Opt_IncludePim" xml:space="preserve"><value>Kopier også kalenderhendelser og kontakter (standardkalenderen og standard kontaktmappe, samt eventuelle flere kalendere og kontaktmapper)</value></data>
+  <data name="Opt_IncludePimNote" xml:space="preserve"><value>Fjern merkingen for å kopiere bare e-post. Hendelser, inkludert gjentakende møter, telles, men sammenlignes ennå ikke felt for felt.</value></data>
+  <data name="Opt_LimitNone" xml:space="preserve"><value>Begrens hva som kopieres (valgfritt): ingenting er begrenset, alt kopieres</value></data>
+  <data name="Opt_LimitSome" xml:space="preserve"><value>Begrens hva som kopieres (valgfritt): begrensninger slått på: {0}</value></data>
+  <data name="Opt_LimitIntro" xml:space="preserve"><value>Som standard kopieres alle mapper og alle meldinger. Bruk disse bare for å kopiere mindre. De gjelder alle postbokser, aldri kalenderhendelser og kontakter, og utelatt e-post endres eller slettes aldri i kilden.</value></data>
+  <data name="Opt_LeaveOutFolders" xml:space="preserve"><value>Utelat disse mappene</value></data>
+  <data name="Opt_LeaveOutNote" xml:space="preserve"><value>En mappe som utelates, tar undermappene sine med seg.</value></data>
+  <data name="Folder_Inbox" xml:space="preserve"><value>Innboks</value></data>
+  <data name="Folder_Sent" xml:space="preserve"><value>Sendte elementer</value></data>
+  <data name="Folder_Drafts" xml:space="preserve"><value>Utkast</value></data>
+  <data name="Folder_Deleted" xml:space="preserve"><value>Slettede elementer</value></data>
+  <data name="Folder_Junk" xml:space="preserve"><value>Søppelpost</value></data>
+  <data name="Folder_Archive" xml:space="preserve"><value>Arkiv</value></data>
+  <data name="Folder_User" xml:space="preserve"><value>Mapper opprettet av brukerne</value></data>
+  <data name="Opt_DateFilter" xml:space="preserve"><value>Bare e-post opprettet på eller etter</value></data>
+  <data name="Opt_DateNote" xml:space="preserve"><value>Dette er dagen hver melding ble opprettet i postboksen, som vanligvis er dagen den kom. Kontroller et utvalg etter den første kopieringen.</value></data>
+  <data name="Opt_SizeFilter" xml:space="preserve"><value>Hopp over meldinger som er større enn</value></data>
+  <data name="Opt_MB" xml:space="preserve"><value>MB</value></data>
+  <data name="Opt_SafetyTitle" xml:space="preserve"><value>Sikkerhetskontroller</value></data>
+  <data name="Opt_Dedupe" xml:space="preserve"><value>Hopp over e-post som allerede finnes i målet (slik at en ny kjøring ikke kan opprette duplikater)</value></data>
+  <data name="Opt_Verify" xml:space="preserve"><value>Sammenlign hver kopierte melding med kilden etterpå (tar lengre tid, anbefalt)</value></data>
+  <data name="Opt_AllowNonEmpty" xml:space="preserve"><value>Tillat målmapper som allerede inneholder elementer (de kopierte elementene legges til ved siden av dem)</value></data>
+  <data name="Opt_AllowNonEmptyNote" xml:space="preserve"><value>Sammenslåing nekter å starte når en målmappe, for eksempel Innboks eller Kalender, allerede inneholder elementer, med mindre dette er merket.</value></data>
+  <data name="Opt_Advanced" xml:space="preserve"><value>Avansert</value></data>
+  <data name="Opt_Fresh" xml:space="preserve"><value>Start på nytt: ignorer det tidligere kjøringer allerede har kopiert (duplikatkontrollen ovenfor beskytter fortsatt e-posten i målet)</value></data>
+  <data name="Opt_LeaveOutCalTitle" xml:space="preserve"><value>Kalendere og kontaktmapper som skal utelates</value></data>
+  <data name="Opt_LeaveOutCalNote" xml:space="preserve"><value>Ett navn per linje, nøyaktig slik det vises i Outlook. Flere kalendere og kontaktmapper med disse navnene kopieres ikke; en kontaktmappe tar undermappene sine med seg. Bruk dette for kalendere folk abonnerer på, for eksempel en helligdagskalender. Kalenderen Bursdager kopieres aldri (Outlook bygger den fra kontakter). Standardkalenderen og standardmappen Kontakter påvirkes ikke.</value></data>
+  <data name="Opt_ProtectedTitle" xml:space="preserve"><value>Postbokser det aldri skal skrives til</value></data>
+  <data name="Opt_ProtectedNote" xml:space="preserve"><value>Én adresse per linje. Hvis en av disse velges som mål, avvises kopieringen for den.</value></data>
+  <data name="Opt_AutoFolderName" xml:space="preserve"><value>Nytt mappenavn</value></data>
+  <data name="Opt_AutoEarliest" xml:space="preserve"><value>Tidligste dato</value></data>
+  <data name="Opt_AutoMaxMb" xml:space="preserve"><value>Største melding i megabyte</value></data>
+  <data name="Rev_Copy" xml:space="preserve"><value>Postbokser som skal kopieres: {0}, fra "{1}" til "{2}".</value></data>
+  <data name="Rev_PimOnly" xml:space="preserve"><value>Bare kalenderhendelser og kontakter kopieres, inn i standardkalenderen og standardmappen Kontakter i hver målpostboks. Ingen e-post kopieres.</value></data>
+  <data name="Rev_Merge" xml:space="preserve"><value>E-post går inn i de ekte mappene i hver målpostboks (Innboks, Sendte elementer, Utkast…); andre mapper opprettes ved siden av.</value></data>
+  <data name="Rev_Container" xml:space="preserve"><value>Bare e-post går inn i en ny mappe med navnet "{0}" i hver målpostboks, inkludert mappestrukturen.</value></data>
+  <data name="Rev_LeftOutCal" xml:space="preserve"><value>Kalendere og kontaktmapper utelatt etter navn: {0}.</value></data>
+  <data name="Rev_PimYes" xml:space="preserve"><value>Kalenderhendelser og kontakter: kopieres inn i standardkalenderen og standardmappen Kontakter i hver målpostboks.</value></data>
+  <data name="Rev_PimNo" xml:space="preserve"><value>Kalenderhendelser og kontakter: kopieres ikke.</value></data>
+  <data name="Rev_DedupeOn" xml:space="preserve"><value>E-post som allerede finnes i målet, hoppes over.</value></data>
+  <data name="Rev_DedupeOff" xml:space="preserve"><value>Det kontrolleres IKKE for e-post som allerede finnes i målet.</value></data>
+  <data name="Rev_LeftOut" xml:space="preserve"><value>Utelatt: {0}.</value></data>
+  <data name="Rev_Since" xml:space="preserve"><value>Bare e-post opprettet {0} eller senere.</value></data>
+  <data name="Rev_MaxSize" xml:space="preserve"><value>Meldinger større enn {0} MB hoppes over.</value></data>
+  <data name="Rev_VerifyOn" xml:space="preserve"><value>Hver kopierte melding sammenlignes med kilden etterpå.</value></data>
+  <data name="Rev_VerifyOff" xml:space="preserve"><value>Ingen sammenligning etterpå.</value></data>
+  <data name="Rev_Sequential" xml:space="preserve"><value>Postboksene kopieres én etter én. Ingenting i kilden endres.</value></data>
+  <data name="Rev_EstimateTitle" xml:space="preserve"><value>Estimat for størrelse og tid</value></data>
+  <data name="Rev_SkipEstimate" xml:space="preserve"><value>Hopp over estimatet</value></data>
+  <data name="Rev_WarnLeft" xml:space="preserve"><value>Postbokser utelatt fordi ingen samsvarende målpostboks ble funnet: {0}. Gå tilbake til Match postbokser for å rette dem.</value></data>
+  <data name="Rev_WarnResource" xml:space="preserve"><value>Valgte postbokser uten lisens (delt, rom eller utstyr): {0}. E-postmappene deres kopieres, og det samme gjelder kalenderen når kalenderkopiering er slått på. Ressursinnstillinger som bookingregler kopieres ikke.</value></data>
+  <data name="Rev_WarnMergePim" xml:space="preserve"><value>Dette legger til kalenderhendelser og kontakter permanent. Dette verktøyet har ingen måte å fjerne dem på.</value></data>
+  <data name="Rev_WarnMerge" xml:space="preserve"><value>Sammenslåing legger til elementer i de ekte mappene permanent. Dette verktøyet har ingen måte å fjerne dem på.</value></data>
+  <data name="Rev_Understand" xml:space="preserve"><value>Jeg forstår at sammenslåing legger e-post til i de ekte mappene, og at dette verktøyet ikke kan fjerne den.</value></data>
+  <data name="Est_NeedsConn" xml:space="preserve"><value>Et estimat krever tilkoblingene fra de tidligere trinnene.</value></data>
+  <data name="Est_Reading" xml:space="preserve"><value>Leser størrelsen på postboksene ({0}); skrivebeskyttet, ingenting endres…</value></data>
+  <data name="Est_Skipped" xml:space="preserve"><value>Estimatet ble hoppet over. Fremdriftslinjen viser fortsatt et estimat når kopieringen er i gang.</value></data>
+  <data name="Est_Failed" xml:space="preserve"><value>Estimatet kunne ikke lages: {0}</value></data>
+  <data name="Est_Summary" xml:space="preserve"><value>Omtrent {0} meldinger ({1} MB). Postbokser: {2}.</value></data>
+  <data name="Est_Time" xml:space="preserve"><value>Estimert tid: {0}.</value></data>
+  <data name="Est_Basis" xml:space="preserve"><value>Basert på hastigheter målt i testene våre med vanlige meldinger; svært store vedlegg tar lengre tid. Postboksene kopieres én etter én. Hvis du stopper, gjenopptar neste kjøring der den slapp.</value></data>
+  <data name="Est_Unreadable" xml:space="preserve"><value>Postbokser som ikke kunne leses: {0}. De er ikke med i estimatet og vil sannsynligvis også mislykkes under kopieringen. Første årsak: {1}</value></data>
+  <data name="Dur_Under" xml:space="preserve"><value>under ett minutt</value></data>
+  <data name="Dur_Min" xml:space="preserve"><value>{0} min</value></data>
+  <data name="Dur_HourMin" xml:space="preserve"><value>{0} t {1} min</value></data>
+  <data name="Run_ConfirmTitle" xml:space="preserve"><value>Starte kopieringen?</value></data>
+  <data name="Run_Confirm" xml:space="preserve"><value>Starte kopieringen nå? Postbokser: {0}.
+
+{1}
+
+Ingenting i kilden endres. Du kan stoppe når som helst.</value></data>
+  <data name="Run_ConfirmMerge" xml:space="preserve"><value>E-post legges til i de ekte mappene i hver målpostboks. Den kan ikke fjernes av dette verktøyet.</value></data>
+  <data name="Run_ConfirmContainer" xml:space="preserve"><value>E-post legges til i en ny mappe "{0}" i hver målpostboks.</value></data>
+  <data name="Run_CannotStart" xml:space="preserve"><value>Kan ikke starte</value></data>
+  <data name="Run_NoSecret" xml:space="preserve"><value>En klienthemmelighet mangler på denne PC-en. Legg den til under Appregistreringer.</value></data>
+  <data name="Run_FixFirst" xml:space="preserve"><value>Rett disse først:</value></data>
+  <data name="Run_Headline" xml:space="preserve"><value>Kopierer postbokser: {0}…</value></data>
+  <data name="Run_Starting" xml:space="preserve"><value>Starter…</value></data>
+  <data name="Run_Finished" xml:space="preserve"><value>Ferdig. {0}</value></data>
+  <data name="Run_AllCompared" xml:space="preserve"><value>Hver melding ble sammenlignet med kilden.</value></data>
+  <data name="Run_SelectRow" xml:space="preserve"><value>Velg en rad for detaljer, eller åpne resultatfilen.</value></data>
+  <data name="Run_StoppedByError" xml:space="preserve"><value>Stoppet av en feil: {0}</value></data>
+  <data name="Run_Took" xml:space="preserve"><value>Tok {0}.</value></data>
+  <data name="Run_Eta" xml:space="preserve"><value>{0:P0} · {1} av {2} postbokser ferdige · {3} · {4} så langt</value></data>
+  <data name="Run_EtaLeft" xml:space="preserve"><value>omtrent {0} igjen</value></data>
+  <data name="Run_EtaEstimated" xml:space="preserve"><value>estimert {0}</value></data>
+  <data name="Run_EtaEstimating" xml:space="preserve"><value>estimerer tiden…</value></data>
+  <data name="Run_Phase" xml:space="preserve"><value>Postboks {0} av {1}: {2}</value></data>
+  <data name="Run_Totals" xml:space="preserve"><value>Postboks {0}: {1} av {2} elementer behandlet — {3} kopiert, {4} fantes allerede, {5} mislyktes</value></data>
+  <data name="Run_Stopping" xml:space="preserve"><value>Stopper etter det gjeldende elementet… ferdige elementer huskes.</value></data>
+  <data name="Run_Mailboxes" xml:space="preserve"><value>Postbokser</value></data>
+  <data name="Run_FolderDetail" xml:space="preserve"><value>Mappedetaljer for postboksen som kjører</value></data>
+  <data name="Run_Log" xml:space="preserve"><value>Logg</value></data>
+  <data name="Run_OnlyProblems" xml:space="preserve"><value>Bare advarsler og feil</value></data>
+  <data name="Run_Counts" xml:space="preserve"><value>{0} feil, {1} advarsler</value></data>
+  <data name="Run_ClosingTitle" xml:space="preserve"><value>Kopiering pågår</value></data>
+  <data name="Run_Closing" xml:space="preserve"><value>En kopiering kjører. Hvis du lukker nå, stoppes den (ferdige elementer huskes, slik at du kan gjenoppta).
+
+Lukke likevel?</value></data>
+  <data name="Run_AutoProgress" xml:space="preserve"><value>Samlet fremdrift</value></data>
+  <data name="Run_AutoGrid" xml:space="preserve"><value>Postboksfremdrift</value></data>
+  <data name="Part_Clean" xml:space="preserve"><value>Kopiert uten problemer: {0}</value></data>
+  <data name="Part_Problems" xml:space="preserve"><value>Trenger en titt: {0}</value></data>
+  <data name="Part_Failed" xml:space="preserve"><value>Mislyktes: {0}</value></data>
+  <data name="Part_NotRun" xml:space="preserve"><value>Ikke kjørt: {0}</value></data>
+  <data name="Phase_1" xml:space="preserve"><value>Logg på og bekreft kontoene</value></data>
+  <data name="Phase_2" xml:space="preserve"><value>Kilde (skrivebeskyttet): gå gjennom mappestrukturen og list elementer</value></data>
+  <data name="Phase_3" xml:space="preserve"><value>Mål: finn mappene e-posten skal inn i</value></data>
+  <data name="Phase_4" xml:space="preserve"><value>Gjenopprett strukturen og kopier elementer (eksporter fra kilden, importer til målet)</value></data>
+  <data name="Phase_5" xml:space="preserve"><value>Avstem: sammenlign antall elementer per mappe</value></data>
+  <data name="Phase_6" xml:space="preserve"><value>Bekreft: sammenlign hver kopierte melding med kilden, felt for felt</value></data>
+  <data name="State_Waiting" xml:space="preserve"><value>Venter</value></data>
+  <data name="State_Copying" xml:space="preserve"><value>Kopierer…</value></data>
+  <data name="State_Done" xml:space="preserve"><value>Ferdig</value></data>
+  <data name="State_Problems" xml:space="preserve"><value>Trenger en titt</value></data>
+  <data name="State_Failed" xml:space="preserve"><value>Mislyktes</value></data>
+  <data name="State_NotRun" xml:space="preserve"><value>Ikke kjørt</value></data>
+  <data name="State_Copied" xml:space="preserve"><value>Kopiert</value></data>
+  <data name="FStat_Copying" xml:space="preserve"><value>Kopierer</value></data>
+  <data name="FStat_Failed" xml:space="preserve"><value>{0} mislyktes</value></data>
+  <data name="FStat_Mismatch" xml:space="preserve"><value>Antallet avviker</value></data>
+  <data name="Kind_UserFolder" xml:space="preserve"><value>brukermappe</value></data>
+  <data name="Col_Index" xml:space="preserve"><value>#</value></data>
+  <data name="Col_Source" xml:space="preserve"><value>Kilde</value></data>
+  <data name="Col_Target" xml:space="preserve"><value>Mål</value></data>
+  <data name="Col_Status" xml:space="preserve"><value>Status</value></data>
+  <data name="Col_Details" xml:space="preserve"><value>Detaljer (velg for å kopiere)</value></data>
+  <data name="Col_Folder" xml:space="preserve"><value>Mappe</value></data>
+  <data name="Col_Kind" xml:space="preserve"><value>Type</value></data>
+  <data name="Col_Items" xml:space="preserve"><value>Elementer</value></data>
+  <data name="Col_Copied" xml:space="preserve"><value>Kopiert</value></data>
+  <data name="Col_Already" xml:space="preserve"><value>Fantes allerede</value></data>
+  <data name="Col_Failed" xml:space="preserve"><value>Mislyktes</value></data>
+  <data name="Col_Result" xml:space="preserve"><value>Resultat</value></data>
+  <data name="Col_Verified" xml:space="preserve"><value>Bekreftet identisk</value></data>
+  <data name="Col_Notes" xml:space="preserve"><value>Notater (velg for å kopiere)</value></data>
+  <data name="Col_AutoNotes" xml:space="preserve"><value>Notater</value></data>
+  <data name="Col_AutoDetails" xml:space="preserve"><value>Detaljer</value></data>
+  <data name="Res_Stopped" xml:space="preserve"><value>Kopieringen stoppet</value></data>
+  <data name="Res_Complete" xml:space="preserve"><value>Kopiering fullført</value></data>
+  <data name="Res_CompleteSub" xml:space="preserve"><value>Postbokser kopiert: {0}.</value></data>
+  <data name="Res_CompleteVerified" xml:space="preserve"><value>Postbokser kopiert: {0}. Alle de {1} kontrollerte meldingene var identiske med kilden.</value></data>
+  <data name="Res_StoppedEarly" xml:space="preserve"><value>Kopieringen stoppet før den var ferdig</value></data>
+  <data name="Res_StoppedEarlySub" xml:space="preserve"><value>Postbokser ferdige: {0}. Ikke startet: {1}. Kjør på nytt for å fortsette: ferdige elementer kopieres ikke to ganger.</value></data>
+  <data name="Res_NeedLook" xml:space="preserve"><value>Ferdig, med elementer som trenger en titt</value></data>
+  <data name="Res_NeedLookSub" xml:space="preserve"><value>Postbokser kopiert uten problemer: {0} av {1}. {2}</value></data>
+  <data name="Res_ByMailbox" xml:space="preserve"><value>Postboks for postboks</value></data>
+  <data name="Res_NextTitle" xml:space="preserve"><value>Hva du bør gjøre videre</value></data>
+  <data name="Res_CopySummary" xml:space="preserve"><value>Kopier denne oppsummeringen</value></data>
+  <data name="Res_AutoGrid" xml:space="preserve"><value>Resultater per postboks</value></data>
+  <data name="Stat_Mailboxes" xml:space="preserve"><value>Postbokser kopiert</value></data>
+  <data name="Stat_Messages" xml:space="preserve"><value>Meldinger kopiert</value></data>
+  <data name="Stat_Already" xml:space="preserve"><value>Fantes allerede i målet</value></data>
+  <data name="Stat_Failed" xml:space="preserve"><value>Mislykte elementer</value></data>
+  <data name="Stat_Verified" xml:space="preserve"><value>Bekreftet identisk</value></data>
+  <data name="Stat_Time" xml:space="preserve"><value>Tid brukt</value></data>
+  <data name="Stat_Of" xml:space="preserve"><value>{0} av {1}</value></data>
+  <data name="Stat_None" xml:space="preserve"><value>ingen</value></data>
+  <data name="Stat_NotChecked" xml:space="preserve"><value>ikke kontrollert</value></data>
+  <data name="Next_Problems" xml:space="preserve"><value>Åpne resultatfilen eller loggen for å se hvorfor, rett opp årsaken (for eksempel en manglende tillatelse eller en målpostboks som ikke finnes ennå), og velg Kjør på nytt. Ferdige elementer huskes, så ingenting kopieres to ganger.</value></data>
+  <data name="Next_SpotMerge" xml:space="preserve"><value>Åpne noen få målpostbokser i Outlook, og kontroller Innboks, Sendte elementer og dine egne mapper. Ta stikkprøver av meldinger med vedlegg.</value></data>
+  <data name="Next_SpotContainer" xml:space="preserve"><value>Åpne noen få målpostbokser i Outlook, og se etter mappen "{0}". Ta stikkprøver av meldinger med vedlegg. Folk kan flytte e-post ut av den eller la den ligge.</value></data>
+  <data name="Next_Pim" xml:space="preserve"><value>Kontakter og kalender telles, men sammenlignes ennå ikke felt for felt. Åpne Kontakter og Kalender i noen få målpostbokser og kontroller dem, særlig gjentakende møter.</value></data>
+  <data name="Next_Rerun" xml:space="preserve"><value>For å hente e-post som kom etter denne kjøringen, velger du Kjør på nytt med de samme innstillingene. Bare ny e-post kopieres.</value></data>
+  <data name="Next_Cleanup" xml:space="preserve"><value>Når migreringen er helt ferdig, sletter du klienthemmelighetene og fjerner appregistreringene i Microsoft Entra, siden de kan nå alle postbokser i leietakeren.</value></data>
+  <data name="Sum_Header" xml:space="preserve"><value>Smart Mailbox Copy: {0}</value></data>
+  <data name="Sum_Line" xml:space="preserve"><value>Postbokser kopiert: {0} av {1}; meldinger kopiert: {2}; fantes allerede i målet: {3}; mislykte elementer: {4}; tid: {5}.</value></data>
+  <data name="Sum_LineVerified" xml:space="preserve"><value>Postbokser kopiert: {0} av {1}; meldinger kopiert: {2}; fantes allerede i målet: {3}; mislykte elementer: {4}; bekreftet identisk: {5} av {6}; tid: {7}.</value></data>
+  <data name="Reg_Title" xml:space="preserve"><value>Appregistreringer</value></data>
+  <data name="Reg_Intro" xml:space="preserve"><value>En appregistrering er identiteten dette verktøyet bruker for å snakke med Microsoft 365 i en leietaker. Du oppretter den én gang per leietaker i administrasjonssenteret for Microsoft Entra, lagrer den deretter her under et navn du kjenner igjen, og velger den i trinnene Kilde og Mål. Ingenting her sendes noe sted; det lagres bare for Windows-brukeren din.</value></data>
+  <data name="Reg_Add" xml:space="preserve"><value>Legg til</value></data>
+  <data name="Reg_Remove" xml:space="preserve"><value>Fjern</value></data>
+  <data name="Reg_Name" xml:space="preserve"><value>Navn</value></data>
+  <data name="Reg_NameHint" xml:space="preserve"><value>Alt som hjelper deg å skille dem fra hverandre, for eksempel "Contoso (kilde)".</value></data>
+  <data name="Reg_Tenant" xml:space="preserve"><value>Katalog-ID (leietaker-ID)</value></data>
+  <data name="Reg_TenantHint" xml:space="preserve"><value>En GUID. På siden Oversikt for registreringen i administrasjonssenteret for Entra.</value></data>
+  <data name="Reg_Client" xml:space="preserve"><value>Program-ID (klient-ID)</value></data>
+  <data name="Reg_ClientHint" xml:space="preserve"><value>En GUID. Også på siden Oversikt.</value></data>
+  <data name="Reg_Secret" xml:space="preserve"><value>Klienthemmelighet</value></data>
+  <data name="Reg_SecretHint" xml:space="preserve"><value>Hemmelighetens verdi (ikke ID-en), fra Sertifikater og hemmeligheter. Den lar appen kopiere postbokser uten at noen logger på. Den er kryptert for Windows-brukeren din og kan ikke leses på en annen PC. Den vises bare mens den skrives inn; skriv inn en ny for å erstatte den.</value></data>
+  <data name="Reg_SecretSaved" xml:space="preserve"><value>En hemmelighet er lagret.</value></data>
+  <data name="Reg_Clear" xml:space="preserve"><value>Tøm</value></data>
+  <data name="Reg_SetupHelp" xml:space="preserve"><value>Slik oppretter du en: administrasjonssenteret for Microsoft Entra &gt; Appregistreringer &gt; Ny registrering (én leietaker). Åpne API-tillatelser, og legg til programtillatelsene som vises i trinnene Kilde og Mål, og velg deretter Gi administratorsamtykke. Åpne Sertifikater og hemmeligheter, opprett en Ny klienthemmelighet, og kopier verdien med en gang (den vises bare én gang). Kopier Katalog-ID (leietaker-ID) og Program-ID (klient-ID) fra siden Oversikt inn i dette skjemaet.</value></data>
+  <data name="Reg_New" xml:space="preserve"><value>Ny registrering</value></data>
+  <data name="Reg_Unnamed" xml:space="preserve"><value>(uten navn)</value></data>
+  <data name="Reg_RemoveTitle" xml:space="preserve"><value>Fjern registrering</value></data>
+  <data name="Reg_RemoveText" xml:space="preserve"><value>Fjerne "{0}" fra denne listen?
+
+Dette glemmer den bare her. Appregistreringen i Microsoft Entra berøres ikke.</value></data>
+  <data name="Reg_CheckTitle" xml:space="preserve"><value>Kontroller listen</value></data>
+  <data name="Reg_NeedName" xml:space="preserve"><value>Gi hver registrering et navn.</value></data>
+  <data name="Reg_NeedGuid" xml:space="preserve"><value>"{0}": leietaker-ID-en og klient-ID-en må begge være GUID-er (for eksempel 00000000-0000-0000-0000-000000000000).</value></data>
+  <data name="Reg_SaveFailedTitle" xml:space="preserve"><value>Lagring mislyktes</value></data>
+  <data name="Reg_SaveFailed" xml:space="preserve"><value>Kunne ikke lagre: {0}</value></data>
+  <data name="Set_Title" xml:space="preserve"><value>Innstillinger</value></data>
+  <data name="Set_Language" xml:space="preserve"><value>Språk</value></data>
+  <data name="Set_LanguageSystem" xml:space="preserve"><value>Samme som Windows</value></data>
+  <data name="Set_LanguageNote" xml:space="preserve"><value>Et nytt språk trer i kraft neste gang du starter Smart Mailbox Copy.</value></data>
+  <data name="Set_Theme" xml:space="preserve"><value>Tema</value></data>
+  <data name="Set_ThemeSystem" xml:space="preserve"><value>Samme som Windows</value></data>
+  <data name="Set_ThemeLight" xml:space="preserve"><value>Lyst</value></data>
+  <data name="Set_ThemeDark" xml:space="preserve"><value>Mørkt</value></data>
+</root>
